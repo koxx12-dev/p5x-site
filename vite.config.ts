@@ -12,6 +12,7 @@ import { compression } from 'vite-plugin-compression2'
 import { setupPlugins } from '@responsive-image/vite-plugin'
 
 export default defineConfig({
+  base: "/p5x-site/",
   plugins: [
     solid(),
     TanStackRouterVite({ target: 'solid', autoCodeSplitting: true }),
