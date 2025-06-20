@@ -1,7 +1,9 @@
 import { render } from "solid-js/web";
-import { RouterProvider, createRouter } from "@tanstack/solid-router";
+import { RouterProvider, createHashHistory, createRouter } from "@tanstack/solid-router";
 import { routeTree } from "./routeTree.gen";
 import "solid-devtools";
+
+const hashHistory = createHashHistory();
 
 // Create a new router instance
 const router = createRouter({
@@ -11,6 +13,8 @@ const router = createRouter({
   defaultPreload: "intent",
   defaultPreloadStaleTime: 0,
   defaultViewTransition: true,
+  basepath: "/p5x-site/",
+  history: hashHistory,
 });
 
 // Register the router instance for type safety
