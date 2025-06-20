@@ -50,6 +50,8 @@ jobs:
             dist-
       - name: Install dependencies
         run: pnpm install
+      - name: List dist
+        run: ls ./dist
       - name: Build
         run: pnpm run ci
       - name: Setup Pages
