@@ -39,7 +39,8 @@ export function CharacterCard(props: { characterId: string }) {
 						<span
 							class={cn(
 								'skew-8 absolute bottom-4 left-0 h-1 w-[110%]',
-								characterData().quality === 5 && 'bg-[url(/assets/rainbow.svg)] bg-size-[100%]',
+								characterData().quality === 5 &&
+									'bg-[url(/assets/rainbow.svg)] bg-size-[100%]',
 								characterData().quality === 4 && 'bg-star-gold',
 							)}
 							aria-hidden="true"

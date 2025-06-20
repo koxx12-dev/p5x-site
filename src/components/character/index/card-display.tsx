@@ -32,9 +32,7 @@ export function CardDisplay(props: {
 			const isElementMatching =
 				typeof thiefElement === 'string'
 					? props.elements.includes(thiefElement)
-					: thiefElement.some((element) =>
-							props.elements.includes(element),
-						);
+					: thiefElement.some((element) => props.elements.includes(element));
 
 			if (
 				isElementMatching &&

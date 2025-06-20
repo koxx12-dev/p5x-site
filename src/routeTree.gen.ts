@@ -151,22 +151,22 @@ export interface FileRoutesById {
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
-    | '/'
-    | '/character'
-    | '/tierlist'
-    | '/character/$characterId'
-    | '/character/'
-    | '/palace'
+  | '/'
+  | '/character'
+  | '/tierlist'
+  | '/character/$characterId'
+  | '/character/'
+  | '/palace'
   fileRoutesByTo: FileRoutesByTo
   to: '/' | '/tierlist' | '/character/$characterId' | '/character' | '/palace'
   id:
-    | '__root__'
-    | '/'
-    | '/character'
-    | '/tierlist'
-    | '/character/$characterId'
-    | '/character/'
-    | '/palace/'
+  | '__root__'
+  | '/'
+  | '/character'
+  | '/tierlist'
+  | '/character/$characterId'
+  | '/character/'
+  | '/palace/'
   fileRoutesById: FileRoutesById
 }
 

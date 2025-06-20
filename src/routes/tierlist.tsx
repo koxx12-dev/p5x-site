@@ -37,10 +37,14 @@ function RouteComponent() {
 							</>
 						}
 					>
-						<div class="relative">
-							<ResponsiveImage src={tierlist} alt="character pull tierlist" class="h-screen" />
+						<div class="relative flex items-center justify-center">
+							<ResponsiveImage
+								src={tierlist}
+								alt="character pull tierlist"
+								class="h-screen object-contain"
+							/>
 							<span class="absolute right-0 bottom-0 rounded-tl-md bg-black/60 p-2 text-2xl text-white">
-								Tier list by
+								Tier list by{' '}
 								<a
 									href="https://x.com/NajoxP5X"
 									target="_blank"

@@ -136,6 +136,9 @@ function ErrorRouteComponent(props: ErrorComponentProps) {
 	return (
 		<div class="flex h-screen flex-col items-center justify-center">
 			<h1 class="text-white">Something went wrong</h1>
+			<span class="whitespace-pre-line text-white">
+				{props.error.message || 'An unexpected error occurred.'}
+			</span>
 			<Link to="/" class="text-blue-500 hover:underline">
 				Go back to home
 			</Link>

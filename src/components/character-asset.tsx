@@ -14,11 +14,14 @@ const characterAsset = type.enumerated(
 
 export type CharacterAsset = typeof characterAsset.infer;
 
-const assets = import.meta.glob<ImageData | undefined>('/data/character/*/*.png', {
-	eager: true,
-	query: '?responsive',
-	import: 'default',
-});
+const assets = import.meta.glob<ImageData | undefined>(
+	'/data/character/*/*.png',
+	{
+		eager: true,
+		query: '?responsive',
+		import: 'default',
+	},
+);
 
 // const assets = import.meta.glob<string | undefined>('/data/character/*/*.png', {
 // 	eager: true,

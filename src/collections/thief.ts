@@ -10,7 +10,7 @@ export const getThiefById = (id: string) => {
     if (thief) {
         thiefCache.set(id, thief);
     }
-    
+
     return thief;
 };
 

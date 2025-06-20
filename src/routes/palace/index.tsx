@@ -8,10 +8,10 @@ export const Route = createFileRoute('/palace/')({
 });
 
 function RouteComponent() {
-  let mapRef: HTMLDivElement | undefined;
+	let mapRef: HTMLDivElement | undefined;
 
 	onMount(() => {
-    if (!mapRef) return;
+		if (!mapRef) return;
 
 		const map = L.map(mapRef).setView([51.505, -0.09], 13);
 
@@ -25,5 +25,5 @@ function RouteComponent() {
 			.bindPopup('A pretty CSS3 popup.<br> Easily customizable.');
 	});
 
-	return <div ref={mapRef} class='z-1 h-screen w-full' />;
+	return <div ref={mapRef} class="z-1 h-screen w-full" />;
 }
