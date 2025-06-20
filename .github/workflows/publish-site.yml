@@ -39,19 +39,17 @@ jobs:
         with:
           node-version: lts/*
           cache: 'pnpm'
-      - name: Cache dist folder
-        uses: actions/cache@v4
-        id: dist-cache
-        with:
-          path: ./dist
-          key: dist-${{ github.ref }}-${{ github.sha }}
-          restore-keys: |
-            dist-${{ github.ref }}-
-            dist-
       - name: Install dependencies
         run: pnpm install
-      - name: List dist
-        run: ls ./dist
+      - name: Cache .vite
+        uses: actions/cache@v4
+        id: vite-cache
+        with:
+          path: ./node_modules/.vite
+          key: vite-${{ github.ref }}-${{ github.sha }}
+          restore-keys: |
+            vite-${{ github.ref }}-
+            vite-
       - name: Build
         run: pnpm run ci
       - name: Setup Pages
