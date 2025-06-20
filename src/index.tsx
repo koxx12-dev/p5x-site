@@ -13,7 +13,6 @@ const router = createRouter({
   defaultPreload: "intent",
   defaultPreloadStaleTime: 0,
   defaultViewTransition: true,
-  basepath: "/p5x-site/",
   history: hashHistory,
 });
 
