@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "ci": "content-collections build && tsc -b && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
+    "@content-collections/cli": "^0.1.6",
     "@content-collections/core": "^0.9.1",
     "@content-collections/vite": "^0.2.5",
     "@iconify-json/tabler": "^1.2.17",

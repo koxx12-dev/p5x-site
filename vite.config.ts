@@ -20,7 +20,9 @@ export default defineConfig({
       /* features options - all disabled by default */
       autoname: true, // e.g. enable autoname
     }), 
-    contentCollections(), 
+    contentCollections({
+      isEnabled: () => process.env.CI !== 'true'
+    }), 
     setupPlugins({
       format: ['webp'],
       lqip: { type: 'thumbhash' },
