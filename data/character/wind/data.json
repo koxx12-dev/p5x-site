@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema.json",
+  "id": "wind",
+  "code_name": "Wind",
+  "full_name": "???",
+  "quality": 4,
+  "role": "navi",
+  "element": "support",
+  "description": "",
+  "skill": [],
+  "awareness": []
+}

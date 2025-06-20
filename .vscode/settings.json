@@ -1,0 +1,38 @@
+{
+    // allow autocomplete for ArkType expressions like "string | num"
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    // prioritize ArkType's "type" for autoimports
+    "typescript.preferences.autoImportSpecifierExcludeRegexes": [
+        "^(node:)?os$"
+    ],
+    "cSpell.words": [
+        "Ardhanari",
+        "arktype",
+        "Ayaka",
+        "bbcode",
+        "bbob",
+        "cooldown",
+        "debuff",
+        "elec",
+        "formkit",
+        "htmlrender",
+        "iconify",
+        "kobalte",
+        "Makoto",
+        "Manaka",
+        "metaverse",
+        "Nagao",
+        "navi",
+        "prec",
+        "redaxios",
+        "Riko",
+        "skilldata",
+        "tabler",
+        "Tanemura",
+        "tierlist",
+        "Yuki"
+    ],
+    "editor.defaultFormatter": "biomejs.biome",
+}

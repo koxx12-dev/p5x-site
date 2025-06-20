@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@plugin "@iconify/tailwind4";
+@plugin "tailwindcss-motion";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@custom-variant ui-pressed (&[data-pressed]);
+@custom-variant ui-expanded (&[data-expanded]);
+
+@custom-variant firefox (:-moz-any(&));
+
+@theme {
+	--animate-star-rainbow: star-rainbow 12s linear infinite;
+	--animate-loading-rotate: rotate-twice 1.5s ease-in-out infinite;
+	--animate-loading-rotate-delay: rotate-twice 1.5s ease-in-out 0.1s infinite;
+
+	--font-sans: "Libre Franklin", sans-serif;
+
+	--color-star-gold: #fad729;
+
+	@keyframes star-rainbow {
+		0%,
+		100% {
+			background-color: #218eff;
+		}
+		16.666% {
+			background-color: #7bdff6;
+		}
+		33.333% {
+			background-color: #7b109a;
+		}
+		50% {
+			background-color: #dd30f6;
+		}
+		66.666% {
+			background-color: #93a2f6;
+		}
+		83.333% {
+			background-color: #7bdbf6;
+		}
+	}
+
+	@keyframes rotate-twice {
+		0% {
+			transform: rotateY(0deg);
+		}
+		75.0% {
+			transform: rotateY(360deg);
+		}
+		100% {
+			transform: rotateY(360deg);
+		}
+	}
+}
+
+html {
+	background-image: url("/assets/bg.webp");
+	background-repeat: repeat;
+	background-color: var(--color-red-900);
+}
+
+/* TODO: think of a better design for a scrollbar */
+
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 4px;
+	background: var(--color-white);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: var(--color-zinc-400);
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+	animation: none;
+}
+
+::view-transition-old(main),
+::view-transition-new(main) {
+	animation: default;
+}
+
+::view-transition-group(*) {
+	animation-duration: 250ms;
+}

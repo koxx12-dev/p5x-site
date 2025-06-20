@@ -1,0 +1,974 @@
+{
+    "$schema": "../schema.json",
+    "id": "chord",
+    "code_name": "Chord",
+    "full_name": "Ayaka Sakai",
+    "quality": 5,
+    "role": "buff",
+    "element": "elec",
+    "skill": [
+        {
+            "id": "s1",
+            "element": "all_elec",
+            "name": "Passionate Singing",
+            "description": [
+                "Deals [color=#fcff37][b]{skill_data} ATK[/b][/color] as [color=#fcff37][b]Electric DMG[/b][/color] to all enemies.",
+                "If an ally has [tooltip character=chord id=loyal_listener][color=#ffdd6e][u][b][Loyal Listener][/b][/u][/color][/tooltip], they will deal an additional [color=#fcff37][b]{skill_data} ATK[/b][/color] as [color=#fcff37][b]Electric DMG[/b][/color] based on their [color=#fcff37][b]ATK[/b][/color] to the main target."
+            ],
+            "data": [
+                [
+                    [
+                        "56.0%",
+                        "57.8%",
+                        "59.5%",
+                        "61.2%",
+                        "63.0%",
+                        "64.8%"
+                    ],
+                    [
+                        "59.5%",
+                        "61.2%",
+                        "63.0%",
+                        "64.8%",
+                        "66.5%",
+                        "68.2%"
+                    ],
+                    [
+                        "63.0%",
+                        "64.8%",
+                        "66.5%",
+                        "68.3%",
+                        "70.0%",
+                        "71.8%"
+                    ],
+                    [
+                        "66.5%",
+                        "68.3%",
+                        "70.0%",
+                        "71.8%",
+                        "73.5%",
+                        "75.3%"
+                    ],
+                    [
+                        "70.0%",
+                        "71.8%",
+                        "73.5%",
+                        "75.3%",
+                        "77.0%",
+                        "78.8%"
+                    ],
+                    [
+                        "73.5%",
+                        "75.3%",
+                        "77.0%",
+                        "78.7%",
+                        "80.5%",
+                        "82.3%"
+                    ],
+                    [
+                        "77.0%",
+                        "78.8%",
+                        "80.5%",
+                        "82.3%",
+                        "84.0%",
+                        "85.8%"
+                    ],
+                    [
+                        "80.5%",
+                        "82.3%",
+                        "84.0%",
+                        "85.8%",
+                        "87.5%",
+                        "89.3%"
+                    ],
+                    [
+                        "83.0%",
+                        "84.7%",
+                        "86.5%",
+                        "88.2%",
+                        "90.0%",
+                        "91.7%"
+                    ],
+                    [
+                        "85.4%",
+                        "87.2%",
+                        "88.9%",
+                        "90.7%",
+                        "92.4%",
+                        "94.2%"
+                    ],
+                    [
+                        "87.2%",
+                        "88.9%",
+                        "90.7%",
+                        "92.4%",
+                        "94.2%",
+                        "95.9%"
+                    ],
+                    [
+                        "88.9%",
+                        "90.7%",
+                        "92.4%",
+                        "94.2%",
+                        "95.9%",
+                        "97.7%"
+                    ],
+                    [
+                        "90.7%",
+                        "92.4%",
+                        "94.2%",
+                        "95.9%",
+                        "97.7%",
+                        "99.4%"
+                    ]
+                ],
+                [
+                    [
+                        "54.6%",
+                        "56.3%",
+                        "58.0%",
+                        "59.7%",
+                        "61.4%",
+                        "63.1%"
+                    ],
+                    [
+                        "58.0%",
+                        "59.7%",
+                        "61.4%",
+                        "63.1%",
+                        "64.8%",
+                        "66.5%"
+                    ],
+                    [
+                        "61.4%",
+                        "63.1%",
+                        "64.8%",
+                        "66.5%",
+                        "68.2%",
+                        "69.9%"
+                    ],
+                    [
+                        "64.8%",
+                        "66.5%",
+                        "68.2%",
+                        "69.9%",
+                        "71.7%",
+                        "73.4%"
+                    ],
+                    [
+                        "68.2%",
+                        "69.9%",
+                        "71.7%",
+                        "73.4%",
+                        "75.1%",
+                        "76.8%"
+                    ],
+                    [
+                        "71.7%",
+                        "73.4%",
+                        "75.1%",
+                        "76.8%",
+                        "78.5%",
+                        "80.2%"
+                    ],
+                    [
+                        "75.1%",
+                        "76.8%",
+                        "78.5%",
+                        "80.2%",
+                        "81.9%",
+                        "83.6%"
+                    ],
+                    [
+                        "78.5%",
+                        "80.2%",
+                        "81.9%",
+                        "83.6%",
+                        "85.3%",
+                        "87.0%"
+                    ],
+                    [
+                        "80.9%",
+                        "82.6%",
+                        "84.3%",
+                        "86.0%",
+                        "87.7%",
+                        "89.4%"
+                    ],
+                    [
+                        "83.3%",
+                        "85.0%",
+                        "86.7%",
+                        "88.4%",
+                        "90.1%",
+                        "91.8%"
+                    ],
+                    [
+                        "85.0%",
+                        "86.7%",
+                        "88.4%",
+                        "90.1%",
+                        "91.8%",
+                        "93.5%"
+                    ],
+                    [
+                        "86.7%",
+                        "88.4%",
+                        "90.1%",
+                        "91.8%",
+                        "93.5%",
+                        "95.2%"
+                    ],
+                    [
+                        "88.4%",
+                        "90.1%",
+                        "91.8%",
+                        "93.5%",
+                        "95.2%",
+                        "96.9%"
+                    ]
+                ]
+            ]
+        },
+        {
+            "id": "s2",
+            "element": "support",
+            "name": "Improvised Solo",
+            "description": [
+                "Apply [tooltip character=chord id=loyal_listener][color=#ffdd6e][u][b][Loyal Listener][/b][/u][/color][/tooltip] to an ally.",
+                "Increase [color=#fcff37][b]ATK[/b][/color] of the ally with [tooltip character=chord id=loyal_listener][color=#ffdd6e][u][b][Loyal Listener][/b][/u][/color][/tooltip] by [color=#fcff37][b]24.0%[/b][/color] of Chord's [color=#fcff37][b]ATK[/b][/color], up to a maximum of [color=#fcff37][b]{skill_data}[/b][/color] for 3 turns.",
+                "Only one [tooltip character=chord id=loyal_listener][color=#ffdd6e][u][b][Loyal Listener][/b][/u][/color][/tooltip] can exists at a time."
+            ],
+            "data": [
+                [
+                    [
+                        "640",
+                        "660",
+                        "680",
+                        "700",
+                        "720",
+                        "740"
+                    ],
+                    [
+                        "679",
+                        "700",
+                        "720",
+                        "740",
+                        "759",
+                        "779"
+                    ],
+                    [
+                        "720",
+                        "740",
+                        "760",
+                        "780",
+                        "799",
+                        "820"
+                    ],
+                    [
+                        "760",
+                        "780",
+                        "800",
+                        "820",
+                        "840",
+                        "860"
+                    ],
+                    [
+                        "800",
+                        "820",
+                        "840",
+                        "860",
+                        "880",
+                        "900"
+                    ],
+                    [
+                        "840",
+                        "860",
+                        "880",
+                        "899",
+                        "919",
+                        "940"
+                    ],
+                    [
+                        "880",
+                        "900",
+                        "920",
+                        "940",
+                        "960",
+                        "980"
+                    ],
+                    [
+                        "919",
+                        "940",
+                        "960",
+                        "980",
+                        "999",
+                        "1020"
+                    ],
+                    [
+                        "948",
+                        "968",
+                        "988",
+                        "1008",
+                        "1028",
+                        "1048"
+                    ],
+                    [
+                        "976",
+                        "996",
+                        "1016",
+                        "1036",
+                        "1056",
+                        "1076"
+                    ],
+                    [
+                        "996",
+                        "1016",
+                        "1036",
+                        "1056",
+                        "1076",
+                        "1096"
+                    ],
+                    [
+                        "1016",
+                        "1036",
+                        "1056",
+                        "1076",
+                        "1096",
+                        "1116"
+                    ],
+                    [
+                        "1036",
+                        "1056",
+                        "1076",
+                        "1096",
+                        "1116",
+                        "1136"
+                    ]
+                ]
+            ]
+        },
+        {
+            "id": "s3",
+            "element": "support",
+            "name": "Finale : Range Unleash",
+            "description": [
+                "Immediately activate the [color=#fcff37][b]HIGHLIGHT[/b][/color] skill of an ally while increasing the [color=#fcff37][b]DMG[/b][/color] of this [color=#fcff37][b]HIGHLIGHT[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color].",
+                "The [color=#fcff37][b]HIGHLIGHT[/b][/color] activated through this skill will not count towards the character's [color=#fcff37][b]HIGHLIGHT[/b][/color] cooldown."
+            ],
+            "data": [
+                [
+                    [
+                        "51.2%",
+                        "52.8%",
+                        "54.4%",
+                        "56.0%",
+                        "57.6%",
+                        "59.2%"
+                    ],
+                    [
+                        "54.4%",
+                        "56.0%",
+                        "57.6%",
+                        "59.2%",
+                        "60.8%",
+                        "62.4%"
+                    ],
+                    [
+                        "57.6%",
+                        "59.2%",
+                        "60.8%",
+                        "62.4%",
+                        "64.0%",
+                        "65.6%"
+                    ],
+                    [
+                        "60.8%",
+                        "62.4%",
+                        "64.0%",
+                        "65.6%",
+                        "67.2%",
+                        "68.8%"
+                    ],
+                    [
+                        "64.0%",
+                        "65.6%",
+                        "67.2%",
+                        "68.8%",
+                        "70.4%",
+                        "72.0%"
+                    ],
+                    [
+                        "67.2%",
+                        "68.8%",
+                        "70.4%",
+                        "72.0%",
+                        "73.6%",
+                        "75.2%"
+                    ],
+                    [
+                        "70.4%",
+                        "72.0%",
+                        "73.6%",
+                        "75.2%",
+                        "76.8%",
+                        "78.4%"
+                    ],
+                    [
+                        "73.6%",
+                        "75.2%",
+                        "76.8%",
+                        "78.4%",
+                        "80.0%",
+                        "81.6%"
+                    ],
+                    [
+                        "75.8%",
+                        "77.4%",
+                        "79.0%",
+                        "80.6%",
+                        "82.2%",
+                        "83.8%"
+                    ],
+                    [
+                        "78.1%",
+                        "79.7%",
+                        "81.3%",
+                        "82.9%",
+                        "84.5%",
+                        "86.1%"
+                    ],
+                    [
+                        "79.7%",
+                        "81.3%",
+                        "82.9%",
+                        "84.5%",
+                        "86.1%",
+                        "87.7%"
+                    ],
+                    [
+                        "81.3%",
+                        "82.9%",
+                        "84.5%",
+                        "86.1%",
+                        "87.7%",
+                        "89.3%"
+                    ],
+                    [
+                        "82.9%",
+                        "84.5%",
+                        "86.1%",
+                        "87.7%",
+                        "89.3%",
+                        "90.9%"
+                    ]
+                ]
+            ]
+        },
+        {
+            "id": "hl",
+            "element": "elec",
+            "name": "HIGHLIGHT",
+            "description": "All allies gain [color=#fcff37][b]{skill_data} DMG Bonus[/b][/color] for 4 actions and after acts they recover [color=#fcff37][b]10.0% HIGHLIGHT energy[/b][/color].",
+            "data": [
+                [
+                    [
+                        "29.8%",
+                        "30.8%",
+                        "31.7%",
+                        "32.6%",
+                        "33.6%",
+                        "34.5%"
+                    ],
+                    [
+                        "31.7%",
+                        "32.6%",
+                        "33.6%",
+                        "34.5%",
+                        "35.4%",
+                        "36.3%"
+                    ],
+                    [
+                        "33.6%",
+                        "34.5%",
+                        "35.4%",
+                        "36.3%",
+                        "37.3%",
+                        "38.2%"
+                    ],
+                    [
+                        "35.4%",
+                        "36.3%",
+                        "37.3%",
+                        "38.2%",
+                        "39.1%",
+                        "40.1%"
+                    ],
+                    [
+                        "37.3%",
+                        "38.2%",
+                        "39.1%",
+                        "40.1%",
+                        "41.0%",
+                        "41.9%"
+                    ],
+                    [
+                        "39.1%",
+                        "40.1%",
+                        "41.0%",
+                        "41.9%",
+                        "42.9%",
+                        "43.8%"
+                    ],
+                    [
+                        "41.0%",
+                        "41.9%",
+                        "42.9%",
+                        "43.8%",
+                        "44.7%",
+                        "45.7%"
+                    ],
+                    [
+                        "42.9%",
+                        "43.8%",
+                        "44.7%",
+                        "45.7%",
+                        "46.6%",
+                        "47.5%"
+                    ],
+                    [
+                        "44.2%",
+                        "45.1%",
+                        "46.0%",
+                        "47.0%",
+                        "47.9%",
+                        "48.8%"
+                    ],
+                    [
+                        "45.5%",
+                        "46.4%",
+                        "47.3%",
+                        "48.3%",
+                        "49.2%",
+                        "50.1%"
+                    ],
+                    [
+                        "46.4%",
+                        "47.3%",
+                        "48.3%",
+                        "49.2%",
+                        "50.1%",
+                        "51.1%"
+                    ],
+                    [
+                        "47.3%",
+                        "48.3%",
+                        "49.2%",
+                        "50.1%",
+                        "51.1%",
+                        "52.0%"
+                    ],
+                    [
+                        "48.3%",
+                        "49.2%",
+                        "50.1%",
+                        "51.1%",
+                        "52.0%",
+                        "52.9%"
+                    ]
+                ]
+            ]
+        },
+        {
+            "id": "p1",
+            "element": "passive",
+            "name": "Stress",
+            "description": [
+                "When an ally activate their [color=#fcff37][b]HIGHLIGHT[/b][/color], increases their [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] for 1 turn.",
+                "If that ally has [tooltip character=chord id=loyal_listener][color=#ffdd6e][u][b][Loyal Listener][/b][/u][/color][/tooltip] the effect is increased by [b][color=#fcff37]1.5[/color][color=#ffdd6e]*[/color][/b]"
+            ],
+            "data": [
+                [
+                    "8.0%",
+                    "16.0%",
+                    "24.0%"
+                ]
+            ]
+        },
+        {
+            "id": "p2",
+            "element": "passive",
+            "name": "Sweep Picking",
+            "description": "When an ally activate their [color=#fcff37][b]HIGHLIGHT[/b][/color], Chord immediately heals the ally with the lowest [color=#fcff37][b]HP[/b][/color] by [color=#fcff37][b]{skill_data} [color=#ffdd6e]+[/color] {skill_data}[/b][/color] of Chord's [color=#fcff37][b]ATK[/b][/color]",
+            "data": [
+                [
+                    "5.0%",
+                    "10.0%",
+                    "15.0%"
+                ],
+                [
+                    "450",
+                    "900",
+                    "1350"
+                ]
+            ]
+        }
+    ],
+    "awareness": [
+        {
+            "id": "a0",
+            "tier": 0,
+            "name": "My Light",
+            "description": [
+                "When entering battle, [ref=s3][color=#ffd800][b][u][Finale : Range Unleash][/u][/b][/color][/ref] has 1 turn cooldown.",
+                "Each time [ref=s3][color=#ffd800][b][u][Finale : Range Unleash][/u][/b][/color][/ref] is used, is permanently increases Chord's [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]20.0%[/b][/color] up to [color=#fcff37][b]2[/b][/color] stacks.",
+                "Afterwards, [ref=s3][color=#ffd800][b][u][Finale : Range Unleash][/u][/b][/color][/ref] cooldown permanently increases by 1 turn, up to 3 turns."
+            ]
+        },
+        {
+            "id": "a1",
+            "tier": 1,
+            "name": "Greet My Dawn Star",
+            "description": "When entering battle, automatically apply [tooltip character=chord id=loyal_listener][color=#ffdd6e][u][b][Loyal Listener][/b][/u][/color][/tooltip] to an ally, prioritizing the ally with the highest [color=#fcff37][b]ATK[/b][/color] in [color=#ffd800][b]ST[/b][/color] or [color=#ffd800][b]AOE[/b][/color] role, and the ally with [tooltip character=chord id=loyal_listener][color=#ffdd6e][u][b][Loyal Listener][/b][/u][/color][/tooltip] gains [color=#fcff37][b]15.0% CR[/b][/color]."
+        },
+        {
+            "id": "a2",
+            "tier": 2,
+            "name": "Lonely Shimmers",
+            "description": [
+                "[ref=s1][color=#ffd800][b][u][Passionate Singing][/u][/b][/color][/ref] Lv. +3, up to a maximum of Lv. 15.",
+                "[ref=s3][color=#ffd800][b][u][Finale : Range Unleash][/u][/b][/color][/ref] Lv. +3, up to a maximum of Lv. 15."
+            ]
+        },
+        {
+            "id": "a3",
+            "tier": 3,
+            "name": "Mr. Light",
+            "description": "When using [ref=s3][color=#ffd800][b][u][Finale : Range Unleash][/u][/b][/color][/ref] on an ally, also increases that ally's [color=#fcff37][b]DMG Dealt[/b][/color] by [color=#fcff37][b]30.0%[/b][/color] for 1 turn."
+        },
+        {
+            "id": "a4",
+            "tier": 4,
+            "name": "Painted My Scenes",
+            "description": [
+                "[ref=s2][color=#ffd800][b][u][Improvised Solo][/u][/b][/color][/ref] Lv. +3, up to a maximum of Lv. 15.",
+                "[ref=hl][color=#ffd800][b][u][Combat Skills][/u][/b][/color][/ref] Lv. +3, up to a maximum of Lv. 15."
+            ]
+        },
+        {
+            "id": "a5",
+            "tier": 5,
+            "name": "Change My Life",
+            "description": [
+                "[color=#fcff37][b]HIGHLIGHT[/b][/color] Improvement : Increases the duration of [color=#fcff37][b]HIGHLIGHT Energy Recovery[/b][/color] and [color=#fcff37][b]DMG Bonus[/b][/color] to 6 actions.",
+                "The [color=#fcff37][b]DMG Bonus[/b][/color] is increased to [color=#fcff37][b]60.0%[/b][/color] and reduces [color=#fcff37][b]HIGHLIGHT[/b][/color] cooldown of other allies by 1 turn."
+            ]
+        },
+        {
+            "id": "a6",
+            "tier": 6,
+            "name": "My Mr. Right",
+            "description": [
+                "When entering battle, immediately unlock [ref=s3][color=#ffd800][b][u][Finale : Range Unleash][/u][/b][/color][/ref].",
+                "The cooldown of [ref=s3][color=#ffd800][b][u][Finale : Range Unleash][/u][/b][/color][/ref] is permanently reduced by 1 turn, with a maximum cooldown of 2 turns.",
+                "After [ref=s3][color=#ffd800][b][u][Finale : Range Unleash][/u][/b][/color][/ref] is used, permanently increases allies [color=#fcff37][b]DMG Bonus[/b][/color] by [color=#fcff37][b]15.0%[/b][/color] up to [color=#fcff37][b]2[/b][/color] stacks."
+            ]
+        }
+    ],
+    "mental_image": {
+        "basic": [
+            {
+                "type": "hp",
+                "value": "115"
+            },
+            {
+                "type": "def",
+                "value": "22"
+            },
+            {
+                "type": "atk",
+                "value": "27"
+            },
+            {
+                "type": "hp",
+                "value": "115"
+            },
+            {
+                "type": "def",
+                "value": "22"
+            },
+            {
+                "type": "atk",
+                "value": "27"
+            },
+            {
+                "type": "hp",
+                "value": "115"
+            },
+            {
+                "type": "def",
+                "value": "22"
+            },
+            {
+                "type": "atk",
+                "value": "27"
+            },
+            {
+                "type": "hp",
+                "value": "115"
+            },
+            {
+                "type": "def",
+                "value": "22"
+            },
+            {
+                "type": "atk",
+                "value": "27"
+            }
+        ],
+        "bells": [
+            {
+                "hp": "115"
+            },
+            {
+                "hp": "115",
+                "def": "22"
+            },
+            {
+                "hp": "115",
+                "def": "22",
+                "atk": "27"
+            },
+            {
+                "hp": "230",
+                "def": "22",
+                "atk": "27"
+            },
+            {
+                "hp": "230",
+                "def": "44",
+                "atk": "27"
+            },
+            {
+                "hp": "230",
+                "def": "44",
+                "atk": "54"
+            },
+            {
+                "hp": "345",
+                "def": "44",
+                "atk": "54"
+            },
+            {
+                "hp": "345",
+                "def": "66",
+                "atk": "54"
+            },
+            {
+                "hp": "345",
+                "def": "66",
+                "atk": "81"
+            },
+            {
+                "hp": "460",
+                "def": "66",
+                "atk": "81"
+            },
+            {
+                "hp": "460",
+                "def": "88",
+                "atk": "81"
+            },
+            {
+                "hp": "460",
+                "def": "88",
+                "atk": "108"
+            }
+        ],
+        "stat_buff_1": {
+            "type": "dmg_res_prec",
+            "values": [
+                "3.2%",
+                "6.4%",
+                "9.6%",
+                "12.8%",
+                "16.0%"
+            ]
+        },
+        "stat_buff_2": {
+            "type": "atk_prec",
+            "values": [
+                "4.0%",
+                "8.0%",
+                "12.0%",
+                "16.0%",
+                "20.0%"
+            ]
+        }
+    },
+    "stats": [
+        {
+            "1": {
+                "hp": "399",
+                "sp": "100",
+                "atk": "139",
+                "def": "67",
+                "crit_c_prec": "5%",
+                "crit_dmg_prec": "150%",
+                "spd": "100"
+            },
+            "10": {
+                "hp": "679",
+                "sp": "100",
+                "atk": "236",
+                "def": "115",
+                "crit_c_prec": "5%",
+                "crit_dmg_prec": "150%",
+                "spd": "100"
+            }
+        },
+        {
+            "10": {
+                "hp": "777",
+                "sp": "100",
+                "atk": "280",
+                "def": "132",
+                "crit_c_prec": "5%",
+                "crit_dmg_prec": "150%",
+                "spd": "100"
+            },
+            "20": {
+                "hp": "1088",
+                "sp": "100",
+                "atk": "393",
+                "def": "184",
+                "crit_c_prec": "5%",
+                "crit_dmg_prec": "150%",
+                "spd": "100"
+            }
+        },
+        {
+            "20": {
+                "hp": "1186",
+                "sp": "100",
+                "atk": "444",
+                "def": "201",
+                "crit_c_prec": "5%",
+                "crit_dmg_prec": "150%",
+                "spd": "100"
+            },
+            "30": {
+                "hp": "1497",
+                "sp": "100",
+                "atk": "560",
+                "def": "254",
+                "crit_c_prec": "5%",
+                "crit_dmg_prec": "150%",
+                "spd": "100"
+            }
+        },
+        {
+            "30": {
+                "hp": "1595",
+                "sp": "100",
+                "atk": "617",
+                "def": "271",
+                "crit_c_prec": "5%",
+                "crit_dmg_prec": "150%",
+                "spd": "100"
+            },
+            "40": {
+                "hp": "1906",
+                "sp": "100",
+                "atk": "738",
+                "def": "324",
+                "crit_c_prec": "5%",
+                "crit_dmg_prec": "150%",
+                "spd": "100"
+            }
+        },
+        {
+            "40": {
+                "hp": "2004",
+                "sp": "100",
+                "atk": "802",
+                "def": "340",
+                "crit_c_prec": "5%",
+                "crit_dmg_prec": "150%",
+                "spd": "100"
+            },
+            "50": {
+                "hp": "2315",
+                "sp": "100",
+                "atk": "926",
+                "def": "393",
+                "crit_c_prec": "5%",
+                "crit_dmg_prec": "150%",
+                "spd": "100"
+            }
+        },
+        {
+            "50": {
+                "hp": "2413",
+                "sp": "100",
+                "atk": "997",
+                "def": "410",
+                "crit_c_prec": "5%",
+                "crit_dmg_prec": "150%",
+                "spd": "100"
+            },
+            "60": {
+                "hp": "2724",
+                "sp": "100",
+                "atk": "1125",
+                "def": "463",
+                "crit_c_prec": "5%",
+                "crit_dmg_prec": "150%",
+                "spd": "100"
+            }
+        },
+        {
+            "60": {
+                "hp": "2822",
+                "sp": "100",
+                "atk": "1203",
+                "def": "479",
+                "crit_c_prec": "5%",
+                "crit_dmg_prec": "150%",
+                "spd": "100"
+            },
+            "70": {
+                "hp": "3133",
+                "sp": "100",
+                "atk": "1335",
+                "def": "532",
+                "crit_c_prec": "5%",
+                "crit_dmg_prec": "150%",
+                "spd": "100"
+            }
+        },
+        {
+            "70": {
+                "hp": "3231",
+                "sp": "100",
+                "atk": "1419",
+                "def": "549",
+                "crit_c_prec": "5%",
+                "crit_dmg_prec": "150%",
+                "spd": "100"
+            },
+            "80": {
+                "hp": "3542",
+                "sp": "100",
+                "atk": "1556",
+                "def": "602",
+                "crit_c_prec": "5%",
+                "crit_dmg_prec": "150%",
+                "spd": "100"
+            }
+        }
+    ],
+    "extra": {
+        "loyal_listener": "Increase the ally [color=#fcff37][b]ATK[/b][/color] and give additional effect to Chord's skills if an ally has [color=#ffdd6e][b][Loyal Listener][/b][/color]"
+    }
+}

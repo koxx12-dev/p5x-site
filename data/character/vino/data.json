@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema.json",
+  "id": "vino",
+  "code_name": "Vino",
+  "full_name": "???",
+  "quality": 4,
+  "role": "debuff",
+  "element": "nuke",
+  "description": "",
+  "skill": [],
+  "awareness": []
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema.json",
+  "id": "sepia",
+  "code_name": "Sepia",
+  "full_name": "???",
+  "quality": 4,
+  "role": "single",
+  "element": "curse",
+  "description": "",
+  "skill": [],
+  "awareness": []
+}

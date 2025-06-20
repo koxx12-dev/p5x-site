@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema.json",
+  "id": "panther",
+  "code_name": "Panther",
+  "full_name": "???",
+  "quality": 5,
+  "role": "multi",
+  "element": "fire",
+  "description": "",
+  "skill": [],
+  "awareness": []
+}

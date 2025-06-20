@@ -1,0 +1,367 @@
+{
+    "type": "object",
+    "properties": {
+        "code_name": {
+            "type": "string"
+        },
+        "element": {
+            "enum": [
+                "ailment",
+                "all_ailment",
+                "all_almighty",
+                "all_almighty_alt",
+                "all_bless",
+                "all_curse",
+                "all_elec",
+                "all_fire",
+                "all_gun",
+                "all_healing",
+                "all_ice",
+                "all_nuke",
+                "all_passive",
+                "all_physical",
+                "all_psy",
+                "all_support",
+                "all_wind",
+                "all_wind_all_ice",
+                "all_wind_ice",
+                "almighty",
+                "almighty_alt",
+                "bless",
+                "curse",
+                "elec",
+                "fire",
+                "gun",
+                "healing",
+                "ice",
+                "nuke",
+                "passive",
+                "physical",
+                "psy",
+                "support",
+                "wind",
+                "wind_all_ice",
+                "wind_ice"
+            ]
+        },
+        "full_name": {
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "quality": {
+            "enum": [
+                4,
+                5
+            ]
+        },
+        "role": {
+            "enum": [
+                "buff",
+                "debuff",
+                "heal",
+                "multi",
+                "navi",
+                "single",
+                "tank"
+            ]
+        },
+        "awareness": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "description": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            }
+                        ]
+                    },
+                    "id": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "tier": {
+                        "type": "number",
+                        "maximum": 7,
+                        "minimum": 0
+                    }
+                },
+                "required": [
+                    "description",
+                    "id",
+                    "name",
+                    "tier"
+                ]
+            }
+        },
+        "description": {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "extra": {
+            "type": "object",
+            "additionalProperties": {
+                "anyOf": [
+                    {
+                        "type": "string"
+                    },
+                    {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                ]
+            }
+        },
+        "mental_image": {
+            "type": "object",
+            "properties": {
+                "basic": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "type": {
+                                "enum": [
+                                    "atk",
+                                    "def",
+                                    "hp"
+                                ]
+                            },
+                            "value": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "type",
+                            "value"
+                        ]
+                    }
+                },
+                "bells": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "atk": {
+                                "type": "string"
+                            },
+                            "def": {
+                                "type": "string"
+                            },
+                            "hp": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "stat_buff_1": {
+                    "type": "object",
+                    "properties": {
+                        "type": {
+                            "enum": [
+                                "atk_prec",
+                                "crit_c_prec",
+                                "crit_dmg_prec",
+                                "def_prec",
+                                "dmg_prec",
+                                "dmg_res_prec",
+                                "eff_hit_prec",
+                                "eff_res_prec",
+                                "heal_eff_prec",
+                                "hp_prec",
+                                "pen_prec",
+                                "shd_eff_prec",
+                                "sp_rec_prec",
+                                "spd"
+                            ]
+                        },
+                        "values": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "required": [
+                        "type",
+                        "values"
+                    ]
+                },
+                "stat_buff_2": {
+                    "type": "object",
+                    "properties": {
+                        "type": {
+                            "enum": [
+                                "atk_prec",
+                                "crit_c_prec",
+                                "crit_dmg_prec",
+                                "def_prec",
+                                "dmg_prec",
+                                "dmg_res_prec",
+                                "eff_hit_prec",
+                                "eff_res_prec",
+                                "heal_eff_prec",
+                                "hp_prec",
+                                "pen_prec",
+                                "shd_eff_prec",
+                                "sp_rec_prec",
+                                "spd"
+                            ]
+                        },
+                        "values": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "required": [
+                        "type",
+                        "values"
+                    ]
+                }
+            },
+            "required": [
+                "basic",
+                "bells",
+                "stat_buff_1",
+                "stat_buff_2"
+            ]
+        },
+        "skill": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "description": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            }
+                        ]
+                    },
+                    "element": {
+                        "enum": [
+                            "ailment",
+                            "all_ailment",
+                            "all_almighty",
+                            "all_almighty_alt",
+                            "all_bless",
+                            "all_curse",
+                            "all_elec",
+                            "all_fire",
+                            "all_gun",
+                            "all_healing",
+                            "all_ice",
+                            "all_nuke",
+                            "all_passive",
+                            "all_physical",
+                            "all_psy",
+                            "all_support",
+                            "all_wind",
+                            "all_wind_all_ice",
+                            "all_wind_ice",
+                            "almighty",
+                            "almighty_alt",
+                            "bless",
+                            "curse",
+                            "elec",
+                            "fire",
+                            "gun",
+                            "healing",
+                            "ice",
+                            "nuke",
+                            "passive",
+                            "physical",
+                            "psy",
+                            "support",
+                            "wind",
+                            "wind_all_ice",
+                            "wind_ice"
+                        ]
+                    },
+                    "id": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "data": {
+                        "type": "array",
+                        "items": {
+                            "type": "array",
+                            "items": {
+                                "anyOf": [
+                                    {
+                                        "type": "string"
+                                    },
+                                    {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "string"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "required": [
+                    "description",
+                    "element",
+                    "id",
+                    "name"
+                ]
+            }
+        },
+        "stats": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    },
+    "required": [
+        "code_name",
+        "element",
+        "full_name",
+        "id",
+        "quality",
+        "role"
+    ],
+    "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

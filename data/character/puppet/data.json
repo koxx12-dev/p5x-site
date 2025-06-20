@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema.json",
+  "id": "puppet",
+  "code_name": "Puppet",
+  "full_name": "???",
+  "quality": 4,
+  "role": "navi",
+  "element": "support",
+  "description": "",
+  "skill": [],
+  "awareness": []
+}

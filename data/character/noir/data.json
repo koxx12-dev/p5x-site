@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema.json",
+  "id": "noir",
+  "code_name": "Noir",
+  "full_name": "???",
+  "quality": 5,
+  "role": "multi",
+  "element": "psy",
+  "description": "",
+  "skill": [],
+  "awareness": []
+}

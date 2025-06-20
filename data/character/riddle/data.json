@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema.json",
+  "id": "riddle",
+  "code_name": "Riddle",
+  "full_name": "???",
+  "quality": 5,
+  "role": "buff",
+  "element": "psy",
+  "description": "",
+  "skill": [],
+  "awareness": []
+}

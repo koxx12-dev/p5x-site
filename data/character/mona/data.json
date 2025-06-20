@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema.json",
+  "id": "mona",
+  "code_name": "Mona",
+  "full_name": "???",
+  "quality": 5,
+  "role": "heal",
+  "element": "wind",
+  "description": "",
+  "skill": [],
+  "awareness": []
+}

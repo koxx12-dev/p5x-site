@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema.json",
+  "id": "okyann",
+  "code_name": "Okyann",
+  "full_name": "???",
+  "quality": 4,
+  "role": "navi",
+  "element": "support",
+  "description": "",
+  "skill": [],
+  "awareness": []
+}

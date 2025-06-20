@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema.json",
+  "id": "turbo",
+  "code_name": "Turbo",
+  "full_name": "???",
+  "quality": 5,
+  "role": "buff",
+  "element": "physical",
+  "description": "",
+  "skill": [],
+  "awareness": []
+}

@@ -1,0 +1,318 @@
+{
+  "$schema": "../schema.json",
+  "id": "luce",
+  "code_name": "Luce",
+  "full_name": "Shoki Ikenami",
+  "quality": 4,
+  "role": "buff",
+  "element": "bless",
+  "mental_image": {
+    "basic": [
+      {
+        "type": "hp",
+        "value": "115"
+      },
+      {
+        "type": "def",
+        "value": "25"
+      },
+      {
+        "type": "atk",
+        "value": "26"
+      },
+      {
+        "type": "hp",
+        "value": "115"
+      },
+      {
+        "type": "def",
+        "value": "25"
+      },
+      {
+        "type": "atk",
+        "value": "26"
+      },
+      {
+        "type": "hp",
+        "value": "115"
+      },
+      {
+        "type": "def",
+        "value": "25"
+      },
+      {
+        "type": "atk",
+        "value": "26"
+      },
+      {
+        "type": "hp",
+        "value": "115"
+      },
+      {
+        "type": "def",
+        "value": "25"
+      },
+      {
+        "type": "atk",
+        "value": "26"
+      }
+    ],
+    "bells": [
+      {
+        "hp": "115"
+      },
+      {
+        "hp": "115",
+        "def": "25"
+      },
+      {
+        "hp": "115",
+        "def": "25",
+        "atk": "26"
+      },
+      {
+        "hp": "230",
+        "def": "25",
+        "atk": "26"
+      },
+      {
+        "hp": "230",
+        "def": "50",
+        "atk": "26"
+      },
+      {
+        "hp": "230",
+        "def": "50",
+        "atk": "52"
+      },
+      {
+        "hp": "345",
+        "def": "50",
+        "atk": "52"
+      },
+      {
+        "hp": "345",
+        "def": "75",
+        "atk": "52"
+      },
+      {
+        "hp": "345",
+        "def": "75",
+        "atk": "78"
+      },
+      {
+        "hp": "460",
+        "def": "75",
+        "atk": "78"
+      },
+      {
+        "hp": "460",
+        "def": "100",
+        "atk": "78"
+      },
+      {
+        "hp": "460",
+        "def": "100",
+        "atk": "104"
+      }
+    ],
+    "stat_buff_1": {
+      "type": "atk_prec",
+      "values": [
+        "4.0%",
+        "8.0%",
+        "12.0%",
+        "16.0%",
+        "20.0%"
+      ]
+    },
+    "stat_buff_2": {
+      "type": "eff_hit_prec",
+      "values": [
+        "4.8%",
+        "9.6%",
+        "14.4%",
+        "19.2%",
+        "24.0%"
+      ]
+    }
+  },
+  "stats": [
+    {
+      "1": {
+        "hp": "322",
+        "sp": "100",
+        "atk": "106",
+        "def": "61",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "spd": "104",
+        "eff_hit_prec": "0%"
+      },
+      "10": {
+        "hp": "532",
+        "sp": "100",
+        "atk": "175",
+        "def": "101",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "spd": "104",
+        "eff_hit_prec": "0%"
+      }
+    },
+    {
+      "10": {
+        "hp": "606",
+        "sp": "100",
+        "atk": "199",
+        "def": "115",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "3.7%",
+        "spd": "104"
+      },
+      "20": {
+        "hp": "839",
+        "sp": "100",
+        "atk": "276",
+        "def": "160",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "3.7%",
+        "spd": "104"
+      }
+    },
+    {
+      "20": {
+        "hp": "913",
+        "sp": "100",
+        "atk": "300",
+        "def": "174",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "7.4%",
+        "spd": "104"
+      },
+      "30": {
+        "hp": "1146",
+        "sp": "100",
+        "atk": "377",
+        "def": "219",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "7.4%",
+        "spd": "104"
+      }
+    },
+    {
+      "30": {
+        "hp": "1219",
+        "sp": "100",
+        "atk": "401",
+        "def": "233",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "11.2%",
+        "spd": "104"
+      },
+      "40": {
+        "hp": "1452",
+        "sp": "100",
+        "atk": "478",
+        "def": "278",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "11.2%",
+        "spd": "104"
+      }
+    },
+    {
+      "40": {
+        "hp": "1526",
+        "sp": "100",
+        "atk": "502",
+        "def": "292",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "14.9%",
+        "spd": "104"
+      },
+      "50": {
+        "hp": "1759",
+        "sp": "100",
+        "atk": "579",
+        "def": "336",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "14.9%",
+        "spd": "104"
+      }
+    },
+    {
+      "50": {
+        "hp": "1833",
+        "sp": "100",
+        "atk": "603",
+        "def": "350",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "18.7%",
+        "spd": "104"
+      },
+      "60": {
+        "hp": "2066",
+        "sp": "100",
+        "atk": "680",
+        "def": "395",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "18.7%",
+        "spd": "104"
+      }
+    },
+    {
+      "60": {
+        "hp": "2140",
+        "sp": "100",
+        "atk": "704",
+        "def": "409",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "22.4%",
+        "spd": "104"
+      },
+      "70": {
+        "hp": "2373",
+        "sp": "100",
+        "atk": "781",
+        "def": "454",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "22.4%",
+        "spd": "104"
+      }
+    },
+    {
+      "70": {
+        "hp": "2447",
+        "sp": "100",
+        "atk": "805",
+        "def": "468",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "26.1%",
+        "spd": "104"
+      },
+      "80": {
+        "hp": "2680",
+        "sp": "100",
+        "atk": "882",
+        "def": "512",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "26.1%",
+        "spd": "104"
+      }
+    }
+  ]
+}

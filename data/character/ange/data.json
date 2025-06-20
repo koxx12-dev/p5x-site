@@ -1,0 +1,1075 @@
+{
+  "$schema": "../schema.json",
+  "id": "ange",
+  "code_name": "Ange",
+  "full_name": "Manaka Nagao",
+  "quality": 5,
+  "role": "navi",
+  "element": "support",
+  "skill": [
+    {
+      "id": "s1",
+      "element": "all_support",
+      "name": "Choir of Doves",
+      "description": [
+        "Increases all allies' [b]DMG Dealt[/b] by [b]{skill_data}[/b] + (For every [b]164 ATK[/b], additionally increases [b]DMG Dealt[/b] by [b]1%[/b], up to [b]{skill_data}[/b]) for 2 turn.",
+        "Ange gains 4 stacks of [color=#ffef5c][b][Holy Song][/b][/color]."
+      ],
+      "data": [
+        [
+          [
+            "4.5%",
+            "4.6%",
+            "4.8%",
+            "4.9%",
+            "5.0%",
+            "5.2%"
+          ],
+          [
+            "4.8%",
+            "4.9%",
+            "5.0%",
+            "5.2%",
+            "5.3%",
+            "5.5%"
+          ],
+          [
+            "5.0%",
+            "5.2%",
+            "5.3%",
+            "5.5%",
+            "5.6%",
+            "5.7%"
+          ],
+          [
+            "5.3%",
+            "5.5%",
+            "5.6%",
+            "5.7%",
+            "5.9%",
+            "6.0%"
+          ],
+          [
+            "5.6%",
+            "5.7%",
+            "5.9%",
+            "6.0%",
+            "6.2%",
+            "6.3%"
+          ],
+          [
+            "5.9%",
+            "6.0%",
+            "6.2%",
+            "6.3%",
+            "6.4%",
+            "6.6%"
+          ],
+          [
+            "6.2%",
+            "6.3%",
+            "6.4%",
+            "6.6%",
+            "6.7%",
+            "6.9%"
+          ],
+          [
+            "6.4%",
+            "6.6%",
+            "6.7%",
+            "6.9%",
+            "7.0%",
+            "7.1%"
+          ],
+          [
+            "6.7%",
+            "6.9%",
+            "7.0%",
+            "7.1%",
+            "7.3%",
+            "7.4%"
+          ],
+          [
+            "7.0%",
+            "7.1%",
+            "7.3%",
+            "7.4%",
+            "7.6%",
+            "7.7%"
+          ],
+          [
+            "7.3%",
+            "7.4%",
+            "7.6%",
+            "7.7%",
+            "7.8%",
+            "8.0%"
+          ],
+          [
+            "7.6%",
+            "7.7%",
+            "7.8%",
+            "8.0%",
+            "8.1%",
+            "8.3%"
+          ],
+          [
+            "7.8%",
+            "8.0%",
+            "8.1%",
+            "8.3%",
+            "8.4%",
+            "8.5%"
+          ]
+        ],
+        [
+          [
+            "17.9%",
+            "18.5%",
+            "19.0%",
+            "19.6%",
+            "20.2%",
+            "20.7%"
+          ],
+          [
+            "19.0%",
+            "19.6%",
+            "20.2%",
+            "20.7%",
+            "21.3%",
+            "21.8%"
+          ],
+          [
+            "20.2%",
+            "20.7%",
+            "21.3%",
+            "21.8%",
+            "22.4%",
+            "23.0%"
+          ],
+          [
+            "21.3%",
+            "21.8%",
+            "22.4%",
+            "23.0%",
+            "23.5%",
+            "24.1%"
+          ],
+          [
+            "22.4%",
+            "23.0%",
+            "23.5%",
+            "24.1%",
+            "24.6%",
+            "25.2%"
+          ],
+          [
+            "23.5%",
+            "24.1%",
+            "24.6%",
+            "25.2%",
+            "25.8%",
+            "26.3%"
+          ],
+          [
+            "24.6%",
+            "25.2%",
+            "25.8%",
+            "26.3%",
+            "26.9%",
+            "27.4%"
+          ],
+          [
+            "25.8%",
+            "26.3%",
+            "26.9%",
+            "27.4%",
+            "28.0%",
+            "28.6%"
+          ],
+          [
+            "26.9%",
+            "27.4%",
+            "28.0%",
+            "28.6%",
+            "29.1%",
+            "29.7%"
+          ],
+          [
+            "28.0%",
+            "28.6%",
+            "29.1%",
+            "29.7%",
+            "30.2%",
+            "30.8%"
+          ],
+          [
+            "29.1%",
+            "29.7%",
+            "30.2%",
+            "30.8%",
+            "31.4%",
+            "31.9%"
+          ],
+          [
+            "30.2%",
+            "30.8%",
+            "31.4%",
+            "31.9%",
+            "32.5%",
+            "33.0%"
+          ],
+          [
+            "31.4%",
+            "31.9%",
+            "32.5%",
+            "33.0%",
+            "33.6%",
+            "34.2%"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "s2",
+      "element": "all_support",
+      "name": "Poem of Radiance",
+      "description": [
+        "Restores [b]{skill_data} ATK[/b] + [b]{skill_data} HP[/b] to all allies, and dispels 1 debuff from all allies.",
+        "When Ange has [color=#ffef5c][b][Holy Song][/b][/color], consumes 1 stack of [color=#ffef5c][b][Holy Song][/b][/color] to decrease the skill cooldown by 1 action, up to 4 actions.",
+        "When Ange manually use this skill, additionally increases healing by [b]50%[/b].",
+        "After Ange gains 12 stacks of [color=#ffef5c][b][Holy Song][/b][/color], automatically use the healing from this skill once."
+      ],
+      "data": [
+        [
+          [
+            "6.4%",
+            "6.4%",
+            "6.4%",
+            "6.4%",
+            "6.4%",
+            "6.4%"
+          ],
+          [
+            "6.8%",
+            "6.8%",
+            "6.8%",
+            "6.8%",
+            "6.8%",
+            "6.8%"
+          ],
+          [
+            "7.2%",
+            "7.2%",
+            "7.2%",
+            "7.2%",
+            "7.2%",
+            "7.2%"
+          ],
+          [
+            "7.6%",
+            "7.6%",
+            "7.6%",
+            "7.6%",
+            "7.6%",
+            "7.6%"
+          ],
+          [
+            "8.0%",
+            "8.0%",
+            "8.0%",
+            "8.0%",
+            "8.0%",
+            "8.0%"
+          ],
+          [
+            "8.4%",
+            "8.4%",
+            "8.4%",
+            "8.4%",
+            "8.4%",
+            "8.4%"
+          ],
+          [
+            "8.8%",
+            "8.8%",
+            "8.8%",
+            "8.8%",
+            "8.8%",
+            "8.8%"
+          ],
+          [
+            "9.2%",
+            "9.2%",
+            "9.2%",
+            "9.2%",
+            "9.2%",
+            "9.2%"
+          ],
+          [
+            "9.6%",
+            "9.6%",
+            "9.6%",
+            "9.6%",
+            "9.6%",
+            "9.6%"
+          ],
+          [
+            "10.0%",
+            "10.0%",
+            "10.0%",
+            "10.0%",
+            "10.0%",
+            "10.0%"
+          ],
+          [
+            "10.4%",
+            "10.4%",
+            "10.4%",
+            "10.4%",
+            "10.4%",
+            "10.4%"
+          ],
+          [
+            "10.8%",
+            "10.8%",
+            "10.8%",
+            "10.8%",
+            "10.8%",
+            "10.8%"
+          ],
+          [
+            "11.2%",
+            "11.2%",
+            "11.2%",
+            "11.2%",
+            "11.2%",
+            "11.2%"
+          ]
+        ],
+        [
+          [
+            "47",
+            "74",
+            "101",
+            "128",
+            "155",
+            "182"
+          ],
+          [
+            "95",
+            "122",
+            "149",
+            "176",
+            "203",
+            "230"
+          ],
+          [
+            "150",
+            "177",
+            "204",
+            "231",
+            "258",
+            "285"
+          ],
+          [
+            "209",
+            "236",
+            "263",
+            "290",
+            "317",
+            "344"
+          ],
+          [
+            "274",
+            "301",
+            "328",
+            "355",
+            "382",
+            "409"
+          ],
+          [
+            "345",
+            "372",
+            "399",
+            "426",
+            "453",
+            "480"
+          ],
+          [
+            "421",
+            "448",
+            "475",
+            "502",
+            "529",
+            "556"
+          ],
+          [
+            "502",
+            "529",
+            "556",
+            "583",
+            "610",
+            "637"
+          ],
+          [
+            "589",
+            "616",
+            "643",
+            "670",
+            "697",
+            "724"
+          ],
+          [
+            "681",
+            "708",
+            "735",
+            "762",
+            "789",
+            "816"
+          ],
+          [
+            "778",
+            "805",
+            "832",
+            "859",
+            "886",
+            "913"
+          ],
+          [
+            "881",
+            "908",
+            "935",
+            "962",
+            "989",
+            "1016"
+          ],
+          [
+            "989",
+            "1016",
+            "1043",
+            "1070",
+            "1097",
+            "1124"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "s3",
+      "element": "all_support",
+      "name": "Wheel of TIme",
+      "description": [
+        "Increases all allies' [b]ATK[/b] based on [b]11%[/b] + [b]{skill_data} ATK[/b].",
+        "Consumes all [color=#ffef5c][b][Holy Song][/b][/color], for every stack of [color=#ffef5c][b][Holy Song][/b][/color] consumed, additionally increases all allies' [b]PEN[/b] (Increases [b]PEN[/b] by [b]0.1%[/b] for every [b]460 ATK[/b]) and ATK (Increases [b]ATK[/b] by [b]0.2%[/b] for every [b]460 ATK[/b]) for 2 turns. (Counts up to [b]{skill_data} ATK[/b])"
+      ],
+      "data": [
+        [
+          [
+            "81",
+            "84",
+            "87",
+            "89",
+            "92",
+            "94"
+          ],
+          [
+            "87",
+            "89",
+            "92",
+            "94",
+            "97",
+            "99"
+          ],
+          [
+            "92",
+            "94",
+            "97",
+            "99",
+            "102",
+            "104"
+          ],
+          [
+            "97",
+            "99",
+            "102",
+            "104",
+            "107",
+            "110"
+          ],
+          [
+            "102",
+            "104",
+            "107",
+            "110",
+            "112",
+            "115"
+          ],
+          [
+            "107",
+            "110",
+            "112",
+            "115",
+            "117",
+            "120"
+          ],
+          [
+            "112",
+            "115",
+            "117",
+            "120",
+            "122",
+            "125"
+          ],
+          [
+            "117",
+            "120",
+            "122",
+            "125",
+            "127",
+            "130"
+          ],
+          [
+            "122",
+            "125",
+            "128",
+            "130",
+            "133",
+            "135"
+          ],
+          [
+            "128",
+            "130",
+            "133",
+            "135",
+            "138",
+            "140"
+          ],
+          [
+            "133",
+            "135",
+            "138",
+            "140",
+            "143",
+            "145"
+          ],
+          [
+            "138",
+            "140",
+            "143",
+            "145",
+            "148",
+            "151"
+          ],
+          [
+            "143",
+            "145",
+            "148",
+            "151",
+            "153",
+            "156"
+          ]
+        ],
+        [
+          [
+            "460",
+            "552",
+            "644",
+            "736",
+            "828",
+            "920"
+          ],
+          [
+            "920",
+            "1012",
+            "1104",
+            "1196",
+            "1288",
+            "1380"
+          ],
+          [
+            "1380",
+            "1472",
+            "1564",
+            "1656",
+            "1748",
+            "1840"
+          ],
+          [
+            "1840",
+            "1932",
+            "2024",
+            "2116",
+            "2208",
+            "2300"
+          ],
+          [
+            "2300",
+            "2392",
+            "2484",
+            "2576",
+            "2668",
+            "2760"
+          ],
+          [
+            "2760",
+            "2852",
+            "2944",
+            "3036",
+            "3128",
+            "3220"
+          ],
+          [
+            "3220",
+            "3312",
+            "3404",
+            "3496",
+            "3588",
+            "3680"
+          ],
+          [
+            "3680",
+            "3771",
+            "3864",
+            "3956",
+            "4048",
+            "4140"
+          ],
+          [
+            "4140",
+            "4232",
+            "4324",
+            "4416",
+            "4508",
+            "4600"
+          ],
+          [
+            "4600",
+            "4692",
+            "4784",
+            "4876",
+            "4968",
+            "5060"
+          ],
+          [
+            "5060",
+            "5152",
+            "5244",
+            "5336",
+            "5428",
+            "5520"
+          ],
+          [
+            "5520",
+            "5612",
+            "5704",
+            "5796",
+            "5888",
+            "5980"
+          ],
+          [
+            "5980",
+            "6072",
+            "6164",
+            "6256",
+            "6348",
+            "6440"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "s4",
+      "element": "support",
+      "name": "Myriad Song",
+      "description": [
+        "Dispels 1 debuff from 1 ally, and make them enter a special Extra Turn [ref=s4][color=#7c98fc][b][u][Myriad Song][/u][/b][/color][/ref] after their turn.",
+        "When entering [ref=s4][color=#7c98fc][b][u][Myriad Song][/u][/b][/color][/ref], that character's status will rewind to their last turn before using a skill.",
+        "Rewind content includes: Persona skill cooldown, current status, current HP, current SP."
+      ]
+    },
+    {
+      "id": "p1",
+      "element": "passive",
+      "name": "Combat Skills",
+      "description": "Attribute Improvement: Increase all allies' stats by [b]20%[/b] of Ange's stats."
+    },
+    {
+      "id": "p2",
+      "element": "passive",
+      "name": "Grace",
+      "description": "Increase the ATK for allies under [ref=s4][color=#7c98fc][b][u][Myriad Song][/u][/b][/color][/ref] by [b]{skill_data}[/b].",
+      "data": [
+        [
+          "12.5%",
+          "25.0%",
+          "37.5%"
+        ]
+      ]
+    },
+    {
+      "id": "p3",
+      "element": "passive",
+      "name": "Resilience",
+      "description": "Increase all allies' [b]PEN[/b] by [b]{skill_data}[/b] after gaining 1 stack of [color=#ffef5c][b][Holy Song][/b][/color], up to 12 stacks. ",
+      "data": [
+        [
+          "0.3%",
+          "0.7%",
+          "1.0%"
+        ]
+      ]
+    }
+  ],
+  "awareness": [
+    {
+      "id": "a0",
+      "name": "Hope to Start Again",
+      "tier": 0,
+      "description": [
+        "At the start of each ally's action, Ange will gain 1 stack of [color=#ffef5c][b][Holy Song][/b][/color], up to 12 stacks.",
+        "Ange can use [ref=s4][color=#7c98fc][b][u][Myriad Song][/u][/b][/color][/ref] before any ally's action, can use [ref=s4][color=#7c98fc][b][u][Myriad Song][/u][/b][/color][/ref] at the start of battle.",
+        "After using [ref=s4][color=#7c98fc][b][u][Myriad Song][/u][/b][/color][/ref], after 7 Wonder's non Extra Turn, restores 1 usage to [ref=s4][color=#7c98fc][b][u][Myriad Song][/u][/b][/color][/ref].",
+        "This effect can only be triggered once per battle."
+      ]
+    },
+    {
+      "id": "a1",
+      "name": "Prelude to a Wish",
+      "tier": 1,
+      "description": [
+        "At the start of battle, Ange will gain maxed stacks of [color=#ffef5c][b][Holy Song][/b][/color], and decrease Elucidate Thief's cooldown by 4 actions.",
+        "After using [ref=s3][color=#7c98fc][b][u][Wheel of Time][/u][/b][/color][/ref], additionally increases all allies' [b]CRIT Rate[/b] by [b]12%[/b] for 2 turns."
+      ]
+    },
+    {
+      "id": "a2",
+      "name": "Journey of Aspiration",
+      "tier": 2,
+      "description": [
+        "Increases the Final DMG for allies under [ref=s4][color=#7c98fc][b][u][Myriad Song][/u][/b][/color][/ref] by [b]12%[/b].",
+        "When an ally faint, immediately revives and restores [b]20% ATK[/b] + [b]2000 HP[/b] to them, once per battle."
+      ]
+    },
+    {
+      "id": "a3",
+      "name": "Fluttering Dance",
+      "tier": 3,
+      "description": [
+        "[ref=s2][color=#7c98fc][b][u][Poem of Radiance][/u][/b][/color][/ref] [b]Lv. +3[/b], up to a maximum of [b]Lv. 15[/b].",
+        "[ref=s3][color=#7c98fc][b][u][Wheel of Time][/u][/b][/color][/ref] [b]Lv. +3[/b], up to a maximum of [b]Lv. 15[/b]."
+      ]
+    },
+    {
+      "id": "a4",
+      "name": "Ripples of Silence",
+      "tier": 4,
+      "description": "Gains 2 stacks of [color=#ffef5c][b][Holy Song][/b][/color] that can exceed the cap after any ally uses [color=#fcff37][b][HIGHLIGHT][/b][/color]/[color=#57b9ea][b][Theurgy][/b][/color], up to 2 stacks."
+    },
+    {
+      "id": "a5",
+      "name": "Echoes of Vigil",
+      "tier": 5,
+      "description": "[ref=s1][color=#7c98fc][b][u][Choir of Doves][/u][/b][/color][/ref] [b]Lv. +3[/b], up to a maximum of [b]Lv. 15[/b]."
+    },
+    {
+      "id": "a6",
+      "name": "Eternal Angelic Voice",
+      "tier": 6,
+      "description": "Ange can additionally use [ref=s4][color=#7c98fc][b][u][Myriad Song][/u][/b][/color][/ref] once initially. "
+    }
+  ],
+  "stats": [
+    {
+      "1": {
+        "hp": "389",
+        "sp": "100",
+        "atk": "148",
+        "def": "69",
+        "crit_c_prec": "0%",
+        "crit_dmg_prec": "0%",
+        "spd": "100"
+      },
+      "10": {
+        "hp": "661",
+        "sp": "100",
+        "atk": "251",
+        "def": "118",
+        "crit_c_prec": "0%",
+        "crit_dmg_prec": "0%",
+        "spd": "100"
+      }
+    },
+    {
+      "10": {
+        "hp": "757",
+        "sp": "100",
+        "atk": "299",
+        "def": "135",
+        "crit_c_prec": "0%",
+        "crit_dmg_prec": "0%",
+        "spd": "100"
+      },
+      "20": {
+        "hp": "1059",
+        "sp": "100",
+        "atk": "418",
+        "def": "189",
+        "crit_c_prec": "0%",
+        "crit_dmg_prec": "0%",
+        "spd": "100"
+      }
+    },
+    {
+      "20": {
+        "hp": "1155",
+        "sp": "100",
+        "atk": "472",
+        "def": "206",
+        "crit_c_prec": "0%",
+        "crit_dmg_prec": "0%",
+        "spd": "100"
+      },
+      "30": {
+        "hp": "1458",
+        "sp": "100",
+        "atk": "596",
+        "def": "260",
+        "crit_c_prec": "0%",
+        "crit_dmg_prec": "0%",
+        "spd": "100"
+      }
+    },
+    {
+      "30": {
+        "hp": "1554",
+        "sp": "100",
+        "atk": "658",
+        "def": "277",
+        "crit_c_prec": "0%",
+        "crit_dmg_prec": "0%",
+        "spd": "100"
+      },
+      "40": {
+        "hp": "1856",
+        "sp": "100",
+        "atk": "786",
+        "def": "331",
+        "crit_c_prec": "0%",
+        "crit_dmg_prec": "0%",
+        "spd": "100"
+      }
+    },
+    {
+      "40": {
+        "hp": "1952",
+        "sp": "100",
+        "atk": "854",
+        "def": "348",
+        "crit_c_prec": "0%",
+        "crit_dmg_prec": "0%",
+        "spd": "100"
+      },
+      "50": {
+        "hp": "2254",
+        "sp": "100",
+        "atk": "986",
+        "def": "402",
+        "crit_c_prec": "0%",
+        "crit_dmg_prec": "0%",
+        "spd": "100"
+      }
+    },
+    {
+      "50": {
+        "hp": "2350",
+        "sp": "100",
+        "atk": "1062",
+        "def": "419",
+        "crit_c_prec": "0%",
+        "crit_dmg_prec": "0%",
+        "spd": "100"
+      },
+      "60": {
+        "hp": "2653",
+        "sp": "100",
+        "atk": "1198",
+        "def": "473",
+        "crit_c_prec": "0%",
+        "crit_dmg_prec": "0%",
+        "spd": "100"
+      }
+    },
+    {
+      "60": {
+        "hp": "2749",
+        "sp": "100",
+        "atk": "1281",
+        "def": "490",
+        "crit_c_prec": "0%",
+        "crit_dmg_prec": "0%",
+        "spd": "100"
+      },
+      "70": {
+        "hp": "3051",
+        "sp": "100",
+        "atk": "1422",
+        "def": "544",
+        "crit_c_prec": "0%",
+        "crit_dmg_prec": "0%",
+        "spd": "100"
+      }
+    },
+    {
+      "70": {
+        "hp": "3147",
+        "sp": "100",
+        "atk": "1511",
+        "def": "561",
+        "crit_c_prec": "0%",
+        "crit_dmg_prec": "0%",
+        "spd": "100"
+      },
+      "80": {
+        "hp": "3450",
+        "sp": "100",
+        "atk": "1657",
+        "def": "615",
+        "crit_c_prec": "0%",
+        "crit_dmg_prec": "0%",
+        "spd": "100"
+      }
+    }
+  ],
+  "mental_image": {
+    "basic": [
+      {
+        "type": "hp",
+        "value": "112"
+      },
+      {
+        "type": "def",
+        "value": "23"
+      },
+      {
+        "type": "atk",
+        "value": "29"
+      },
+      {
+        "type": "hp",
+        "value": "112"
+      },
+      {
+        "type": "def",
+        "value": "23"
+      },
+      {
+        "type": "atk",
+        "value": "29"
+      },
+      {
+        "type": "hp",
+        "value": "112"
+      },
+      {
+        "type": "def",
+        "value": "23"
+      },
+      {
+        "type": "atk",
+        "value": "29"
+      },
+      {
+        "type": "hp",
+        "value": "112"
+      },
+      {
+        "type": "def",
+        "value": "23"
+      },
+      {
+        "type": "atk",
+        "value": "29"
+      }
+    ],
+    "bells": [
+      {
+        "hp": "112"
+      },
+      {
+        "hp": "112",
+        "def": "23"
+      },
+      {
+        "hp": "112",
+        "def": "23",
+        "atk": "29"
+      },
+      {
+        "hp": "224",
+        "def": "23",
+        "atk": "29"
+      },
+      {
+        "hp": "224",
+        "def": "46",
+        "atk": "29"
+      },
+      {
+        "hp": "224",
+        "def": "46",
+        "atk": "58"
+      },
+      {
+        "hp": "336",
+        "def": "46",
+        "atk": "58"
+      },
+      {
+        "hp": "336",
+        "def": "69",
+        "atk": "58"
+      },
+      {
+        "hp": "336",
+        "def": "69",
+        "atk": "87"
+      },
+      {
+        "hp": "448",
+        "def": "69",
+        "atk": "87"
+      },
+      {
+        "hp": "448",
+        "def": "92",
+        "atk": "87"
+      },
+      {
+        "hp": "448",
+        "def": "92",
+        "atk": "116"
+      }
+    ],
+    "stat_buff_1": {
+      "type": "hp_prec",
+      "values": [
+        "4.0%",
+        "8.0%",
+        "12.0%",
+        "16.0%",
+        "20.0%"
+      ]
+    },
+    "stat_buff_2": {
+      "type": "atk_prec",
+      "values": [
+        "4.0%",
+        "8.0%",
+        "12.0%",
+        "16.0%",
+        "20.0%"
+      ]
+    }
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "$schema": "../schema.json",
+  "id": "howler",
+  "code_name": "Howler",
+  "full_name": "???",
+  "quality": 5,
+  "role": "debuff",
+  "element": "fire",
+  "stats": [
+    {
+      "1": {
+        "hp": "375",
+        "sp": "100",
+        "atk": "136",
+        "def": "75",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "spd": "105",
+        "eff_hit_prec": "0%"
+      },
+      "10": {
+        "hp": "637",
+        "sp": "100",
+        "atk": "232",
+        "def": "128",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "spd": "105",
+        "eff_hit_prec": "0%"
+      }
+    },
+    {
+      "10": {
+        "hp": "730",
+        "sp": "100",
+        "atk": "265",
+        "def": "147",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "4.9%",
+        "spd": "105"
+      },
+      "20": {
+        "hp": "1021",
+        "sp": "100",
+        "atk": "371",
+        "def": "205",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "4.9%",
+        "spd": "105"
+      }
+    },
+    {
+      "20": {
+        "hp": "1114",
+        "sp": "100",
+        "atk": "405",
+        "def": "224",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "9.9%",
+        "spd": "105"
+      },
+      "30": {
+        "hp": "1406",
+        "sp": "100",
+        "atk": "511",
+        "def": "283",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "9.9%",
+        "spd": "105"
+      }
+    },
+    {
+      "30": {
+        "hp": "1498",
+        "sp": "100",
+        "atk": "545",
+        "def": "302",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "14.9%",
+        "spd": "105"
+      },
+      "40": {
+        "hp": "1790",
+        "sp": "100",
+        "atk": "651",
+        "def": "360",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "14.9%",
+        "spd": "105"
+      }
+    },
+    {
+      "40": {
+        "hp": "1882",
+        "sp": "100",
+        "atk": "685",
+        "def": "379",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "19.9%",
+        "spd": "105"
+      },
+      "50": {
+        "hp": "2174",
+        "sp": "100",
+        "atk": "791",
+        "def": "438",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "19.9%",
+        "spd": "105"
+      }
+    },
+    {
+      "50": {
+        "hp": "2266",
+        "sp": "100",
+        "atk": "825",
+        "def": "457",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "24.9%",
+        "spd": "105"
+      },
+      "60": {
+        "hp": "2558",
+        "sp": "100",
+        "atk": "931",
+        "def": "515",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "24.9%",
+        "spd": "105"
+      }
+    },
+    {
+      "60": {
+        "hp": "2651",
+        "sp": "100",
+        "atk": "965",
+        "def": "534",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "29.9%",
+        "spd": "105"
+      },
+      "70": {
+        "hp": "2942",
+        "sp": "100",
+        "atk": "1071",
+        "def": "593",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "29.9%",
+        "spd": "105"
+      }
+    },
+    {
+      "70": {
+        "hp": "3035",
+        "sp": "100",
+        "atk": "1105",
+        "def": "611",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "34.9%",
+        "spd": "105"
+      },
+      "80": {
+        "hp": "3326",
+        "sp": "100",
+        "atk": "1211",
+        "def": "670",
+        "crit_c_prec": "5%",
+        "crit_dmg_prec": "150%",
+        "eff_hit_prec": "34.9%",
+        "spd": "105"
+      }
+    }
+  ],
+  "mental_image": {
+    "basic": [
+      {
+        "type": "hp",
+        "value": "108"
+      },
+      {
+        "type": "def",
+        "value": "25"
+      },
+      {
+        "type": "atk",
+        "value": "27"
+      },
+      {
+        "type": "hp",
+        "value": "108"
+      },
+      {
+        "type": "def",
+        "value": "25"
+      },
+      {
+        "type": "atk",
+        "value": "27"
+      },
+      {
+        "type": "hp",
+        "value": "108"
+      },
+      {
+        "type": "def",
+        "value": "25"
+      },
+      {
+        "type": "atk",
+        "value": "27"
+      },
+      {
+        "type": "hp",
+        "value": "108"
+      },
+      {
+        "type": "def",
+        "value": "25"
+      },
+      {
+        "type": "atk",
+        "value": "27"
+      }
+    ],
+    "bells": [
+      {
+        "hp": "108"
+      },
+      {
+        "hp": "108",
+        "def": "25"
+      },
+      {
+        "hp": "108",
+        "def": "25",
+        "atk": "27"
+      },
+      {
+        "hp": "216",
+        "def": "25",
+        "atk": "27"
+      },
+      {
+        "hp": "216",
+        "def": "50",
+        "atk": "27"
+      },
+      {
+        "hp": "216",
+        "def": "50",
+        "atk": "54"
+      },
+      {
+        "hp": "324",
+        "def": "50",
+        "atk": "54"
+      },
+      {
+        "hp": "324",
+        "def": "75",
+        "atk": "54"
+      },
+      {
+        "hp": "324",
+        "def": "75",
+        "atk": "81"
+      },
+      {
+        "hp": "432",
+        "def": "75",
+        "atk": "81"
+      },
+      {
+        "hp": "432",
+        "def": "100",
+        "atk": "81"
+      },
+      {
+        "hp": "432",
+        "def": "100",
+        "atk": "108"
+      }
+    ],
+    "stat_buff_1": {
+      "type": "dmg_prec",
+      "values": [
+        "3.2%",
+        "6.4%",
+        "9.6%",
+        "12.8%",
+        "16.0%"
+      ]
+    },
+    "stat_buff_2": {
+      "type": "eff_hit_prec",
+      "values": [
+        "4.8%",
+        "9.6%",
+        "14.4%",
+        "19.2%",
+        "24.0%"
+      ]
+    }
+  }
+}

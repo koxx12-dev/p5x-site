@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema.json",
+  "id": "yuki",
+  "code_name": "Yuki",
+  "full_name": "???",
+  "quality": 4,
+  "role": "tank",
+  "element": "bless",
+  "description": "",
+  "skill": [],
+  "awareness": []
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema.json",
+  "id": "matoi",
+  "code_name": "Matoi",
+  "full_name": "???",
+  "quality": 5,
+  "role": "debuff",
+  "element": "ice",
+  "description": "",
+  "skill": [],
+  "awareness": []
+}

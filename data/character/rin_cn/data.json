@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema.json",
+  "id": "rin_cn",
+  "code_name": "Rin",
+  "full_name": "???",
+  "quality": 5,
+  "role": "multi",
+  "element": "fire",
+  "description": "",
+  "skill": [],
+  "awareness": []
+}
