@@ -461,7 +461,7 @@
                 "[b]Use Condition:[/b] When Makoto has at least 2 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color].",
                 "Consumes all [color=#b4c5e0][b][Moon Phase][/b][/color], for each stack of [color=#b4c5e0][b][Moon Phase][/b][/color] consumed, deals 1 hit of [color=#ff381d][b]{skill_data} ATK[/b][/color] as [color=#ff381d][b]Fire DMG[/b][/color] to 1 enemy.",
                 "Afterwards, consumes all  [color=#2dd304][b][Special Moon Phase][/b][/color], for each stack of [color=#2dd304][b][Special Moon Phase][/b][/color] consumed, additionally deals 1 hit of [color=#ff381d][b]{skill_data} ATK[/b][/color] as [color=#ff381d][b]Fire DMG[/b][/color] to 1 enemy.",
-                "If you have 4 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color], increases own [color=#ff381d][b]PEN[/b][/color] by [color=#ff381d][b]{skill_data}[/b][/color] and [color=#ff381d][b]DMG Dealt[/b][/color] by [color=#ff381d][b]{skill_data}[/b][/color] when using this skill."
+                "If Makoto has 4 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color], increases own [color=#ff381d][b]PEN[/b][/color] by [color=#ff381d][b]{skill_data}[/b][/color] and [color=#ff381d][b]DMG Dealt[/b][/color] by [color=#ff381d][b]{skill_data}[/b][/color] when using this skill."
             ],
             "data": [
                 [
@@ -1287,7 +1287,7 @@
             "description": [
                 "When using [ref=s1][color=#8bb2f1][b][u][Melodic Blaze][/u][/b][/color][/ref], additionally deals 1 hit of [color=#ff381d][b]DMG[/b][/color].",
                 "When using [ref=s2][color=#8bb2f1][b][u][ref=s2][color=#8bb2f1][b][u][Moonlit Hymn][/u][/b][/color][/ref][/u][/b][/color][/ref], additionally increases all allies' [color=#ff381d][b]PEN[/b][/color] by [color=#ff381d][b]10%[/b][/color] for 2 turns.",
-                "When using [ref=s2][color=#8bb2f1][b][u][Scarlet-Devouring Blaze][/u][/b][/color][/ref], if you have 4 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color], additionally increases own [color=#ff381d][b]CRIT Rate[/b][/color] by [color=#ff381d][b]16%[/b][/color]."
+                "When using [ref=s2][color=#8bb2f1][b][u][Scarlet-Devouring Blaze][/u][/b][/color][/ref], if has have 4 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color], additionally increases own [color=#ff381d][b]CRIT Rate[/b][/color] by [color=#ff381d][b]16%[/b][/color]."
             ]
         },
         {
@@ -1295,7 +1295,7 @@
             "tier": 2,
             "name": "Unwavering Heart",
             "description": [
-                "At the start of Makoto Yuki's turn, if you reached 4 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color], automatically uses Moonlit Hymn.",
+                "At the start of Makoto Yuki's turn, if Makoto reached 4 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color], automatically uses Moonlit Hymn.",
                 "This effect has a 1 turn cooldown."
             ]
         },

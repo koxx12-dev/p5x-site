@@ -1035,18 +1035,18 @@
     {
       "id": "p2",
       "element": "passive",
-      "name": "Hope",
-      "description": "Increases Healing Effect based on your [color=#ff3b1d][b]Max HP[/b][/color], up to [color=#ff3b1d][b]{skill_data} Healing Effect[/b][/color] at [color=#ff3b1d][b]{skill_data} HP[/b][/color].",
+      "name": "Hope ",
+      "description": "Hope Increases Healing Effect based on Cattle's [color=#ff3b1d][b]Max HP[/b][/color], capping at [color=#ff3b1d][b]{skill_data} HP[/b][/color] and [color=#ff3b1d][b]{skill_data} Healing Effect[/b][/color].",
       "data": [
-        [
-          "14.0%",
-          "28.0%",
-          "42.0%"
-        ],
         [
           "4000",
           "8000",
           "12000"
+        ],
+        [
+          "14.0%",
+          "28.0%",
+          "42.0%"
         ]
       ]
     }
@@ -1058,8 +1058,8 @@
       "name": "Day Night Reversal",
       "description": [
         "When using Healing skills, give the target [color=#f35a5d][b][Starfire][/b][/color], each ally can only have 1 [color=#f35a5d][b][Starfire][/b][/color] related effect.",
-        "[color=#f35a5d][b][Starfire I][/b][/color]: Increase [color=#ff3b1d][b]ATK[/b][/color] based on [color=#ff3b1d][b]4%[/b][/color] of your [color=#ff3b1d][b]ATK[/b][/color] (Up to [color=#ff3b1d][b]160 ATK[/b][/color]) for 1 turn, upgrade to [color=#f35a5d][b][Starfire II][/b][/color] when the effect ends.",
-        "[color=#f35a5d][b][Starfire II][/b][/color]: Increase [color=#ff3b1d][b]ATK[/b][/color] based on [color=#ff3b1d][b]8%[/b][/color] of your [color=#ff3b1d][b]ATK[/b][/color] (Up to [color=#ff3b1d][b]320 ATK[/b][/color]) for 1 turn."
+        "[color=#f35a5d][b][Starfire I][/b][/color]: Increase [color=#ff3b1d][b]ATK[/b][/color] based on [color=#ff3b1d][b]4%[/b][/color] of Cattle's [color=#ff3b1d][b]ATK[/b][/color] (Up to [color=#ff3b1d][b]160 ATK[/b][/color]) for 1 turn, upgrade to [color=#f35a5d][b][Starfire II][/b][/color] when the effect ends.",
+        "[color=#f35a5d][b][Starfire II][/b][/color]: Increase [color=#ff3b1d][b]ATK[/b][/color] based on [color=#ff3b1d][b]8%[/b][/color] of Cattle's [color=#ff3b1d][b]ATK[/b][/color] (Up to [color=#ff3b1d][b]320 ATK[/b][/color]) for 1 turn."
       ]
     },
     {

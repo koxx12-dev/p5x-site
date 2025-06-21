@@ -424,7 +424,7 @@
       "name": "Shadowless Thrust",
       "description": [
         "Deals [color=#7fe82a][b]{skill_data} ATK[/b][/color] as [color=#7fe82a][b]Wind DMG[/b][/color] to 1 enemy 3 times.",
-        "When you have not less than 3 stacks of [color=#4f5bec][b][Resolve][/b][/color] deals 1 additional hit of damage and increases [color=#7fe82a][b]CRIT Rate[/b][/color] by [color=#7fe82a][b]20%[/b][/color]."
+        "When Fleuret has not less than 3 stacks of [color=#4f5bec][b][Resolve][/b][/color] deals 1 additional hit of damage and increases [color=#7fe82a][b]CRIT Rate[/b][/color] by [color=#7fe82a][b]20%[/b][/color]."
       ],
       "data": [
         [
@@ -531,7 +531,7 @@
       "id": "hl",
       "element": "wind",
       "name": "HIGHLIGHT",
-      "description": "Deals [color=#7fe82a][b]{skill_data} ATK[/b][/color] as [color=#7fe82a][b]Wind DMG[/b][/color] to 1 enemy 3 times, when using this skill, if you have 3 or more stacks of [color=#4f5bec][b][Resolve][/b][/color], deals 1 additional hit of damage.",
+      "description": "Deals [color=#7fe82a][b]{skill_data} ATK[/b][/color] as [color=#7fe82a][b]Wind DMG[/b][/color] to 1 enemy 3 times, when using this skill, if Fleuret has 3 or more stacks of [color=#4f5bec][b][Resolve][/b][/color], deals 1 additional hit of damage.",
       "data": [
         [
           [
@@ -707,7 +707,7 @@
       "id": "a5",
       "tier": 5,
       "name": "Hidden Offense",
-      "description": "[ref=hl][color=#e7b77b][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: When you have 3 or more stacks of [color=#4f5bec][b][Resolve][/b][/color], deal 1 additional hit of damage and there is a [color=#7fe82a][b]100%[/b][/color] base chance to inflict [color=#7fe82a][b][i]Winded[/i][/b][/color]."
+      "description": "[ref=hl][color=#e7b77b][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: When Fleuret has 3 or more stacks of [color=#4f5bec][b][Resolve][/b][/color], deal 1 additional hit of damage and there is a [color=#7fe82a][b]100%[/b][/color] base chance to inflict [color=#7fe82a][b][i]Winded[/i][/b][/color]."
     },
     {
       "id": "a6",

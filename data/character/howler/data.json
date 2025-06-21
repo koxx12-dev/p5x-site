@@ -344,7 +344,7 @@
       "name": "Intimidate Baddie",
       "description": [
         "Deals [color=#ff3b1d][b]{skill_data} ATK[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to 1 enemy, decreases the target's [color=#ff3b1d][b]DEF[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] + [color=#ff3b1d][b]31.4%[/b][/color] of own [color=#ff3b1d][b]EHR[/b][/color] (up to [color=#ff3b1d][b]{skill_data} DEF Down[/b][/color]) for 2 turns.",
-        "You gain [color=#f3c067][b][Furious Pursue][/b][/color].",
+        "Howler gains [color=#f3c067][b][Furious Pursue][/b][/color].",
         "(Cannot stack the [color=#ff3b1d][b]DEF[/b][/color] Down effect with [ref=s1][color=#f5beb5][b][u][Fiery Handshake][/u][/b][/color][/ref].)"
       ],
       "data": [
@@ -673,8 +673,8 @@
       "element": "all_fire",
       "name": "GO GO WOOF WOOF RU!",
       "description": [
-        "[b]Requirement: You have [color=#fd901a][b][Warm Welcome][/b][/color] or [color=#f3c067][b][Furious Pursue][/b][/color].[/b]",
-        "When you have [color=#fd901a][b][Warm Welcome][/b][/color] or [color=#f3c067][b][Furious Pursue][/b][/color], triggers their corresponding effect.",
+        "[b]Requirement: Howler has [color=#fd901a][b][Warm Welcome][/b][/color] or [color=#f3c067][b][Furious Pursue][/b][/color].[/b]",
+        "When Howler has [color=#fd901a][b][Warm Welcome][/b][/color] or [color=#f3c067][b][Furious Pursue][/b][/color], triggers their corresponding effect.",
         "Only one effect can be triggered.",
         "- [color=#fd901a][b][Warm Welcome][/b][/color]: Deals [color=#ff3b1d][b]{skill_data} ATK[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to all enemies, increases the target's [color=#ff3b1d][b]DMG[/b][/color] Taken based on [color=#ff3b1d][b]24%[/b][/color] of own [color=#ff3b1d][b]EHR[/b][/color], up to [color=#ff3b1d][b]{skill_data}[/b][/color], increases their [color=#ff3b1d][b]Fire DMG[/b][/color] Taken by [color=#ff3b1d][b]{skill_data}[/b][/color] for 2 turns.",
         "- [color=#f3c067][b][Furious Pursue][/b][/color]: Deals [color=#ff3b1d][b]{skill_data} ATK[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to 1 enemy, increases the target's [color=#ff3b1d][b]DMG[/b][/color] Taken based on [color=#ff3b1d][b]34.3%[/b][/color] of own [color=#ff3b1d][b]EHR[/b][/color], up to [color=#ff3b1d][b]{skill_data}[/b][/color], increases their Follow Up [color=#ff3b1d][b]DMG[/b][/color] Taken by [color=#ff3b1d][b]{skill_data}[/b][/color] for 2 turns."
@@ -1542,7 +1542,7 @@
       "id": "p1",
       "element": "passive",
       "name": "Loyalty",
-      "description": "Increase [color=#ff3b1d][b]ATK[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] of your [color=#ff3b1d][b]EHR[/b][/color].",
+      "description": "Increase [color=#ff3b1d][b]ATK[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] of Howler's [color=#ff3b1d][b]EHR[/b][/color].",
       "data": [
         [
           "20.0%",
@@ -1571,7 +1571,7 @@
       "tier": 0,
       "name": "Every Warm Embrace",
       "description": [
-        "When you have [color=#fd901a][b][Warm Welcome][/b][/color] or [color=#f3c067][b][Furious Pursue][/b][/color], unlock [ref=s3][color=#f5beb5][b][u][GO GO WOOF WOOF RU!][/u][/b][/color][/ref].",
+        "When Howler has [color=#fd901a][b][Warm Welcome][/b][/color] or [color=#f3c067][b][Furious Pursue][/b][/color], unlock [ref=s3][color=#f5beb5][b][u][GO GO WOOF WOOF RU!][/u][/b][/color][/ref].",
         "After using [ref=s3][color=#f5beb5][b][u][GO GO WOOF WOOF RU!][/u][/b][/color][/ref], there is a [color=#ff3b1d][b]60%[/b][/color] base chance to decrease the target's Healing Received by [color=#ff3b1d][b]30%/40%/50%[/b][/color] and [color=#ff3b1d][b]DEF[/b][/color] by [color=#ff3b1d][b]6%/12%/18%[/b][/color] (at level 1/50/70) for 2 turns."
       ]
     },
@@ -1588,7 +1588,7 @@
       "id": "a2",
       "tier": 2,
       "name": "Knowing the Heart",
-      "description": "Enemies with debuffs from you increase [color=#ff3b1d][b]CRIT DMG[/b][/color] Taken by [color=#ff3b1d][b]36%[/b][/color] and decrease Healing Received by [color=#ff3b1d][b]20%[/b][/color]."
+      "description": "Enemies with debuffs from Howler increase [color=#ff3b1d][b]CRIT DMG[/b][/color] Taken by [color=#ff3b1d][b]36%[/b][/color] and decrease Healing Received by [color=#ff3b1d][b]20%[/b][/color]."
     },
     {
       "id": "a3",

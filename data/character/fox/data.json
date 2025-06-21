@@ -19,7 +19,7 @@
       "name": "Frost Slash",
       "description": [
         "Deals [color=#00adff][b]92.9% DEF[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to random enemies 5 times, prioritizing enemies that have not been attacked yet.",
-        "When you have Shield, additionally increases skill damage by [color=#00adff][b]30%[/b][/color].",
+        "When Fox has Shield, additionally increases skill damage by [color=#00adff][b]30%[/b][/color].",
         "Decreases skill damage by 60% when attacking the same enemy, up to a maximum of [color=#00adff][b]20%[/b][/color]."
       ]
     },
@@ -31,9 +31,9 @@
         "[b]This skill has a 1 turn Cooldown.[/b]",
         "Upgrades Fox's next [color=#c16d92][b][Dragon Dance][/b][/color] to [color=#7baedd][b][Dragon Roar][/b][/color].",
         "Increase the chance to trigger Counter to [color=#00adff][b]100%[/b][/color], increase skill multiplier by [color=#00adff][b]58.6% DEF[/b][/color] and turn it into an AoE attack.",
-        "Automatically triggers [color=#7baedd][b][Dragon Roar][/b][/color] if you didn't triggered it for 1 turn.",
+        "Automatically triggers [color=#7baedd][b][Dragon Roar][/b][/color] if Fox didn't trigger it for 1 turn.",
         "Gains [color=#00adff][b]19.5% DEF[/b][/color] + [color=#00adff][b]555[/b][/color] as [color=#00adff][b]Shield[/b][/color] for 2 turns.",
-        "Turns your weakness into neutral, gains immunity to Mental Ailments and Taunt all enemies for 2 turns. "
+        "Turns Fox's weakness into neutral, gains immunity to Mental Ailments and Taunt all enemies for 2 turns. "
       ]
     },
     {

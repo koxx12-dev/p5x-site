@@ -1,7 +1,7 @@
 import { createRootRouteWithContext, Outlet } from '@tanstack/solid-router';
 import { TanStackRouterDevtools } from '@tanstack/solid-router-devtools';
 import { Menubar } from '@kobalte/core/menubar';
-import { For } from 'solid-js';
+import { For, Match, Switch } from 'solid-js';
 import { ResponsiveImage } from '@responsive-image/solid';
 
 import home from '@assets/generic/icon/generic/home.svg';
@@ -80,6 +80,11 @@ function NavMenu() {
 										<div
 											class="group relative flex cursor-pointer items-center gap-2"
 											on:click={() => {
+												if (nav.link.startsWith('http')) {
+													window.open(nav.link, '_blank');
+													return;
+												}
+												
 												navigate({ to: nav.link });
 											}}
 										>

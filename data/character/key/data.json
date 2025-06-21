@@ -6,6 +6,719 @@
   "quality": 4,
   "role": "debuff",
   "element": "fire",
+  "skill": [
+    {
+      "id": "s1",
+      "element": "fire",
+      "name": "Inferno Blast",
+      "description": [
+        "Deals [color=#ff3b1d][b]{skill_data} Max HP[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to 1 enemy, with a [color=#ff3b1d][b]100%[/b][/color] base chance to inflict [color=#ff3b1d][b][i]Burn[/i][/b][/color].",
+        "If the target is inflicted with [color=#ff3b1d][b][i]Burn[/i][/b][/color], gains 1 additional stack of [color=#ad3b36][b][Martyr][/b][/color] and changes skill effects: Deals half damage to all enemies, with [color=#ff3b1d][b]100%[/b][/color] base chance to inflict [color=#ff3b1d][b][i]Burn[/i][/b][/color] to all enemies."
+      ],
+      "data": [
+        [
+          [
+            "17.2%",
+            "17.7%",
+            "18.2%",
+            "18.8%",
+            "19.3%",
+            "19.8%"
+          ],
+          [
+            "18.2%",
+            "18.8%",
+            "19.3%",
+            "19.8%",
+            "20.4%",
+            "20.9%"
+          ],
+          [
+            "19.3%",
+            "19.8%",
+            "20.4%",
+            "20.9%",
+            "21.4%",
+            "22.0%"
+          ],
+          [
+            "20.4%",
+            "20.9%",
+            "21.4%",
+            "22.0%",
+            "22.5%",
+            "23.0%"
+          ],
+          [
+            "21.4%",
+            "22.0%",
+            "22.5%",
+            "23.0%",
+            "23.6%",
+            "24.1%"
+          ],
+          [
+            "22.5%",
+            "23.0%",
+            "23.6%",
+            "24.1%",
+            "24.7%",
+            "25.2%"
+          ],
+          [
+            "23.6%",
+            "24.1%",
+            "24.7%",
+            "25.2%",
+            "25.7%",
+            "26.3%"
+          ],
+          [
+            "24.7%",
+            "25.2%",
+            "25.7%",
+            "26.3%",
+            "26.8%",
+            "27.3%"
+          ],
+          [
+            "25.4%",
+            "25.9%",
+            "26.5%",
+            "27.0%",
+            "27.6%",
+            "28.1%"
+          ],
+          [
+            "26.2%",
+            "26.7%",
+            "27.2%",
+            "27.8%",
+            "28.3%",
+            "28.8%"
+          ],
+          [
+            "26.7%",
+            "27.2%",
+            "27.8%",
+            "28.3%",
+            "28.8%",
+            "29.4%"
+          ],
+          [
+            "27.2%",
+            "27.8%",
+            "28.3%",
+            "28.8%",
+            "29.4%",
+            "29.9%"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "s2",
+      "element": "all_fire",
+      "name": "Burning Heart",
+      "description": [
+        "Deals [color=#ff3b1d][b]{skill_data} Max HP[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to all enemies.",
+        "If there is any enemy inflicted with [color=#ff3b1d][b][i]Burn[/i][/b][/color], gains 2 stacks of [color=#ad3b36][b][Martyr][/b][/color] and inflicts any enemy with [color=#ff3b1d][b][i]Burn[/i][/b][/color] with [color=#d5a394][b][Sacred Flame][/b][/color], deals [color=#ff3b1d][b]Fire TECHNICAL[/b][/color].",
+        "[color=#d5a394][b][Sacred Flame][/b][/color]: At the start of the turn, take [color=#ff3b1d][b]{skill_data} Max HP[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] for 2 turns."
+      ],
+      "data": [
+        [
+          [
+            "13.2%",
+            "13.7%",
+            "14.1%",
+            "14.5%",
+            "14.9%",
+            "15.3%"
+          ],
+          [
+            "14.1%",
+            "14.5%",
+            "14.9%",
+            "15.3%",
+            "15.7%",
+            "16.1%"
+          ],
+          [
+            "14.9%",
+            "15.3%",
+            "15.7%",
+            "16.1%",
+            "16.6%",
+            "17.0%"
+          ],
+          [
+            "15.7%",
+            "16.1%",
+            "16.6%",
+            "17.0%",
+            "17.4%",
+            "17.8%"
+          ],
+          [
+            "16.6%",
+            "17.0%",
+            "17.4%",
+            "17.8%",
+            "18.2%",
+            "18.6%"
+          ],
+          [
+            "17.4%",
+            "17.8%",
+            "18.2%",
+            "18.6%",
+            "19.0%",
+            "19.5%"
+          ],
+          [
+            "18.2%",
+            "18.6%",
+            "19.0%",
+            "19.5%",
+            "19.9%",
+            "20.3%"
+          ],
+          [
+            "19.0%",
+            "19.5%",
+            "19.9%",
+            "20.3%",
+            "20.7%",
+            "21.1%"
+          ],
+          [
+            "19.6%",
+            "20.0%",
+            "20.5%",
+            "20.9%",
+            "21.3%",
+            "21.7%"
+          ],
+          [
+            "20.2%",
+            "20.6%",
+            "21.0%",
+            "21.4%",
+            "21.9%",
+            "22.3%"
+          ],
+          [
+            "20.6%",
+            "21.0%",
+            "21.4%",
+            "21.9%",
+            "22.3%",
+            "22.7%"
+          ],
+          [
+            "21.0%",
+            "21.4%",
+            "21.9%",
+            "22.3%",
+            "22.7%",
+            "23.1%"
+          ]
+        ],
+        [
+          [
+            "16.3%",
+            "16.8%",
+            "17.3%",
+            "17.8%",
+            "18.3%",
+            "18.8%"
+          ],
+          [
+            "17.3%",
+            "17.8%",
+            "18.3%",
+            "18.8%",
+            "19.3%",
+            "19.8%"
+          ],
+          [
+            "18.3%",
+            "18.8%",
+            "19.3%",
+            "19.8%",
+            "20.3%",
+            "20.8%"
+          ],
+          [
+            "19.3%",
+            "19.8%",
+            "20.3%",
+            "20.8%",
+            "21.3%",
+            "21.8%"
+          ],
+          [
+            "20.3%",
+            "20.8%",
+            "21.3%",
+            "21.8%",
+            "22.4%",
+            "22.9%"
+          ],
+          [
+            "21.3%",
+            "21.8%",
+            "22.4%",
+            "22.9%",
+            "23.4%",
+            "23.9%"
+          ],
+          [
+            "22.4%",
+            "22.9%",
+            "23.4%",
+            "23.9%",
+            "24.4%",
+            "24.9%"
+          ],
+          [
+            "23.4%",
+            "23.9%",
+            "24.4%",
+            "24.9%",
+            "25.4%",
+            "25.9%"
+          ],
+          [
+            "24.1%",
+            "24.6%",
+            "25.1%",
+            "25.6%",
+            "26.1%",
+            "26.6%"
+          ],
+          [
+            "24.8%",
+            "25.3%",
+            "25.8%",
+            "26.3%",
+            "26.8%",
+            "27.3%"
+          ],
+          [
+            "25.3%",
+            "25.8%",
+            "26.3%",
+            "26.8%",
+            "27.3%",
+            "27.8%"
+          ],
+          [
+            "25.8%",
+            "26.3%",
+            "26.8%",
+            "27.3%",
+            "27.8%",
+            "28.3%"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "s3",
+      "element": "fire",
+      "name": "Purifying Flame",
+      "description": "Deals [color=#ff3b1d][b]{skill_data} Max HP[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to 1 enemy, deals [color=#ff3b1d][b]Fire TECHNICAL[/b][/color], if the enemy is inflicted with [color=#d5a394][b][Sacred Flame][/b][/color], additionally triggers [color=#ff3b1d][b]TECHNICAL[/b][/color], increases skill damage by [color=#ff3b1d][b]30%[/b][/color].",
+      "data": [
+        [
+          [
+            "38.4%",
+            "39.6%",
+            "40.8%",
+            "42.0%",
+            "43.2%",
+            "44.4%"
+          ],
+          [
+            "40.8%",
+            "42.0%",
+            "43.2%",
+            "44.4%",
+            "45.6%",
+            "46.8%"
+          ],
+          [
+            "43.2%",
+            "44.4%",
+            "45.6%",
+            "46.8%",
+            "48.0%",
+            "49.2%"
+          ],
+          [
+            "45.6%",
+            "46.8%",
+            "48.0%",
+            "49.2%",
+            "50.4%",
+            "51.6%"
+          ],
+          [
+            "48.0%",
+            "49.2%",
+            "50.4%",
+            "51.6%",
+            "52.8%",
+            "54.0%"
+          ],
+          [
+            "50.4%",
+            "51.6%",
+            "52.8%",
+            "54.0%",
+            "55.2%",
+            "56.4%"
+          ],
+          [
+            "52.8%",
+            "54.0%",
+            "55.2%",
+            "56.4%",
+            "57.6%",
+            "58.8%"
+          ],
+          [
+            "55.2%",
+            "56.4%",
+            "57.6%",
+            "58.8%",
+            "60.0%",
+            "61.2%"
+          ],
+          [
+            "56.9%",
+            "58.1%",
+            "59.3%",
+            "60.5%",
+            "61.7%",
+            "62.9%"
+          ],
+          [
+            "58.6%",
+            "59.8%",
+            "61.0%",
+            "62.2%",
+            "63.4%",
+            "64.6%"
+          ],
+          [
+            "59.8%",
+            "61.0%",
+            "62.2%",
+            "63.4%",
+            "64.6%",
+            "65.8%"
+          ],
+          [
+            "61.0%",
+            "62.2%",
+            "63.4%",
+            "64.6%",
+            "65.8%",
+            "67.0%"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "hl",
+      "element": "fire",
+      "name": "HIGHLIGHT",
+      "description": "Increases all enemies' [color=#ff3b1d][b]Fire DMG[/b][/color] Taken by [color=#ff3b1d][b]{skill_data}[/b][/color], then deals [color=#ff3b1d][b]{skill_data} Max HP[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to all enemies, with a [color=#ff3b1d][b]100%[/b][/color] base chance to inflict all enemies with [color=#ff3b1d][b][i]Burn[/i][/b][/color] for 2 turns.",
+      "data": [
+        [
+          [
+            "19.7%",
+            "20.3%",
+            "20.9%",
+            "21.6%",
+            "22.2%",
+            "22.8%"
+          ],
+          [
+            "20.9%",
+            "21.6%",
+            "22.2%",
+            "22.8%",
+            "23.4%",
+            "24.0%"
+          ],
+          [
+            "22.2%",
+            "22.8%",
+            "23.4%",
+            "24.0%",
+            "24.6%",
+            "25.3%"
+          ],
+          [
+            "23.4%",
+            "24.0%",
+            "24.6%",
+            "25.3%",
+            "25.9%",
+            "26.5%"
+          ],
+          [
+            "24.6%",
+            "25.3%",
+            "25.9%",
+            "26.5%",
+            "27.1%",
+            "27.7%"
+          ],
+          [
+            "25.9%",
+            "26.5%",
+            "27.1%",
+            "27.7%",
+            "28.3%",
+            "29.0%"
+          ],
+          [
+            "27.1%",
+            "27.7%",
+            "28.3%",
+            "29.0%",
+            "29.6%",
+            "30.2%"
+          ],
+          [
+            "28.3%",
+            "29.0%",
+            "29.6%",
+            "30.2%",
+            "30.8%",
+            "31.4%"
+          ],
+          [
+            "29.2%",
+            "29.8%",
+            "30.4%",
+            "31.0%",
+            "31.7%",
+            "32.3%"
+          ],
+          [
+            "30.1%",
+            "30.7%",
+            "31.3%",
+            "31.9%",
+            "32.5%",
+            "33.1%"
+          ],
+          [
+            "30.7%",
+            "31.3%",
+            "31.9%",
+            "32.5%",
+            "33.1%",
+            "33.8%"
+          ],
+          [
+            "31.3%",
+            "31.9%",
+            "32.5%",
+            "33.1%",
+            "33.8%",
+            "34.4%"
+          ]
+        ],
+        [
+          [
+            "27.2%",
+            "28.1%",
+            "28.9%",
+            "29.7%",
+            "30.6%",
+            "31.5%"
+          ],
+          [
+            "28.9%",
+            "29.7%",
+            "30.6%",
+            "31.5%",
+            "32.3%",
+            "33.2%"
+          ],
+          [
+            "30.6%",
+            "31.5%",
+            "32.3%",
+            "33.2%",
+            "34.0%",
+            "34.9%"
+          ],
+          [
+            "32.3%",
+            "33.2%",
+            "34.0%",
+            "34.9%",
+            "35.7%",
+            "36.6%"
+          ],
+          [
+            "34.0%",
+            "34.9%",
+            "35.7%",
+            "36.6%",
+            "37.4%",
+            "38.3%"
+          ],
+          [
+            "35.7%",
+            "36.6%",
+            "37.4%",
+            "38.2%",
+            "39.1%",
+            "39.9%"
+          ],
+          [
+            "37.4%",
+            "38.3%",
+            "39.1%",
+            "39.9%",
+            "40.8%",
+            "41.7%"
+          ],
+          [
+            "39.1%",
+            "39.9%",
+            "40.8%",
+            "41.7%",
+            "42.5%",
+            "43.4%"
+          ],
+          [
+            "40.3%",
+            "41.1%",
+            "42.0%",
+            "42.8%",
+            "43.7%",
+            "44.5%"
+          ],
+          [
+            "41.5%",
+            "42.3%",
+            "43.2%",
+            "44.0%",
+            "44.9%",
+            "45.7%"
+          ],
+          [
+            "42.3%",
+            "43.2%",
+            "44.0%",
+            "44.9%",
+            "45.7%",
+            "46.6%"
+          ],
+          [
+            "43.2%",
+            "44.0%",
+            "44.9%",
+            "45.7%",
+            "46.6%",
+            "47.4%"
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "p1",
+      "element": "passive",
+      "name": "Gift",
+      "description": "For every 1 stack of [color=#ad3b36][b][Martyr][/b][/color], increase the [color=#ff3b1d][b]Fire DMG[/b][/color] Taken and Elemental Ailment [color=#ff3b1d][b]DMG[/b][/color] Taken for enemies with [color=#d5a394][b][Sacred Flame][/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color].",
+      "data": [
+        [
+          "2.0%",
+          "4.0%",
+          "6.0%"
+        ]
+      ]
+    },
+    {
+      "id": "p2",
+      "element": "passive",
+      "name": "Miracle",
+      "description": [
+        "Increase [color=#ff3b1d][b]Fire DMG[/b][/color] Dealt based on Key's [color=#ff3b1d][b]Max HP[/b][/color].",
+        "For every [color=#ff3b1d][b]300 Max HP[/b][/color] increase [color=#ff3b1d][b]1% Fire DMG[/b][/color], up to [color=#ff3b1d][b]{skill_data} Max HP[/b][/color]."
+      ],
+      "data": [
+        [
+          "3000",
+          "6000",
+          "9000"
+        ]
+      ]
+    }
+  ],
+  "awareness": [
+    {
+      "id": "a0",
+      "tier": 0,
+      "name": "Will of Sacrifce",
+      "description": [
+        "When using skills, gain 1 stack of [color=#ad3b36][b][Martyr][/b][/color].",
+        "[color=#ad3b36][b][Martyr][/b][/color]: Increase all allies' [color=#ff3b1d][b]Fire DMG[/b][/color] Dealt by [color=#ff3b1d][b]5%[/b][/color].",
+        "Each stack of [color=#ad3b36][b][Martyr][/b][/color] count down independently.",
+        "When using skills, Key consumes [color=#ff3b1d][b]4%[/b][/color] current [color=#ff3b1d][b]HP[/b][/color] for 2 turns (max 5 stacks)."
+      ]
+    },
+    {
+      "id": "a1",
+      "tier": 1,
+      "name": "Stacking Fear",
+      "description": "At the start of Key's turn, for every 1 stack of [color=#ad3b36][b][Martyr][/b][/color], there is a [color=#ff3b1d][b]12%[/b][/color] fixed chance to inflict 1 random enemy with [color=#ff3b1d][b][i]Burn[/i][/b][/color]."
+    },
+    {
+      "id": "a2",
+      "tier": 2,
+      "name": "Repent, Sinner",
+      "description": [
+        "[ref=s1][color=#e1ac4c][b][u][Inferno Blast][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +2[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color].",
+        "[ref=s2][color=#e1ac4c][b][u][Burning Heart][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +2[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color]."
+      ]
+    },
+    {
+      "id": "a3",
+      "tier": 3,
+      "name": "Paranormal Event",
+      "description": "At the start of Key's turn, increase own [color=#ff3b1d][b]DMG[/b][/color] Dealt by [color=#ff3b1d][b]8%[/b][/color] for every enemy inflicted with [color=#ff3b1d][b][i]Burn[/i][/b][/color] for 1 turn, up to 3 enemies."
+    },
+    {
+      "id": "a4",
+      "tier": 4,
+      "name": "Exorcism",
+      "description": [
+        "[ref=s3][color=#e1ac4c][b][u][Purifying Flame][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +2[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color].",
+        "[ref=hl][color=#e1ac4c][b][u][Combat Skills][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +2[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color]."
+      ]
+    },
+    {
+      "id": "a5",
+      "tier": 5,
+      "name": "Holy Story",
+      "description": "[ref=hl][color=#e1ac4c][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Additionally increase the target's [color=#ff3b1d][b]Fire DMG[/b][/color] Taken by [color=#ff3b1d][b]30.8%[/b][/color]."
+    },
+    {
+      "id": "a6",
+      "tier": 6,
+      "name": "Salvation",
+      "description": "For every 10 stacks of [color=#ad3b36][b][Martyr][/b][/color] gained, increase all allies' Fire [color=#ff3b1d][b]DMG Dealt[/b][/color] by [color=#ff3b1d][b]30%[/b][/color] for 2 turns."
+    }
+  ],
   "mental_image": {
     "basic": [
       {
