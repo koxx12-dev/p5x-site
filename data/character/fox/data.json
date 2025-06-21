@@ -6,6 +6,111 @@
   "quality": 5,
   "role": "multi",
   "element": "ice",
+  "skill": [
+    {
+      "id": "s1",
+      "element": "all_ice",
+      "name": "Chill Break",
+      "description": "Deals [color=#00adff][b]72.1% DEF[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to all enemies, with a [color=#00adff][b]100%[/b][/color] base chance to inflict the main target with [color=#00adff][b][i]Freeze[/i][/b][/color] for 2 turns."
+    },
+    {
+      "id": "s2",
+      "element": "all_ice",
+      "name": "Frost Slash",
+      "description": [
+        "Deals [color=#00adff][b]92.9% DEF[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to random enemies 5 times, prioritizing enemies that have not been attacked yet.",
+        "When you have Shield, additionally increases skill damage by [color=#00adff][b]30%[/b][/color].",
+        "Decreases skill damage by 60% when attacking the same enemy, up to a maximum of [color=#00adff][b]20%[/b][/color]."
+      ]
+    },
+    {
+      "id": "s3",
+      "element": "all_support",
+      "name": "Ginka-Zanshin",
+      "description": [
+        "[b]This skill has a 1 turn Cooldown.[/b]",
+        "Upgrades Fox's next [color=#c16d92][b][Dragon Dance][/b][/color] to [color=#7baedd][b][Dragon Roar][/b][/color].",
+        "Increase the chance to trigger Counter to [color=#00adff][b]100%[/b][/color], increase skill multiplier by [color=#00adff][b]58.6% DEF[/b][/color] and turn it into an AoE attack.",
+        "Automatically triggers [color=#7baedd][b][Dragon Roar][/b][/color] if you didn't triggered it for 1 turn.",
+        "Gains [color=#00adff][b]19.5% DEF[/b][/color] + [color=#00adff][b]555[/b][/color] as [color=#00adff][b]Shield[/b][/color] for 2 turns.",
+        "Turns your weakness into neutral, gains immunity to Mental Ailments and Taunt all enemies for 2 turns. "
+      ]
+    },
+    {
+      "id": "hl",
+      "element": "all_ice",
+      "name": "HIGHLIGHT",
+      "description": "Deals [color=#00adff][b]178.1% DEF[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to all enemies, and increases the chance to trigger [color=#c16d92][b][Dragon Dance][/b][/color] by [color=#00adff][b]35%[/b][/color] for 3 turns."
+    },
+    {
+      "id": "p1",
+      "element": "passive",
+      "name": "Creation",
+      "description": "When gaining [color=#00adff][b]Shield[/b][/color], increases [color=#00adff][b]DMG Bonus[/b][/color] by [color=#00adff][b]7.5%[/b][/color] for 2 turns, up to 6 stacks."
+    },
+    {
+      "id": "p2",
+      "element": "passive",
+      "name": "Craving",
+      "description": "When using skills that give [color=#00adff][b]Shield[/b][/color], increases Fox's [color=#00adff][b]PEN[/b][/color] by [color=#00adff][b]20.0%[/b][/color] for 1 turn."
+    }
+  ],
+  "awareness": [
+    {
+      "id": "a0",
+      "tier": 0,
+      "name": "Dragon Dance",
+      "description": [
+        "When taking skill damage, there is a [color=#00adff][b]65%[/b][/color] fixed chance to trigger [color=#c16d92][b][Dragon Dance][/b][/color]: a Counter that deals [color=#00adff][b]66% DEF[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to the enemy as a Follow Up Attack.",
+        "Fox can upgrade this effect to [color=#7baedd][b][Dragon Roar][/b][/color] with skills."
+      ]
+    },
+    {
+      "id": "a1",
+      "tier": 1,
+      "name": "Streamline Engraving",
+      "description": "After using [ref=s3][color=#665d9d][b][u][Ginka-Zashin][/u][/b][/color][/ref] 2 times, additionally gain 1 [color=#7baedd][b][Dragon Roar][/b][/color], this Counter will deals [color=#00adff][b]70%[/b][/color] damage."
+    },
+    {
+      "id": "a2",
+      "tier": 2,
+      "name": "Palette Harmony",
+      "description": [
+        "[ref=s3][color=#665d9d][b][u][Ginka-Zashin][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color].",
+        "[ref=hl][color=#665d9d][b][u][Combat Skills][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color]."
+      ]
+    },
+    {
+      "id": "a3",
+      "tier": 3,
+      "name": "Ink Splash",
+      "description": "When Fox's [color=#00adff][b]HP[/b][/color] is not below [color=#00adff][b]35%[/b][/color], increase Follow Up [color=#00adff][b]DMG[/b][/color] by [color=#00adff][b]70%[/b][/color]."
+    },
+    {
+      "id": "a4",
+      "tier": 4,
+      "name": "Intersection of Light and Shadow",
+      "description": [
+        "[ref=s1][color=#665d9d][b][u][Chill Break][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color].",
+        "[ref=s2][color=#665d9d][b][u][Frost Slash][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color]."
+      ]
+    },
+    {
+      "id": "a5",
+      "tier": 5,
+      "name": "Superior Insights",
+      "description": "[ref=hl][color=#665d9d][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Increase Counter [color=#00adff][b]DMG[/b][/color] by [color=#00adff][b]30%[/b][/color] for 3 turns."
+    },
+    {
+      "id": "a6",
+      "tier": 6,
+      "name": "Vibrant Brushstrokes",
+      "description": [
+        "Evolves [color=#c16d92][b][Dragon Dance][/b][/color] and [color=#7baedd][b][Dragon Roar][/b][/color] into [color=#a02159][b][Crazed Dragon Dance][/b][/color] and [color=#2ecade][b][Crazed Dragon Roar][/b][/color].",
+        "Fox's Counter now deal 2 hits of damage, each hit dealing [color=#00adff][b]70%[/b][/color] of the original damage and gain [color=#00adff][b]30% PEN[/b][/color] when triggering Counter."
+      ]
+    }
+  ],
   "mental_image": {
     "basic": [
       {
