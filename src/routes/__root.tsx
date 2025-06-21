@@ -1,7 +1,7 @@
 import { createRootRouteWithContext, Outlet } from '@tanstack/solid-router';
 import { TanStackRouterDevtools } from '@tanstack/solid-router-devtools';
 import { Menubar } from '@kobalte/core/menubar';
-import { For, Match, Switch } from 'solid-js';
+import { For } from 'solid-js';
 import { ResponsiveImage } from '@responsive-image/solid';
 
 import home from '@assets/generic/icon/generic/home.svg';
@@ -84,7 +84,7 @@ function NavMenu() {
 													window.open(nav.link, '_blank');
 													return;
 												}
-												
+
 												navigate({ to: nav.link });
 											}}
 										>
