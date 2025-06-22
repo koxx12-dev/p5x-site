@@ -9,30 +9,36 @@ import discord from '@assets/generic/icon/generic/discord.svg';
 import metaverseNav from '@assets/generic/icon/generic/metaverse.png?responsive';
 
 const nav = [
-	{
-		link: '/',
-		name: 'Home',
-		icon: home,
-		icon_alt: 'home icon',
-	},
+	// {
+	// 	link: '/',
+	// 	name: 'Home',
+	// 	icon: home,
+	// 	icon_alt: 'home icon',
+	// },
 	{
 		link: '/character',
-		name: 'Character',
+		name: 'Thieves',
 		icon: home,
-		icon_alt: 'character icon',
+		icon_alt: 'Thieves icon',
 	},
 	{
-		link: '/palace',
-		name: 'Palace',
+		link: '/tierlist',
+		name: 'Tier List',
 		icon: home,
-		icon_alt: 'palace icon',
+		icon_alt: 'tier list icon',
 	},
-	{
-		link: '/settings',
-		name: 'Settings',
-		icon: home,
-		icon_alt: 'settings icon',
-	},
+	// {
+	// 	link: '/palace',
+	// 	name: 'Palace',
+	// 	icon: home,
+	// 	icon_alt: 'palace icon',
+	// },
+	// {
+	// 	link: '/settings',
+	// 	name: 'Settings',
+	// 	icon: home,
+	// 	icon_alt: 'settings icon',
+	// },
 	{
 		link: 'https://discord.gg/p5xworldwide',
 		name: 'P5X Worldwide',
