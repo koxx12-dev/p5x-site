@@ -7,19 +7,28 @@ import { ResponsiveImage } from '@responsive-image/solid';
 import home from '@assets/generic/icon/generic/home.svg';
 import discord from '@assets/generic/icon/generic/discord.svg';
 import metaverseNav from '@assets/generic/icon/generic/metaverse.png?responsive';
+import { cn } from 'src/utils';
 
 const nav = [
-	// {
-	// 	link: '/',
-	// 	name: 'Home',
-	// 	icon: home,
-	// 	icon_alt: 'home icon',
-	// },
+	{
+		link: '/',
+		name: 'Home',
+		icon: home,
+		icon_alt: 'home icon',
+		disabled: true,
+	},
 	{
 		link: '/character',
 		name: 'Thieves',
 		icon: home,
-		icon_alt: 'Thieves icon',
+		icon_alt: 'thieves icon',
+	},
+	{
+		link: '/palace',
+		name: 'Palace',
+		icon: home,
+		icon_alt: 'palace icon',
+		disabled: true,
 	},
 	{
 		link: '/tierlist',
@@ -27,18 +36,13 @@ const nav = [
 		icon: home,
 		icon_alt: 'tier list icon',
 	},
-	// {
-	// 	link: '/palace',
-	// 	name: 'Palace',
-	// 	icon: home,
-	// 	icon_alt: 'palace icon',
-	// },
-	// {
-	// 	link: '/settings',
-	// 	name: 'Settings',
-	// 	icon: home,
-	// 	icon_alt: 'settings icon',
-	// },
+	{
+		link: '/settings',
+		name: 'Settings',
+		icon: home,
+		icon_alt: 'settings icon',
+		disabled: true,
+	},
 	{
 		link: 'https://discord.gg/p5xworldwide',
 		name: 'P5X Worldwide',
@@ -84,8 +88,13 @@ function NavMenu() {
 								{(nav) => (
 									<Menubar.Item class="outline-hidden">
 										<div
-											class="group relative flex cursor-pointer items-center gap-2"
+											class={cn(
+												'group relative flex cursor-pointer items-center gap-2',
+												nav.disabled && 'pointer-events-none opacity-50',
+											)}
 											on:click={() => {
+												if (nav.disabled) return;
+
 												if (nav.link.startsWith('http')) {
 													window.open(nav.link, '_blank');
 													return;
@@ -99,7 +108,7 @@ function NavMenu() {
 												{nav.name}
 											</span>
 											<span
-												class="-inset-1.5 -skew-7 absolute block bg-white opacity-0 mix-blend-difference transition-opacity duration-50 group-hover:opacity-100"
+												class='-inset-1.5 -skew-7 absolute z-51 block bg-white opacity-0 mix-blend-difference transition-opacity duration-50 group-hover:opacity-100'
 												aria-hidden="true"
 											/>
 										</div>

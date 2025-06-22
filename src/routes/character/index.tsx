@@ -45,7 +45,7 @@ function RouteComponent() {
 
 	return (
 		<div class="flex flex-col gap-2 p-4">
-			<h1 class="font-semibold text-4xl text-white">Characters</h1>
+			<h1 class="font-semibold text-4xl text-white">Thieves</h1>
 			<div class="flex flex-row gap-2 pt-2">
 				<SearchBar setValue={setSearch} />
 			</div>
