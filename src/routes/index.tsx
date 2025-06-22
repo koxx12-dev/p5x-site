@@ -1,5 +1,5 @@
 import { createFileRoute, useNavigate } from '@tanstack/solid-router';
-import najox from '../../public/assets/namjox.png';
+import widejox from '/assets/namjox.png?url';
 
 export const Route = createFileRoute('/')({
 	component: RouteComponent,
@@ -14,7 +14,7 @@ function RouteComponent() {
 				to: '/character'
 			})
 		}}>
-			<img src={najox} aria-hidden class='h-full w-full object-fill' />
+			<img src={widejox} aria-hidden class='h-full w-full object-fill' />
 		</div>
 	);
 }

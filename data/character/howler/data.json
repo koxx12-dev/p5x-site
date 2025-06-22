@@ -1635,8 +1635,8 @@
         "def": "75",
         "crit_c_prec": "5%",
         "crit_dmg_prec": "150%",
-        "spd": "105",
-        "eff_hit_prec": "0%"
+        "eff_hit_prec": "0%",
+        "spd": "105"
       },
       "10": {
         "hp": "637",
@@ -1645,8 +1645,8 @@
         "def": "128",
         "crit_c_prec": "5%",
         "crit_dmg_prec": "150%",
-        "spd": "105",
-        "eff_hit_prec": "0%"
+        "eff_hit_prec": "0%",
+        "spd": "105"
       }
     },
     {

@@ -13,6 +13,7 @@ const characterStat = type.enumerated(
 	'crit_dmg_prec',
 	'eff_hit_prec',
 	'sp_rec_prec',
+	'heal_eff_prec',
 );
 type CharacterStat = typeof characterStat.infer;
 
@@ -26,6 +27,7 @@ const statNames: Record<CharacterStat, string> = {
 	crit_dmg_prec: 'Crit Damage',
 	eff_hit_prec: 'Effect Hit Rate',
 	sp_rec_prec: 'SP Recovery',
+	heal_eff_prec: 'Healing Effect',
 };
 
 export function CharacterStatsTable(props: { stats: CharacterStats }) {
