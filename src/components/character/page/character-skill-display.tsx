@@ -1,8 +1,8 @@
 import { For } from 'solid-js';
 import { CharacterSkillComponent } from './character-skill-component';
-import type { CharacterSkill } from '@types';
+import type { ThiefSkill } from '@types';
 
-export function CharacterSkillDisplay(props: { skill: CharacterSkill[] }) {
+export function CharacterSkillDisplay(props: { skill: ThiefSkill[] }) {
 	return (
 		<div class="mt-5 flex w-full flex-col gap-2">
 			<h3 class="font-semibold text-4xl text-white" id="skills">

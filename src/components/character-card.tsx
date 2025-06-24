@@ -4,16 +4,16 @@ import { RoleDisplay } from './role';
 import { CharacterAssetDisplay } from './character-asset';
 import { cn } from '../utils';
 import { Show } from 'solid-js';
-import { getThiefById } from '@collections/thief';
+import { useThief } from 'src/hooks/collectionts';
 
 export function CharacterCard(props: { characterId: string }) {
 	const navigate = useNavigate();
 
-	const characterData = getThiefById(props.characterId);
+	const thief = useThief(props.characterId);
 
 	return (
 		//suspense is used here to override the root one stopping everything from using focus, preferably we would not use the match but things depend on id being known
-		<Show when={characterData}>
+		<Show when={thief()}>
 			{(characterData) => (
 				<div
 					class="relative h-32 w-28 cursor-pointer rounded-lg bg-red-600 transition-ease-in-out duration-100 hover:scale-110"

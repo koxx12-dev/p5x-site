@@ -1,3 +1,4 @@
+import { VerticalBox } from '@components/verticalbox';
 import { createFileRoute, Outlet } from '@tanstack/solid-router';
 
 export const Route = createFileRoute('/character')({
@@ -6,10 +7,8 @@ export const Route = createFileRoute('/character')({
 
 function RouteComponent() {
 	return (
-		<div class="flex min-h-screen flex-row justify-center">
-			<main class="min-h-screen w-full max-w-301 border-red-600 border-r-2 border-l-2 bg-black/40 [view-transition-name:main]">
+		<VerticalBox>
 				<Outlet />
-			</main>
-		</div>
+		</VerticalBox>
 	);
 }

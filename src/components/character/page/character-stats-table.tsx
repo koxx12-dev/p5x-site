@@ -1,7 +1,7 @@
 import { createMemo, For, Show } from 'solid-js';
 import { Box } from '../../box';
 import { type } from 'arktype';
-import type { CharacterStats } from '@types';
+import type { ThiefStats } from '@types';
 
 const characterStat = type.enumerated(
 	'hp',
@@ -30,7 +30,7 @@ const statNames: Record<CharacterStat, string> = {
 	heal_eff_prec: 'Healing Effect',
 };
 
-export function CharacterStatsTable(props: { stats: CharacterStats }) {
+export function CharacterStatsTable(props: { stats: ThiefStats }) {
 	const headers = createMemo(() => {
 		if (props.stats.length === 0) {
 			return [];

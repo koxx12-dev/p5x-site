@@ -6,6 +6,11 @@
   "quality": 5,
   "role": "multi",
   "element": "curse",
+  "available_regions": [
+    "kr-tw",
+    "cn",
+    "glb-jp"
+  ],
   "skill": [
     {
       "id": "s1",

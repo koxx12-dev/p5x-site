@@ -6,6 +6,10 @@
   "quality": 5,
   "role": "single",
   "element": "physical",
+  "available_regions": [
+    "kr-tw",
+    "cn"
+  ],
   "description": "",
   "skill": [],
   "awareness": []

@@ -15,7 +15,6 @@ const router = createRouter({
 	scrollRestoration: true,
 	defaultHashScrollIntoView: { behavior: 'smooth', block: 'center' },
 	defaultPreload: 'intent',
-	defaultPreloadStaleTime: 0,
 	defaultViewTransition: true,
 	history,
 });

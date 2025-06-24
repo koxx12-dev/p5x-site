@@ -6,6 +6,9 @@
     "quality": 5,
     "role": "buff",
     "element": "elec",
+    "available_regions": [
+        "kr-tw",
+        "cn"],
     "skill": [
         {
             "id": "s1",

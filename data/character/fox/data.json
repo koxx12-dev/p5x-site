@@ -6,6 +6,10 @@
   "quality": 5,
   "role": "multi",
   "element": "ice",
+  "available_regions": [
+    "kr-tw",
+    "cn"
+  ],
   "skill": [
     {
       "id": "s1",

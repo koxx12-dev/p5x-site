@@ -36,4 +36,8 @@
         "Yuki"
     ],
     "editor.defaultFormatter": "biomejs.biome",
+    "tailwindCSS.classFunctions": [
+        "cva",
+        "cx"
+    ]
 }

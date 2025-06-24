@@ -1,5 +1,11 @@
 import { type } from "arktype";
 
+export const region = type.enumerated('cn', 'kr-tw', 'glb-jp', 'sea');
+export type Region = typeof region.infer;
+
+export const language = type.enumerated("en");
+export type Language = typeof language.infer;
+
 export const awareness = type.enumerated("a1", "a2", "a3", "a4", "a5", "a6", "a7");
 export type Awareness = typeof awareness.infer;
 
@@ -83,43 +89,38 @@ export const element = type.enumerated(
 export const role = type.enumerated("single", "multi", "heal", "buff", "debuff", "tank", "navi");
 export type Role = typeof role.infer;
 
-export type StubCharacter = typeof stubCharacter.infer;
-export const stubCharacter = type({
-    id: "string",
-});
-
-export type CharacterAwareness = typeof characterAwareness.infer;
-export const characterAwareness = type({
+export type ThiefAwareness = typeof ThiefAwareness.infer;
+export const ThiefAwareness = type({
     id: "string",
     tier: "0 <= number <= 7",
     name: "string",
     description: "string | string[]",
 });
 
-export type CharacterSkillData = typeof characterSkillData.infer;
-export const characterSkillData = type("(string | string[])")
+export type ThiefSkillData = typeof thiefSkillData.infer;
+export const thiefSkillData = type("(string | string[])")
 
-export type CharacterSkill = typeof characterSkill.infer;
-export const characterSkill = type({
+export type ThiefSkill = typeof thiefSkill.infer;
+export const thiefSkill = type({
     id: "string",
     element: element,
     name: "string",
     description: "string | string[]",
-    data: characterSkillData.array().array().optional(),
+    data: thiefSkillData.array().array().optional(),
 });
 
-export type CharacterTrivia = typeof characterTrivia.infer;
-export const characterTrivia = type({
-    b_day: "string",
-    constellation: "string",
-    age: "number",
-    height: "number",
-    weight: "number",
-    interests: "string",
-    specialties: "string",
-});
+// export type thiefTrivia = typeof thiefTrivia.infer;
+// export const thiefTrivia = type({
+//     b_day: "string",
+//     constellation: "string",
+//     age: "number",
+//     height: "number",
+//     weight: "number",
+//     interests: "string",
+//     specialties: "string",
+// });
 
-export type FullCharacter = typeof fullCharacter.infer;
+export type Thief = typeof thief.infer;
 export const mentalImageBuff = type({
     type: "'atk_prec' | 'def_prec' | 'hp_prec' | 'dmg_prec' | 'dmg_res_prec' | 'eff_hit_prec' | 'eff_res_prec' | 'crit_dmg_prec' | 'crit_c_prec' | 'pen_prec' | 'heal_eff_prec' | 'spd' | 'sp_rec_prec' | 'shd_eff_prec'",
     values: "string[]",
@@ -139,31 +140,45 @@ export const mentalImageBells = type({
 });
 
 export type MentalImageBells = typeof mentalImageBells.infer;
-export const characterMentalImage = type({
+export const thiefMentalImage = type({
     basic: mentalImageBasic.array(),
     bells: mentalImageBells.array(),
     stat_buff_1: mentalImageBuff,
     stat_buff_2: mentalImageBuff,
 });
 
-export type CharacterMentalImage = typeof characterMentalImage.infer;
+export type ThiefMentalImage = typeof thiefMentalImage.infer;
 
-export const characterStatEntry = type.Record("string", "string");
-export const characterStats = type.Record("string", characterStatEntry).array();
+export const thiefStatEntry = type.Record("string", "string");
+export const thiefStats = type.Record("string", thiefStatEntry).array();
 
-export type CharacterStatEntry = typeof characterStatEntry.infer;
-export type CharacterStats = typeof characterStats.infer;
+export type ThiefStatEntry = typeof thiefStatEntry.infer;
+export type ThiefStats = typeof thiefStats.infer;
 
-export const fullCharacter = type({
+export const thief = type({
     id: "string",
     quality: "4 | 5",
     code_name: "string",
     full_name: "string",
     role: role,
     element: element,
-    skill: characterSkill.array().optional(),
-    awareness: characterAwareness.array().optional(),
-    mental_image: characterMentalImage.optional(),
-    stats: characterStats.optional(),
+    skill: thiefSkill.array().optional(),
+    awareness: ThiefAwareness.array().optional(),
+    mental_image: thiefMentalImage.optional(),
+    stats: thiefStats.optional(),
     extra: type.Record("string", "string | string[]").optional(),
+    available_regions: region.array().optional(),
 });
+
+export const thiefOverride = type({
+    code_name: "string | null",
+    full_name: "string | null",
+    role: role.or("null"),
+    element: element.or("null"),
+    skill: thiefSkill.array().or("null").optional(),
+    awareness: ThiefAwareness.array().or("null").optional(),
+    mental_image: thiefMentalImage.or("null").optional(),
+    stats: thiefStats.or("null").optional(),
+    extra: type.Record("string", "string | string[]").or("null").optional(),
+    available_regions: region.array().or("null").optional(),
+}).partial();

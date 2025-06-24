@@ -2,10 +2,10 @@ import { For } from 'solid-js';
 import { CharacterMentalImageBasic } from './character-mental-image-basic';
 import { CharacterMentalImageBuff } from './character-mental-image-buff';
 import { CharacterMentalImageBells } from './character-mental-image-bells';
-import type { CharacterMentalImage } from '@types';
+import type { ThiefMentalImage } from '@types';
 
 type CharacterMentalImageProps = {
-	mentalImage: CharacterMentalImage;
+	mentalImage: ThiefMentalImage;
 };
 
 export function CharacterMentalImageDisplay(props: CharacterMentalImageProps) {

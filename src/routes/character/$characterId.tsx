@@ -13,28 +13,27 @@ import { CharacterSkillDisplay } from '../../components/character/page/character
 import { CharacterMentalImageDisplay } from '../../components/character/page/character-mental-image-display';
 import { CharacterStatsTable } from '../../components/character/page/character-stats-table';
 import { cn } from '../../utils';
-import { getThiefById } from 'src/collections/thief';
-import type { FullCharacter } from '@types';
+import type { Thief } from '@types';
+import { useThief } from 'src/hooks/collectionts';
 
 export const Route = createFileRoute('/character/$characterId')({
 	component: RouteComponent,
-	errorComponent: ErrorRouteComponent,
-	notFoundComponent: NotFoundRouteComponent,
+	errorComponent: ErrorRouteComponent
 });
 
 function RouteComponent() {
 	const params = Route.useParams();
 
-	const thief = getThiefById(params().characterId);
+	const thief = useThief(params().characterId);
 
 	return (
-		<Show when={thief}>
-			{(characterData) => (
+		<Show when={thief()} fallback={<NotFoundRouteComponent />}>
+			{(thiefData) => (
 				<div class="m-4 flex flex-col gap-2">
 					<div class="flex flex-col gap-2 pt-2 xl:flex-row">
 						<div class="relative aspect-2/1 size-full xl:static xl:aspect-square">
 							<CharacterAssetDisplay
-								characterId={characterData().id}
+								characterId={thiefData().id}
 								assetType={'full'}
 								class="mask-b-from-50% xl:mask-none absolute aspect-square w-full xl:static"
 								loading="eager"
@@ -45,49 +44,49 @@ function RouteComponent() {
 								<h1
 									class="relative font-semibold text-6xl text-white"
 									style={{
-										'view-transition-name': `code-name-${characterData().id}`,
+										'view-transition-name': `code-name-${thiefData().id}`,
 									}}
 								>
-									{(characterData() as FullCharacter).code_name}
+									{(thiefData() as Thief).code_name}
 								</h1>
 								<span
 									class={cn(
 										'absolute bottom-6.5 h-1 w-full',
-										(characterData() as FullCharacter).quality === 5 &&
+										(thiefData() as Thief).quality === 5 &&
 											'bg-[url(/assets/rainbow.svg)] bg-size-[100%]',
-										(characterData() as FullCharacter).quality === 4 &&
+										(thiefData() as Thief).quality === 4 &&
 											'bg-star-gold',
 									)}
 									aria-hidden="true"
 								/>
 								<h2 class="absolute bottom-0 text-nowrap font-semibold text-normal text-white">
-									{(characterData() as FullCharacter).full_name}
+									{(thiefData() as Thief).full_name}
 								</h2>
 								<RoleDisplay
-									characterRole={(characterData() as FullCharacter).role}
+									characterRole={(thiefData() as Thief).role}
 									class="-right-10 absolute top-0 h-8 w-8"
 								/>
 								<ElementDisplay
-									element={(characterData() as FullCharacter).element}
+									element={(thiefData() as Thief).element}
 									class="-right-10 absolute top-7.5 h-8 w-8"
 								/>
 							</div>
-							<Show when={(characterData() as FullCharacter).stats}>
+							<Show when={(thiefData() as Thief).stats}>
 								{(stats) => <CharacterStatsTable stats={stats()} />}
 							</Show>
 						</div>
 					</div>
 					<div class="z-1">
-						<Show when={characterData().skill}>
+						<Show when={thiefData().skill}>
 							{(skill) => <CharacterSkillDisplay skill={skill()} />}
 						</Show>
 
-						<Show when={characterData().awareness}>
+						<Show when={thiefData().awareness}>
 							{(awareness) => (
 								<CharacterAwarenessDisplay awareness={awareness()} />
 							)}
 						</Show>
-						<Show when={characterData().mental_image}>
+						<Show when={thiefData().mental_image}>
 							{(mentalImage) => (
 								<CharacterMentalImageDisplay mentalImage={mentalImage()} />
 							)}

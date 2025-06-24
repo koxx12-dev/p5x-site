@@ -23,7 +23,7 @@ export function ElementFilter(props: {
 
 	return (
 		<ToggleGroup
-			class="flex flex-shrink-0 gap-x-2 rounded-lg border-2 border-black bg-red-700 p-1 dark:border-red-600 dark:bg-black/60"
+			class="flex flex-shrink-0 gap-x-2 rounded-lg border-2 border-black bg-red-700 p-1 dark:border-red-600 dark:bg-zinc-800/40"
 			multiple={true}
 			value={props.value}
 			onChange={props.setValue}

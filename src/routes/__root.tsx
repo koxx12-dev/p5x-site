@@ -31,6 +31,12 @@ const nav = [
 		disabled: true,
 	},
 	{
+		link: '/guide',
+		name: 'Guides',
+		icon: home,
+		icon_alt: 'guide icon',
+	},
+	{
 		link: '/tierlist',
 		name: 'Tier List',
 		icon: home,
@@ -41,7 +47,6 @@ const nav = [
 		name: 'Settings',
 		icon: home,
 		icon_alt: 'settings icon',
-		disabled: true,
 	},
 	{
 		link: 'https://discord.gg/p5xworldwide',
@@ -83,7 +88,7 @@ function NavMenu() {
 						/>
 					</Menubar.Trigger>
 					<Menubar.Portal>
-						<Menubar.Content class="ui-expanded:motion-opacity-in-0 ui-expanded:-motion-translate-x-in-25 ui-expanded:-motion-translate-y-in-25 ui-expanded:motion-scale-in-75 motion-opacity-out-0 motion-duration-[120ms] motion-scale-out-75 -motion-translate-x-out-25 -motion-translate-y-out-25 top-2 left-2 z-50 rounded-xl border-2 border-black bg-red-700 p-2 text-white shadow-md outline-hidden backdrop-blur-sm dark:border-red-600 dark:bg-black/60">
+						<Menubar.Content class="ui-expanded:motion-opacity-in-0 ui-expanded:-motion-translate-x-in-25 ui-expanded:-motion-translate-y-in-25 ui-expanded:motion-scale-in-75 motion-opacity-out-0 motion-duration-[120ms] motion-scale-out-75 -motion-translate-x-out-25 -motion-translate-y-out-25 top-2 left-2 z-50 rounded-xl border-2 border-black bg-red-700 p-2 text-white shadow-md outline-hidden backdrop-blur-sm dark:border-red-600 dark:bg-black/40">
 							<For each={nav}>
 								{(nav) => (
 									<Menubar.Item class="outline-hidden">

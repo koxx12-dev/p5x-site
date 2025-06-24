@@ -59,7 +59,7 @@ export function LevelDropdown(props: LevelDropdownProps) {
 							realProps.colorScheme === 'velvet' &&
 								'border-black bg-blue-700 p-2 dark:border-blue-600 dark:bg-black/60',
 							realProps.colorScheme === 'default' &&
-								'border-black bg-red-700 p-4 pt-2 dark:border-red-600 dark:bg-black/60',
+								'border-black bg-red-700 p-4 py-2 dark:border-red-600 dark:bg-black/60',
 						)}
 					/>
 				</Combobox.Content>

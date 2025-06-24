@@ -12,9 +12,11 @@
 
 import { Route as rootRoute } from './routes/__root'
 import { Route as TierlistImport } from './routes/tierlist'
+import { Route as SettingsImport } from './routes/settings'
 import { Route as CharacterRouteImport } from './routes/character/route'
 import { Route as IndexImport } from './routes/index'
 import { Route as PalaceIndexImport } from './routes/palace/index'
+import { Route as GuideIndexImport } from './routes/guide/index'
 import { Route as CharacterIndexImport } from './routes/character/index'
 import { Route as CharacterCharacterIdImport } from './routes/character/$characterId'
 
@@ -23,6 +25,12 @@ import { Route as CharacterCharacterIdImport } from './routes/character/$charact
 const TierlistRoute = TierlistImport.update({
   id: '/tierlist',
   path: '/tierlist',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const SettingsRoute = SettingsImport.update({
+  id: '/settings',
+  path: '/settings',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -41,6 +49,12 @@ const IndexRoute = IndexImport.update({
 const PalaceIndexRoute = PalaceIndexImport.update({
   id: '/palace/',
   path: '/palace/',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const GuideIndexRoute = GuideIndexImport.update({
+  id: '/guide/',
+  path: '/guide/',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -74,6 +88,13 @@ declare module '@tanstack/solid-router' {
       preLoaderRoute: typeof CharacterRouteImport
       parentRoute: typeof rootRoute
     }
+    '/settings': {
+      id: '/settings'
+      path: '/settings'
+      fullPath: '/settings'
+      preLoaderRoute: typeof SettingsImport
+      parentRoute: typeof rootRoute
+    }
     '/tierlist': {
       id: '/tierlist'
       path: '/tierlist'
@@ -94,6 +115,13 @@ declare module '@tanstack/solid-router' {
       fullPath: '/character/'
       preLoaderRoute: typeof CharacterIndexImport
       parentRoute: typeof CharacterRouteImport
+    }
+    '/guide/': {
+      id: '/guide/'
+      path: '/guide'
+      fullPath: '/guide'
+      preLoaderRoute: typeof GuideIndexImport
+      parentRoute: typeof rootRoute
     }
     '/palace/': {
       id: '/palace/'
@@ -124,17 +152,21 @@ const CharacterRouteRouteWithChildren = CharacterRouteRoute._addFileChildren(
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/character': typeof CharacterRouteRouteWithChildren
+  '/settings': typeof SettingsRoute
   '/tierlist': typeof TierlistRoute
   '/character/$characterId': typeof CharacterCharacterIdRoute
   '/character/': typeof CharacterIndexRoute
+  '/guide': typeof GuideIndexRoute
   '/palace': typeof PalaceIndexRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/settings': typeof SettingsRoute
   '/tierlist': typeof TierlistRoute
   '/character/$characterId': typeof CharacterCharacterIdRoute
   '/character': typeof CharacterIndexRoute
+  '/guide': typeof GuideIndexRoute
   '/palace': typeof PalaceIndexRoute
 }
 
@@ -142,45 +174,62 @@ export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
   '/character': typeof CharacterRouteRouteWithChildren
+  '/settings': typeof SettingsRoute
   '/tierlist': typeof TierlistRoute
   '/character/$characterId': typeof CharacterCharacterIdRoute
   '/character/': typeof CharacterIndexRoute
+  '/guide/': typeof GuideIndexRoute
   '/palace/': typeof PalaceIndexRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
-  | '/'
-  | '/character'
-  | '/tierlist'
-  | '/character/$characterId'
-  | '/character/'
-  | '/palace'
+    | '/'
+    | '/character'
+    | '/settings'
+    | '/tierlist'
+    | '/character/$characterId'
+    | '/character/'
+    | '/guide'
+    | '/palace'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/tierlist' | '/character/$characterId' | '/character' | '/palace'
+  to:
+    | '/'
+    | '/settings'
+    | '/tierlist'
+    | '/character/$characterId'
+    | '/character'
+    | '/guide'
+    | '/palace'
   id:
-  | '__root__'
-  | '/'
-  | '/character'
-  | '/tierlist'
-  | '/character/$characterId'
-  | '/character/'
-  | '/palace/'
+    | '__root__'
+    | '/'
+    | '/character'
+    | '/settings'
+    | '/tierlist'
+    | '/character/$characterId'
+    | '/character/'
+    | '/guide/'
+    | '/palace/'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   CharacterRouteRoute: typeof CharacterRouteRouteWithChildren
+  SettingsRoute: typeof SettingsRoute
   TierlistRoute: typeof TierlistRoute
+  GuideIndexRoute: typeof GuideIndexRoute
   PalaceIndexRoute: typeof PalaceIndexRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   CharacterRouteRoute: CharacterRouteRouteWithChildren,
+  SettingsRoute: SettingsRoute,
   TierlistRoute: TierlistRoute,
+  GuideIndexRoute: GuideIndexRoute,
   PalaceIndexRoute: PalaceIndexRoute,
 }
 
@@ -196,7 +245,9 @@ export const routeTree = rootRoute
       "children": [
         "/",
         "/character",
+        "/settings",
         "/tierlist",
+        "/guide/",
         "/palace/"
       ]
     },
@@ -210,6 +261,9 @@ export const routeTree = rootRoute
         "/character/"
       ]
     },
+    "/settings": {
+      "filePath": "settings.tsx"
+    },
     "/tierlist": {
       "filePath": "tierlist.tsx"
     },
@@ -220,6 +274,9 @@ export const routeTree = rootRoute
     "/character/": {
       "filePath": "character/index.tsx",
       "parent": "/character"
+    },
+    "/guide/": {
+      "filePath": "guide/index.tsx"
     },
     "/palace/": {
       "filePath": "palace/index.tsx"

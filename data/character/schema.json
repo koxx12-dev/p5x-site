@@ -67,6 +67,17 @@
                 "tank"
             ]
         },
+        "available_regions": {
+            "type": "array",
+            "items": {
+                "enum": [
+                    "cn",
+                    "glb-jp",
+                    "kr-tw",
+                    "sea"
+                ]
+            }
+        },
         "awareness": {
             "type": "array",
             "items": {
@@ -104,19 +115,6 @@
                     "tier"
                 ]
             }
-        },
-        "description": {
-            "anyOf": [
-                {
-                    "type": "string"
-                },
-                {
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    }
-                }
-            ]
         },
         "extra": {
             "type": "object",

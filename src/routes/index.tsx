@@ -1,5 +1,6 @@
 import { createFileRoute, useNavigate } from '@tanstack/solid-router';
 import widejox from '/assets/namjox.png?url';
+import { onMount } from 'solid-js';
 
 export const Route = createFileRoute('/')({
 	component: RouteComponent,
@@ -7,6 +8,13 @@ export const Route = createFileRoute('/')({
 
 function RouteComponent() {
 	const navigate = useNavigate();
+
+	onMount(() => {
+		//funny
+		setTimeout(() => {
+			navigate({ to: '/character' });
+		}, 1000);
+	})
 
 	return (
 		<div class='h-screen w-full' on:click={() => {

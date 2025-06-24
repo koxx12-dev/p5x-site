@@ -6,7 +6,9 @@
   "quality": 4,
   "role": "tank",
   "element": "bless",
-  "description": "",
-  "skill": [],
-  "awareness": []
+  "available_regions": [
+    "kr-tw",
+    "cn",
+    "glb-jp"
+  ]
 }

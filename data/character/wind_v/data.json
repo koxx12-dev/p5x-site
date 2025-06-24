@@ -6,6 +6,10 @@
   "quality": 5,
   "role": "buff",
   "element": "wind",
+  "available_regions": [
+    "kr-tw",
+    "cn"
+  ],
   "stats":[
     {
       "1": {

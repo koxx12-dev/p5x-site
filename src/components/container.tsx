@@ -1,6 +1,6 @@
 import { mergeProps, type JSX } from 'solid-js';
 import { cn } from '../utils';
-import { type BoxColorScheme, Box } from './box';
+import { type BoxColorScheme, Box, type BoxIntent } from './box';
 
 type Variant = 'default' | 'compact';
 
@@ -10,9 +10,10 @@ export function Container(props: {
 	class?: string;
 	variant?: Variant;
 	colorScheme?: BoxColorScheme;
+	intent?: BoxIntent;
 }) {
 	const realProps = mergeProps(
-		{ variant: 'default', colorScheme: 'default' },
+		{ variant: 'default', colorScheme: 'default', accent: 'primary' },
 		props,
 	);
 
@@ -24,6 +25,7 @@ export function Container(props: {
 				realProps.class,
 			)}
 			colorScheme={realProps.colorScheme as BoxColorScheme}
+			intent={realProps.intent as BoxIntent}
 		>
 			{realProps.header}
 			<div

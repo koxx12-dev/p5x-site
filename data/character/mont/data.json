@@ -6,6 +6,11 @@
   "quality": 4,
   "role": "single",
   "element": "ice",
+  "available_regions": [
+    "kr-tw",
+    "cn",
+    "glb-jp"
+  ],
   "description": "",
   "skill": [],
   "awareness": []

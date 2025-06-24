@@ -16,7 +16,7 @@ export function RoleFilter(props: { setValue: Setter<Role[]>; value: Role[] }) {
 
 	return (
 		<ToggleGroup
-			class="flex w-max flex-shrink-0 flex-row gap-x-2 rounded-lg border-2 border-black bg-red-700 p-1 dark:border-red-600 dark:bg-black/60"
+			class="flex w-max flex-shrink-0 flex-row gap-x-2 rounded-lg border-2 border-black bg-red-700 p-1 dark:border-red-600 dark:bg-zinc-800/60"
 			multiple={true}
 			value={props.value}
 			onChange={props.setValue}

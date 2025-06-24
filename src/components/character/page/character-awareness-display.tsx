@@ -1,11 +1,11 @@
 import { For } from 'solid-js';
-import type { CharacterAwareness } from '@types';
+import type { ThiefAwareness } from '@types';
 import { AwarenessDisplay } from '../../awareness';
 import { BBCodeRenderer } from '../../bbcode-render';
 import { Container } from '../../container';
 
 export function CharacterAwarenessDisplay(props: {
-	awareness: CharacterAwareness[];
+	awareness: ThiefAwareness[];
 }) {
 	return (
 		<div class="mt-5 flex w-full flex-col gap-2">

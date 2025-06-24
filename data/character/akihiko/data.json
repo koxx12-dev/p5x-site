@@ -1,0 +1,13 @@
+{
+  "$schema": "../schema.json",
+  "id": "akihiko",
+  "code_name": "Akihiko",
+  "full_name": "Akihiko Sanada",
+  "quality": 5,
+  "role": "multi",
+  "element": "elec",
+  "available_regions": [
+    "kr-tw",
+    "cn"
+  ]
+}
