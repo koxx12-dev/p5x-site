@@ -2,7 +2,7 @@
   "$schema": "../schema.json",
   "id": "soy",
   "code_name": "Soy",
-  "full_name": "???",
+  "full_name": "Shun Kanou",
   "quality": 4,
   "role": "tank",
   "element": "ice",
@@ -10,8 +10,5 @@
     "kr-tw",
     "cn",
     "glb-jp"
-  ],
-  "description": "",
-  "skill": [],
-  "awareness": []
+  ]
 }

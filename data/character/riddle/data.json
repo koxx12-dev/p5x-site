@@ -2,7 +2,7 @@
   "$schema": "../schema.json",
   "id": "riddle",
   "code_name": "Riddle",
-  "full_name": "???",
+  "full_name": "Haruna Nishimori",
   "quality": 5,
   "role": "buff",
   "element": "psy",
@@ -10,8 +10,5 @@
     "kr-tw",
     "cn",
     "glb-jp"
-  ],
-  "description": "",
-  "skill": [],
-  "awareness": []
+  ]
 }

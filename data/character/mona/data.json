@@ -2,7 +2,7 @@
   "$schema": "../schema.json",
   "id": "mona",
   "code_name": "Mona",
-  "full_name": "???",
+  "full_name": "Morgana",
   "quality": 5,
   "role": "heal",
   "element": "wind",
@@ -10,8 +10,5 @@
     "kr-tw",
     "cn",
     "glb-jp"
-  ],
-  "description": "",
-  "skill": [],
-  "awareness": []
+  ]
 }

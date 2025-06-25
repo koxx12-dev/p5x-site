@@ -2,7 +2,7 @@
   "$schema": "../schema.json",
   "id": "skull",
   "code_name": "Skull",
-  "full_name": "???",
+  "full_name": "Ryuji Sakamoto",
   "quality": 5,
   "role": "single",
   "element": "physical",
@@ -10,8 +10,5 @@
     "kr-tw",
     "cn",
     "glb-jp"
-  ],
-  "description": "",
-  "skill": [],
-  "awareness": []
+  ]
 }

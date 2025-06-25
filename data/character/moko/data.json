@@ -2,7 +2,7 @@
   "$schema": "../schema.json",
   "id": "moko",
   "code_name": "Moko",
-  "full_name": "???",
+  "full_name": "Tomoko Noge",
   "quality": 4,
   "role": "buff",
   "element": "psy",
@@ -10,8 +10,5 @@
     "kr-tw",
     "cn",
     "glb-jp"
-  ],
-  "description": "",
-  "skill": [],
-  "awareness": []
+  ]
 }

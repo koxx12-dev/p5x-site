@@ -2,15 +2,12 @@
   "$schema": "../schema.json",
   "id": "rin_cn",
   "code_name": "Rin",
-  "full_name": "???",
+  "full_name": "Yaoling Li",
   "quality": 5,
   "role": "multi",
   "element": "fire",
   "available_regions": [
     "kr-tw",
     "cn"
-  ],
-  "description": "",
-  "skill": [],
-  "awareness": []
+  ]
 }

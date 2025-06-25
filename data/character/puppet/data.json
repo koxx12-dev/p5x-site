@@ -2,7 +2,7 @@
   "$schema": "../schema.json",
   "id": "puppet",
   "code_name": "Puppet",
-  "full_name": "???",
+  "full_name": "Miyu Sahara",
   "quality": 4,
   "role": "navi",
   "element": "support",
@@ -10,8 +10,5 @@
     "kr-tw",
     "cn",
     "glb-jp"
-  ],
-  "description": "",
-  "skill": [],
-  "awareness": []
+  ]
 }

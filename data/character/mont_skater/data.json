@@ -2,15 +2,12 @@
   "$schema": "../schema.json",
   "id": "mont_skater",
   "code_name": "Mont",
-  "full_name": "???",
+  "full_name": "Kotone Montagne",
   "quality": 5,
   "role": "single",
   "element": "wind_ice",
   "available_regions": [
     "kr-tw",
     "cn"
-  ],
-  "description": "",
-  "skill": [],
-  "awareness": []
+  ]
 }

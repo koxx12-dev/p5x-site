@@ -2,7 +2,7 @@
   "$schema": "../schema.json",
   "id": "mont",
   "code_name": "Mont",
-  "full_name": "???",
+  "full_name": "Kotone Montagne",
   "quality": 4,
   "role": "single",
   "element": "ice",
@@ -10,8 +10,5 @@
     "kr-tw",
     "cn",
     "glb-jp"
-  ],
-  "description": "",
-  "skill": [],
-  "awareness": []
+  ]
 }

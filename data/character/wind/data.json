@@ -2,15 +2,12 @@
   "$schema": "../schema.json",
   "id": "wind",
   "code_name": "Wind",
-  "full_name": "???",
+  "full_name": "Riko Tanemura",
   "quality": 4,
   "role": "navi",
   "element": "support",
   "available_regions": [
     "kr-tw",
     "cn"
-  ],
-  "description": "",
-  "skill": [],
-  "awareness": []
+  ]
 }

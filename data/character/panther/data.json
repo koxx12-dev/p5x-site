@@ -2,7 +2,7 @@
   "$schema": "../schema.json",
   "id": "panther",
   "code_name": "Panther",
-  "full_name": "???",
+  "full_name": "Ann Takamaki",
   "quality": 5,
   "role": "multi",
   "element": "fire",
@@ -10,8 +10,5 @@
     "kr-tw",
     "cn",
     "glb-jp"
-  ],
-  "description": "",
-  "skill": [],
-  "awareness": []
+  ]
 }

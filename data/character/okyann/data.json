@@ -2,7 +2,7 @@
   "$schema": "../schema.json",
   "id": "okyann",
   "code_name": "Okyann",
-  "full_name": "???",
+  "full_name": "Kayo Tomiyama",
   "quality": 4,
   "role": "navi",
   "element": "support",
@@ -10,8 +10,5 @@
     "kr-tw",
     "cn",
     "glb-jp"
-  ],
-  "description": "",
-  "skill": [],
-  "awareness": []
+  ]
 }
