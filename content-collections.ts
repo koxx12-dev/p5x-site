@@ -1,6 +1,8 @@
 import { defineCollection, defineConfig } from "@content-collections/core";
 import { thief, thiefOverride } from "./src/types";
 
+const pathSeperator = process.platform === "win32" ? "\\" : "/";
+
 const thiefOverrides = defineCollection({
     name: "thiefOverrides",
     directory: "data/character",
@@ -8,7 +10,7 @@ const thiefOverrides = defineCollection({
     parser: "json",
     schema: thiefOverride,
     transform: (data) => {
-        const id = data._meta.directory.split("\\")[0] || data._meta.directory.split("/")[0];
+        const id = data._meta.directory.split(pathSeperator)[0]
         const region = data._meta.fileName.replace(/\.json$/, "");
 
         if (id === undefined || region === undefined) {
