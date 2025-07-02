@@ -1,7 +1,12 @@
-import { allThiefOverrides, allThieves } from "content-collections";
+import { allThiefOverrides, allThieves, allThiefI18ns } from "content-collections";
 
 const thiefCache: Map<string, typeof allThieves[number]> = new Map();
 const thiefOverrideCache: Map<string, typeof allThiefOverrides[number]> = new Map();
+const thiefI18nCache: Map<string, typeof allThiefI18ns[number]> = new Map();
+
+export type Thief = typeof allThieves[number];
+export type ThiefOverride = typeof allThiefOverrides[number];
+export type ThiefI18n = typeof allThiefI18ns[number];
 
 export const getThiefById = (id: string) => {
     if (thiefCache.has(id)) {
@@ -31,4 +36,21 @@ export const getThiefOverride = (id: string, region: string) => {
     return override;
 }
 
+export const getThiefI18n = (id: string, lang: string) => {
+    const key = `${id}-${lang}`;
+    if (thiefI18nCache.has(key)) {
+        return thiefI18nCache.get(key);
+    }
+
+    const i18n = allThiefI18ns.find((i) => i.id === id && i.lang === lang);
+
+    if (i18n) {
+        thiefI18nCache.set(key, i18n);
+    }
+
+    return i18n;
+}
+
+export const getThiefI18ns = () => allThiefI18ns;
+export const getThiefOverrides = () => allThiefOverrides;
 export const getThieves = () => allThieves;

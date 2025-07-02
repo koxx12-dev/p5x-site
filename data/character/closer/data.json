@@ -1,8 +1,6 @@
 {
   "$schema": "../schema.json",
   "id": "closer",
-  "code_name": "Closer",
-  "full_name": "Motoha Arai",
   "quality": 4,
   "role": "multi",
   "element": "elec",
@@ -15,11 +13,6 @@
     {
       "id": "s1",
       "element": "all_elec",
-      "name": "Thunder's Fury",
-      "description": [
-        "Shoots 4 thunderbolts, dealing [color=#fcff37][b]{skill_data} ATK[/b][/color] as [color=#fcff37][b]Elec DMG[/b][/color] and has a [color=#fcff37][b]100%[/b][/color] base chance to inflict [color=#fcff37][b][i]Shock[/i][/b][/color] to the skill's main target.",
-        "Deals [color=#fcff37][b]10% DMG[/b][/color] when hitting the same target, the thunderbolts will prioritize targets that have not been attacked yet."
-      ],
       "data": [
         [
           [
@@ -124,8 +117,6 @@
     {
       "id": "s2",
       "element": "elec",
-      "name": "Hypervelocity Shock",
-      "description": "Deals [color=#fcff37][b]{skill_data} ATK Elec DMG[/b][/color] to 1 enemy, increases all allies [color=#fcff37][b]Elec DMG[/b][/color] Dealt by [color=#fcff37][b]{skill_data}[/b][/color] for 2 turns.",
       "data": [
         [
           [
@@ -328,11 +319,6 @@
     {
       "id": "s3",
       "element": "all_elec",
-      "name": "Electric Shark",
-      "description": [
-        "Deals [color=#fcff37][b]{skill_data} ATK[/b][/color] as [color=#fcff37][b]Elec DMG[/b][/color] to all enemies.",
-        "If there is an enemy inflicted with [color=#fcff37][b][i]Shock[/i][/b][/color], triggers [color=#fcff37][b]TECHNICAL[/b][/color], deals an additional [color=#fcff37][b]{skill_data} ATK[/b][/color] as [color=#fcff37][b]Elec DMG[/b][/color] to all enemies."
-      ],
       "data": [
         [
           [
@@ -535,8 +521,6 @@
     {
       "id": "hl",
       "element": "elec",
-      "name": "HIGHLIGHT",
-      "description": "Deals [color=#fcff37][b]{skill_data} ATK Elec DMG[/b][/color] to all enemies, there is a [color=#fcff37][b]100%[/b][/color] fixed chance to inflict the main target with [color=#fcff37][b][i]Shock[/i][/b][/color], and increase their [color=#fcff37][b]Elec DMG[/b][/color] Taken by [color=#fcff37][b]10%[/b][/color] for 2 turns.",
       "data": [
         [
           [
@@ -641,8 +625,6 @@
     {
       "id": "p1",
       "element": "passive",
-      "name": "Strength",
-      "description": "When inflicting [color=#fcff37][b][i]Shock[/i][/b][/color], there is a [color=#fcff37][b]{skill_data}[/b][/color] fixed chance to increase the duration by 1 turn.",
       "data": [
         [
           "22.0%",
@@ -654,8 +636,6 @@
     {
       "id": "p2",
       "element": "passive",
-      "name": "Protect",
-      "description": "After using a Persona skill, increase the main target's [color=#fcff37][b]Elec DMG[/b][/color] Taken by [color=#fcff37][b]{skill_data}[/b][/color] for 2 turns, up to 2 stacks.",
       "data": [
         [
           "6.7%",
@@ -668,51 +648,31 @@
   "awareness": [
     {
       "id": "a0",
-      "tier": 0,
-      "name": "Horns of Offense",
-      "description": "After dealing [color=#fcff37][b]Elec DMG[/b][/color], there is a [color=#fcff37][b]15%[/b][/color] base chance to inflict the enemy with [color=#fcff37][b][i]Shock[/i][/b][/color]. Increase [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]30%[/b][/color] when attacking enemies with [color=#fcff37][b][i]Shock[/i][/b][/color]."
+      "tier": 0
     },
     {
       "id": "a1",
-      "tier": 1,
-      "name": "Berserk Intercept",
-      "description": "Increase the number of hits from [ref=s1][color=#d03052][b][u][Thunder's Fury][/u][/b][/color][/ref] by 1, it now deals [color=#fcff37][b]15%[/b][/color] damage when hitting the same enemy."
+      "tier": 1
     },
     {
       "id": "a2",
-      "tier": 2,
-      "name": "Full Blow",
-      "description": [
-        "[ref=s1][color=#d03052][b][u][Thunder's Fury][/u][/b][/color][/ref] [color=#fcff37][b]Lv. +2[/b][/color], up to a maximum of [color=#fcff37][b]Lv. 15[/b][/color].",
-        "[ref=s2][color=#d03052][b][u][Hypervelocity Shock][/u][/b][/color][/ref] [color=#fcff37][b]Lv. +2[/b][/color], up to a maximum of [color=#fcff37][b]Lv. 15[/b][/color]."
-      ]
+      "tier": 2
     },
     {
       "id": "a3",
-      "tier": 3,
-      "name": "Speed Chase",
-      "description": "Decrease [color=#fcff37][b]DMG Taken[/b][/color] by [color=#fcff37][b]20%[/b][/color] when attacked by enemies with [color=#fcff37][b][i]Shock[/i][/b][/color]."
+      "tier": 3
     },
     {
       "id": "a4",
-      "tier": 4,
-      "name": "Infinite Transcendence",
-      "description": [
-        "[ref=s3][color=#d03052][b][u][Electric Shark][/u][/b][/color][/ref] [color=#fcff37][b]Lv. +2[/b][/color], up to a maximum of [color=#fcff37][b]Lv. 15[/b][/color].",
-        "[ref=hl][color=#d03052][b][u][Combat Skills][/u][/b][/color][/ref] [color=#fcff37][b]Lv. +2[/b][/color], up to a maximum of [color=#fcff37][b]Lv. 15[/b][/color]."
-      ]
+      "tier": 4
     },
     {
       "id": "a5",
-      "tier": 5,
-      "name": "Score!",
-      "description": "[ref=hl][color=#d03052][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Increase [color=#fcff37][b]Elec DMG[/b][/color] Taken for all enemies by [color=#fcff37][b]20%[/b][/color] for 2 turns."
+      "tier": 5
     },
     {
       "id": "a6",
-      "tier": 6,
-      "name": "Fruits of Victory",
-      "description": "Enemies with [color=#fcff37][b][i]Shock[/i][/b][/color] increase [color=#fcff37][b]Elec DMG[/b][/color] Taken by [color=#fcff37][b]20%[/b][/color] and [color=#fcff37][b]Elec CRIT DMG[/b][/color] Taken by [color=#fcff37][b]20%[/b][/color]."
+      "tier": 6
     }
   ],
   "stats": [

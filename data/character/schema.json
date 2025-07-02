@@ -1,9 +1,6 @@
 {
     "type": "object",
     "properties": {
-        "code_name": {
-            "type": "string"
-        },
         "element": {
             "enum": [
                 "ailment",
@@ -44,9 +41,6 @@
                 "wind_ice"
             ]
         },
-        "full_name": {
-            "type": "string"
-        },
         "id": {
             "type": "string"
         },
@@ -83,6 +77,14 @@
             "items": {
                 "type": "object",
                 "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "tier": {
+                        "type": "number",
+                        "maximum": 7,
+                        "minimum": 0
+                    },
                     "description": {
                         "anyOf": [
                             {
@@ -96,25 +98,18 @@
                             }
                         ]
                     },
-                    "id": {
-                        "type": "string"
-                    },
                     "name": {
                         "type": "string"
-                    },
-                    "tier": {
-                        "type": "number",
-                        "maximum": 7,
-                        "minimum": 0
                     }
                 },
                 "required": [
-                    "description",
                     "id",
-                    "name",
                     "tier"
                 ]
             }
+        },
+        "code_name": {
+            "type": "string"
         },
         "extra": {
             "type": "object",
@@ -131,6 +126,9 @@
                     }
                 ]
             }
+        },
+        "full_name": {
+            "type": "string"
         },
         "mental_image": {
             "type": "object",
@@ -253,19 +251,6 @@
             "items": {
                 "type": "object",
                 "properties": {
-                    "description": {
-                        "anyOf": [
-                            {
-                                "type": "string"
-                            },
-                            {
-                                "type": "array",
-                                "items": {
-                                    "type": "string"
-                                }
-                            }
-                        ]
-                    },
                     "element": {
                         "enum": [
                             "ailment",
@@ -309,9 +294,6 @@
                     "id": {
                         "type": "string"
                     },
-                    "name": {
-                        "type": "string"
-                    },
                     "data": {
                         "type": "array",
                         "items": {
@@ -330,13 +312,27 @@
                                 ]
                             }
                         }
+                    },
+                    "description": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            }
+                        ]
+                    },
+                    "name": {
+                        "type": "string"
                     }
                 },
                 "required": [
-                    "description",
                     "element",
-                    "id",
-                    "name"
+                    "id"
                 ]
             }
         },
@@ -354,9 +350,7 @@
         }
     },
     "required": [
-        "code_name",
         "element",
-        "full_name",
         "id",
         "quality",
         "role"

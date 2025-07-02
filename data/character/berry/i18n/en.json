@@ -1,0 +1,66 @@
+{
+    "$schema": "../../schema_i18n.json",
+    "code_name": "Berry",
+    "full_name": "Ichigo Shikano",
+    "skill.s1.name": "Butterfly Beheadment",
+    "skill.s1.description": [
+        "Deal [color=#fe0037][b]Curse damage[/b][/color] to 1 foe equal to [color=#fe0037][b]Y%[/b][/color] of [color=#fe0037][b]ATK[/b][/color], and inflict 2 [color=#a93250][b][Resentment][/b][/color] stacks on the target.",
+        "When the target is above [color=#fe0037][b]Y%[/b][/color] current [color=#fe0037][b]HP[/b][/color], heavily increase [color=#fe0037][b]skill damage[/b][/color].",
+        "If this skill kills the target, activate this skill again (can chain activation).",
+        "[color=#a93250][b][Resentment][/b][/color]: Take [color=#fe0037][b]Curse damage[/b][/color] equal to Ichigo's [color=#fe0037][b]Y% ATK[/b][/color] for 4 turns, up to X stacks.",
+        "When the foe with [color=#a93250][b][Resentment][/b][/color] dies, transfer its [color=#a93250][b][Resentment][/b][/color] to the highest [color=#fe0037][b]HP[/b][/color] foe."
+    ],
+    "skill.s2.name": "Blood Rose's Kiss",
+    "skill.s2.description": "Deal [color=#fe0037][b]Curse damage[/b][/color] to 1 foe equal to [color=#fe0037][b]Y%[/b][/color] of [color=#fe0037][b]ATK[/b][/color], and inflict 4 [color=#a93250][b][Resentment][/b][/color] stacks on the target.",
+    "skill.s3.name": "Hush! It's Execution Time",
+    "skill.s3.description": [
+        "Deal [color=#fe0037][b]Curse damage[/b][/color] to 1 foe equal to [color=#fe0037][b]Y%[/b][/color] of [color=#fe0037][b]ATK[/b][/color] + [color=#a93250][b][Resentment][/b][/color] stacks x [color=#fe0037][b]Y%[/b][/color] of [color=#fe0037][b]ATK[/b][/color], when [color=#a93250][b][Resentment][/b][/color] stacks reach Y, deal [color=#fe0037][b]Curse damage[/b][/color] to 1 foes equal to [color=#fe0037][b]Y%[/b][/color] of [color=#fe0037][b]ATK[/b][/color] more.",
+        "Then refresh the duration of [color=#a93250][b][Resentment][/b][/color]."
+    ],
+    "skill.hl.name": "HIGHLIGHT",
+    "skill.hl.description": [
+        "Deal [color=#fe0037][b]Curse damage[/b][/color] to 1 foe equal to [color=#fe0037][b]Y%[/b][/color] of [color=#fe0037][b]ATK[/b][/color], and make [color=#a93250][b][Resentment][/b][/color] can deal [color=#fe0037][b]CRITICAL[/b][/color] for Y turns.",
+        "Immediately deal all [color=#fe0037][b]Damage Over Time damage[/b][/color] on the target."
+    ],
+    "skill.p1.name": "Obsession",
+    "skill.p1.description": "Increase [color=#fe0037][b]ATK[/b][/color] by [color=#fe0037][b]Y%[/b][/color] for each [color=#e7186f][b][Obsessive Love][/b][/color] stack.",
+    "skill.p2.name": "Attachment",
+    "skill.p2.description": "When Ichigo is on the field, increase party's [color=#fe0037][b]Damage Over Time Effect[/b][/color].",
+    "awareness.a0.name": "If I Take the Poison of Love",
+    "awareness.a0.description": [
+        "When Ichigo uses [ref=s1][color=#374e85][b][u][Butterfly Beheadment][/u][/b][/color][/ref] for the first time, gain 1 [color=#e7186f][b][Obsessive Love][/b][/color] stack.",
+        "When using [ref=hl][color=#374e85][b][u][HIGHLIGHT][/u][/b][/color][/ref], gain 1 [color=#e7186f][b][Obsessive Love][/b][/color] stack, up to 3 stacks.",
+        "Gain the following boost effects based on [color=#e7186f][b][Obsessive Love][/b][/color] stacks:",
+        "1 stack: For every [color=#a93250][b][Resentment][/b][/color] stack on foes, increase their [color=#fe0037][b]DMG Taken[/b][/color].",
+        "2 stacks: Increase [color=#fe0037][b]Crit Rate[/b][/color], Ichigo's Persona skill damage counts as [color=#fe0037][b]Damage Over Time[/b][/color].",
+        "3 stacks: Increase [color=#fe0037][b]Damage Over Time Effect[/b][/color]."
+    ],
+    "awareness.a1.name": "If I'm Broken",
+    "awareness.a1.description": [
+        "Decrease foes' [color=#fe0037][b]DEF[/b][/color] for each [color=#a93250][b][Resentment][/b][/color] stack.",
+        "When using a Persona skill, inflict 1 [color=#a93250][b][Resentment][/b][/color] stack on the target more."
+    ],
+    "awareness.a2.name": "If I Allow Delusions to Run Rampant",
+    "awareness.a2.description": [
+        "At the start of battle, gain 1 [color=#e7186f][b][Obsessive Love][/b][/color] stack.",
+        "Increase maximum [color=#e7186f][b][Obsessive Love][/b][/color] stack to 5.",
+        "Gain the following boost effect based on [color=#e7186f][b][Obsessive Love][/b][/color] stacks:",
+        "4 stacks: Increase [color=#fe0037][b]Crit DMG[/b][/color]",
+        "5 stacks: When Ichigo takes fatal damage, enter near death and gain 4 [color=#7670a6][b][Crazed Delusion][/b][/color] stacks, cannot drop below [color=#fe0037][b]1 HP[/b][/color] when in near death, spend 1 [color=#7670a6][b][Crazed Delusion][/b][/color] after each ally's action, faint after spending all [color=#7670a6][b][Crazed Delusion][/b][/color] stacks."
+    ],
+    "awareness.a3.name": "If Begging for Mercy Works",
+    "awareness.a3.description": "Increase the skill levels of [ref=s3][color=#374e85][b][u][Hush! It's Execution Time][/u][/b][/color][/ref] and [ref=hl][color=#374e85][b][u][Theif Tactics][/u][/b][/color][/ref] by 3.",
+    "awareness.a4.name": "If Love Keeps Accumulating",
+    "awareness.a4.description": "After using [ref=hl][color=#374e85][b][u][HIGHLIGHT][/u][/b][/color][/ref], permanently increase [color=#fe0037][b]ATK[/b][/color], up to [color=#fe0037][b]Y[/b][/color].",
+    "awareness.a5.name": "If Danger Draws Near",
+    "awareness.a5.description": "Increase the skill levels of [ref=s1][color=#374e85][b][u][Butterfly Beheadment][/u][/b][/color][/ref] and [ref=s2][color=#374e85][b][u][Blood Rose's Kiss][/u][/b][/color][/ref] by 3.",
+    "awareness.a6.name": "If You Discovered My Other Self",
+    "awareness.a6.description": [
+        "Increase maximum [color=#a93250][b][Resentment][/b][/color] stack.",
+        "When [color=#e7186f][b][Obsessive Love][/b][/color] reaches a certain stack, gain the following effects:",
+        "1 stack: After using [ref=s1][color=#374e85][b][u][Butterfly Beheadment][/u][/b][/color][/ref], additionally use [ref=s1][color=#374e85][b][u][Butterfly Beheadment][/u][/b][/color][/ref] on the target (once per battle).",
+        "2 stacks: After using [ref=s2][color=#374e85][b][u][Blood Rose's Kiss][/u][/b][/color][/ref], additionally use [ref=s2][color=#374e85][b][u][Blood Rose's Kiss][/u][/b][/color][/ref] on the target (once per battle).",
+        "3 stacks: After using [ref=s3][color=#374e85][b][u][Hush! It's Execution Time][/u][/b][/color][/ref], additionally use [ref=s3][color=#374e85][b][u][Hush! It's Execution Time][/u][/b][/color][/ref] on the target (once per battle).",
+        "4 stacks: Ichigo can use [ref=hl][color=#374e85][b][u][HIGHLIGHT][/u][/b][/color][/ref] on her turn once (once per battle, do not spend [color=#fe0037][b]HIGHLIGHT Energy[/b][/color] and affect [color=#fe0037][b]HIGHLIGHT cooldown[/b][/color])."
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "$schema": "../../schema_i18n.json",
+    "code_name": "Crow",
+    "full_name": "Akechi Goro",
+    "skill.s1.name": "Vow of Justice",
+    "skill.s1.description": [
+        "Deals [color=#ffffa4][b]{skill_data} ATK[/b][/color] as [color=#ffffa4][b]Bless DMG[/b][/color] to all enemies, and restore [color=#ffffa4][b]{skill_data} HP[/b][/color] to all allies, then gives all allies 1 stack of [color=#ffffa4][b][i]Blessing[/i][/b][/color].",
+        "Crow gains [color=#e7c468][b][Truth][/b][/color], then gain [color=#20629d][b][Clarity][/b][/color] for 2 turns.",
+        "Under [color=#20629d][b][Clarity][/b][/color], increase all allies' [color=#ffffa4][b]DMG Dealt[/b][/color] by [color=#ffffa4][b]{skill_data}[/b][/color]."
+    ],
+    "skill.s2.name": "Unjust Hunting Grounds",
+    "skill.s2.description": [
+        "Deals [color=#fe0037][b]{skill_data} ATK[/b][/color] as [color=#fe0037][b]Curse DMG[/b][/color] to all enemies, Crow gains [color=#e7c468][b][Truth][/b][/color], then gain [color=#a3352d][b][Chaos][/b][/color] for 2 turns.",
+        "Under [color=#a3352d][b][Chaos][/b][/color], decrease all enemies' [color=#fe0037][b]DEF[/b][/color] by [color=#fe0037][b]{skill_data}[/b][/color], adds 1 more shot to [color=#b5152f][b][Arrow of Chaos][/b][/color] and its [color=#fe0037][b]DMG Dealt[/b][/color] by [color=#fe0037][b]{skill_data}[/b][/color]."
+    ],
+    "skill.s3.name": "Golden Arrow Rain - Annihilate",
+    "skill.s3.description": [
+        "[b]Unlock condition: When Crow has [color=#e7c468][b][Truth][/b][/color].[/b]",
+        "Consumes all [color=#24507c][b][Arrow of Clarity][/b][/color], deals [b]{skill_data}[/b] of the recorded damage from [color=#24507c][b][Arrow of Clarity][/b][/color] as [b]Almighty DMG[/b] to all enemies.",
+        "Then randomly shoots 4 [color=#b5152f][b][Arrow of Chaos][/b][/color], each dealing [b]{skill_data} ATK[/b] as [b]Almighty DMG[/b], prioritizing enemies that have not been attacked yet.",
+        "Akechi will only deal [b]15% DMG[/b] to the same target."
+    ],
+    "skill.hl.name": "HIGHLIGHT",
+    "skill.hl.description": "Deals [color=#ffffa4][b]{skill_data} ATK[/b][/color] as [color=#ffffa4][b]Bless DMG[/b][/color] and [color=#fe0037][b]{skill_data} ATK[/b][/color] as [color=#fe0037][b]Curse DMG[/b][/color] to all enemies, adds 2 more shoot to [color=#b5152f][b][Arrow of Chaos][/b][/color] for 4 turns.",
+    "skill.p1.name": "Law",
+    "skill.p1.description": [
+        "When Crow is in the team, he can trigger Desire Sonata for any element.",
+        "At the start of battle, increase [b]DMG Dealt[/b] by [b]{skill_data}[/b] for every triggered Desire Sonata."
+    ],
+    "skill.p2.name": "Desire",
+    "skill.p2.description": "When dealing [b]Almighty DMG[/b], for every [b]1% DEF[/b] Down on the target, increase [b]DMG Dealt[/b] by [b]{skill_data}[/b]. (Up to [b]{skill_data}[/b])",
+    "awareness.a0.name": "Walking in Fog",
+    "awareness.a0.description": [
+        "At the start of battle, give the ally with the highest [b]ATK[/b] [color=#df4023][b][Detective Partner][/b][/color] (Prioritizing Dominate or Rebel Thief).",
+        "Crow can manually choose a [color=#df4023][b][Detective Partner][/b][/color] at the start of his turn (There can only be 1 [color=#df4023][b][Detective Partner][/b][/color] at any given time).",
+        "Crow gains [b]25%[/b] of the [color=#df4023][b][Detective Partner][/b][/color]'s [b]ATK[/b], up to [b]500/750/1000[/b] (at level 1, 50, 70).",
+        "When [color=#df4023][b][Detective Partner][/b][/color] deal [b]DMG[/b] with a Persona skill/HIGHLIGHT/Follow Up, record their average [b]DMG Dealt[/b] to all enemies (If it was a single target skill, then record [b]40%[/b] of the [b]DMG[/b]).",
+        "At the start of Crow's turn, gain 1 stack of [color=#24507c][b][Arrow of Clarity][/b][/color] based on the total recorded [b]DMG[/b] then clear the record.",
+        "[color=#24507c][b][Arrow of Clarity][/b][/color] lasts for 2 turns."
+    ],
+    "awareness.a1.name": "Suspect Investigation",
+    "awareness.a1.description": [
+        "Gains [color=#20629d][b][Clarity][/b][/color] at the start of battle, extends [color=#20629d][b][Clarity][/b][/color] and [color=#a3352d][b][Chaos][/b][/color] to 4 turns.",
+        "Increases [b]CRIT Rate[/b] by [b]16%[/b] when Crow has both [color=#20629d][b][Clarity][/b][/color] and [color=#a3352d][b][Chaos][/b][/color]."
+    ],
+    "awareness.a2.name": "Trial of Clues",
+    "awareness.a2.description": "After dealing [b]DMG[/b] with a Persona skill, increases Crow's and [color=#df4023][b][Detective Partner][/b][/color]'s [b]ATK[/b] by [b]25%[/b] and [b]CRIT DMG[/b] by [b]30%[/b] for 1 turn if that attack's element is different than the last skill.",
+    "awareness.a3.name": "Shadow Chase",
+    "awareness.a3.description": [
+        "[ref=s3][color=#318cb5][b][u][Golden Arrow Rain - Annihilate][/u][/b][/color][/ref] [b]Lv. +3[/b], up to a maximum of [b]Lv. 15[/b].",
+        "[ref=hl][color=#318cb5][b][u][Combat Skills][/u][/b][/color][/ref] [b]Lv. +3[/b], up to a maximum of [b]Lv. 15[/b]."
+    ],
+    "awareness.a4.name": "True Or False",
+    "awareness.a4.description": "[ref=hl][color=#318cb5][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Additionally increases [color=#b5152f][b][Arrow of Chaos][/b][/color]'s [b]DMG[/b] by [b]10%[/b] for 4 turns.",
+    "awareness.a5.name": "Temporary Alliance",
+    "awareness.a5.description": [
+        "[ref=s1][color=#318cb5][b][u][Vow of Justice][/u][/b][/color][/ref] [b]Lv. +3[/b], up to a maximum of [b]Lv. 15[/b].",
+        "[ref=s2][color=#318cb5][b][u][Unjust Hunting Grounds][/u][/b][/color][/ref] [b]Lv. +3[/b], up to a maximum of [b]Lv. 15[/b]."
+    ],
+    "awareness.a6.name": "The Dust Settles",
+    "awareness.a6.description": [
+        "Increases [color=#24507c][b][Arrow of Clarity][/b][/color] recorded [b]DMG[/b] by [b]50%[/b] when using [ref=s3][color=#318cb5][b][u][Golden Arrow Rain - Annihilate][/u][/b][/color][/ref].",
+        "Crow now sees all allies as [color=#df4023][b][Detective Partners][/b][/color].",
+        "In battle, additionally gains [b]CRIT Rate[/b] and [b]CRIT DMG[/b] (that is over [b]100%[/b]) based on [b]40%[/b] of the highest [b]CRIT Rate[/b] and [b]CRIT DMG[/b] among [color=#df4023][b][Detective Partners][/b][/color] (Up to [b]20%[/b] and [b]40%[/b])."
+    ]
+}

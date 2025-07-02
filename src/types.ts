@@ -1,5 +1,7 @@
 import { type } from "arktype";
 
+type RequiredFields<T, K extends keyof T> = T & Required<Pick<T, K>>;
+
 export const region = type.enumerated('cn', 'kr-tw', 'glb-jp', 'sea');
 export type Region = typeof region.infer;
 
@@ -89,23 +91,25 @@ export const element = type.enumerated(
 export const role = type.enumerated("single", "multi", "heal", "buff", "debuff", "tank", "navi");
 export type Role = typeof role.infer;
 
-export type ThiefAwareness = typeof ThiefAwareness.infer;
-export const ThiefAwareness = type({
+export type RequiredThiefAwareness = RequiredFields<typeof thiefAwareness.infer, "name" | "description">;
+export type ThiefAwareness = typeof thiefAwareness.infer;
+export const thiefAwareness = type({
     id: "string",
     tier: "0 <= number <= 7",
-    name: "string",
-    description: "string | string[]",
+    name: "string?",
+    description: "(string | string[])?",
 });
 
 export type ThiefSkillData = typeof thiefSkillData.infer;
 export const thiefSkillData = type("(string | string[])")
 
+export type RequiredThiefSkill = RequiredFields<typeof thiefSkill.infer, "name" | "description">;
 export type ThiefSkill = typeof thiefSkill.infer;
 export const thiefSkill = type({
     id: "string",
     element: element,
-    name: "string",
-    description: "string | string[]",
+    name: "string?",
+    description: "(string | string[])?",
     data: thiefSkillData.array().array().optional(),
 });
 
@@ -120,7 +124,11 @@ export const thiefSkill = type({
 //     specialties: "string",
 // });
 
-export type Thief = typeof thief.infer;
+export type RequiredThief = RequiredFields<typeof thief.infer, "code_name" | "full_name"> & {
+    skill?: RequiredThiefSkill[];
+    awareness?: RequiredThiefAwareness[];
+};
+export type SchemaThief = typeof thief.infer;
 export const mentalImageBuff = type({
     type: "'atk_prec' | 'def_prec' | 'hp_prec' | 'dmg_prec' | 'dmg_res_prec' | 'eff_hit_prec' | 'eff_res_prec' | 'crit_dmg_prec' | 'crit_c_prec' | 'pen_prec' | 'heal_eff_prec' | 'spd' | 'sp_rec_prec' | 'shd_eff_prec'",
     values: "string[]",
@@ -158,12 +166,12 @@ export type ThiefStats = typeof thiefStats.infer;
 export const thief = type({
     id: "string",
     quality: "4 | 5",
-    code_name: "string",
-    full_name: "string",
+    code_name: "string?",
+    full_name: "string?",
     role: role,
     element: element,
     skill: thiefSkill.array().optional(),
-    awareness: ThiefAwareness.array().optional(),
+    awareness: thiefAwareness.array().optional(),
     mental_image: thiefMentalImage.optional(),
     stats: thiefStats.optional(),
     extra: type.Record("string", "string | string[]").optional(),
@@ -176,7 +184,7 @@ export const thiefOverride = type({
     role: role.or("null"),
     element: element.or("null"),
     skill: thiefSkill.array().or("null").optional(),
-    awareness: ThiefAwareness.array().or("null").optional(),
+    awareness: thiefAwareness.array().or("null").optional(),
     mental_image: thiefMentalImage.or("null").optional(),
     stats: thiefStats.or("null").optional(),
     extra: type.Record("string", "string | string[]").or("null").optional(),

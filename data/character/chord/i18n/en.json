@@ -1,0 +1,61 @@
+{
+    "$schema": "../../schema_i18n.json",
+    "code_name": "Chord",
+    "full_name": "Ayaka Sakai",
+    "skill.s1.name": "Passionate Singing",
+    "skill.s1.description": [
+        "Deals [color=#fcff37][b]{skill_data} ATK[/b][/color] as [color=#fcff37][b]Electric DMG[/b][/color] to all enemies.",
+        "If an ally has [tooltip character=chord id=loyal_listener][color=#ffdd6e][u][b][Loyal Listener][/b][/u][/color][/tooltip], they will deal an additional [color=#fcff37][b]{skill_data} ATK[/b][/color] as [color=#fcff37][b]Electric DMG[/b][/color] based on their [color=#fcff37][b]ATK[/b][/color] to the main target."
+    ],
+    "skill.s2.name": "Improvised Solo",
+    "skill.s2.description": [
+        "Apply [tooltip character=chord id=loyal_listener][color=#ffdd6e][u][b][Loyal Listener][/b][/u][/color][/tooltip] to an ally.",
+        "Increase [color=#fcff37][b]ATK[/b][/color] of the ally with [tooltip character=chord id=loyal_listener][color=#ffdd6e][u][b][Loyal Listener][/b][/u][/color][/tooltip] by [color=#fcff37][b]24.0%[/b][/color] of Chord's [color=#fcff37][b]ATK[/b][/color], up to a maximum of [color=#fcff37][b]{skill_data}[/b][/color] for 3 turns.",
+        "Only one [tooltip character=chord id=loyal_listener][color=#ffdd6e][u][b][Loyal Listener][/b][/u][/color][/tooltip] can exists at a time."
+    ],
+    "skill.s3.name": "Finale : Range Unleash",
+    "skill.s3.description": [
+        "Immediately activate the [color=#fcff37][b]HIGHLIGHT[/b][/color] skill of an ally while increasing the [color=#fcff37][b]DMG[/b][/color] of this [color=#fcff37][b]HIGHLIGHT[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color].",
+        "The [color=#fcff37][b]HIGHLIGHT[/b][/color] activated through this skill will not count towards the character's [color=#fcff37][b]HIGHLIGHT[/b][/color] cooldown."
+    ],
+    "skill.hl.name": "HIGHLIGHT",
+    "skill.hl.description": "All allies gain [color=#fcff37][b]{skill_data} DMG Bonus[/b][/color] for 4 actions and after acts they recover [color=#fcff37][b]10.0% HIGHLIGHT energy[/b][/color].",
+    "skill.p1.name": "Stress",
+    "skill.p1.description": [
+        "When an ally activate their [color=#fcff37][b]HIGHLIGHT[/b][/color], increases their [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] for 1 turn.",
+        "If that ally has [tooltip character=chord id=loyal_listener][color=#ffdd6e][u][b][Loyal Listener][/b][/u][/color][/tooltip] the effect is increased by [b][color=#fcff37]1.5[/color][color=#ffdd6e]*[/color][/b]"
+    ],
+    "skill.p2.name": "Sweep Picking",
+    "skill.p2.description": "When an ally activate their [color=#fcff37][b]HIGHLIGHT[/b][/color], Chord immediately heals the ally with the lowest [color=#fcff37][b]HP[/b][/color] by [color=#fcff37][b]{skill_data} [color=#ffdd6e]+[/color] {skill_data}[/b][/color] of Chord's [color=#fcff37][b]ATK[/b][/color]",
+    "awareness.a0.name": "My Light",
+    "awareness.a0.description": [
+        "When entering battle, [ref=s3][color=#ffd800][b][u][Finale : Range Unleash][/u][/b][/color][/ref] has 1 turn cooldown.",
+        "Each time [ref=s3][color=#ffd800][b][u][Finale : Range Unleash][/u][/b][/color][/ref] is used, is permanently increases Chord's [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]20.0%[/b][/color] up to [color=#fcff37][b]2[/b][/color] stacks.",
+        "Afterwards, [ref=s3][color=#ffd800][b][u][Finale : Range Unleash][/u][/b][/color][/ref] cooldown permanently increases by 1 turn, up to 3 turns."
+    ],
+    "awareness.a1.name": "Greet My Dawn Star",
+    "awareness.a1.description": "When entering battle, automatically apply [tooltip character=chord id=loyal_listener][color=#ffdd6e][u][b][Loyal Listener][/b][/u][/color][/tooltip] to an ally, prioritizing the ally with the highest [color=#fcff37][b]ATK[/b][/color] in [color=#ffd800][b]ST[/b][/color] or [color=#ffd800][b]AOE[/b][/color] role, and the ally with [tooltip character=chord id=loyal_listener][color=#ffdd6e][u][b][Loyal Listener][/b][/u][/color][/tooltip] gains [color=#fcff37][b]15.0% CR[/b][/color].",
+    "awareness.a2.name": "Lonely Shimmers",
+    "awareness.a2.description": [
+        "[ref=s1][color=#ffd800][b][u][Passionate Singing][/u][/b][/color][/ref] Lv. +3, up to a maximum of Lv. 15.",
+        "[ref=s3][color=#ffd800][b][u][Finale : Range Unleash][/u][/b][/color][/ref] Lv. +3, up to a maximum of Lv. 15."
+    ],
+    "awareness.a3.name": "Mr. Light",
+    "awareness.a3.description": "When using [ref=s3][color=#ffd800][b][u][Finale : Range Unleash][/u][/b][/color][/ref] on an ally, also increases that ally's [color=#fcff37][b]DMG Dealt[/b][/color] by [color=#fcff37][b]30.0%[/b][/color] for 1 turn.",
+    "awareness.a4.name": "Painted My Scenes",
+    "awareness.a4.description": [
+        "[ref=s2][color=#ffd800][b][u][Improvised Solo][/u][/b][/color][/ref] Lv. +3, up to a maximum of Lv. 15.",
+        "[ref=hl][color=#ffd800][b][u][Combat Skills][/u][/b][/color][/ref] Lv. +3, up to a maximum of Lv. 15."
+    ],
+    "awareness.a5.name": "Change My Life",
+    "awareness.a5.description": [
+        "[color=#fcff37][b]HIGHLIGHT[/b][/color] Improvement : Increases the duration of [color=#fcff37][b]HIGHLIGHT Energy Recovery[/b][/color] and [color=#fcff37][b]DMG Bonus[/b][/color] to 6 actions.",
+        "The [color=#fcff37][b]DMG Bonus[/b][/color] is increased to [color=#fcff37][b]60.0%[/b][/color] and reduces [color=#fcff37][b]HIGHLIGHT[/b][/color] cooldown of other allies by 1 turn."
+    ],
+    "awareness.a6.name": "My Mr. Right",
+    "awareness.a6.description": [
+        "When entering battle, immediately unlock [ref=s3][color=#ffd800][b][u][Finale : Range Unleash][/u][/b][/color][/ref].",
+        "The cooldown of [ref=s3][color=#ffd800][b][u][Finale : Range Unleash][/u][/b][/color][/ref] is permanently reduced by 1 turn, with a maximum cooldown of 2 turns.",
+        "After [ref=s3][color=#ffd800][b][u][Finale : Range Unleash][/u][/b][/color][/ref] is used, permanently increases allies [color=#fcff37][b]DMG Bonus[/b][/color] by [color=#fcff37][b]15.0%[/b][/color] up to [color=#fcff37][b]2[/b][/color] stacks."
+    ]
+}

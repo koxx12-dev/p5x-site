@@ -2,7 +2,7 @@ import { createAutoAnimate } from '@formkit/auto-animate/solid';
 import { createMemo, For } from 'solid-js';
 import { CharacterCard } from '../../character-card';
 import type { Element, Role } from '@types';
-import { useThieves } from 'src/hooks/collectionts';
+import { useThieves } from 'src/hooks/collections';
 
 export function CardDisplay(props: {
 	elements: Element[];

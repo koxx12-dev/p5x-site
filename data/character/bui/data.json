@@ -1,8 +1,6 @@
 {
   "$schema": "../schema.json",
   "id": "bui",
-  "code_name": "BUI",
-  "full_name": "YUI",
   "quality": 5,
   "role": "single",
   "element": "elec",
@@ -14,12 +12,6 @@
     {
       "id": "s1",
       "element": "elec",
-      "name": "Crackle Surprise Box",
-      "description": [
-        "Deals [color=#fcff37][b]{skill_data} ATK Elec DMG[/b][/color] to 1 enemy.",
-        "If the enemy is not inflicted with [color=#fcff37][i][b]Shock[/b][/i][/color], there is a [color=#fcff37][b]{skill_data}[/b][/color] base chance to inflict [color=#fcff37][i][b]Shock[/b][/i][/color] for 2 turns.",
-        "If the enemy is inflicted with [color=#fcff37][i][b]Shock[/b][/i][/color], increases DMG by [color=#fcff37][b]30%[/b][/color]."
-      ],
       "data": [
         [
           [
@@ -238,8 +230,6 @@
     {
       "id": "s2",
       "element": "all_elec",
-      "name": "Exploding Brick",
-      "description": "Deals [color=#fcff37][b]{skill_data} ATK Elec DMG[/b][/color] to all enemies, increases [color=#fcff37][b]DMG[/b][/color] to the main target by [color=#fcff37][b]25%[/b][/color].",
       "data": [
         [
           [
@@ -352,12 +342,6 @@
     {
       "id": "s3",
       "element": "support",
-      "name": "Super Rare Reward",
-      "description": [
-        "Increases own [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] and selects 1 ally to be BUI's [color=#a3b8fc][b][Playmate][/b][/color].",
-        "Triggers a Follow Up after [color=#a3b8fc][b][Playmate][/b][/color] deal damage with a Persona skill, makes BUI's next 2 Follow Up deal [color=#fcff37][b]{skill_data} ATK[/b][/color] as [color=#fcff37][b]Elec DMG[/b][/color] for 2 turns.",
-        "Increases the chance to trigger [ref=a0][color=#c3e342][b][u][★Big Project! Start★][/u][/b][/color][/ref] by a fixed [color=#fcff37][b]10%[/b][/color] chance for 2 turns."
-      ],
       "data": [
         [
           [
@@ -576,11 +560,6 @@
     {
       "id": "hl",
       "element": "elec",
-      "name": "HIGHLIGHT",
-      "description": [
-        "Increases own [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] increases [color=#fcff37][b]Follow Up DMG[/b][/color] based on [color=#fcff37][b]{skill_data} ATK[/b][/color] for 2 turns.",
-        "BUI will trigger Follow Up after any allies deal damage with skills for 1 turn."
-      ],
       "data": [
         [
           [
@@ -799,8 +778,6 @@
     {
       "id": "p1",
       "element": "passive",
-      "name": "Agile",
-      "description": "BUI's Follow Up deal [color=#fcff37][b]{skill_data}[/b][/color] more [color=#fcff37][b]DMG[/b][/color] to enemies inflicted with [color=#fcff37][i][b]Shock[/b][/i][/color].",
       "data": [
         [
           "12.0%",
@@ -812,8 +789,6 @@
     {
       "id": "p2",
       "element": "passive",
-      "name": "Shining",
-      "description": "When [color=#a3b8fc][b][Playmate][/b][/color] is present, increase own and [color=#a3b8fc][b][Playmate][/b][/color]'s [color=#fcff37][b]CRIT Rate[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] and [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color].",
       "data": [
         [
           "4.0%",
@@ -831,57 +806,31 @@
   "awareness": [
     {
       "id": "a0",
-      "tier": 0,
-      "name": "★Big Project! Start★",
-      "description": [
-        "After any allies deal damage with a Persona skill, BUI has a [color=#fcff37][b]45%[/b][/color] fixed chance to trigger Follow Up on the main target, dealing [color=#fcff37][b]80% ATK[/b][/color] as [color=#fcff37][b]Elec DMG[/b][/color].",
-        "Increase that enemies' next [color=#fcff37][b]Elec DMG[/b][/color] Taken by [color=#fcff37][b]15%[/b][/color] for 2 turns."
-      ]
+      "tier": 0
     },
     {
       "id": "a1",
-      "tier": 1,
-      "name": "★Sowing Day★",
-      "description": "Increase Follow Up [color=#fcff37][b]CRIT Rate[/b][/color] by [color=#fcff37][b]20%[/b][/color], increase Follow Up CRIT Rate by [color=#fcff37][b]10%[/b][/color] when attacking enemies with [color=#fcff37][i][b]Shock[/b][/i][/color]."
+      "tier": 1
     },
     {
       "id": "a2",
-      "tier": 2,
-      "name": "★Fast Sprout Spell★",
-      "description": [
-        "[ref=s3][color=#c3e342][b][u][Super Rare Reward][/u][/b][/color][/ref] [color=#fcff37][b]Lv. +3[/b][/color], up to a maximum of [color=#fcff37][b]Lv. 15[/b][/color].",
-        "[ref=hl][color=#c3e342][b][u][Combat Skills][/u][/b][/color][/ref] [color=#fcff37][b]Lv. +3[/b][/color], up to a maximum of [color=#fcff37][b]Lv. 15[/b][/color]."
-      ]
+      "tier": 2
     },
     {
       "id": "a3",
-      "tier": 3,
-      "name": "★Rainbow Maker★",
-      "description": "Increase own and [color=#a3b8fc][b][Playmate][/b][/color]'s [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]10%[/b][/color] after triggering Follow Up for 2 turns, up to 3 stacks."
+      "tier": 3
     },
     {
       "id": "a4",
-      "tier": 4,
-      "name": "★Declare War Against Insects★",
-      "description": [
-        "[ref=s1][color=#c3e342][b][u][Crackle Surprise Box][/u][/b][/color][/ref] [color=#fcff37][b]Lv. +3[/b][/color], up to a maximum of [color=#fcff37][b]Lv. 15[/b][/color].",
-        "[ref=s2][color=#c3e342][b][u][Exploding Brick][/u][/b][/color][/ref] [color=#fcff37][b]Lv. +3[/b][/color], up to a maximum of [color=#fcff37][b]Lv. 15[/b][/color]."
-      ]
+      "tier": 4
     },
     {
       "id": "a5",
-      "tier": 5,
-      "name": "★Tricky Hula★",
-      "description": "[ref=hl][color=#c3e342][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Increase Follow Up [color=#fcff37][b]CRIT DMG[/b][/color] by [color=#fcff37][b]40%[/b][/color] for 2 turns."
+      "tier": 5
     },
     {
       "id": "a6",
-      "tier": 6,
-      "name": "★Joyful Bumper Crop★",
-      "description": [
-        "When there is only 1 enemy, increase the skill multiplier of BUI's Follow Up to [color=#fcff37][b]110% ATK[/b][/color].",
-        "BUI's Follow Up now deal [color=#fcff37][b]25% splash DMG[/b][/color] to all other enemies."
-      ]
+      "tier": 6
     }
   ],
   "mental_image": {

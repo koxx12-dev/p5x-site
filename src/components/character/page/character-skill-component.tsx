@@ -3,9 +3,9 @@ import { BBCodeRenderer } from '../../bbcode-render';
 import { ElementDisplay } from '../../element';
 import { Container } from '../../container';
 import { LevelDropdown } from '../../level-dropdown';
-import type { ThiefSkill } from '@types';
+import type { RequiredThiefSkill } from '@types';
 
-export function CharacterSkillComponent(props: { skill: ThiefSkill }) {
+export function CharacterSkillComponent(props: { skill: RequiredThiefSkill }) {
 	const [level, setLevel] = createSignal(
 		props.skill.data?.[0] !== undefined
 			? Math.min(10, props.skill.data[0].length)

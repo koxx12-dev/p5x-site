@@ -13,12 +13,11 @@ import { CharacterSkillDisplay } from '../../components/character/page/character
 import { CharacterMentalImageDisplay } from '../../components/character/page/character-mental-image-display';
 import { CharacterStatsTable } from '../../components/character/page/character-stats-table';
 import { cn } from '../../utils';
-import type { Thief } from '@types';
-import { useThief } from 'src/hooks/collectionts';
+import { useThief } from 'src/hooks/collections';
 
 export const Route = createFileRoute('/character/$characterId')({
 	component: RouteComponent,
-	errorComponent: ErrorRouteComponent
+	errorComponent: ErrorRouteComponent,
 });
 
 function RouteComponent() {
@@ -47,31 +46,30 @@ function RouteComponent() {
 										'view-transition-name': `code-name-${thiefData().id}`,
 									}}
 								>
-									{(thiefData() as Thief).code_name}
+									{thiefData().code_name}
 								</h1>
 								<span
 									class={cn(
 										'absolute bottom-6.5 h-1 w-full',
-										(thiefData() as Thief).quality === 5 &&
+										thiefData().quality === 5 &&
 											'bg-[url(/assets/rainbow.svg)] bg-size-[100%]',
-										(thiefData() as Thief).quality === 4 &&
-											'bg-star-gold',
+										thiefData().quality === 4 && 'bg-star-gold',
 									)}
 									aria-hidden="true"
 								/>
 								<h2 class="absolute bottom-0 text-nowrap font-semibold text-normal text-white">
-									{(thiefData() as Thief).full_name}
+									{thiefData().full_name}
 								</h2>
 								<RoleDisplay
-									characterRole={(thiefData() as Thief).role}
+									characterRole={thiefData().role}
 									class="-right-10 absolute top-0 h-8 w-8"
 								/>
 								<ElementDisplay
-									element={(thiefData() as Thief).element}
+									element={thiefData().element}
 									class="-right-10 absolute top-7.5 h-8 w-8"
 								/>
 							</div>
-							<Show when={(thiefData() as Thief).stats}>
+							<Show when={thiefData().stats}>
 								{(stats) => <CharacterStatsTable stats={stats()} />}
 							</Show>
 						</div>

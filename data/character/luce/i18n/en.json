@@ -1,0 +1,50 @@
+{
+    "$schema": "../../schema_i18n.json",
+    "code_name": "Luce",
+    "full_name": "Shoki Ikenami",
+    "skill.s1.name": "Spotlight Soliloquy",
+    "skill.s1.description": "Deals [color=#ffffa4][b]{skill_data} ATK[/b][/color] as [color=#ffffa4][b]Bless DMG[/b][/color] to 1 enemy, gives all allies 2 stacks of [color=#ffffa4][b][i]Blessing[/i][/b][/color], and increases all allies' [color=#ffffa4][b]DMG Dealt[/b][/color] (For every [color=#ffffa4][b]100 ATK[/b][/color], increases [color=#ffffa4][b]DMG Dealt[/b][/color] by [color=#ffffa4][b]0.8%[/b][/color], up to [color=#ffffa4][b]{skill_data}[/b][/color]) for 2 turns.",
+    "skill.s2.name": "Brechtian Divide",
+    "skill.s2.description": [
+        "[b]Cooldown: 2 actions[/b]",
+        "Increases 1 other ally's [color=#ffffa4][b]DEF[/b][/color] (For every [color=#ffffa4][b]100 ATK[/b][/color], increases [color=#ffffa4][b]DEF[/b][/color] by [color=#ffffa4][b]0.83%[/b][/color], up to [color=#ffffa4][b]{skill_data}[/b][/color]), and gives them immunity to certain Mental Ailments (Dizzy, Sleep, Confuse, Forget) for 2 turns."
+    ],
+    "skill.s3.name": "Ensemble of Stars",
+    "skill.s3.description": [
+        "Increases all allies' [color=#ffffa4][b]ATK[/b][/color] (Based on [color=#ffffa4][b]15%[/b][/color] own [color=#ffffa4][b]ATK[/b][/color], up to [color=#ffffa4][b]{skill_data}[/b][/color]) for 2 turns.",
+        "Based on Luce's current [color=#fcd691][b][Improv][/b][/color], gives the main target additional effects:",
+        "- [color=#ff3b1d][b][Improv·Osmosis][/b][/color]: Increases the main target's [color=#ff3b1d][b]Damage Over Time DMG[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] and [color=#ff3b1d][b]EHR[/b][/color] by [color=#ff3b1d][b]30%[/b][/color] for 2 turns.",
+        "- [color=#00adff][b][Improv·Subversion][/b][/color]: Increases the main target's [color=#00adff][b]TECHNICAL[/b][/color] Mastery by [color=#00adff][b]{skill_data}[/b][/color] and [color=#00adff][b]ATK[/b][/color] when dealing [color=#00adff][b]TECHNICAL[/b][/color] by [color=#00adff][b]20%[/b][/color] for 2 turns.",
+        "- [color=#fcff37][b][Improv·Empathy][/b][/color]: Increases the main target's [color=#fcff37][b]CRIT DMG[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] for 2 turns.",
+        "- [color=#7fe82a][b][Improv·Resonance][/b][/color]: Increases the main target's [color=#7fe82a][b]PEN[/b][/color] by [color=#7fe82a][b]{skill_data}[/b][/color] for 2 turns."
+    ],
+    "skill.hl.name": "HIGHLIGHT",
+    "skill.hl.description": "Increases all allies' [color=#ffffa4][b]ATK[/b][/color] (Based on [color=#ffffa4][b]6.5%[/b][/color] of own [color=#ffffa4][b]ATK[/b][/color], up to [color=#ffffa4][b]{skill_data}[/b][/color]) and Effect RES by [color=#ffffa4][b]{skill_data}[/b][/color] for 2 turns, then gives all allies 1 stack of [color=#ffffa4][b][i]Blessing[/i][/b][/color].",
+    "skill.p1.name": "Nature",
+    "skill.p1.description": "For each stack of [color=#ffffa4][b][i]Blessing[/i][/b][/color] on an ally, increase their [color=#ffffa4][b]DMG[/b][/color] Dealt by [color=#ffffa4][b]5%[/b][/color], up to [color=#ffffa4][b]{skill_data}[/b][/color].",
+    "skill.p2.name": "Reverse",
+    "skill.p2.description": "For every [color=#ffffa4][b]1% EHR[/b][/color], increase [color=#ffffa4][b]ATK[/b][/color] by [color=#ffffa4][b]0.72%[/b][/color], up to [color=#ffffa4][b]{skill_data}[/b][/color].",
+    "awareness.a0.name": "Four Acts of Life",
+    "awareness.a0.description": [
+        "Luce has 4 types of Improvs: [color=#ff3b1d][b][Improv·Osmosis][/b][/color], [color=#00adff][b][Improv·Subversion][/b][/color], [color=#fcff37][b][Improv·Empathy][/b][/color], [color=#7fe82a][b][Improv·Resonance][/b][/color], and he can freely change during his turn.",
+        "When dealing damage with a Persona skill, there is a [color=#ffffa4][b]75%[/b][/color] base chance to inflict all enemies with the current [color=#fcd691][b][Improv][/b][/color] corresponding Elemental Ailment (In order of [color=#ff3b1d][b][i]Burn[/i][/b][/color], [color=#00adff][b][i]Freeze[/i][/b][/color], [color=#fcff37][b][i]Shock[/i][/b][/color], [color=#7fe82a][b][i]Winded[/i][/b][/color])."
+    ],
+    "awareness.a1.name": "Adieu! Adieu! Remember Me!",
+    "awareness.a1.description": "After using a Persona skill on allies, increases the target's [color=#ffffa4][b]DMG[/b][/color] Dealt by [color=#ffffa4][b]3%[/b][/color] if they have [color=#ffffa4][b][i]Blessing[/i][/b][/color] for 2 turns, up to [color=#ffffa4][b]15%[/b][/color].",
+    "awareness.a2.name": "The Slings and Arrows of Outrageous Fortune",
+    "awareness.a2.description": "When using [ref=s2][color=#6b9ec3][b][u][Brechtian Divide][/u][/b][/color][/ref], additionally increases the targets' Final [color=#ffffa4][b]DMG[/b][/color] RES by [color=#ffffa4][b]35%[/b][/color] when taking the next skill [color=#ffffa4][b]DMG[/b][/color] for 1 turn.",
+    "awareness.a3.name": "To Take Arms Against a Sea of Troubles",
+    "awareness.a3.description": [
+        "[ref=s1][color=#6b9ec3][b][u][Spotlight Soliloquy][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +2[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color].",
+        "[ref=s2][color=#6b9ec3][b][u][Brechtian Divide][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +2[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color]."
+    ],
+    "awareness.a4.name": "Even the Humblest Straw May Strive with Passion",
+    "awareness.a4.description": "[ref=hl][color=#6b9ec3][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Increases the main target's [color=#ffffa4][b]ATK[/b][/color] by [color=#ffffa4][b]10%[/b][/color], and additionally gives all allies 2 stacks of [color=#ffffa4][b][i]Blessing[/i][/b][/color].",
+    "awareness.a5.name": "There Is Special Providence in the Fall of a Sparrow",
+    "awareness.a5.description": [
+        "[ref=s3][color=#6b9ec3][b][u][Ensemble of Stars][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +2[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color].",
+        "[ref=hl][color=#6b9ec3][b][u][Combat Skills][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +2[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color]."
+    ],
+    "awareness.a6.name": "Good Night, Sweet Prince",
+    "awareness.a6.description": "When triggering the [color=#fcd691][b][Improv][/b][/color] from [ref=s3][color=#6b9ec3][b][u][Ensemble of Stars][/u][/b][/color][/ref], extends the buff duration to 4 turns."
+}

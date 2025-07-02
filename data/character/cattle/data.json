@@ -1,8 +1,6 @@
 {
   "$schema": "../schema.json",
   "id": "cattle",
-  "code_name": "Cattle",
-  "full_name": "Lufel",
   "quality": 4,
   "role": "heal",
   "element": "fire",
@@ -15,8 +13,6 @@
     {
       "id": "s1",
       "element": "fire",
-      "name": "Caper Fire Owl",
-      "description": "Deals [color=#ff3b1d][b]{skill_data} ATK[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to 1 enemy, with a [color=#ff3b1d][b]100%[/b][/color] base chance to inflict [color=#ff3b1d][b][i]Burn[/i][/b][/color] and decreases the enemy's Healing Received by [color=#ff3b1d][b]30%[/b][/color] for 2 turns.",
       "data": [
         [
           [
@@ -121,8 +117,6 @@
     {
       "id": "s2",
       "element": "healing",
-      "name": "Beam of Hope",
-      "description": "Restores [color=#ff3b1d][b]{skill_data} ATK[/b][/color] + [color=#ff3b1d][b]{skill_data} HP[/b][/color] to an ally. Increases Healing Effect by [color=#ff3b1d][b]{skill_data}[/b][/color] if the target is below [color=#ff3b1d][b]50% HP[/b][/color].",
       "data": [
         [
           [
@@ -423,8 +417,6 @@
     {
       "id": "s3",
       "element": "all_healing",
-      "name": "Angel's Mercy",
-      "description": "Restores [color=#ff3b1d][b]{skill_data} ATK[/b][/color] + [color=#ff3b1d][b]{skill_data} HP[/b][/color] to all allies, increases Healing Effect to the main target by [color=#ff3b1d][b]{skill_data}[/b][/color].",
       "data": [
         [
           [
@@ -725,8 +717,6 @@
     {
       "id": "hl",
       "element": "all_healing",
-      "name": "HIGHLIGHT",
-      "description": "Restores [color=#ff3b1d][b]{skill_data} ATK[/b][/color] + [color=#ff3b1d][b]{skill_data} HP[/b][/color], increases all allies' [color=#ff3b1d][b]ATK[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] for 1 turn.",
       "data": [
         [
           [
@@ -1027,8 +1017,6 @@
     {
       "id": "p1",
       "element": "passive",
-      "name": "Light",
-      "description": "Gives {skill_data} random allies [color=#f35a5d][b][Starfire][/b][/color] when attacking enemies with a Persona skill.",
       "data": [
         [
           "1",
@@ -1040,8 +1028,6 @@
     {
       "id": "p2",
       "element": "passive",
-      "name": "Hope ",
-      "description": "Hope Increases Healing Effect based on Cattle's [color=#ff3b1d][b]Max HP[/b][/color], capping at [color=#ff3b1d][b]{skill_data} HP[/b][/color] and [color=#ff3b1d][b]{skill_data} Healing Effect[/b][/color].",
       "data": [
         [
           "4000",
@@ -1060,60 +1046,44 @@
     {
       "id": "a0",
       "tier": 0,
-      "name": "Day Night Reversal",
-      "description": [
-        "When using Healing skills, give the target [color=#f35a5d][b][Starfire][/b][/color], each ally can only have 1 [color=#f35a5d][b][Starfire][/b][/color] related effect.",
-        "[color=#f35a5d][b][Starfire I][/b][/color]: Increase [color=#ff3b1d][b]ATK[/b][/color] based on [color=#ff3b1d][b]4%[/b][/color] of Cattle's [color=#ff3b1d][b]ATK[/b][/color] (Up to [color=#ff3b1d][b]160 ATK[/b][/color]) for 1 turn, upgrade to [color=#f35a5d][b][Starfire II][/b][/color] when the effect ends.",
-        "[color=#f35a5d][b][Starfire II][/b][/color]: Increase [color=#ff3b1d][b]ATK[/b][/color] based on [color=#ff3b1d][b]8%[/b][/color] of Cattle's [color=#ff3b1d][b]ATK[/b][/color] (Up to [color=#ff3b1d][b]320 ATK[/b][/color]) for 1 turn."
-      ]
+      "name": "awareness.a0.name",
+      "description": "awareness.a0.description"
     },
     {
       "id": "a1",
       "tier": 1,
-      "name": "270° Rotation",
-      "description": [
-        "At the start of battle, there is a [color=#ff3b1d][b]100%[/b][/color] base chance to inflict the highest [color=#ff3b1d][b]HP[/b][/color] enemy with  [color=#ff3b1d][b][i]Burn[/i][/b][/color].",
-        "Allies with [color=#f35a5d][b][Starfire][/b][/color] increase [color=#ff3b1d][b]EHR[/b][/color] by [color=#ff3b1d][b]33%[/b][/color] when inflicting Elemental Ailments."
-      ]
+      "name": "awareness.a1.name",
+      "description": "awareness.a1.description"
     },
     {
       "id": "a2",
       "tier": 2,
-      "name": "Ear Feather Quiver",
-      "description": [
-        "[ref=s1][color=#71e2fd][b][u][Caper Fire Owl][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +2[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color].",
-        "[ref=s2][color=#71e2fd][b][u][Beam of Hope][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +2[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color]."
-      ]
+      "name": "awareness.a2.name",
+      "description": "awareness.a2.description"
     },
     {
       "id": "a3",
       "tier": 3,
-      "name": "Prey Appears",
-      "description": "[color=#f35a5d][b][Starfire II][/b][/color] gains an additional effect that increases Healing Received by [color=#ff3b1d][b]10%[/b][/color]."
+      "name": "awareness.a3.name",
+      "description": "awareness.a3.description"
     },
     {
       "id": "a4",
       "tier": 4,
-      "name": "Silent Ambush",
-      "description": [
-        "[ref=s3][color=#71e2fd][b][u][Angel's Mercy][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +2[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color].",
-        "[ref=hl][color=#71e2fd][b][u][Combat Skills][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +2[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color]."
-      ]
+      "name": "awareness.a4.name",
+      "description": "awareness.a4.description"
     },
     {
       "id": "a5",
       "tier": 5,
-      "name": "Claw Assault",
-      "description": "[ref=hl][color=#71e2fd][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Increases all allies' [color=#ff3b1d][b]Fire DMG[/b][/color] by [color=#ff3b1d][b]32%[/b][/color] for 1 turn."
+      "name": "awareness.a5.name",
+      "description": "awareness.a5.description"
     },
     {
       "id": "a6",
       "tier": 6,
-      "name": "Return Fully Loaded",
-      "description": [
-        "[color=#f35a5d][b][Starfire II][/b][/color] can be upgraded to [color=#f35a5d][b][Starfire III][/b][/color].",
-        "[color=#f35a5d][b][Starfire III][/b][/color]: Increase [color=#ff3b1d][b]ATK[/b][/color] based on [color=#ff3b1d][b]8%[/b][/color] of Cattle's [color=#ff3b1d][b]ATK[/b][/color], [color=#ff3b1d][b]Fire DMG[/b][/color] by [color=#ff3b1d][b]20%[/b][/color], and Healing Received by [color=#ff3b1d][b]10%[/b][/color] for 1 turn."
-      ]
+      "name": "awareness.a6.name",
+      "description": "awareness.a6.description"
     }
   ],
   "mental_image": {

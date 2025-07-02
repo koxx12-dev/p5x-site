@@ -26,6 +26,14 @@
                     "items": {
                         "type": "object",
                         "properties": {
+                            "id": {
+                                "type": "string"
+                            },
+                            "tier": {
+                                "type": "number",
+                                "maximum": 7,
+                                "minimum": 0
+                            },
                             "description": {
                                 "anyOf": [
                                     {
@@ -39,22 +47,12 @@
                                     }
                                 ]
                             },
-                            "id": {
-                                "type": "string"
-                            },
                             "name": {
                                 "type": "string"
-                            },
-                            "tier": {
-                                "type": "number",
-                                "maximum": 7,
-                                "minimum": 0
                             }
                         },
                         "required": [
-                            "description",
                             "id",
-                            "name",
                             "tier"
                         ]
                     }
@@ -380,19 +378,6 @@
                     "items": {
                         "type": "object",
                         "properties": {
-                            "description": {
-                                "anyOf": [
-                                    {
-                                        "type": "string"
-                                    },
-                                    {
-                                        "type": "array",
-                                        "items": {
-                                            "type": "string"
-                                        }
-                                    }
-                                ]
-                            },
                             "element": {
                                 "enum": [
                                     "ailment",
@@ -436,9 +421,6 @@
                             "id": {
                                 "type": "string"
                             },
-                            "name": {
-                                "type": "string"
-                            },
                             "data": {
                                 "type": "array",
                                 "items": {
@@ -457,13 +439,27 @@
                                         ]
                                     }
                                 }
+                            },
+                            "description": {
+                                "anyOf": [
+                                    {
+                                        "type": "string"
+                                    },
+                                    {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "string"
+                                        }
+                                    }
+                                ]
+                            },
+                            "name": {
+                                "type": "string"
                             }
                         },
                         "required": [
-                            "description",
                             "element",
-                            "id",
-                            "name"
+                            "id"
                         ]
                     }
                 },

@@ -1,0 +1,63 @@
+{
+    "$schema": "../../schema_i18n.json",
+    "code_name": "Howler",
+    "full_name": "Runa Dogenzaka",
+    "skill.s1.name": "Fiery Handshake",
+    "skill.s1.description": [
+        "Deals [color=#ff3b1d][b]{skill_data} ATK[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to all enemies, decreases the target's [color=#ff3b1d][b]DEF[/b][/color] based on [color=#ff3b1d][b]15.4%[/b][/color] own [color=#ff3b1d][b]EHR[/b][/color], up to [color=#ff3b1d][b]{skill_data}[/b][/color] for 2 turns, additionally decreases [color=#ff3b1d][b]DEF[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] when taking [color=#ff3b1d][b]Fire DMG[/b][/color].",
+        "There is a [color=#ff3b1d][b]50%[/b][/color] base chance to inflict [color=#ff3b1d][b][i]Burn[/i][/b][/color].",
+        "Howler gains [color=#fd901a][b][Warm Welcome][/b][/color]",
+        "(Cannot stack the DEF Down effect with [ref=s2][color=#f5beb5][b][u][Intimidate Baddie][/u][/b][/color][/ref].)"
+    ],
+    "skill.s2.name": "Intimidate Baddie",
+    "skill.s2.description": [
+        "Deals [color=#ff3b1d][b]{skill_data} ATK[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to 1 enemy, decreases the target's [color=#ff3b1d][b]DEF[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] + [color=#ff3b1d][b]31.4%[/b][/color] of own [color=#ff3b1d][b]EHR[/b][/color] (up to [color=#ff3b1d][b]{skill_data} DEF Down[/b][/color]) for 2 turns.",
+        "Howler gains [color=#f3c067][b][Furious Pursue][/b][/color].",
+        "(Cannot stack the [color=#ff3b1d][b]DEF[/b][/color] Down effect with [ref=s1][color=#f5beb5][b][u][Fiery Handshake][/u][/b][/color][/ref].)"
+    ],
+    "skill.s3.name": "GO GO WOOF WOOF RU!",
+    "skill.s3.description": [
+        "[b]Requirement: Howler has [color=#fd901a][b][Warm Welcome][/b][/color] or [color=#f3c067][b][Furious Pursue][/b][/color].[/b]",
+        "When Howler has [color=#fd901a][b][Warm Welcome][/b][/color] or [color=#f3c067][b][Furious Pursue][/b][/color], triggers their corresponding effect.",
+        "Only one effect can be triggered.",
+        "- [color=#fd901a][b][Warm Welcome][/b][/color]: Deals [color=#ff3b1d][b]{skill_data} ATK[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to all enemies, increases the target's [color=#ff3b1d][b]DMG[/b][/color] Taken based on [color=#ff3b1d][b]24%[/b][/color] of own [color=#ff3b1d][b]EHR[/b][/color], up to [color=#ff3b1d][b]{skill_data}[/b][/color], increases their [color=#ff3b1d][b]Fire DMG[/b][/color] Taken by [color=#ff3b1d][b]{skill_data}[/b][/color] for 2 turns.",
+        "- [color=#f3c067][b][Furious Pursue][/b][/color]: Deals [color=#ff3b1d][b]{skill_data} ATK[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to 1 enemy, increases the target's [color=#ff3b1d][b]DMG[/b][/color] Taken based on [color=#ff3b1d][b]34.3%[/b][/color] of own [color=#ff3b1d][b]EHR[/b][/color], up to [color=#ff3b1d][b]{skill_data}[/b][/color], increases their Follow Up [color=#ff3b1d][b]DMG[/b][/color] Taken by [color=#ff3b1d][b]{skill_data}[/b][/color] for 2 turns."
+    ],
+    "skill.hl.name": "HIGHLIGHT",
+    "skill.hl.description": "Deals [color=#ff3b1d][b]{skill_data} ATK[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to all enemies, inflicts all enemies with 2 stacks of [color=#aa877e][b][Big Bad][/b][/color]: Consumes 1 stack when any enemy take Follow Up [color=#ff3b1d][b]DMG[/b][/color] or [color=#ff3b1d][b]Fire DMG[/b][/color] to increase that damage based on [color=#ff3b1d][b]22.9%[/b][/color] own [color=#ff3b1d][b]EHR[/b][/color], up to [color=#ff3b1d][b]{skill_data}[/b][/color] for 2 turns.",
+    "skill.p1.name": "Loyalty",
+    "skill.p1.description": "Increase [color=#ff3b1d][b]ATK[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] of Howler's [color=#ff3b1d][b]EHR[/b][/color].",
+    "skill.p2.name": "Passion",
+    "skill.p2.description": "After using skills to inflict debuffs, increase own [color=#ff3b1d][b]ATK[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color], allies gain the same amount of [color=#ff3b1d][b]ATK[/b][/color] when they deal [color=#ff3b1d][b]Fire DMG[/b][/color] or Follow Up [color=#ff3b1d][b]DMG[/b][/color] for 1 turn.",
+    "awareness.a0.name": "Every Warm Embrace",
+    "awareness.a0.description": [
+        "When Howler has [color=#fd901a][b][Warm Welcome][/b][/color] or [color=#f3c067][b][Furious Pursue][/b][/color], unlock [ref=s3][color=#f5beb5][b][u][GO GO WOOF WOOF RU!][/u][/b][/color][/ref].",
+        "After using [ref=s3][color=#f5beb5][b][u][GO GO WOOF WOOF RU!][/u][/b][/color][/ref], there is a [color=#ff3b1d][b]60%[/b][/color] base chance to decrease the target's Healing Received by [color=#ff3b1d][b]30%/40%/50%[/b][/color] and [color=#ff3b1d][b]DEF[/b][/color] by [color=#ff3b1d][b]6%/12%/18%[/b][/color] (at level 1/50/70) for 2 turns."
+    ],
+    "awareness.a1.name": "Fluffy Feeling",
+    "awareness.a1.description": [
+        "When using [ref=s3][color=#f5beb5][b][u][GO GO WOOF WOOF RU!][/u][/b][/color][/ref], additionally increase enemies' [color=#ff3b1d][b]Fire DMG[/b][/color] Taken by [color=#ff3b1d][b]36%[/b][/color] for 2 turns when triggering [color=#fd901a][b][Warm Welcome][/b][/color].",
+        "Additionally increase enemies' Follow Up [color=#ff3b1d][b]DMG[/b][/color] Taken by [color=#ff3b1d][b]40%[/b][/color] for 2 turns when triggering [color=#f3c067][b][Furious Pursue][/b][/color]."
+    ],
+    "awareness.a2.name": "Knowing the Heart",
+    "awareness.a2.description": "Enemies with debuffs from Howler increase [color=#ff3b1d][b]CRIT DMG[/b][/color] Taken by [color=#ff3b1d][b]36%[/b][/color] and decrease Healing Received by [color=#ff3b1d][b]20%[/b][/color].",
+    "awareness.a3.name": "Supportive Courage",
+    "awareness.a3.description": [
+        "[ref=s3][color=#f5beb5][b][u][GO GO WOOF WOOF RU!][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +3[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color].",
+        "[ref=hl][color=#f5beb5][b][u][Combat Skills][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +3[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color]."
+    ],
+    "awareness.a4.name": "Loyal Trust",
+    "awareness.a4.description": "[ref=s3][color=#f5beb5][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Increase the amount of [color=#aa877e][b][Big Bad][/b][/color] to 4 stacks.",
+    "awareness.a5.name": "Source of Sunshine and Happiness",
+    "awareness.a5.description": [
+        "[ref=s1][color=#f5beb5][b][u][Fiery Handshake][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +3[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color].",
+        "[ref=s2][color=#f5beb5][b][u][Intimidate Baddie][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +3[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color]."
+    ],
+    "awareness.a6.name": "Stay with Me Forever",
+    "awareness.a6.description": [
+        "At the start of battle, gain [color=#fd901a][b][Warm Welcome][/b][/color] and [color=#f3c067][b][Furious Pursue][/b][/color].",
+        "Extend the debuff from [ref=s1][color=#f5beb5][b][u][Fiery Handshake][/u][/b][/color][/ref], [ref=s2][color=#f5beb5][b][u][Intimidate Baddie][/u][/b][/color][/ref], and [ref=s3][color=#f5beb5][b][u][GO GO WOOF WOOF RU!][/u][/b][/color][/ref] by 1 turn.",
+        "When Howler has both [color=#fd901a][b][Warm Welcome][/b][/color] and [color=#f3c067][b][Furious Pursue][/b][/color], [ref=s3][color=#f5beb5][b][u][GO GO WOOF WOOF RU!][/u][/b][/color][/ref] will increase all enemies' [color=#ff3b1d][b]Fire DMG[/b][/color] Taken by [color=#ff3b1d][b]18%[/b][/color], increase the main target's Follow Up [color=#ff3b1d][b]DMG[/b][/color] Taken by [color=#ff3b1d][b]25%[/b][/color], trigger both the effects of [color=#fd901a][b][Warm Welcome][/b][/color] and [color=#f3c067][b][Furious Pursue][/b][/color].",
+        "(The [color=#ff3b1d][b]DMG[/b][/color] Taken effect from [color=#fd901a][b][Warm Welcome][/b][/color] and [color=#f3c067][b][Furious Pursue][/b][/color] cannot be stacked, takes the highest value when triggering both effects.)"
+    ]
+}
