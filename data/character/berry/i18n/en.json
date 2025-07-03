@@ -56,7 +56,7 @@
 	"awareness.a5.description": "Increase the skill levels of [ref=s1][color=#374e85][b][u][Butterfly Beheadment][/u][/b][/color][/ref] and [ref=s2][color=#374e85][b][u][Blood Rose's Kiss][/u][/b][/color][/ref] by 3.",
 	"awareness.a6.name": "If You Discovered My Other Self",
 	"awareness.a6.description": [
-		"Increase maximum [color=#a93250][b][Resentment][/b][/color] stack.",
+		"Increase maximum [color=#a93250][b][Resentment][/b][/color] stacks to 15.",
 		"When [color=#e7186f][b][Obsessive Love][/b][/color] reaches a certain stack, gain the following effects:",
 		"1 stack: After using [ref=s1][color=#374e85][b][u][Butterfly Beheadment][/u][/b][/color][/ref], additionally use [ref=s1][color=#374e85][b][u][Butterfly Beheadment][/u][/b][/color][/ref] on the target (once per battle).",
 		"2 stacks: After using [ref=s2][color=#374e85][b][u][Blood Rose's Kiss][/u][/b][/color][/ref], additionally use [ref=s2][color=#374e85][b][u][Blood Rose's Kiss][/u][/b][/color][/ref] on the target (once per battle).",

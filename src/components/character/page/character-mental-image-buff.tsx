@@ -5,18 +5,18 @@ import { LevelDropdown } from '../../level-dropdown';
 import { MentalImageAsset } from '../../mental-image-asset';
 
 const typeMap = {
-	atk_prec: 'ATK',
-	def_prec: 'DEF',
+	atk_prec: 'Atk',
+	def_prec: 'Def',
 	hp_prec: 'HP',
-	dmg_prec: 'DMG Bonus',
-	dmg_res_prec: 'DMG RES',
-	eff_hit_prec: 'EHR',
-	eff_res_prec: 'Effect RES',
-	crit_dmg_prec: 'CRIT DMG',
-	crit_c_prec: 'CRIT Rate',
-	pen_prec: 'PEN',
+	dmg_prec: 'Atk Mult.',
+	dmg_res_prec: 'Attack Resist.',
+	eff_hit_prec: 'Ailment Acc.',
+	eff_res_prec: 'Ailment Resist.',
+	crit_dmg_prec: 'Crit Mult.',
+	crit_c_prec: 'Crit Rate',
+	pen_prec: 'Pierce Rate',
 	heal_eff_prec: 'Healing Effect',
-	spd: 'SPD',
+	spd: 'Spd',
 	sp_rec_prec: 'SP Recovery',
 	shd_eff_prec: 'Shield Effect',
 };

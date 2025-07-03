@@ -1,7 +1,7 @@
+import { Box } from '@components/box';
 import type { ThiefStats } from '@types';
 import { type } from 'arktype';
 import { createMemo, For, Show } from 'solid-js';
-import { Box } from '../../box';
 
 const characterStat = type.enumerated(
 	'hp',
@@ -17,15 +17,16 @@ const characterStat = type.enumerated(
 );
 type CharacterStat = typeof characterStat.infer;
 
+//TODO: Merge this with typeMap in character-mental-image-buff.tsx
 const statNames: Record<CharacterStat, string> = {
 	hp: 'HP',
-	atk: 'ATK',
+	atk: 'Atk',
 	sp: 'SP',
-	def: 'DEF',
-	spd: 'SPD',
-	crit_c_prec: 'Crit Chance',
-	crit_dmg_prec: 'Crit Damage',
-	eff_hit_prec: 'Effect Hit Rate',
+	def: 'Def',
+	spd: 'Spd',
+	crit_c_prec: 'Crit Rate',
+	crit_dmg_prec: 'Crit Mult.',
+	eff_hit_prec: 'Ailment Acc.',
 	sp_rec_prec: 'SP Recovery',
 	heal_eff_prec: 'Healing Effect',
 };
@@ -56,7 +57,7 @@ export function CharacterStatsTable(props: { stats: ThiefStats }) {
 					<thead>
 						<tr>
 							<th class="border-black not-last:border-r-[2px] px-2 text-center dark:border-red-600">
-								POT
+								HDN
 							</th>
 							<th class="border-black not-last:border-r-[2px] px-2 text-center dark:border-red-600">
 								LVL

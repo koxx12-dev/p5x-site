@@ -6,7 +6,7 @@ export function VerticalBox(props: { class?: string; children?: JSX.Element }) {
 		<div class="flex min-h-screen flex-row justify-center">
 			<main
 				class={twMerge(
-					'min-h-screen w-full max-w-301 border-red-600 border-r-2 border-l-2 bg-black/40 [view-transition-name:main]',
+					'min-h-screen w-full max-w-301 border-red-600 border-r-2 border-l-2 bg-black/40 accessibility-bg-blur:backdrop-blur-xs [view-transition-name:main]',
 					props.class,
 				)}
 			>

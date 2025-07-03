@@ -5,9 +5,11 @@
 @plugin "tailwindcss-motion";
 
 @custom-variant dark (&:where(.dark, .dark *));
+@custom-variant accessibility-bg-blur (&:where(.accessibility-bg-blur, .accessibility-bg-blur *));
 
 @custom-variant ui-pressed (&[data-pressed]);
 @custom-variant ui-expanded (&[data-expanded]);
+@custom-variant ui-checked (&[data-checked]);
 
 @custom-variant firefox (:-moz-any(&));
 

@@ -1,9 +1,11 @@
 import { Box } from '@components/box';
 import { Container } from '@components/container';
 import { VerticalBox } from '@components/verticalbox';
+import { Checkbox } from '@kobalte/core/checkbox';
 import { Combobox } from '@kobalte/core/combobox';
 import { createFileRoute } from '@tanstack/solid-router';
 import { For } from 'solid-js/web';
+import { useAccessibilityBgBlur } from 'src/hooks/accessbility';
 import { READABLE_REGIONS, useRegion } from 'src/hooks/i18n';
 
 export const Route = createFileRoute('/settings')({
@@ -55,6 +57,7 @@ const credits = [
 
 function RouteComponent() {
 	const [getRegion, setRegion] = useRegion();
+	const [solidColor, setSolidColor] = useAccessibilityBgBlur();
 
 	return (
 		<VerticalBox>
@@ -101,6 +104,19 @@ function RouteComponent() {
 							</Combobox.Content>
 						</Combobox.Portal>
 					</Combobox>
+				</Box>
+				<Box class="flex h-16 flex-row items-center p-2">
+					<Checkbox class="inline-flex items-center" checked={solidColor()} onChange={setSolidColor}>
+						<Checkbox.Label class="text-white">
+							Enable background blur
+						</Checkbox.Label>
+						<Checkbox.Input class="peer absolute h-5 w-5 opacity-0" />
+						<Checkbox.Control class="ml-2 flex h-6 w-6 items-center justify-center rounded-md border-2 border-red-600 bg-black/60">
+							<Checkbox.Indicator>
+								<div class="icon-[tabler--x] h-6 w-6 translate-y-1/8 text-red-600 transition" />
+							</Checkbox.Indicator>
+						</Checkbox.Control>
+					</Checkbox>
 				</Box>
 				<Box class="flex flex-col gap-y-2 p-4">
 					<p class="text-white">
