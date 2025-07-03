@@ -1,19 +1,19 @@
+import { CharacterAwarenessDisplay } from '@components/character/page/character-awareness-display';
+import { CharacterMentalImageDisplay } from '@components/character/page/character-mental-image-display';
+import { CharacterSkillDisplay } from '@components/character/page/character-skill-display';
+import { CharacterStatsTable } from '@components/character/page/character-stats-table';
+import { CharacterAssetDisplay } from '@components/character-asset';
+import { ElementDisplay } from '@components/element';
+import { RoleDisplay } from '@components/role';
 import {
 	createFileRoute,
 	type ErrorComponentProps,
 	Link,
 } from '@tanstack/solid-router';
-import { ElementDisplay } from '../../components/element';
-import { RoleDisplay } from '../../components/role';
-import { CharacterAssetDisplay } from '../../components/character-asset';
-import { Show } from 'solid-js';
 import { TraversalError } from 'arktype';
-import { CharacterAwarenessDisplay } from '../../components/character/page/character-awareness-display';
-import { CharacterSkillDisplay } from '../../components/character/page/character-skill-display';
-import { CharacterMentalImageDisplay } from '../../components/character/page/character-mental-image-display';
-import { CharacterStatsTable } from '../../components/character/page/character-stats-table';
-import { cn } from '../../utils';
+import { Show } from 'solid-js';
 import { useThief } from 'src/hooks/collections';
+import { cn } from 'src/utils';
 
 export const Route = createFileRoute('/character/$characterId')({
 	component: RouteComponent,

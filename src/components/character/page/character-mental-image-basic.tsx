@@ -1,7 +1,7 @@
-import { createMemo } from 'solid-js';
-import { MentalImageAsset } from '../../mental-image-asset';
-import { Container } from '../../container';
 import type { MentalImageBasic } from '@types';
+import { createMemo } from 'solid-js';
+import { Container } from '../../container';
+import { MentalImageAsset } from '../../mental-image-asset';
 
 export function CharacterMentalImageBasic(props: MentalImageBasic) {
 	const formattedString = createMemo(() => {

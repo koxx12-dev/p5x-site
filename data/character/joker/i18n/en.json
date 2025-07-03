@@ -1,58 +1,58 @@
 {
-    "$schema": "../../schema_i18n.json",
-    "code_name": "Joker",
-    "full_name": "Ren Amamiya",
-    "skill.s1.name": "Fearless Rebel",
-    "skill.s1.description": [
-        "Deals [color=#fe0037][b]{skill_data} ATK[/b][/color] as [color=#fe0037][b]Curse DMG[/b][/color] to all enemies, with a [color=#fe0037][b]20%[/b][/color] base chance to inflicts a stack of [color=#fe0037][b][i]Curse[/i][/b][/color].",
-        "Gains 1 [color=#ff7744][b][Fury][/b][/color]."
-    ],
-    "skill.s2.name": "Ominous Omen",
-    "skill.s2.description": [
-        "Deals [color=#fe0037][b]{skill_data} ATK[/b][/color] as [color=#fe0037][b]Curse DMG[/b][/color] to 1 enemy.",
-        "If there is only 1 enemy, gains 2 [color=#ff7744][b][Fury][/b][/color]."
-    ],
-    "skill.s3.name": "Doom Pursue",
-    "skill.s3.description": [
-        "Deals [color=#fe0037][b]{skill_data} ATK[/b][/color] as [color=#fe0037][b]Curse DMG[/b][/color] to all enemies.",
-        "Increases [color=#fe0037][b]DMG[/b][/color] Dealt by [color=#fe0037][b]25%[/b][/color] during Extra Turn.",
-        "Increases [color=#fe0037][b]DMG[/b][/color] Dealt by [color=#fe0037][b]25%[/b][/color] if the target have any debuffs."
-    ],
-    "skill.hl.name": "HIGHLIGHT",
-    "skill.hl.description": "Deals [color=#fe0037][b]{skill_data} ATK[/b][/color] as [color=#fe0037][b]Curse DMG[/b][/color] to all enemies and gains 1 [color=#ff7744][b][Fury][/b][/color].",
-    "skill.p1.name": "Revenge",
-    "skill.p1.description": "Increase [color=#fe0037][b]ATK[/b][/color] by [color=#fe0037][b]{skill_data}[/b][/color] per stack of [color=#ff7744][b][Fury][/b][/color].",
-    "skill.p2.name": "Devour",
-    "skill.p2.description": "Increase [color=#fe0037][b]DMG[/b][/color] Dealt by [color=#fe0037][b]{skill_data}[/b][/color] during Extra Turn.",
-    "awareness.a0.name": "Showtime",
-    "awareness.a0.description": [
-        "At the end of Joker's turn, gains 1 stack of [color=#ff7744][b][Fury][/b][/color] for every enemy that's below [color=#fe0037][b]60% HP[/b][/color], up to 5 stacks.",
-        "At the end of Joker's turn, if he has 3 or more stacks of [color=#ff7744][b][Fury][/b][/color], and if Joker is not in his own Extra Turn, gains 1 Extra Turn (Joker's buffs/ debuffs will not count down when entering Extra Turn), removes 3 stacks of [color=#ff7744][b][Fury][/b][/color] when own Extra Turn ends.",
-        "Each enemy can only give Joker 1 stack of [color=#ff7744][b][Fury][/b][/color]."
-    ],
-    "awareness.a1.name": "Flying Cards",
-    "awareness.a1.description": "Skills deal [color=#fe0037][b]30%[/b][/color] more damage to the main target and [color=#fe0037][b]10%[/b][/color] more damage to non main target.",
-    "awareness.a2.name": "Deceptive Tricks",
-    "awareness.a2.description": [
-        "[ref=s3][color=#cb212f][b][u][Doom Pursue][/u][/b][/color][/ref] [color=#fe0037][b]Lv. +3[/b][/color], up to a maximum of [color=#fe0037][b]Lv. 15[/b][/color].",
-        "[ref=hl][color=#cb212f][b][u][Combat Skills][/u][/b][/color][/ref] [color=#fe0037][b]Lv. +3[/b][/color], up to a maximum of [color=#fe0037][b]Lv. 15[/b][/color]."
-    ],
-    "awareness.a3.name": "Unpredictability",
-    "awareness.a3.description": [
-        "During Extra Turn, decrease SP cost by [color=#fe0037][b]80%[/b][/color].",
-        "Increase [color=#fe0037][b]ATK[/b][/color] by [color=#fe0037][b]50%[/b][/color] if Joker's SP is not less than [color=#fe0037][b]60%[/b][/color]."
-    ],
-    "awareness.a4.name": "Dream Weaving",
-    "awareness.a4.description": [
-        "[ref=s1][color=#cb212f][b][u][Fearless Rebel][/u][/b][/color][/ref] [color=#fe0037][b]Lv. +3[/b][/color], up to a maximum of [color=#fe0037][b]Lv. 15[/b][/color].",
-        "[ref=s2][color=#cb212f][b][u][Ominous Omen][/u][/b][/color][/ref] [color=#fe0037][b]Lv. +3[/b][/color], up to a maximum of [color=#fe0037][b]Lv. 15[/b][/color]."
-    ],
-    "awareness.a5.name": "Out of Thin Air",
-    "awareness.a5.description": "[ref=hl][color=#cb212f][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Gain 3 [color=#ff7744][b][Fury][/b][/color].",
-    "awareness.a6.name": "Grand Finale",
-    "awareness.a6.description": [
-        "Immediately execute enemy with less than [color=#fe0037][b]25% HP[/b][/color], up to [color=#fe0037][b]250% ATK[/b][/color].",
-        "This can only trigger once per enemy.",
-        "After using a skill during Extra Turn, deal [color=#fe0037][b]50% ATK[/b][/color] as [color=#fe0037][b]Curse DMG[/b][/color] to all enemies."
-    ]
+	"$schema": "../../schema_i18n.json",
+	"code_name": "Joker",
+	"full_name": "Ren Amamiya",
+	"skill.s1.name": "Fearless Rebel",
+	"skill.s1.description": [
+		"Deals [color=#fe0037][b]{skill_data} ATK[/b][/color] as [color=#fe0037][b]Curse DMG[/b][/color] to all enemies, with a [color=#fe0037][b]20%[/b][/color] base chance to inflicts a stack of [color=#fe0037][b][i]Curse[/i][/b][/color].",
+		"Gains 1 [color=#ff7744][b][Fury][/b][/color]."
+	],
+	"skill.s2.name": "Ominous Omen",
+	"skill.s2.description": [
+		"Deals [color=#fe0037][b]{skill_data} ATK[/b][/color] as [color=#fe0037][b]Curse DMG[/b][/color] to 1 enemy.",
+		"If there is only 1 enemy, gains 2 [color=#ff7744][b][Fury][/b][/color]."
+	],
+	"skill.s3.name": "Doom Pursue",
+	"skill.s3.description": [
+		"Deals [color=#fe0037][b]{skill_data} ATK[/b][/color] as [color=#fe0037][b]Curse DMG[/b][/color] to all enemies.",
+		"Increases [color=#fe0037][b]DMG[/b][/color] Dealt by [color=#fe0037][b]25%[/b][/color] during Extra Turn.",
+		"Increases [color=#fe0037][b]DMG[/b][/color] Dealt by [color=#fe0037][b]25%[/b][/color] if the target have any debuffs."
+	],
+	"skill.hl.name": "HIGHLIGHT",
+	"skill.hl.description": "Deals [color=#fe0037][b]{skill_data} ATK[/b][/color] as [color=#fe0037][b]Curse DMG[/b][/color] to all enemies and gains 1 [color=#ff7744][b][Fury][/b][/color].",
+	"skill.p1.name": "Revenge",
+	"skill.p1.description": "Increase [color=#fe0037][b]ATK[/b][/color] by [color=#fe0037][b]{skill_data}[/b][/color] per stack of [color=#ff7744][b][Fury][/b][/color].",
+	"skill.p2.name": "Devour",
+	"skill.p2.description": "Increase [color=#fe0037][b]DMG[/b][/color] Dealt by [color=#fe0037][b]{skill_data}[/b][/color] during Extra Turn.",
+	"awareness.a0.name": "Showtime",
+	"awareness.a0.description": [
+		"At the end of Joker's turn, gains 1 stack of [color=#ff7744][b][Fury][/b][/color] for every enemy that's below [color=#fe0037][b]60% HP[/b][/color], up to 5 stacks.",
+		"At the end of Joker's turn, if he has 3 or more stacks of [color=#ff7744][b][Fury][/b][/color], and if Joker is not in his own Extra Turn, gains 1 Extra Turn (Joker's buffs/ debuffs will not count down when entering Extra Turn), removes 3 stacks of [color=#ff7744][b][Fury][/b][/color] when own Extra Turn ends.",
+		"Each enemy can only give Joker 1 stack of [color=#ff7744][b][Fury][/b][/color]."
+	],
+	"awareness.a1.name": "Flying Cards",
+	"awareness.a1.description": "Skills deal [color=#fe0037][b]30%[/b][/color] more damage to the main target and [color=#fe0037][b]10%[/b][/color] more damage to non main target.",
+	"awareness.a2.name": "Deceptive Tricks",
+	"awareness.a2.description": [
+		"[ref=s3][color=#cb212f][b][u][Doom Pursue][/u][/b][/color][/ref] [color=#fe0037][b]Lv. +3[/b][/color], up to a maximum of [color=#fe0037][b]Lv. 15[/b][/color].",
+		"[ref=hl][color=#cb212f][b][u][Combat Skills][/u][/b][/color][/ref] [color=#fe0037][b]Lv. +3[/b][/color], up to a maximum of [color=#fe0037][b]Lv. 15[/b][/color]."
+	],
+	"awareness.a3.name": "Unpredictability",
+	"awareness.a3.description": [
+		"During Extra Turn, decrease SP cost by [color=#fe0037][b]80%[/b][/color].",
+		"Increase [color=#fe0037][b]ATK[/b][/color] by [color=#fe0037][b]50%[/b][/color] if Joker's SP is not less than [color=#fe0037][b]60%[/b][/color]."
+	],
+	"awareness.a4.name": "Dream Weaving",
+	"awareness.a4.description": [
+		"[ref=s1][color=#cb212f][b][u][Fearless Rebel][/u][/b][/color][/ref] [color=#fe0037][b]Lv. +3[/b][/color], up to a maximum of [color=#fe0037][b]Lv. 15[/b][/color].",
+		"[ref=s2][color=#cb212f][b][u][Ominous Omen][/u][/b][/color][/ref] [color=#fe0037][b]Lv. +3[/b][/color], up to a maximum of [color=#fe0037][b]Lv. 15[/b][/color]."
+	],
+	"awareness.a5.name": "Out of Thin Air",
+	"awareness.a5.description": "[ref=hl][color=#cb212f][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Gain 3 [color=#ff7744][b][Fury][/b][/color].",
+	"awareness.a6.name": "Grand Finale",
+	"awareness.a6.description": [
+		"Immediately execute enemy with less than [color=#fe0037][b]25% HP[/b][/color], up to [color=#fe0037][b]250% ATK[/b][/color].",
+		"This can only trigger once per enemy.",
+		"After using a skill during Extra Turn, deal [color=#fe0037][b]50% ATK[/b][/color] as [color=#fe0037][b]Curse DMG[/b][/color] to all enemies."
+	]
 }

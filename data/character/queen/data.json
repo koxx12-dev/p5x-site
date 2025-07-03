@@ -1,13 +1,8 @@
 {
-  "$schema": "../schema.json",
-  "id": "queen",
-  "code_name": "Queen",
-  "full_name": "Makoto Niijima",
-  "quality": 5,
-  "role": "single",
-  "element": "nuke",
-  "available_regions": [
-    "kr-tw",
-    "cn"
-  ]
+	"$schema": "../schema.json",
+	"id": "queen",
+	"quality": 5,
+	"role": "single",
+	"element": "nuke",
+	"available_regions": ["kr-tw", "cn"]
 }

@@ -1,6 +1,6 @@
-import { cx } from "class-variance-authority"
-import type { ClassValue } from "class-variance-authority/types"
-import { twMerge } from "tailwind-merge"
+import { cx } from 'class-variance-authority';
+import type { ClassValue } from 'class-variance-authority/types';
+import { twMerge } from 'tailwind-merge';
 
 //TODO: make the light theme actually not suck, then uncomment this and implement a toggle for it
 // export function updateTheme(theme?: "light" | "dark" | "system") {
@@ -19,5 +19,5 @@ import { twMerge } from "tailwind-merge"
 // }
 
 export function cn(...inputs: ClassValue[]) {
-    return twMerge(cx(inputs))
+	return twMerge(cx(inputs));
 }

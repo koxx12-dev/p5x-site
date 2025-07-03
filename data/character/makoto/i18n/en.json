@@ -1,65 +1,84 @@
 {
-    "$schema": "../../schema_i18n.json",
-    "code_name": "Makoto",
-    "full_name": "Makoto Yuki",
-    "skill.s1.name": "Melodic Blaze",
-    "skill.s1.description": [
-        "Deals [color=#ff381d][b]{skill_data} ATK[/b][/color] as [color=#ff381d][b]Fire DMG[/b][/color] to 1 enemy 3 times, gains 2 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color] for 2 turns, up to 4 stacks.",
-        "When Makoto Yuki consumes [color=#b4c5e0][b][Moon Phase][/b][/color] to deal DMG with [ref=s2][color=#8bb2f1][b][u][Scarlet-Devouring Blaze][/u][/b][/color][/ref], increases the skill multiplier by [color=#ff381d][b]{skill_data}[/b][/color] for 2 turns."
-    ],
-    "skill.s2.name": "Moonlit Hymn",
-    "skill.s2.description": [
-        "Increases all allies [color=#ff381d][b]CRIT DMG[/b][/color] by [color=#ff381d][b]{skill_data}[/b][/color] and own [color=#ff381d][b]ATK[/b][/color] by [color=#ff381d][b]{skill_data}[/b][/color] for 2 turns.",
-        "Gains 2 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color] for 2 turns, up to 4 stacks."
-    ],
-    "skill.s3.name": "Scarlet-Devouring Blaze",
-    "skill.s3.description": [
-        "[b]Use Condition:[/b] When Makoto has at least 2 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color].",
-        "Consumes all [color=#b4c5e0][b][Moon Phase][/b][/color], for each stack of [color=#b4c5e0][b][Moon Phase][/b][/color] consumed, deals 1 hit of [color=#ff381d][b]{skill_data} ATK[/b][/color] as [color=#ff381d][b]Fire DMG[/b][/color] to 1 enemy.",
-        "Afterwards, consumes all  [color=#2dd304][b][Special Moon Phase][/b][/color], for each stack of [color=#2dd304][b][Special Moon Phase][/b][/color] consumed, additionally deals 1 hit of [color=#ff381d][b]{skill_data} ATK[/b][/color] as [color=#ff381d][b]Fire DMG[/b][/color] to 1 enemy.",
-        "If Makoto has 4 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color], increases own [color=#ff381d][b]PEN[/b][/color] by [color=#ff381d][b]{skill_data}[/b][/color] and [color=#ff381d][b]DMG Dealt[/b][/color] by [color=#ff381d][b]{skill_data}[/b][/color] when using this skill."
-    ],
-    "skill.hl.name": "",
-    "skill.hl.description": "",
-    "skill.p1.name": "Leader",
-    "skill.p1.description": "After using [color=#57b9ea][b][Theurgy][/b][/color], increase all allies' [color=#ff381d][b]ATK[/b][/color] by [color=#ff381d][b]{skill_data}[/b][/color], additionally increases SEES allies' ATK by [color=#ff381d][b]{skill_data}[/b][/color] for 2 turns.",
-    "skill.p2.name": "Trust",
-    "skill.p2.description": "When Makoto Yuki receives buffs/healing/shield from allies, increases own [color=#ff381d][b]CRIT DMG[/b][/color] by [color=#ff381d][b]{skill_data}[/b][/color] for 2 turns, up to [color=#ff381d][b]21.6%[/b][/color].",
-    "awareness.a0.name": "Great Guide",
-    "awareness.a0.description": [
-        "Makoto Yuki has two Theurgies: [ref=t1][color=#57b9ea][b][u][Cadenza][/u][/b][/color][/ref] and [ref=t1][color=#57b9ea][b][u][Ardhanari][/u][/b][/color][/ref].",
-        "At the start of battle, restores 35 Theurgy Energy if own Theurgy Energy is less than 35.",
-        "When Makoto Yuki receives buffs/healing/shield from allies, gains 1 stack of [color=#b4c5e0][b][Moon Phase][/b][/color] for 2 turns, up to 4 stacks.",
-        "He can only gain 1 stack of [color=#b4c5e0][b][Moon Phase][/b][/color] per turn from this effect. Increases [color=#ff381d][b]PEN[/b][/color] by [color=#ff381d][b]4%/8%/12%[/b][/color] [b](Change when reaching level 1, 50, 70)[/b] when Makoto Yuki has [color=#b4c5e0][b][Moon Phase][/b][/color]."
-    ],
-    "awareness.a1.name": "",
-    "awareness.a1.description": "",
-    "awareness.a2.name": "Unwavering Heart",
-    "awareness.a2.description": [
-        "At the start of Makoto Yuki's turn, if Makoto reached 4 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color], automatically uses Moonlit Hymn.",
-        "This effect has a 1 turn cooldown."
-    ],
-    "awareness.a3.name": "Under The Full Moon",
-    "awareness.a3.description": [
-        "[ref=s2][color=#8bb2f1][b][u][Scarlet-Devouring Blaze][/u][/b][/color][/ref] Lv. +3, up to a maximum of Lv. 15.",
-        "[ref=t1][color=#57b9ea][b][u][Cadenza][/u][/b][/color][/ref] & [ref=t1][color=#57b9ea][b][u][Ardhanari][/u][/b][/color][/ref] Lv. +3, up to a maximum of Lv. 15."
-    ],
-    "awareness.a4.name": "Thorny Path",
-    "awareness.a4.description": [
-        "When using [ref=t1][color=#57b9ea][b][u][Cadenza][/u][/b][/color][/ref], additionally increases all allies' [color=#ff381d][b]DMG Dealt[/b][/color] by [color=#ff381d][b]10%[/b][/color].",
-        "When using [ref=t1][color=#57b9ea][b][u][Ardhanari][/u][/b][/color][/ref], additionally deals 1 hit of damage."
-    ],
-    "awareness.a5.name": "Blazing Soul",
-    "awareness.a5.description": [
-        "[ref=s1][color=#8bb2f1][b][u][Melodic Blaze][/u][/b][/color][/ref] Lv. +3, up to a maximum of Lv. 15.",
-        "[ref=s2][color=#8bb2f1][b][u][Moonlit Hymn][/u][/b][/color][/ref] Lv. +3, up to a maximum of Lv. 15."
-    ],
-    "awareness.a6.name": "The Promise",
-    "awareness.a6.description": [
-        "When Makoto Yuki uses any [color=#57b9ea][b][Theurgy][/b][/color], automatically triggers the other [color=#57b9ea][b][Theurgy][/b][/color].",
-        "When Makoto Yuki consumes  [color=#2dd304][b][Special Moon Phase][/b][/color] to deal [color=#ff381d][b]DMG[/b][/color] with [ref=s2][color=#8bb2f1][b][u][Scarlet-Devouring Blaze][/u][/b][/color][/ref], increases the skill damage by [color=#ff381d][b]20%[/b][/color].",
-        "When Makoto Yuki first receives fatal [color=#ff381d][b]DMG[/b][/color], his [color=#ff381d][b]HP[/b][/color] cannot drop below 1 until the end of his next turn.",
-        "He then enters near death, he will faint when his next turn ends.",
-        "Removes near death if his [color=#ff381d][b]HP[/b][/color] is restored above [color=#ff381d][b]25%[/b][/color] [color=#ff381d][b]Max HP[/b][/color] during near death."
-    ]
+	"$schema": "../../schema_i18n.json",
+	"code_name": "Makoto",
+	"full_name": "Makoto Yuki",
+	"skill.s1.name": "Melodic Blaze",
+	"skill.s1.description": [
+		"Deals [color=#ff381d][b]{skill_data} ATK[/b][/color] as [color=#ff381d][b]Fire DMG[/b][/color] to 1 enemy 3 times, gains 2 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color] for 2 turns, up to 4 stacks.",
+		"When Makoto Yuki consumes [color=#b4c5e0][b][Moon Phase][/b][/color] to deal DMG with [ref=s2][color=#8bb2f1][b][u][Scarlet-Devouring Blaze][/u][/b][/color][/ref], increases the skill multiplier by [color=#ff381d][b]{skill_data}[/b][/color] for 2 turns."
+	],
+	"skill.s2.name": "Moonlit Hymn",
+	"skill.s2.description": [
+		"Increases all allies [color=#ff381d][b]CRIT DMG[/b][/color] by [color=#ff381d][b]{skill_data}[/b][/color] and own [color=#ff381d][b]ATK[/b][/color] by [color=#ff381d][b]{skill_data}[/b][/color] for 2 turns.",
+		"Gains 2 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color] for 2 turns, up to 4 stacks."
+	],
+	"skill.s3.name": "Scarlet-Devouring Blaze",
+	"skill.s3.description": [
+		"[b]Use Condition:[/b] When Makoto has at least 2 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color].",
+		"Consumes all [color=#b4c5e0][b][Moon Phase][/b][/color], for each stack of [color=#b4c5e0][b][Moon Phase][/b][/color] consumed, deals 1 hit of [color=#ff381d][b]{skill_data} ATK[/b][/color] as [color=#ff381d][b]Fire DMG[/b][/color] to 1 enemy.",
+		"Afterwards, consumes all  [color=#2dd304][b][Special Moon Phase][/b][/color], for each stack of [color=#2dd304][b][Special Moon Phase][/b][/color] consumed, additionally deals 1 hit of [color=#ff381d][b]{skill_data} ATK[/b][/color] as [color=#ff381d][b]Fire DMG[/b][/color] to 1 enemy.",
+		"If Makoto has 4 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color], increases own [color=#ff381d][b]PEN[/b][/color] by [color=#ff381d][b]{skill_data}[/b][/color] and [color=#ff381d][b]DMG Dealt[/b][/color] by [color=#ff381d][b]{skill_data}[/b][/color] when using this skill."
+	],
+	"skill.t1.name": "Theurgy - Ardhanari",
+	"skill.t1.description": [
+		"Deals [color=#ff381d][b]{skill_data} ATK[/b][/color] [color=#ff381d][b]Fire DMG[/b][/color] to 1 enemy 4 times.",
+		"Gains 1 stack of [color=#2dd304][b][Special Moon Phase][/b][/color] for 2 turns, up to 4 stacks."
+	],
+	"skill.t2.name": "Theurgy - Cadenza",
+	"skill.t2.description": [
+		"Increases all allies [color=#ff381d][b]ATK[/b][/color] by [color=#ff381d][b]{skill_data}[/b][/color] and DMG Dealt by [color=#ff381d][b]{skill_data}[/b][/color] for 2 turns.",
+		"Gains 1 stack of [color=#2dd304][b][Special Moon Phase][/b][/color] for 2 turns, up to 4 stacks."
+	],
+	"skill.assist.name": "Assist Skill",
+	"skill.assist.description": "Increase an ally's [color=#ff381d][b]ATK[/b][/color] by [color=#ff381d][b]20%[/b][/color] for 1 turn.",
+	"skill.p1.name": "Leader",
+	"skill.p1.description": "After using [color=#57b9ea][b][Theurgy][/b][/color], increase all allies' [color=#ff381d][b]ATK[/b][/color] by [color=#ff381d][b]{skill_data}[/b][/color], additionally increases SEES allies' ATK by [color=#ff381d][b]{skill_data}[/b][/color] for 2 turns.",
+	"skill.p2.name": "Trust",
+	"skill.p2.description": "When Makoto Yuki receives buffs/healing/shield from allies, increases own [color=#ff381d][b]CRIT DMG[/b][/color] by [color=#ff381d][b]{skill_data}[/b][/color] for 2 turns, up to [color=#ff381d][b]21.6%[/b][/color].",
+	"awareness.a0.name": "Great Guide",
+	"awareness.a0.description": [
+		"Makoto Yuki has two Theurgies: [ref=t1][color=#57b9ea][b][u][Cadenza][/u][/b][/color][/ref] and [ref=t1][color=#57b9ea][b][u][Ardhanari][/u][/b][/color][/ref].",
+		"At the start of battle, restores 35 Theurgy Energy if own Theurgy Energy is less than 35.",
+		"When Makoto Yuki receives buffs/healing/shield from allies, gains 1 stack of [color=#b4c5e0][b][Moon Phase][/b][/color] for 2 turns, up to 4 stacks.",
+		"He can only gain 1 stack of [color=#b4c5e0][b][Moon Phase][/b][/color] per turn from this effect. Increases [color=#ff381d][b]PEN[/b][/color] by [color=#ff381d][b]4%/8%/12%[/b][/color] [b](Change when reaching level 1, 50, 70)[/b] when Makoto Yuki has [color=#b4c5e0][b][Moon Phase][/b][/color]."
+	],
+	"awareness.a1.name": "Greet My Dawn Star",
+	"awareness.a1.description": [
+		"When using [ref=s1][color=#8bb2f1][b][u][Melodic Blaze][/u][/b][/color][/ref], additionally deals 1 hit of [color=#ff381d][b]DMG[/b][/color].",
+		"When using [ref=s2][color=#8bb2f1][b][u][ref=s2][color=#8bb2f1][b][u][Moonlit Hymn][/u][/b][/color][/ref][/u][/b][/color][/ref], additionally increases all allies' [color=#ff381d][b]PEN[/b][/color] by [color=#ff381d][b]10%[/b][/color] for 2 turns.",
+		"When using [ref=s2][color=#8bb2f1][b][u][Scarlet-Devouring Blaze][/u][/b][/color][/ref], if has have 4 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color], additionally increases own [color=#ff381d][b]CRIT Rate[/b][/color] by [color=#ff381d][b]16%[/b][/color]."
+	],
+	"awareness.a2.name": "Unwavering Heart",
+	"awareness.a2.description": [
+		"At the start of Makoto Yuki's turn, if Makoto reached 4 stacks of [color=#b4c5e0][b][Moon Phase][/b][/color], automatically uses Moonlit Hymn.",
+		"This effect has a 1 turn cooldown."
+	],
+	"awareness.a3.name": "Under The Full Moon",
+	"awareness.a3.description": [
+		"[ref=s2][color=#8bb2f1][b][u][Scarlet-Devouring Blaze][/u][/b][/color][/ref] Lv. +3, up to a maximum of Lv. 15.",
+		"[ref=t1][color=#57b9ea][b][u][Cadenza][/u][/b][/color][/ref] & [ref=t1][color=#57b9ea][b][u][Ardhanari][/u][/b][/color][/ref] Lv. +3, up to a maximum of Lv. 15."
+	],
+	"awareness.a4.name": "Thorny Path",
+	"awareness.a4.description": [
+		"When using [ref=t1][color=#57b9ea][b][u][Cadenza][/u][/b][/color][/ref], additionally increases all allies' [color=#ff381d][b]DMG Dealt[/b][/color] by [color=#ff381d][b]10%[/b][/color].",
+		"When using [ref=t1][color=#57b9ea][b][u][Ardhanari][/u][/b][/color][/ref], additionally deals 1 hit of damage."
+	],
+	"awareness.a5.name": "Blazing Soul",
+	"awareness.a5.description": [
+		"[ref=s1][color=#8bb2f1][b][u][Melodic Blaze][/u][/b][/color][/ref] Lv. +3, up to a maximum of Lv. 15.",
+		"[ref=s2][color=#8bb2f1][b][u][Moonlit Hymn][/u][/b][/color][/ref] Lv. +3, up to a maximum of Lv. 15."
+	],
+	"awareness.a6.name": "The Promise",
+	"awareness.a6.description": [
+		"When Makoto Yuki uses any [color=#57b9ea][b][Theurgy][/b][/color], automatically triggers the other [color=#57b9ea][b][Theurgy][/b][/color].",
+		"When Makoto Yuki consumes  [color=#2dd304][b][Special Moon Phase][/b][/color] to deal [color=#ff381d][b]DMG[/b][/color] with [ref=s2][color=#8bb2f1][b][u][Scarlet-Devouring Blaze][/u][/b][/color][/ref], increases the skill damage by [color=#ff381d][b]20%[/b][/color].",
+		"When Makoto Yuki first receives fatal [color=#ff381d][b]DMG[/b][/color], his [color=#ff381d][b]HP[/b][/color] cannot drop below 1 until the end of his next turn.",
+		"He then enters near death, he will faint when his next turn ends.",
+		"Removes near death if his [color=#ff381d][b]HP[/b][/color] is restored above [color=#ff381d][b]25%[/b][/color] [color=#ff381d][b]Max HP[/b][/color] during near death."
+	],
+	"awareness.a7.name": "Awakened Beyond Awareness",
+	"awareness.a7.description": [
+		"At the beginning of each turn, restore an additional 15 Theurgy Energy.",
+		"When a skill hits more than 3 times, increase [color=#ff381d][b]Final DMG[/b][/color] by [color=#ff381d][b]30%[/b][/color]."
+	]
 }

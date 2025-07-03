@@ -1,8 +1,8 @@
-import { For } from 'solid-js';
+import { AwarenessDisplay } from '@components/awareness';
+import { BBCodeRenderer } from '@components/bbcode-render';
+import { Container } from '@components/container';
 import type { RequiredThiefAwareness } from '@types';
-import { AwarenessDisplay } from '../../awareness';
-import { BBCodeRenderer } from '../../bbcode-render';
-import { Container } from '../../container';
+import { For } from 'solid-js';
 
 export function CharacterAwarenessDisplay(props: {
 	awareness: RequiredThiefAwareness[];

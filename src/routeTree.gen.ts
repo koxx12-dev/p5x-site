@@ -8,146 +8,56 @@
 // You should NOT make any changes in this file as it will be overwritten.
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
-// Import Routes
+import { Route as rootRouteImport } from './routes/__root'
+import { Route as TierlistRouteImport } from './routes/tierlist'
+import { Route as SettingsRouteImport } from './routes/settings'
+import { Route as CharacterRouteRouteImport } from './routes/character/route'
+import { Route as IndexRouteImport } from './routes/index'
+import { Route as PalaceIndexRouteImport } from './routes/palace/index'
+import { Route as GuideIndexRouteImport } from './routes/guide/index'
+import { Route as CharacterIndexRouteImport } from './routes/character/index'
+import { Route as CharacterCharacterIdRouteImport } from './routes/character/$characterId'
 
-import { Route as rootRoute } from './routes/__root'
-import { Route as TierlistImport } from './routes/tierlist'
-import { Route as SettingsImport } from './routes/settings'
-import { Route as CharacterRouteImport } from './routes/character/route'
-import { Route as IndexImport } from './routes/index'
-import { Route as PalaceIndexImport } from './routes/palace/index'
-import { Route as GuideIndexImport } from './routes/guide/index'
-import { Route as CharacterIndexImport } from './routes/character/index'
-import { Route as CharacterCharacterIdImport } from './routes/character/$characterId'
-
-// Create/Update Routes
-
-const TierlistRoute = TierlistImport.update({
+const TierlistRoute = TierlistRouteImport.update({
   id: '/tierlist',
   path: '/tierlist',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const SettingsRoute = SettingsImport.update({
+const SettingsRoute = SettingsRouteImport.update({
   id: '/settings',
   path: '/settings',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const CharacterRouteRoute = CharacterRouteImport.update({
+const CharacterRouteRoute = CharacterRouteRouteImport.update({
   id: '/character',
   path: '/character',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const IndexRoute = IndexImport.update({
+const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const PalaceIndexRoute = PalaceIndexImport.update({
+const PalaceIndexRoute = PalaceIndexRouteImport.update({
   id: '/palace/',
   path: '/palace/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const GuideIndexRoute = GuideIndexImport.update({
+const GuideIndexRoute = GuideIndexRouteImport.update({
   id: '/guide/',
   path: '/guide/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const CharacterIndexRoute = CharacterIndexImport.update({
+const CharacterIndexRoute = CharacterIndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => CharacterRouteRoute,
 } as any)
-
-const CharacterCharacterIdRoute = CharacterCharacterIdImport.update({
+const CharacterCharacterIdRoute = CharacterCharacterIdRouteImport.update({
   id: '/$characterId',
   path: '/$characterId',
   getParentRoute: () => CharacterRouteRoute,
 } as any)
-
-// Populate the FileRoutesByPath interface
-
-declare module '@tanstack/solid-router' {
-  interface FileRoutesByPath {
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/character': {
-      id: '/character'
-      path: '/character'
-      fullPath: '/character'
-      preLoaderRoute: typeof CharacterRouteImport
-      parentRoute: typeof rootRoute
-    }
-    '/settings': {
-      id: '/settings'
-      path: '/settings'
-      fullPath: '/settings'
-      preLoaderRoute: typeof SettingsImport
-      parentRoute: typeof rootRoute
-    }
-    '/tierlist': {
-      id: '/tierlist'
-      path: '/tierlist'
-      fullPath: '/tierlist'
-      preLoaderRoute: typeof TierlistImport
-      parentRoute: typeof rootRoute
-    }
-    '/character/$characterId': {
-      id: '/character/$characterId'
-      path: '/$characterId'
-      fullPath: '/character/$characterId'
-      preLoaderRoute: typeof CharacterCharacterIdImport
-      parentRoute: typeof CharacterRouteImport
-    }
-    '/character/': {
-      id: '/character/'
-      path: '/'
-      fullPath: '/character/'
-      preLoaderRoute: typeof CharacterIndexImport
-      parentRoute: typeof CharacterRouteImport
-    }
-    '/guide/': {
-      id: '/guide/'
-      path: '/guide'
-      fullPath: '/guide'
-      preLoaderRoute: typeof GuideIndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/palace/': {
-      id: '/palace/'
-      path: '/palace'
-      fullPath: '/palace'
-      preLoaderRoute: typeof PalaceIndexImport
-      parentRoute: typeof rootRoute
-    }
-  }
-}
-
-// Create and export the route tree
-
-interface CharacterRouteRouteChildren {
-  CharacterCharacterIdRoute: typeof CharacterCharacterIdRoute
-  CharacterIndexRoute: typeof CharacterIndexRoute
-}
-
-const CharacterRouteRouteChildren: CharacterRouteRouteChildren = {
-  CharacterCharacterIdRoute: CharacterCharacterIdRoute,
-  CharacterIndexRoute: CharacterIndexRoute,
-}
-
-const CharacterRouteRouteWithChildren = CharacterRouteRoute._addFileChildren(
-  CharacterRouteRouteChildren,
-)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -159,7 +69,6 @@ export interface FileRoutesByFullPath {
   '/guide': typeof GuideIndexRoute
   '/palace': typeof PalaceIndexRoute
 }
-
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/settings': typeof SettingsRoute
@@ -169,9 +78,8 @@ export interface FileRoutesByTo {
   '/guide': typeof GuideIndexRoute
   '/palace': typeof PalaceIndexRoute
 }
-
 export interface FileRoutesById {
-  __root__: typeof rootRoute
+  __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/character': typeof CharacterRouteRouteWithChildren
   '/settings': typeof SettingsRoute
@@ -181,7 +89,6 @@ export interface FileRoutesById {
   '/guide/': typeof GuideIndexRoute
   '/palace/': typeof PalaceIndexRoute
 }
-
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
@@ -214,7 +121,6 @@ export interface FileRouteTypes {
     | '/palace/'
   fileRoutesById: FileRoutesById
 }
-
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   CharacterRouteRoute: typeof CharacterRouteRouteWithChildren
@@ -224,6 +130,81 @@ export interface RootRouteChildren {
   PalaceIndexRoute: typeof PalaceIndexRoute
 }
 
+declare module '@tanstack/solid-router' {
+  interface FileRoutesByPath {
+    '/tierlist': {
+      id: '/tierlist'
+      path: '/tierlist'
+      fullPath: '/tierlist'
+      preLoaderRoute: typeof TierlistRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/settings': {
+      id: '/settings'
+      path: '/settings'
+      fullPath: '/settings'
+      preLoaderRoute: typeof SettingsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/character': {
+      id: '/character'
+      path: '/character'
+      fullPath: '/character'
+      preLoaderRoute: typeof CharacterRouteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/palace/': {
+      id: '/palace/'
+      path: '/palace'
+      fullPath: '/palace'
+      preLoaderRoute: typeof PalaceIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/guide/': {
+      id: '/guide/'
+      path: '/guide'
+      fullPath: '/guide'
+      preLoaderRoute: typeof GuideIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/character/': {
+      id: '/character/'
+      path: '/'
+      fullPath: '/character/'
+      preLoaderRoute: typeof CharacterIndexRouteImport
+      parentRoute: typeof CharacterRouteRoute
+    }
+    '/character/$characterId': {
+      id: '/character/$characterId'
+      path: '/$characterId'
+      fullPath: '/character/$characterId'
+      preLoaderRoute: typeof CharacterCharacterIdRouteImport
+      parentRoute: typeof CharacterRouteRoute
+    }
+  }
+}
+
+interface CharacterRouteRouteChildren {
+  CharacterCharacterIdRoute: typeof CharacterCharacterIdRoute
+  CharacterIndexRoute: typeof CharacterIndexRoute
+}
+
+const CharacterRouteRouteChildren: CharacterRouteRouteChildren = {
+  CharacterCharacterIdRoute: CharacterCharacterIdRoute,
+  CharacterIndexRoute: CharacterIndexRoute,
+}
+
+const CharacterRouteRouteWithChildren = CharacterRouteRoute._addFileChildren(
+  CharacterRouteRouteChildren,
+)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   CharacterRouteRoute: CharacterRouteRouteWithChildren,
@@ -232,55 +213,6 @@ const rootRouteChildren: RootRouteChildren = {
   GuideIndexRoute: GuideIndexRoute,
   PalaceIndexRoute: PalaceIndexRoute,
 }
-
-export const routeTree = rootRoute
+export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-/* ROUTE_MANIFEST_START
-{
-  "routes": {
-    "__root__": {
-      "filePath": "__root.tsx",
-      "children": [
-        "/",
-        "/character",
-        "/settings",
-        "/tierlist",
-        "/guide/",
-        "/palace/"
-      ]
-    },
-    "/": {
-      "filePath": "index.tsx"
-    },
-    "/character": {
-      "filePath": "character/route.tsx",
-      "children": [
-        "/character/$characterId",
-        "/character/"
-      ]
-    },
-    "/settings": {
-      "filePath": "settings.tsx"
-    },
-    "/tierlist": {
-      "filePath": "tierlist.tsx"
-    },
-    "/character/$characterId": {
-      "filePath": "character/$characterId.tsx",
-      "parent": "/character"
-    },
-    "/character/": {
-      "filePath": "character/index.tsx",
-      "parent": "/character"
-    },
-    "/guide/": {
-      "filePath": "guide/index.tsx"
-    },
-    "/palace/": {
-      "filePath": "palace/index.tsx"
-    }
-  }
-}
-ROUTE_MANIFEST_END */

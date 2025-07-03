@@ -1,43 +1,43 @@
 {
-    "$schema": "../../schema_i18n.json",
-    "code_name": "Cattle",
-    "full_name": "Lufel",
-    "skill.s1.name": "Owl Fire",
-    "skill.s1.description": "Deal [color=#ff3b1d][b]Fire damage[/b][/color] to 1 foe equal to [color=#ff3b1d][b]{skill_data}[/b][/color] of [color=#ff3b1d][b]Attack[/b][/color], inflict [color=#ff3b1d][b][i]Burn[/i][/b][/color] for 2 turns, and decrease [color=#ff3b1d][b]healing received[/b][/color] by [color=#ff3b1d][b]30%[/b][/color].",
-    "skill.s2.name": "Owl Green",
-    "skill.s2.description": "Restore 1 ally's [color=#ff3b1d][b]HP[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] of [color=#ff3b1d][b]Lufel's Attack[/b][/color] + [color=#ff3b1d][b]{skill_data}[/b][/color]. If target's [color=#ff3b1d][b]HP[/b][/color] is below [color=#ff3b1d][b]50%[/b][/color], increase [color=#ff3b1d][b]healing effect[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color].",
-    "skill.s3.name": "Healing Satellite",
-    "skill.s3.description": "Restore party's [color=#ff3b1d][b]HP[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] of [color=#ff3b1d][b]Lufel's Attack[/b][/color] + [color=#ff3b1d][b]{skill_data}[/b][/color]. Increase [color=#ff3b1d][b]healing effect[/b][/color] on the main target by [color=#ff3b1d][b]{skill_data}[/b][/color].",
-    "skill.hl.name": "Highlight",
-    "skill.hl.description": "Restore [color=#ff3b1d][b]HP[/b][/color] to party by [color=#ff3b1d][b]{skill_data}[/b][/color] of [color=#ff3b1d][b]Lufel's Attack[/b][/color] + [color=#ff3b1d][b]{skill_data}[/b][/color]. Increase party's [color=#ff3b1d][b]Attack[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] for 1 turn.",
-    "skill.p1.name": "Forest Sage",
-    "skill.p1.description": "After attacking with a skill, grant [color=#f35a5d][b]Starfire[/b][/color] to up to [color=#ff3b1d][b]{skill_data}[/b][/color] allies.",
-    "skill.p2.name": "Sparks of Support",
-    "skill.p2.description": "Increase [color=#ff3b1d][b]healing effect[/b][/color] based on [color=#ff3b1d][b]Lufel's max HP[/b][/color]. The effect is maximized at [color=#ff3b1d][b]{skill_data} HP[/b][/color], and [color=#ff3b1d][b]healing effect[/b][/color] will increase by [color=#ff3b1d][b]{skill_data}[/b][/color].",
-    "awareness.a0.name": "Redheaded Hero",
-    "awareness.a0.description": [
-        "When using healing skills, grant [color=#f35a5d][b]Starfire I[/b][/color] to the main target for 1 turn",
-        "After [color=#f35a5d][b]Starfire I[/b][/color]  ends, grant [color=#f35a5d][b]Starfire II[/b][/color] for 1 turn.",
-        "[color=#f35a5d][b]Starfire I[/b][/color]: Increase [color=#ff3b1d][b]Attack[/b][/color] by [color=#ff3b1d][b]4%[/b][/color] of [color=#ff3b1d][b]Lufel's Attack[/b][/color] (up to [color=#ff3b1d][b]160[/b][/color]).",
-        "[color=#f35a5d][b]Starfire II[/b][/color]: Increase [color=#ff3b1d][b]Attack[/b][/color] by [color=#ff3b1d][b]8%[/b][/color] of [color=#ff3b1d][b]Lufel's Attack[/b][/color] (up to [color=#ff3b1d][b]320[/b][/color]).",
-        "[b][color=#f35a5d][b]Starfire[/b][/color] does not stack, and only 1 stack is granted.[/b]"
-    ],
-    "awareness.a1.name": "Owl Eyes",
-    "awareness.a1.description": [
-        "At the start of battle, inflict [color=#ff3b1d][b][i]Burn[/i][/b][/color] on the foe with the highest remaining [color=#ff3b1d][b]HP[/b][/color].",
-        "Also, increase allies' [color=#ff3b1d][b]elemental ailment accuracy[/b][/color] by [color=#ff3b1d][b]33%[/b][/color] when they have [color=#f35a5d][b]Starfire[/b][/color]."
-    ],
-    "awareness.a2.name": "Soaring Bird of Prey",
-    "awareness.a2.description": "Increase the skill levels of [ref=s1][color=#71e2fd][b][u]Owl Fire[/u][/b][/color][/ref] and [ref=s2][color=#71e2fd][b][u]Owl Green[/u][/b][/color][/ref] by [color=#ff3b1d][b]2[/b][/color].",
-    "awareness.a3.name": "Nocturnal",
-    "awareness.a3.description": "When healing an ally who has [color=#f35a5d][b]Starfire II[/b][/color], increase [color=#f35a5d][b]healing effect[/b][/color] by [color=#ff3b1d][b]10%[/b][/color].",
-    "awareness.a4.name": "Preening",
-    "awareness.a4.description": "Increase the skill levels of [ref=s3][color=#71e2fd][b][u]Healing Satellite[/u][/b][/color][/ref] and [ref=hl][color=#71e2fd][b][u]Thief Tactics[/u][/b][/color][/ref] by [color=#ff3b1d][b]2[/b][/color].",
-    "awareness.a5.name": "Sheltering Wings of Light",
-    "awareness.a5.description": "[b][ref=hl][color=#71e2fd][b][u]Highlight[/u][/b][/color][/ref] Enhanced[/b]: Increase party's [color=#f35a5d][b]Fire damage[/b][/color] by [color=#ff3b1d][b]32%[/b][/color] for [color=#ff3b1d][b]1[/b][/color] turn.",
-    "awareness.a6.name": "Midnight Bonfire",
-    "awareness.a6.description": [
-        "After [color=#f35a5d][b]Starfire II[/b][/color] ends, gain [color=#f35a5d][b]Starfire III[/b][/color] for 1 turn",
-        "[color=#f35a5d][b]Starfire III[/b][/color]: Increase [color=#ff3b1d][b]Attack[/b][/color] by [color=#ff3b1d][b]8%[/b][/color] of [color=#ff3b1d][b]Lufel's Attack[/b][/color], increase [color=#ff3b1d][b]Fire damage[/b][/color] by [color=#ff3b1d][b]20%[/b][/color], and increase [color=#ff3b1d][b]healing received[/b][/color] by [color=#ff3b1d][b]10%[/b][/color]."
-    ]
+	"$schema": "../../schema_i18n.json",
+	"code_name": "Cattle",
+	"full_name": "Lufel",
+	"skill.s1.name": "Owl Fire",
+	"skill.s1.description": "Deal [color=#ff3b1d][b]Fire damage[/b][/color] to 1 foe equal to [color=#ff3b1d][b]{skill_data}[/b][/color] of [color=#ff3b1d][b]Attack[/b][/color], inflict [color=#ff3b1d][b][i]Burn[/i][/b][/color] for 2 turns, and decrease [color=#ff3b1d][b]healing received[/b][/color] by [color=#ff3b1d][b]30%[/b][/color].",
+	"skill.s2.name": "Owl Green",
+	"skill.s2.description": "Restore 1 ally's [color=#ff3b1d][b]HP[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] of [color=#ff3b1d][b]Lufel's Attack[/b][/color] + [color=#ff3b1d][b]{skill_data}[/b][/color]. If target's [color=#ff3b1d][b]HP[/b][/color] is below [color=#ff3b1d][b]50%[/b][/color], increase [color=#ff3b1d][b]healing effect[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color].",
+	"skill.s3.name": "Healing Satellite",
+	"skill.s3.description": "Restore party's [color=#ff3b1d][b]HP[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] of [color=#ff3b1d][b]Lufel's Attack[/b][/color] + [color=#ff3b1d][b]{skill_data}[/b][/color]. Increase [color=#ff3b1d][b]healing effect[/b][/color] on the main target by [color=#ff3b1d][b]{skill_data}[/b][/color].",
+	"skill.hl.name": "Highlight",
+	"skill.hl.description": "Restore [color=#ff3b1d][b]HP[/b][/color] to party by [color=#ff3b1d][b]{skill_data}[/b][/color] of [color=#ff3b1d][b]Lufel's Attack[/b][/color] + [color=#ff3b1d][b]{skill_data}[/b][/color]. Increase party's [color=#ff3b1d][b]Attack[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] for 1 turn.",
+	"skill.p1.name": "Forest Sage",
+	"skill.p1.description": "After attacking with a skill, grant [color=#f35a5d][b]Starfire[/b][/color] to up to [color=#ff3b1d][b]{skill_data}[/b][/color] allies.",
+	"skill.p2.name": "Sparks of Support",
+	"skill.p2.description": "Increase [color=#ff3b1d][b]healing effect[/b][/color] based on [color=#ff3b1d][b]Lufel's max HP[/b][/color]. The effect is maximized at [color=#ff3b1d][b]{skill_data} HP[/b][/color], and [color=#ff3b1d][b]healing effect[/b][/color] will increase by [color=#ff3b1d][b]{skill_data}[/b][/color].",
+	"awareness.a0.name": "Redheaded Hero",
+	"awareness.a0.description": [
+		"When using healing skills, grant [color=#f35a5d][b]Starfire I[/b][/color] to the main target for 1 turn",
+		"After [color=#f35a5d][b]Starfire I[/b][/color]  ends, grant [color=#f35a5d][b]Starfire II[/b][/color] for 1 turn.",
+		"[color=#f35a5d][b]Starfire I[/b][/color]: Increase [color=#ff3b1d][b]Attack[/b][/color] by [color=#ff3b1d][b]4%[/b][/color] of [color=#ff3b1d][b]Lufel's Attack[/b][/color] (up to [color=#ff3b1d][b]160[/b][/color]).",
+		"[color=#f35a5d][b]Starfire II[/b][/color]: Increase [color=#ff3b1d][b]Attack[/b][/color] by [color=#ff3b1d][b]8%[/b][/color] of [color=#ff3b1d][b]Lufel's Attack[/b][/color] (up to [color=#ff3b1d][b]320[/b][/color]).",
+		"[b][color=#f35a5d][b]Starfire[/b][/color] does not stack, and only 1 stack is granted.[/b]"
+	],
+	"awareness.a1.name": "Owl Eyes",
+	"awareness.a1.description": [
+		"At the start of battle, inflict [color=#ff3b1d][b][i]Burn[/i][/b][/color] on the foe with the highest remaining [color=#ff3b1d][b]HP[/b][/color].",
+		"Also, increase allies' [color=#ff3b1d][b]elemental ailment accuracy[/b][/color] by [color=#ff3b1d][b]33%[/b][/color] when they have [color=#f35a5d][b]Starfire[/b][/color]."
+	],
+	"awareness.a2.name": "Soaring Bird of Prey",
+	"awareness.a2.description": "Increase the skill levels of [ref=s1][color=#71e2fd][b][u]Owl Fire[/u][/b][/color][/ref] and [ref=s2][color=#71e2fd][b][u]Owl Green[/u][/b][/color][/ref] by [color=#ff3b1d][b]2[/b][/color].",
+	"awareness.a3.name": "Nocturnal",
+	"awareness.a3.description": "When healing an ally who has [color=#f35a5d][b]Starfire II[/b][/color], increase [color=#f35a5d][b]healing effect[/b][/color] by [color=#ff3b1d][b]10%[/b][/color].",
+	"awareness.a4.name": "Preening",
+	"awareness.a4.description": "Increase the skill levels of [ref=s3][color=#71e2fd][b][u]Healing Satellite[/u][/b][/color][/ref] and [ref=hl][color=#71e2fd][b][u]Thief Tactics[/u][/b][/color][/ref] by [color=#ff3b1d][b]2[/b][/color].",
+	"awareness.a5.name": "Sheltering Wings of Light",
+	"awareness.a5.description": "[b][ref=hl][color=#71e2fd][b][u]Highlight[/u][/b][/color][/ref] Enhanced[/b]: Increase party's [color=#f35a5d][b]Fire damage[/b][/color] by [color=#ff3b1d][b]32%[/b][/color] for [color=#ff3b1d][b]1[/b][/color] turn.",
+	"awareness.a6.name": "Midnight Bonfire",
+	"awareness.a6.description": [
+		"After [color=#f35a5d][b]Starfire II[/b][/color] ends, gain [color=#f35a5d][b]Starfire III[/b][/color] for 1 turn",
+		"[color=#f35a5d][b]Starfire III[/b][/color]: Increase [color=#ff3b1d][b]Attack[/b][/color] by [color=#ff3b1d][b]8%[/b][/color] of [color=#ff3b1d][b]Lufel's Attack[/b][/color], increase [color=#ff3b1d][b]Fire damage[/b][/color] by [color=#ff3b1d][b]20%[/b][/color], and increase [color=#ff3b1d][b]healing received[/b][/color] by [color=#ff3b1d][b]10%[/b][/color]."
+	]
 }

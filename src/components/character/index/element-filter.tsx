@@ -1,7 +1,7 @@
-import { ToggleGroup } from '@kobalte/core/toggle-group';
-import { type Setter, For } from 'solid-js';
 import { ElementDisplay } from '@components/element';
+import { ToggleGroup } from '@kobalte/core/toggle-group';
 import type { Element } from '@types';
+import { For, type Setter } from 'solid-js';
 
 export function ElementFilter(props: {
 	setValue: Setter<Element[]>;

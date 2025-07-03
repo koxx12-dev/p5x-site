@@ -1,13 +1,8 @@
 {
-  "$schema": "../schema.json",
-  "id": "moko_s",
-  "code_name": "Moko",
-  "full_name": "Tomoko Noge",
-  "quality": 5,
-  "role": "heal",
-  "element": "psy",
-  "available_regions": [
-    "kr-tw",
-    "cn"
-  ]
+	"$schema": "../schema.json",
+	"id": "moko_s",
+	"quality": 5,
+	"role": "heal",
+	"element": "psy",
+	"available_regions": ["kr-tw", "cn"]
 }

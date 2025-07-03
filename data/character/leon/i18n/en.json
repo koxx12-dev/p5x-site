@@ -1,50 +1,50 @@
 {
-    "$schema": "../../schema_i18n.json",
-    "code_name": "Leon",
-    "full_name": "Reo Kamiyama",
-    "skill.s1.name": "Nuclear Fantasy",
-    "skill.s1.description": [
-        "Deals [color=#00fcfe][b]{skill_data} ATK[/b][/color] as [color=#00fcfe][b]Nuke DMG[/b][/color] to 1 enemy.",
-        "When using this skill, for every 1 stack of [color=#d6e3b1][b][Activate][/b][/color] on all allies, increases skill damage by [color=#00fcfe][b]10%[/b][/color]."
-    ],
-    "skill.s2.name": "Life Refinement",
-    "skill.s2.description": [
-        "Converts 1 ally's [color=#00fcfe][b]30%[/b][/color] current [color=#00fcfe][b]HP[/b][/color] into [color=#00fcfe][b]Shield[/b][/color] with [color=#00fcfe][b]80%[/b][/color] ratio, and additionally gives [color=#00fcfe][b]{skill_data}[/b][/color] + [color=#00fcfe][b]{skill_data} ATK[/b][/color] as [color=#00fcfe][b]Shield[/b][/color] for 2 turns.",
-        "Gives the target 1 stack of [color=#d6e3b1][b][Activate][/b][/color]."
-    ],
-    "skill.s3.name": "Heroic Conversion",
-    "skill.s3.description": [
-        "Increases 1 ally's [color=#00fcfe][b]ATK[/b][/color] by [color=#00fcfe][b]{skill_data}[/b][/color] for 2 turns.",
-        "When this effect is active, for each 1 stack of [color=#d6e3b1][b][Activate][/b][/color] on the target, increases their [color=#00fcfe][b]ATK[/b][/color] based on [color=#00fcfe][b]20%[/b][/color] own [color=#00fcfe][b]ATK[/b][/color], up to [color=#00fcfe][b]{skill_data}[/b][/color]."
-    ],
-    "skill.hl.name": "HIGHLIGHT",
-    "skill.hl.description": [
-        "Gives 1 ally maxed stacks of [color=#d6e3b1][b][Activate][/b][/color] for 2 turns.",
-        "If their [color=#00fcfe][b]HP[/b][/color] is below [color=#00fcfe][b]60%[/b][/color] then restores their [color=#00fcfe][b]HP[/b][/color] to [color=#00fcfe][b]60% HP[/b][/color], up to [color=#00fcfe][b]200% ATK[/b][/color].",
-        "Increases their [color=#00fcfe][b]ATK[/b][/color] by [color=#00fcfe][b]15%[/b][/color] of own's [color=#00fcfe][b]ATK[/b][/color], up to [color=#00fcfe][b]{skill_data}[/b][/color] for 2 turns."
-    ],
-    "skill.p1.name": "Protest",
-    "skill.p1.description": "When the effect of [ref=s2][color=#6fe0eb][b][u][Life Refinement][/u][/b][/color][/ref] ends, restores [color=#00fcfe][b]{skill_data} HP[/b][/color] based on remaining [color=#00fcfe][b]Shield[/b][/color].",
-    "skill.p2.name": "Accompany",
-    "skill.p2.description": "When any ally have 2 stacks of [color=#d6e3b1][b][Activate][/b][/color], additionally increases their [color=#00fcfe][b]CRIT DMG[/b][/color] by [color=#00fcfe][b]{skill_data}[/b][/color].",
-    "awareness.a0.name": "Organic Transformer",
-    "awareness.a0.description": "When any ally's [color=#00fcfe][b]HP[/b][/color] is not higher than [color=#00fcfe][b]75%[/b][/color], give them 1 stack of [color=#d6e3b1][b][Activate][/b][/color]: Increase their [color=#00fcfe][b]ATK[/b][/color] based on [color=#00fcfe][b]6%[/b][/color] own [color=#00fcfe][b]ATK[/b][/color] (Up to [color=#00fcfe][b]120/180/240 ATK[/b][/color], change when reaching level 1, 50, 70) for 1 turn, up to 2 stacks.",
-    "awareness.a1.name": "City Guardian",
-    "awareness.a1.description": "Increase [color=#00fcfe][b]DEF[/b][/color] by [color=#00fcfe][b]10%[/b][/color] for allies with [color=#d6e3b1][b][Activate][/b][/color].",
-    "awareness.a2.name": "Oh! Duel to the Death",
-    "awareness.a2.description": [
-        "[ref=s1][color=#6fe0eb][b][u][Nuclear Fantasy][/u][/b][/color][/ref] [color=#00fcfe][b]Lv. +2[/b][/color], up to a maximum of [color=#00fcfe][b]Lv. 15[/b][/color]",
-        "[ref=s2][color=#6fe0eb][b][u][Life Refinement][/u][/b][/color][/ref] [color=#00fcfe][b]Lv. +2[/b][/color], up to a maximum of [color=#00fcfe][b]Lv. 15[/b][/color]"
-    ],
-    "awareness.a3.name": "Edge Savior",
-    "awareness.a3.description": "Increase own [color=#00fcfe][b]ATK[/b][/color] by [color=#00fcfe][b]25%[/b][/color] when using a Persona skill on allies.",
-    "awareness.a4.name": "Growth and Bond",
-    "awareness.a4.description": [
-        "[ref=s3][color=#6fe0eb][b][u][Heroic Conversion][/u][/b][/color][/ref] [color=#00fcfe][b]Lv. +2[/b][/color], up to a maximum of [color=#00fcfe][b]Lv. 15[/b][/color]",
-        "[ref=hl][color=#6fe0eb][b][u][Combat Skills][/u][/b][/color][/ref] [color=#00fcfe][b]Lv. +2[/b][/color], up to a maximum of [color=#00fcfe][b]Lv. 15[/b][/color]"
-    ],
-    "awareness.a5.name": "Homeward Hero",
-    "awareness.a5.description": "[ref=hl][color=#6fe0eb][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Increases the target's [color=#00fcfe][b]CRIT DMG[/b][/color] by [color=#00fcfe][b]25%[/b][/color] for 2 turns.",
-    "awareness.a6.name": "The World Never Ends",
-    "awareness.a6.description": "When using a Persona skill on allies, if their [color=#00fcfe][b]HP[/b][/color] is not higher than [color=#00fcfe][b]60%[/b][/color], increase their [color=#00fcfe][b]CRIT DMG[/b][/color] by [color=#00fcfe][b]25%[/b][/color] for 1 turn."
+	"$schema": "../../schema_i18n.json",
+	"code_name": "Leon",
+	"full_name": "Reo Kamiyama",
+	"skill.s1.name": "Nuclear Fantasy",
+	"skill.s1.description": [
+		"Deals [color=#00fcfe][b]{skill_data} ATK[/b][/color] as [color=#00fcfe][b]Nuke DMG[/b][/color] to 1 enemy.",
+		"When using this skill, for every 1 stack of [color=#d6e3b1][b][Activate][/b][/color] on all allies, increases skill damage by [color=#00fcfe][b]10%[/b][/color]."
+	],
+	"skill.s2.name": "Life Refinement",
+	"skill.s2.description": [
+		"Converts 1 ally's [color=#00fcfe][b]30%[/b][/color] current [color=#00fcfe][b]HP[/b][/color] into [color=#00fcfe][b]Shield[/b][/color] with [color=#00fcfe][b]80%[/b][/color] ratio, and additionally gives [color=#00fcfe][b]{skill_data}[/b][/color] + [color=#00fcfe][b]{skill_data} ATK[/b][/color] as [color=#00fcfe][b]Shield[/b][/color] for 2 turns.",
+		"Gives the target 1 stack of [color=#d6e3b1][b][Activate][/b][/color]."
+	],
+	"skill.s3.name": "Heroic Conversion",
+	"skill.s3.description": [
+		"Increases 1 ally's [color=#00fcfe][b]ATK[/b][/color] by [color=#00fcfe][b]{skill_data}[/b][/color] for 2 turns.",
+		"When this effect is active, for each 1 stack of [color=#d6e3b1][b][Activate][/b][/color] on the target, increases their [color=#00fcfe][b]ATK[/b][/color] based on [color=#00fcfe][b]20%[/b][/color] own [color=#00fcfe][b]ATK[/b][/color], up to [color=#00fcfe][b]{skill_data}[/b][/color]."
+	],
+	"skill.hl.name": "HIGHLIGHT",
+	"skill.hl.description": [
+		"Gives 1 ally maxed stacks of [color=#d6e3b1][b][Activate][/b][/color] for 2 turns.",
+		"If their [color=#00fcfe][b]HP[/b][/color] is below [color=#00fcfe][b]60%[/b][/color] then restores their [color=#00fcfe][b]HP[/b][/color] to [color=#00fcfe][b]60% HP[/b][/color], up to [color=#00fcfe][b]200% ATK[/b][/color].",
+		"Increases their [color=#00fcfe][b]ATK[/b][/color] by [color=#00fcfe][b]15%[/b][/color] of own's [color=#00fcfe][b]ATK[/b][/color], up to [color=#00fcfe][b]{skill_data}[/b][/color] for 2 turns."
+	],
+	"skill.p1.name": "Protest",
+	"skill.p1.description": "When the effect of [ref=s2][color=#6fe0eb][b][u][Life Refinement][/u][/b][/color][/ref] ends, restores [color=#00fcfe][b]{skill_data} HP[/b][/color] based on remaining [color=#00fcfe][b]Shield[/b][/color].",
+	"skill.p2.name": "Accompany",
+	"skill.p2.description": "When any ally have 2 stacks of [color=#d6e3b1][b][Activate][/b][/color], additionally increases their [color=#00fcfe][b]CRIT DMG[/b][/color] by [color=#00fcfe][b]{skill_data}[/b][/color].",
+	"awareness.a0.name": "Organic Transformer",
+	"awareness.a0.description": "When any ally's [color=#00fcfe][b]HP[/b][/color] is not higher than [color=#00fcfe][b]75%[/b][/color], give them 1 stack of [color=#d6e3b1][b][Activate][/b][/color]: Increase their [color=#00fcfe][b]ATK[/b][/color] based on [color=#00fcfe][b]6%[/b][/color] own [color=#00fcfe][b]ATK[/b][/color] (Up to [color=#00fcfe][b]120/180/240 ATK[/b][/color], change when reaching level 1, 50, 70) for 1 turn, up to 2 stacks.",
+	"awareness.a1.name": "City Guardian",
+	"awareness.a1.description": "Increase [color=#00fcfe][b]DEF[/b][/color] by [color=#00fcfe][b]10%[/b][/color] for allies with [color=#d6e3b1][b][Activate][/b][/color].",
+	"awareness.a2.name": "Oh! Duel to the Death",
+	"awareness.a2.description": [
+		"[ref=s1][color=#6fe0eb][b][u][Nuclear Fantasy][/u][/b][/color][/ref] [color=#00fcfe][b]Lv. +2[/b][/color], up to a maximum of [color=#00fcfe][b]Lv. 15[/b][/color]",
+		"[ref=s2][color=#6fe0eb][b][u][Life Refinement][/u][/b][/color][/ref] [color=#00fcfe][b]Lv. +2[/b][/color], up to a maximum of [color=#00fcfe][b]Lv. 15[/b][/color]"
+	],
+	"awareness.a3.name": "Edge Savior",
+	"awareness.a3.description": "Increase own [color=#00fcfe][b]ATK[/b][/color] by [color=#00fcfe][b]25%[/b][/color] when using a Persona skill on allies.",
+	"awareness.a4.name": "Growth and Bond",
+	"awareness.a4.description": [
+		"[ref=s3][color=#6fe0eb][b][u][Heroic Conversion][/u][/b][/color][/ref] [color=#00fcfe][b]Lv. +2[/b][/color], up to a maximum of [color=#00fcfe][b]Lv. 15[/b][/color]",
+		"[ref=hl][color=#6fe0eb][b][u][Combat Skills][/u][/b][/color][/ref] [color=#00fcfe][b]Lv. +2[/b][/color], up to a maximum of [color=#00fcfe][b]Lv. 15[/b][/color]"
+	],
+	"awareness.a5.name": "Homeward Hero",
+	"awareness.a5.description": "[ref=hl][color=#6fe0eb][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Increases the target's [color=#00fcfe][b]CRIT DMG[/b][/color] by [color=#00fcfe][b]25%[/b][/color] for 2 turns.",
+	"awareness.a6.name": "The World Never Ends",
+	"awareness.a6.description": "When using a Persona skill on allies, if their [color=#00fcfe][b]HP[/b][/color] is not higher than [color=#00fcfe][b]60%[/b][/color], increase their [color=#00fcfe][b]CRIT DMG[/b][/color] by [color=#00fcfe][b]25%[/b][/color] for 1 turn."
 }

@@ -1,9 +1,9 @@
+import type { RequiredThiefSkill } from '@types';
 import { createMemo, createSignal, Show } from 'solid-js';
 import { BBCodeRenderer } from '../../bbcode-render';
-import { ElementDisplay } from '../../element';
 import { Container } from '../../container';
+import { ElementDisplay } from '../../element';
 import { LevelDropdown } from '../../level-dropdown';
-import type { RequiredThiefSkill } from '@types';
 
 export function CharacterSkillComponent(props: { skill: RequiredThiefSkill }) {
 	const [level, setLevel] = createSignal(

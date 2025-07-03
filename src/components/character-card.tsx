@@ -1,10 +1,10 @@
 import { useNavigate } from '@tanstack/solid-router';
-import { ElementDisplay } from './element';
-import { RoleDisplay } from './role';
-import { CharacterAssetDisplay } from './character-asset';
-import { cn } from '../utils';
 import { Show } from 'solid-js';
 import { useThief } from 'src/hooks/collections';
+import { cn } from '../utils';
+import { CharacterAssetDisplay } from './character-asset';
+import { ElementDisplay } from './element';
+import { RoleDisplay } from './role';
 
 export function CharacterCard(props: { characterId: string }) {
 	const navigate = useNavigate();

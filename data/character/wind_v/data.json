@@ -1,322 +1,305 @@
 {
-  "$schema": "../schema.json",
-  "id": "wind_v",
-  "code_name": "Wind",
-  "full_name": "Riko Tanemura",
-  "quality": 5,
-  "role": "buff",
-  "element": "wind",
-  "available_regions": [
-    "kr-tw",
-    "cn"
-  ],
-  "stats": [
-    {
-      "1": {
-        "hp": "420",
-        "sp": "200",
-        "atk": "126",
-        "def": "74",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "104",
-        "sp_rec_prec": "0%"
-      },
-      "10": {
-        "hp": "714",
-        "sp": "200",
-        "atk": "214",
-        "def": "125",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "104",
-        "sp_rec_prec": "0%"
-      }
-    },
-    {
-      "10": {
-        "hp": "818",
-        "sp": "200",
-        "atk": "245",
-        "def": "144",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "104",
-        "sp_rec_prec": "26.9%"
-      },
-      "20": {
-        "hp": "1144",
-        "sp": "200",
-        "atk": "343",
-        "def": "201",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "104",
-        "sp_rec_prec": "26.9%"
-      }
-    },
-    {
-      "20": {
-        "hp": "1248",
-        "sp": "200",
-        "atk": "375",
-        "def": "220",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "104",
-        "sp_rec_prec": "53.8%"
-      },
-      "30": {
-        "hp": "1575",
-        "sp": "200",
-        "atk": "473",
-        "def": "277",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "104",
-        "sp_rec_prec": "53.8%"
-      }
-    },
-    {
-      "30": {
-        "hp": "1678",
-        "sp": "200",
-        "atk": "504",
-        "def": "295",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "104",
-        "sp_rec_prec": "80.7%"
-      },
-      "40": {
-        "hp": "2005",
-        "sp": "200",
-        "atk": "602",
-        "def": "353",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "104",
-        "sp_rec_prec": "80.7%"
-      }
-    },
-    {
-      "40": {
-        "hp": "2109",
-        "sp": "200",
-        "atk": "633",
-        "def": "371",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "104",
-        "sp_rec_prec": "107.7%"
-      },
-      "50": {
-        "hp": "2436",
-        "sp": "200",
-        "atk": "731",
-        "def": "429",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "104",
-        "sp_rec_prec": "107.7%"
-      }
-    },
-    {
-      "50": {
-        "hp": "2539",
-        "sp": "200",
-        "atk": "762",
-        "def": "447",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "104",
-        "sp_rec_prec": "134.6%"
-      },
-      "60": {
-        "hp": "2866",
-        "sp": "200",
-        "atk": "861",
-        "def": "505",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "104",
-        "sp_rec_prec": "134.6%"
-      }
-    },
-    {
-      "60": {
-        "hp": "2970",
-        "sp": "200",
-        "atk": "892",
-        "def": "523",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "104",
-        "sp_rec_prec": "161.5%"
-      },
-      "70": {
-        "hp": "3296",
-        "sp": "200",
-        "atk": "990",
-        "def": "581",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "104",
-        "sp_rec_prec": "161.5%"
-      }
-    },
-    {
-      "70": {
-        "hp": "3400",
-        "sp": "200",
-        "atk": "1021",
-        "def": "599",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "104",
-        "sp_rec_prec": "188.5%"
-      },
-      "80": {
-        "hp": "3727",
-        "sp": "200",
-        "atk": "1119",
-        "def": "657",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "104",
-        "sp_rec_prec": "188.5%"
-      }
-    }
-  ],
-  "mental_image": {
-    "basic": [
-      {
-        "type": "hp",
-        "value": "121"
-      },
-      {
-        "type": "def",
-        "value": "24"
-      },
-      {
-        "type": "atk",
-        "value": "25"
-      },
-      {
-        "type": "hp",
-        "value": "121"
-      },
-      {
-        "type": "def",
-        "value": "24"
-      },
-      {
-        "type": "atk",
-        "value": "25"
-      },
-      {
-        "type": "hp",
-        "value": "121"
-      },
-      {
-        "type": "def",
-        "value": "24"
-      },
-      {
-        "type": "atk",
-        "value": "25"
-      },
-      {
-        "type": "hp",
-        "value": "121"
-      },
-      {
-        "type": "def",
-        "value": "24"
-      },
-      {
-        "type": "atk",
-        "value": "25"
-      }
-    ],
-    "bells": [
-      {
-        "hp": "121"
-      },
-      {
-        "hp": "121",
-        "def": "24"
-      },
-      {
-        "hp": "121",
-        "def": "24",
-        "atk": "25"
-      },
-      {
-        "hp": "242",
-        "def": "24",
-        "atk": "25"
-      },
-      {
-        "hp": "242",
-        "def": "48",
-        "atk": "25"
-      },
-      {
-        "hp": "242",
-        "def": "48",
-        "atk": "50"
-      },
-      {
-        "hp": "363",
-        "def": "48",
-        "atk": "50"
-      },
-      {
-        "hp": "363",
-        "def": "72",
-        "atk": "50"
-      },
-      {
-        "hp": "363",
-        "def": "72",
-        "atk": "75"
-      },
-      {
-        "hp": "484",
-        "def": "72",
-        "atk": "75"
-      },
-      {
-        "hp": "484",
-        "def": "96",
-        "atk": "75"
-      },
-      {
-        "hp": "484",
-        "def": "96",
-        "atk": "100"
-      }
-    ],
-    "stat_buff_1": {
-      "type": "atk_prec",
-      "values": [
-        "4.0%",
-        "8.0%",
-        "12.0%",
-        "16.0%",
-        "20.0%"
-      ]
-    },
-    "stat_buff_2": {
-      "type": "crit_dmg_prec",
-      "values": [
-        "4.8%",
-        "9.6%",
-        "14.4%",
-        "19.2%",
-        "24.0%"
-      ]
-    }
-  }
+	"$schema": "../schema.json",
+	"id": "wind_v",
+	"quality": 5,
+	"role": "buff",
+	"element": "wind",
+	"available_regions": ["kr-tw", "cn"],
+	"stats": [
+		{
+			"1": {
+				"hp": "420",
+				"sp": "200",
+				"atk": "126",
+				"def": "74",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "104",
+				"sp_rec_prec": "0%"
+			},
+			"10": {
+				"hp": "714",
+				"sp": "200",
+				"atk": "214",
+				"def": "125",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "104",
+				"sp_rec_prec": "0%"
+			}
+		},
+		{
+			"10": {
+				"hp": "818",
+				"sp": "200",
+				"atk": "245",
+				"def": "144",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "104",
+				"sp_rec_prec": "26.9%"
+			},
+			"20": {
+				"hp": "1144",
+				"sp": "200",
+				"atk": "343",
+				"def": "201",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "104",
+				"sp_rec_prec": "26.9%"
+			}
+		},
+		{
+			"20": {
+				"hp": "1248",
+				"sp": "200",
+				"atk": "375",
+				"def": "220",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "104",
+				"sp_rec_prec": "53.8%"
+			},
+			"30": {
+				"hp": "1575",
+				"sp": "200",
+				"atk": "473",
+				"def": "277",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "104",
+				"sp_rec_prec": "53.8%"
+			}
+		},
+		{
+			"30": {
+				"hp": "1678",
+				"sp": "200",
+				"atk": "504",
+				"def": "295",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "104",
+				"sp_rec_prec": "80.7%"
+			},
+			"40": {
+				"hp": "2005",
+				"sp": "200",
+				"atk": "602",
+				"def": "353",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "104",
+				"sp_rec_prec": "80.7%"
+			}
+		},
+		{
+			"40": {
+				"hp": "2109",
+				"sp": "200",
+				"atk": "633",
+				"def": "371",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "104",
+				"sp_rec_prec": "107.7%"
+			},
+			"50": {
+				"hp": "2436",
+				"sp": "200",
+				"atk": "731",
+				"def": "429",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "104",
+				"sp_rec_prec": "107.7%"
+			}
+		},
+		{
+			"50": {
+				"hp": "2539",
+				"sp": "200",
+				"atk": "762",
+				"def": "447",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "104",
+				"sp_rec_prec": "134.6%"
+			},
+			"60": {
+				"hp": "2866",
+				"sp": "200",
+				"atk": "861",
+				"def": "505",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "104",
+				"sp_rec_prec": "134.6%"
+			}
+		},
+		{
+			"60": {
+				"hp": "2970",
+				"sp": "200",
+				"atk": "892",
+				"def": "523",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "104",
+				"sp_rec_prec": "161.5%"
+			},
+			"70": {
+				"hp": "3296",
+				"sp": "200",
+				"atk": "990",
+				"def": "581",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "104",
+				"sp_rec_prec": "161.5%"
+			}
+		},
+		{
+			"70": {
+				"hp": "3400",
+				"sp": "200",
+				"atk": "1021",
+				"def": "599",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "104",
+				"sp_rec_prec": "188.5%"
+			},
+			"80": {
+				"hp": "3727",
+				"sp": "200",
+				"atk": "1119",
+				"def": "657",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "104",
+				"sp_rec_prec": "188.5%"
+			}
+		}
+	],
+	"mental_image": {
+		"basic": [
+			{
+				"type": "hp",
+				"value": "121"
+			},
+			{
+				"type": "def",
+				"value": "24"
+			},
+			{
+				"type": "atk",
+				"value": "25"
+			},
+			{
+				"type": "hp",
+				"value": "121"
+			},
+			{
+				"type": "def",
+				"value": "24"
+			},
+			{
+				"type": "atk",
+				"value": "25"
+			},
+			{
+				"type": "hp",
+				"value": "121"
+			},
+			{
+				"type": "def",
+				"value": "24"
+			},
+			{
+				"type": "atk",
+				"value": "25"
+			},
+			{
+				"type": "hp",
+				"value": "121"
+			},
+			{
+				"type": "def",
+				"value": "24"
+			},
+			{
+				"type": "atk",
+				"value": "25"
+			}
+		],
+		"bells": [
+			{
+				"hp": "121"
+			},
+			{
+				"hp": "121",
+				"def": "24"
+			},
+			{
+				"hp": "121",
+				"def": "24",
+				"atk": "25"
+			},
+			{
+				"hp": "242",
+				"def": "24",
+				"atk": "25"
+			},
+			{
+				"hp": "242",
+				"def": "48",
+				"atk": "25"
+			},
+			{
+				"hp": "242",
+				"def": "48",
+				"atk": "50"
+			},
+			{
+				"hp": "363",
+				"def": "48",
+				"atk": "50"
+			},
+			{
+				"hp": "363",
+				"def": "72",
+				"atk": "50"
+			},
+			{
+				"hp": "363",
+				"def": "72",
+				"atk": "75"
+			},
+			{
+				"hp": "484",
+				"def": "72",
+				"atk": "75"
+			},
+			{
+				"hp": "484",
+				"def": "96",
+				"atk": "75"
+			},
+			{
+				"hp": "484",
+				"def": "96",
+				"atk": "100"
+			}
+		],
+		"stat_buff_1": {
+			"type": "atk_prec",
+			"values": ["4.0%", "8.0%", "12.0%", "16.0%", "20.0%"]
+		},
+		"stat_buff_2": {
+			"type": "crit_dmg_prec",
+			"values": ["4.8%", "9.6%", "14.4%", "19.2%", "24.0%"]
+		}
+	}
 }

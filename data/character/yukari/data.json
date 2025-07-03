@@ -1,13 +1,8 @@
 {
-  "$schema": "../schema.json",
-  "id": "yukari",
-  "code_name": "Yukari",
-  "full_name": "Yukari Takeba",
-  "quality": 5,
-  "role": "heal",
-  "element": "wind",
-  "available_regions": [
-    "kr-tw",
-    "cn"
-  ]
+	"$schema": "../schema.json",
+	"id": "yukari",
+	"quality": 5,
+	"role": "heal",
+	"element": "wind",
+	"available_regions": ["kr-tw", "cn"]
 }

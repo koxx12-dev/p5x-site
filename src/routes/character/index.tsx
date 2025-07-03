@@ -1,11 +1,11 @@
-import { createFileRoute } from '@tanstack/solid-router';
-import { createSignal } from 'solid-js';
 import { CardDisplay } from '@components/character/index/card-display';
 import { ElementFilter } from '@components/character/index/element-filter';
 import { QualityFilter } from '@components/character/index/quality-filter';
 import { RoleFilter } from '@components/character/index/role-filter';
 import { SearchBar } from '@components/character/index/searchbar';
+import { createFileRoute } from '@tanstack/solid-router';
 import type { Element, Role } from '@types';
+import { createSignal } from 'solid-js';
 
 export const Route = createFileRoute('/character/')({
 	component: RouteComponent,

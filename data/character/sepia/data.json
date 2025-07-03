@@ -1,14 +1,8 @@
 {
-  "$schema": "../schema.json",
-  "id": "sepia",
-  "code_name": "Sepia",
-  "full_name": "Toshiya Sumi",
-  "quality": 4,
-  "role": "single",
-  "element": "curse",
-  "available_regions": [
-    "kr-tw",
-    "cn",
-    "glb-jp"
-  ]
+	"$schema": "../schema.json",
+	"id": "sepia",
+	"quality": 4,
+	"role": "single",
+	"element": "curse",
+	"available_regions": ["kr-tw", "cn", "glb-jp"]
 }

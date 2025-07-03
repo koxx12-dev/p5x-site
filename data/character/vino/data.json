@@ -1,13 +1,8 @@
 {
-  "$schema": "../schema.json",
-  "id": "vino",
-  "code_name": "Vino",
-  "full_name": "Chizuko Nagao",
-  "quality": 4,
-  "role": "debuff",
-  "element": "nuke",
-  "available_regions": [
-    "kr-tw",
-    "cn"
-  ]
+	"$schema": "../schema.json",
+	"id": "vino",
+	"quality": 4,
+	"role": "debuff",
+	"element": "nuke",
+	"available_regions": ["kr-tw", "cn"]
 }

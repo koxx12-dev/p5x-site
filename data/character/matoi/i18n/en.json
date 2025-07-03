@@ -1,76 +1,76 @@
 {
-    "$schema": "../../schema_i18n.json",
-    "code_name": "Matoi",
-    "full_name": "Mio Natsukawa",
-    "skill.s1.name": "Echoing Tide",
-    "skill.s1.description": [
-        "Gain 1 stack of [color=#4b81cb][b][Extinguishing Power][/b][/color] and deals [color=#00adff][b]{skill_data} ATK[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to all enemies, with a [color=#00adff][b]50%[/b][/color] base chance to inflict [color=#00adff][b][i]Freeze[/i][/b][/color] and decreases their [color=#00adff][b]DEF[/b][/color] by [color=#00adff][b]{skill_data}[/b][/color] (For every [color=#00adff][b]5.47% EHR[/b][/color], additionally decreases [color=#00adff][b]DEF[/b][/color] by [color=#00adff][b]1%[/b][/color], up to [color=#00adff][b]{skill_data}[/b][/color]) for 3 turns.",
-        "If the target is inflicted with [color=#ff3b1d][b][i]Burn[/i][/b][/color], dispels their [color=#ff3b1d][b][i]Burn[/i][/b][/color] then inflicts all enemies with [color=#afd7ef][b][Fading Flame][/b][/color] ([color=#afd7ef][b][Fading Flame][/b][/color] cannot trigger this effect).",
-        "[color=#afd7ef][b][Fading Flame][/b][/color]: Increases all Thieves's [color=#ff3b1d][b]TECHNICAL[/b][/color] Mastery by [color=#ff3b1d][b]{skill_data}[/b][/color] when attacking enemies with this effect, this effect is considered as [color=#ff3b1d][b][i]Burn[/i][/b][/color] and lasts for 3 turns."
-    ],
-    "skill.s2.name": "Binding Wave",
-    "skill.s2.description": [
-        "Deals [color=#00adff][b]{skill_data} ATK[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to 1 enemy.",
-        "Deals [color=#00adff][b]Ice TECHNICAL[/b][/color], then increases the base chance when triggering [color=#80a6ab][b][Ice Seal][/b][/color] to [color=#00adff][b]{skill_data}[/b][/color]"
-    ],
-    "skill.s3.name": "Bursting Waterfall",
-    "skill.s3.description": [
-        "[b]Unlocks when Matoi has 2 stacks of [color=#4b81cb][b][Extinguishing Power][/b][/color].[/b]",
-        "Consumes 2 stacks of [color=#4b81cb][b][Extinguishing Power][/b][/color], deals [color=#00adff][b]{skill_data} ATK[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to all enemies and decreases their [color=#00adff][b]DEF[/b][/color] by [color=#00adff][b]{skill_data}[/b][/color] (For every [color=#00adff][b]5.83% EHR[/b][/color], additionally decreases [color=#00adff][b]DEF[/b][/color] by [color=#00adff][b]1%[/b][/color], up to [color=#00adff][b]{skill_data}[/b][/color]) for 2 turns.",
-        "Deals [color=#00adff][b]Ice TECHNICAL[/b][/color], and when triggering [color=#4b98c5][b][Ice Burn][/b][/color], upgrades to [color=#78c5e5][b][Cold Shine][/b][/color].",
-        "[color=#78c5e5][b][Cold Shine][/b][/color]: Increase all enemies' [color=#00adff][b]DMG[/b][/color] Taken by [color=#00adff][b]{skill_data}[/b][/color] (For every [color=#00adff][b]4.38% EHR[/b][/color], additionally increases [color=#00adff][b]DMG[/b][/color] Taken by [color=#00adff][b]1%[/b][/color], up to [color=#00adff][b]{skill_data}[/b][/color]).",
-        "When Matoi has 4 stacks of [color=#4b81cb][b][Extinguishing Power][/b][/color], upgrade this skill to [ref=s3][color=#68a0c8][b][u][Bursting Waterfall·Tornado][/u][/b][/color][/ref].",
-        "\n[ref=s3][color=#68a0c8][b][u][Bursting Waterfall·Tornado][/u][/b][/color][/ref]",
-        "Consumes 4 stacks of [color=#4b81cb][b][Extinguishing Power][/b][/color], deals [color=#00adff][b]{skill_data} ATK[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to all enemies and decreases their [color=#00adff][b]DEF[/b][/color] by [color=#00adff][b]{skill_data}[/b][/color] (For every [color=#00adff][b]4.86% EHR[/b][/color], additionally decreases [color=#00adff][b]DEF[/b][/color] by [color=#00adff][b]1%[/b][/color], up to [color=#00adff][b]{skill_data}[/b][/color]) for 2 turns.",
-        "Deals [color=#00adff][b]Ice TECHNICAL[/b][/color], and when triggering [color=#4b98c5][b][Ice Burn][/b][/color], upgrades to [color=#78c5e5][b][Cold Shine][/b][/color].",
-        "[color=#78c5e5][b][Cold Shine][/b][/color]: Increase all [color=#00adff][b]DMG[/b][/color] Taken by [color=#00adff][b]{skill_data}[/b][/color] (For every [color=#00adff][b]3.65% EHR[/b][/color], additionally increases [color=#00adff][b]DMG Taken[/b][/color] by [color=#00adff][b]1%[/b][/color], up to [color=#00adff][b]{skill_data}[/b][/color])."
-    ],
-    "skill.hl.name": "HIGHLIGHT",
-    "skill.hl.description": [
-        "Deals [color=#00adff][b]{skill_data} ATK[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to all enemies and increases their [color=#00adff][b]DMG[/b][/color] Taken (For every [color=#00adff][b]5.83% EHR[/b][/color], increases [color=#00adff][b]DMG[/b][/color] Taken by [color=#00adff][b]1%[/b][/color], up to [color=#00adff][b]{skill_data}[/b][/color]) for 2 turns.",
-        "Deals [color=#00adff][b]Ice TECHNICAL[/b][/color], then increases the base chance when triggering [color=#80a6ab][b][Ice Seal][/b][/color] to [color=#00adff][b]28%[/b][/color], enemies with [color=#80a6ab][b][Ice Seal][/b][/color] additionally increases [color=#00adff][b]DMG[/b][/color] Taken (For every [color=#00adff][b]17.5%[/b][/color], additionally increases [color=#00adff][b]DMG[/b][/color] Taken by [color=#00adff][b]1%[/b][/color] up to [color=#00adff][b]{skill_data}[/b][/color]).",
-        "Then deals [color=#00adff][b]{skill_data} ATK[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to all enemies."
-    ],
-    "skill.p1.name": "Shelter",
-    "skill.p1.description": "When Matoi deals [color=#00adff][b]TECHNICAL[/b][/color], give all Thieves 1 stack of [color=#00adff][b]{skill_data} Shield[/b][/color] for 2 turns.",
-    "skill.p2.name": "Pressure",
-    "skill.p2.description": "When Matoi is present, enemies with [color=#00adff][b][i]Freeze[/i][/b][/color] increase [color=#00adff][b]DMG[/b][/color] Taken by [color=#00adff][b]{skill_data}[/b][/color].",
-    "awareness.a0.name": "Fire Containment",
-    "awareness.a0.description": [
-        "Certain skills can deal [color=#00adff][b]Ice TECHNICAL[/b][/color].",
-        "At the start of Matoi's turn, gain 1 stack of [color=#4b81cb][b][Extinguishing Power][/b][/color], up to 4 stacks.",
-        "Consumes [color=#4b81cb][b][Extinguishing Power][/b][/color] when using [ref=s3][color=#68a0c8][b][u][Bursting Waterfall][/u][/b][/color][/ref].",
-        "Each stack of [color=#4b81cb][b][Extinguishing Power][/b][/color] consumed will inflict all enemies with 1 stack of [color=#62dbeb][b][Drowning][/b][/color].",
-        "[color=#62dbeb][b][Drowning][/b][/color]: Increases [color=#00adff][b]DMG[/b][/color] Taken by [color=#00adff][b]6%[/b][/color] for 2 turns, up to 4 stacks. "
-    ],
-    "awareness.a1.name": "Firefighting Unit",
-    "awareness.a1.description": [
-        "Additionally gains 1 [color=#4b81cb][b][Extinguishing Power][/b][/color] when using [ref=s1][color=#68a0c8][b][u][Echoing Tide][/u][/b][/color][/ref].",
-        "Increases all enemies' [color=#00adff][b]CRIT DMG[/b][/color] Taken by [color=#00adff][b]30%[/b][/color] when consuming [color=#4b81cb][b][Extinguishing Power][/b][/color] for 2 turns."
-    ],
-    "awareness.a2.name": "Border Guardian",
-    "awareness.a2.description": [
-        "When consuming [color=#4b81cb][b][Extinguishing Power][/b][/color], increases all Thieves' [color=#00adff][b]ATK[/b][/color] by [color=#00adff][b]20%[/b][/color], [color=#00adff][b]DEF[/b][/color] by [color=#00adff][b]30%[/b][/color], and [color=#00adff][b]DMG[/b][/color] Dealt by [color=#00adff][b]15%[/b][/color] for 2 turns."
-    ],
-    "awareness.a3.name": "Cut Off the Smoke",
-    "awareness.a3.description": [
-        "[ref=s3][color=#68a0c8][b][u][Bursting Waterfall][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color].",
-        "[ref=hl][color=#68a0c8][b][u][Combat Skills][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color]."
-    ],
-    "awareness.a4.name": "Calm the Flame",
-    "awareness.a4.description": [
-        "[ref=hl][color=#68a0c8][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Extends the [color=#00adff][b]DMG[/b][/color] Taken duration from [ref=hl][color=#68a0c8][b][u][HIGHLIGHT][/u][/b][/color][/ref] by 1 turn.",
-        "Increases the base chance of [color=#80a6ab][b][Ice Seal][/b][/color] to [color=#00adff][b]40%[/b][/color] when [ref=hl][color=#68a0c8][b][u][HIGHLIGHT][/u][/b][/color][/ref] triggers [color=#80a6ab][b][Ice Seal][/b][/color]."
-    ],
-    "awareness.a5.name": "Seven Principles",
-    "awareness.a5.description": [
-        "[ref=s1][color=#68a0c8][b][u][Echoing Tide][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color].",
-        "[ref=s2][color=#68a0c8][b][u][Binding Wave][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color]."
-    ],
-    "awareness.a6.name": "Flower of Edo",
-    "awareness.a6.description": [
-        "At the start of Matoi's turn, if any enemy is inflicted with [color=#ff3b1d][b][i]Burn[/i][/b][/color], immediately use [ref=s1][color=#68a0c8][b][u][Echoing Tide][/u][/b][/color][/ref] with them as the main target ([color=#afd7ef][b][Fading Flame][/b][/color] cannot trigger this effect).",
-        "When using [ref=s3][color=#68a0c8][b][u][Bursting Waterfall][/u][/b][/color][/ref]/[ref=s3][color=#68a0c8][b][u][Bursting Waterfall·Tornado][/u][/b][/color][/ref] on the same target, additionally increases the target's [color=#00adff][b]DMG[/b][/color] Taken by [color=#00adff][b]25%[/b][/color] for 1 turn.",
-        "Increases the cap of [color=#62dbeb][b][Drowning][/b][/color] to 6."
-    ]
+	"$schema": "../../schema_i18n.json",
+	"code_name": "Matoi",
+	"full_name": "Mio Natsukawa",
+	"skill.s1.name": "Echoing Tide",
+	"skill.s1.description": [
+		"Gain 1 stack of [color=#4b81cb][b][Extinguishing Power][/b][/color] and deals [color=#00adff][b]{skill_data} ATK[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to all enemies, with a [color=#00adff][b]50%[/b][/color] base chance to inflict [color=#00adff][b][i]Freeze[/i][/b][/color] and decreases their [color=#00adff][b]DEF[/b][/color] by [color=#00adff][b]{skill_data}[/b][/color] (For every [color=#00adff][b]5.47% EHR[/b][/color], additionally decreases [color=#00adff][b]DEF[/b][/color] by [color=#00adff][b]1%[/b][/color], up to [color=#00adff][b]{skill_data}[/b][/color]) for 3 turns.",
+		"If the target is inflicted with [color=#ff3b1d][b][i]Burn[/i][/b][/color], dispels their [color=#ff3b1d][b][i]Burn[/i][/b][/color] then inflicts all enemies with [color=#afd7ef][b][Fading Flame][/b][/color] ([color=#afd7ef][b][Fading Flame][/b][/color] cannot trigger this effect).",
+		"[color=#afd7ef][b][Fading Flame][/b][/color]: Increases all Thieves's [color=#ff3b1d][b]TECHNICAL[/b][/color] Mastery by [color=#ff3b1d][b]{skill_data}[/b][/color] when attacking enemies with this effect, this effect is considered as [color=#ff3b1d][b][i]Burn[/i][/b][/color] and lasts for 3 turns."
+	],
+	"skill.s2.name": "Binding Wave",
+	"skill.s2.description": [
+		"Deals [color=#00adff][b]{skill_data} ATK[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to 1 enemy.",
+		"Deals [color=#00adff][b]Ice TECHNICAL[/b][/color], then increases the base chance when triggering [color=#80a6ab][b][Ice Seal][/b][/color] to [color=#00adff][b]{skill_data}[/b][/color]"
+	],
+	"skill.s3.name": "Bursting Waterfall",
+	"skill.s3.description": [
+		"[b]Unlocks when Matoi has 2 stacks of [color=#4b81cb][b][Extinguishing Power][/b][/color].[/b]",
+		"Consumes 2 stacks of [color=#4b81cb][b][Extinguishing Power][/b][/color], deals [color=#00adff][b]{skill_data} ATK[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to all enemies and decreases their [color=#00adff][b]DEF[/b][/color] by [color=#00adff][b]{skill_data}[/b][/color] (For every [color=#00adff][b]5.83% EHR[/b][/color], additionally decreases [color=#00adff][b]DEF[/b][/color] by [color=#00adff][b]1%[/b][/color], up to [color=#00adff][b]{skill_data}[/b][/color]) for 2 turns.",
+		"Deals [color=#00adff][b]Ice TECHNICAL[/b][/color], and when triggering [color=#4b98c5][b][Ice Burn][/b][/color], upgrades to [color=#78c5e5][b][Cold Shine][/b][/color].",
+		"[color=#78c5e5][b][Cold Shine][/b][/color]: Increase all enemies' [color=#00adff][b]DMG[/b][/color] Taken by [color=#00adff][b]{skill_data}[/b][/color] (For every [color=#00adff][b]4.38% EHR[/b][/color], additionally increases [color=#00adff][b]DMG[/b][/color] Taken by [color=#00adff][b]1%[/b][/color], up to [color=#00adff][b]{skill_data}[/b][/color]).",
+		"When Matoi has 4 stacks of [color=#4b81cb][b][Extinguishing Power][/b][/color], upgrade this skill to [ref=s3][color=#68a0c8][b][u][Bursting Waterfall·Tornado][/u][/b][/color][/ref].",
+		"\n[ref=s3][color=#68a0c8][b][u][Bursting Waterfall·Tornado][/u][/b][/color][/ref]",
+		"Consumes 4 stacks of [color=#4b81cb][b][Extinguishing Power][/b][/color], deals [color=#00adff][b]{skill_data} ATK[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to all enemies and decreases their [color=#00adff][b]DEF[/b][/color] by [color=#00adff][b]{skill_data}[/b][/color] (For every [color=#00adff][b]4.86% EHR[/b][/color], additionally decreases [color=#00adff][b]DEF[/b][/color] by [color=#00adff][b]1%[/b][/color], up to [color=#00adff][b]{skill_data}[/b][/color]) for 2 turns.",
+		"Deals [color=#00adff][b]Ice TECHNICAL[/b][/color], and when triggering [color=#4b98c5][b][Ice Burn][/b][/color], upgrades to [color=#78c5e5][b][Cold Shine][/b][/color].",
+		"[color=#78c5e5][b][Cold Shine][/b][/color]: Increase all [color=#00adff][b]DMG[/b][/color] Taken by [color=#00adff][b]{skill_data}[/b][/color] (For every [color=#00adff][b]3.65% EHR[/b][/color], additionally increases [color=#00adff][b]DMG Taken[/b][/color] by [color=#00adff][b]1%[/b][/color], up to [color=#00adff][b]{skill_data}[/b][/color])."
+	],
+	"skill.hl.name": "HIGHLIGHT",
+	"skill.hl.description": [
+		"Deals [color=#00adff][b]{skill_data} ATK[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to all enemies and increases their [color=#00adff][b]DMG[/b][/color] Taken (For every [color=#00adff][b]5.83% EHR[/b][/color], increases [color=#00adff][b]DMG[/b][/color] Taken by [color=#00adff][b]1%[/b][/color], up to [color=#00adff][b]{skill_data}[/b][/color]) for 2 turns.",
+		"Deals [color=#00adff][b]Ice TECHNICAL[/b][/color], then increases the base chance when triggering [color=#80a6ab][b][Ice Seal][/b][/color] to [color=#00adff][b]28%[/b][/color], enemies with [color=#80a6ab][b][Ice Seal][/b][/color] additionally increases [color=#00adff][b]DMG[/b][/color] Taken (For every [color=#00adff][b]17.5%[/b][/color], additionally increases [color=#00adff][b]DMG[/b][/color] Taken by [color=#00adff][b]1%[/b][/color] up to [color=#00adff][b]{skill_data}[/b][/color]).",
+		"Then deals [color=#00adff][b]{skill_data} ATK[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to all enemies."
+	],
+	"skill.p1.name": "Shelter",
+	"skill.p1.description": "When Matoi deals [color=#00adff][b]TECHNICAL[/b][/color], give all Thieves 1 stack of [color=#00adff][b]{skill_data} Shield[/b][/color] for 2 turns.",
+	"skill.p2.name": "Pressure",
+	"skill.p2.description": "When Matoi is present, enemies with [color=#00adff][b][i]Freeze[/i][/b][/color] increase [color=#00adff][b]DMG[/b][/color] Taken by [color=#00adff][b]{skill_data}[/b][/color].",
+	"awareness.a0.name": "Fire Containment",
+	"awareness.a0.description": [
+		"Certain skills can deal [color=#00adff][b]Ice TECHNICAL[/b][/color].",
+		"At the start of Matoi's turn, gain 1 stack of [color=#4b81cb][b][Extinguishing Power][/b][/color], up to 4 stacks.",
+		"Consumes [color=#4b81cb][b][Extinguishing Power][/b][/color] when using [ref=s3][color=#68a0c8][b][u][Bursting Waterfall][/u][/b][/color][/ref].",
+		"Each stack of [color=#4b81cb][b][Extinguishing Power][/b][/color] consumed will inflict all enemies with 1 stack of [color=#62dbeb][b][Drowning][/b][/color].",
+		"[color=#62dbeb][b][Drowning][/b][/color]: Increases [color=#00adff][b]DMG[/b][/color] Taken by [color=#00adff][b]6%[/b][/color] for 2 turns, up to 4 stacks. "
+	],
+	"awareness.a1.name": "Firefighting Unit",
+	"awareness.a1.description": [
+		"Additionally gains 1 [color=#4b81cb][b][Extinguishing Power][/b][/color] when using [ref=s1][color=#68a0c8][b][u][Echoing Tide][/u][/b][/color][/ref].",
+		"Increases all enemies' [color=#00adff][b]CRIT DMG[/b][/color] Taken by [color=#00adff][b]30%[/b][/color] when consuming [color=#4b81cb][b][Extinguishing Power][/b][/color] for 2 turns."
+	],
+	"awareness.a2.name": "Border Guardian",
+	"awareness.a2.description": [
+		"When consuming [color=#4b81cb][b][Extinguishing Power][/b][/color], increases all Thieves' [color=#00adff][b]ATK[/b][/color] by [color=#00adff][b]20%[/b][/color], [color=#00adff][b]DEF[/b][/color] by [color=#00adff][b]30%[/b][/color], and [color=#00adff][b]DMG[/b][/color] Dealt by [color=#00adff][b]15%[/b][/color] for 2 turns."
+	],
+	"awareness.a3.name": "Cut Off the Smoke",
+	"awareness.a3.description": [
+		"[ref=s3][color=#68a0c8][b][u][Bursting Waterfall][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color].",
+		"[ref=hl][color=#68a0c8][b][u][Combat Skills][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color]."
+	],
+	"awareness.a4.name": "Calm the Flame",
+	"awareness.a4.description": [
+		"[ref=hl][color=#68a0c8][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Extends the [color=#00adff][b]DMG[/b][/color] Taken duration from [ref=hl][color=#68a0c8][b][u][HIGHLIGHT][/u][/b][/color][/ref] by 1 turn.",
+		"Increases the base chance of [color=#80a6ab][b][Ice Seal][/b][/color] to [color=#00adff][b]40%[/b][/color] when [ref=hl][color=#68a0c8][b][u][HIGHLIGHT][/u][/b][/color][/ref] triggers [color=#80a6ab][b][Ice Seal][/b][/color]."
+	],
+	"awareness.a5.name": "Seven Principles",
+	"awareness.a5.description": [
+		"[ref=s1][color=#68a0c8][b][u][Echoing Tide][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color].",
+		"[ref=s2][color=#68a0c8][b][u][Binding Wave][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color]."
+	],
+	"awareness.a6.name": "Flower of Edo",
+	"awareness.a6.description": [
+		"At the start of Matoi's turn, if any enemy is inflicted with [color=#ff3b1d][b][i]Burn[/i][/b][/color], immediately use [ref=s1][color=#68a0c8][b][u][Echoing Tide][/u][/b][/color][/ref] with them as the main target ([color=#afd7ef][b][Fading Flame][/b][/color] cannot trigger this effect).",
+		"When using [ref=s3][color=#68a0c8][b][u][Bursting Waterfall][/u][/b][/color][/ref]/[ref=s3][color=#68a0c8][b][u][Bursting Waterfall·Tornado][/u][/b][/color][/ref] on the same target, additionally increases the target's [color=#00adff][b]DMG[/b][/color] Taken by [color=#00adff][b]25%[/b][/color] for 1 turn.",
+		"Increases the cap of [color=#62dbeb][b][Drowning][/b][/color] to 6."
+	]
 }

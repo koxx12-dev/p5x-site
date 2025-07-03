@@ -1,14 +1,8 @@
 {
-  "$schema": "../schema.json",
-  "id": "soy",
-  "code_name": "Soy",
-  "full_name": "Shun Kanou",
-  "quality": 4,
-  "role": "tank",
-  "element": "ice",
-  "available_regions": [
-    "kr-tw",
-    "cn",
-    "glb-jp"
-  ]
+	"$schema": "../schema.json",
+	"id": "soy",
+	"quality": 4,
+	"role": "tank",
+	"element": "ice",
+	"available_regions": ["kr-tw", "cn", "glb-jp"]
 }

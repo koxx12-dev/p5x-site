@@ -1,55 +1,55 @@
 {
-    "$schema": "../../schema_i18n.json",
-    "code_name": "Marian",
-    "full_name": "Minami Miyashita",
-    "skill.s1.name": "Lily Revelation",
-    "skill.s1.description": [
-        "Deals [color=#ffffa4][b]{skill_data} Max HP[/b][/color] as [color=#ffffa4][b]Bless DMG[/b][/color] to 1 enemy and gives all allies 1 stack of [color=#ffffa4][b][i]Bless[/i][/b][/color].",
-        "Gains 1 stack of [color=#a6b74c][b][Nectar][/b][/color]."
-    ],
-    "skill.s2.name": "Healing Blessing",
-    "skill.s2.description": [
-        "Restores [color=#ffffa4][b]{skill_data} Max HP[/b][/color] + [color=#ffffa4][b]{skill_data} HP[/b][/color] to 1 ally and 1 other lowest [color=#ffffa4][b]HP[/b][/color] ally and dispels 2 debuffs.",
-        "Gives all healed allies 1 stack of [color=#ffffa4][b][i]Bless[/i][/b][/color] and restores [color=#ffffa4][b]{skill_data} Max HP[/b][/color] + [color=#ffffa4][b]{skill_data} HP[/b][/color] at the start of their turn for 2 turns.",
-        "Gains 1 stack of [color=#a6b74c][b][Nectar][/b][/color]."
-    ],
-    "skill.s3.name": "Gift of Spring",
-    "skill.s3.description": [
-        "Consume all [color=#a6b74c][b][Nectar][/b][/color] and immediately restores [color=#ffffa4][b]{skill_data} Max HP[/b][/color] + [color=#ffffa4][b]{skill_data} HP[/b][/color] to the main target and restores the same amount to the ally with the lowest [color=#ffffa4][b]HP[/b][/color] 2 times, repeat this 1 times with each stack of [color=#a6b74c][b][Nectar][/b][/color] consumed.",
-        "Increases all other allies' [color=#ffffa4][b]Max HP[/b][/color] by [color=#ffffa4][b]7.5% Max HP[/b][/color] (Up to [color=#ffffa4][b]{skill_data} HP[/b][/color]) with each stack of [color=#a6b74c][b][Nectar][/b][/color] consumed for 2 turns."
-    ],
-    "skill.hl.name": "HIGHLIGHT",
-    "skill.hl.description": [
-        "Restores [color=#ffffa4][b]{skill_data} Max HP[/b][/color] + [color=#ffffa4][b]{skill_data} HP[/b][/color] to all allies, dispels 1 debuff and gains [color=#ffffa4][b]16.5% Max HP[/b][/color] as [color=#ffffa4][b]Max HP[/b][/color] (Up to [color=#ffffa4][b]{skill_data} HP[/b][/color]) for 2 turns.",
-        "They also restores [color=#ffffa4][b]{skill_data} Max HP[/b][/color] + [color=#ffffa4][b]{skill_data} HP[/b][/color] after action for 1 turn."
-    ],
-    "skill.p1.name": "Blessing",
-    "skill.p1.description": [
-        "Increase damage of healed target by ([color=#ffffa4][b]{skill_data}[/b][/color] + [color=#ffffa4][b]{skill_data}[/b][/color] * [color=#ffffa4][b][i]Bless[/i][/b][/color] stacks, up to [color=#ffffa4][b]{skill_data}[/b][/color]) for 1 turn."
-    ],
-    "skill.p2.name": "Benevolence",
-    "skill.p2.description": "At the start of battle, increase all allies' [color=#ffffa4][b]Max HP[/b][/color] based on [color=#ffffa4][b]{skill_data} Max HP[/b][/color] (Up to [color=#ffffa4][b]{skill_data} HP[/b][/color]).",
-    "awareness.a0.name": "Nursing Assessment",
-    "awareness.a0.description": [
-        "At the start of battle, gain 1 stack of [color=#a6b74c][b][Nectar][/b][/color]: There is a [color=#ffffa4][b]100%[/b][/color] fixed chance to gain 1 stack of [color=#a6b74c][b][Nectar][/b][/color] when any ally is below [color=#ffffa4][b]70% HP[/b][/color]",
-        "[color=#a6b74c][b][Nectar][/b][/color] caps at 2 stacks."
-    ],
-    "awareness.a1.name": "Pain Management",
-    "awareness.a1.description": "Give all allies [color=#ffffa4][b]20% PEN[/b][/color] for 2 turns when overhealing.",
-    "awareness.a2.name": "Nursing Care Plan",
-    "awareness.a2.description": [
-        "[ref=s2][color=#fae8c2][b][u][Healing Blessing][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +3[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color].",
-        "[ref=hl][color=#fae8c2][b][u][Combat Skills][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +3[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color]."
-    ],
-    "awareness.a3.name": "Nursing Diagnosis",
-    "awareness.a3.description": "[ref=s2][color=#fae8c2][b][u][Healing Blessing][/u][/b][/color][/ref] restores another ally and increase Healing Effect by [color=#ffffa4][b]20%[/b][/color] when the target is below [color=#ffffa4][b]50% HP[/b][/color].",
-    "awareness.a4.name": "Nursing Intervention",
-    "awareness.a4.description": [
-        "[ref=s1][color=#fae8c2][b][u][Lily Revelation][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +3[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color].",
-        "[ref=s3][color=#fae8c2][b][u][Gift of Spring][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +3[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color]."
-    ],
-    "awareness.a5.name": "Postoperative Care",
-    "awareness.a5.description": "[ref=hl][color=#fae8c2][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Increase the duration of the [color=#ffffa4][b]Max HP[/b][/color] increase effect and the regeneration effect from [ref=hl][color=#fae8c2][b][u][HIGHLIGHT][/u][/b][/color][/ref] by 1 turn.",
-    "awareness.a6.name": "CPR",
-    "awareness.a6.description": "Immediately revive and restore [color=#ffffa4][b]40% Max HP[/b][/color] + [color=#ffffa4][b]1,200 HP[/b][/color] to an ally when they faint, once per battle."
+	"$schema": "../../schema_i18n.json",
+	"code_name": "Marian",
+	"full_name": "Minami Miyashita",
+	"skill.s1.name": "Lily Revelation",
+	"skill.s1.description": [
+		"Deals [color=#ffffa4][b]{skill_data} Max HP[/b][/color] as [color=#ffffa4][b]Bless DMG[/b][/color] to 1 enemy and gives all allies 1 stack of [color=#ffffa4][b][i]Bless[/i][/b][/color].",
+		"Gains 1 stack of [color=#a6b74c][b][Nectar][/b][/color]."
+	],
+	"skill.s2.name": "Healing Blessing",
+	"skill.s2.description": [
+		"Restores [color=#ffffa4][b]{skill_data} Max HP[/b][/color] + [color=#ffffa4][b]{skill_data} HP[/b][/color] to 1 ally and 1 other lowest [color=#ffffa4][b]HP[/b][/color] ally and dispels 2 debuffs.",
+		"Gives all healed allies 1 stack of [color=#ffffa4][b][i]Bless[/i][/b][/color] and restores [color=#ffffa4][b]{skill_data} Max HP[/b][/color] + [color=#ffffa4][b]{skill_data} HP[/b][/color] at the start of their turn for 2 turns.",
+		"Gains 1 stack of [color=#a6b74c][b][Nectar][/b][/color]."
+	],
+	"skill.s3.name": "Gift of Spring",
+	"skill.s3.description": [
+		"Consume all [color=#a6b74c][b][Nectar][/b][/color] and immediately restores [color=#ffffa4][b]{skill_data} Max HP[/b][/color] + [color=#ffffa4][b]{skill_data} HP[/b][/color] to the main target and restores the same amount to the ally with the lowest [color=#ffffa4][b]HP[/b][/color] 2 times, repeat this 1 times with each stack of [color=#a6b74c][b][Nectar][/b][/color] consumed.",
+		"Increases all other allies' [color=#ffffa4][b]Max HP[/b][/color] by [color=#ffffa4][b]7.5% Max HP[/b][/color] (Up to [color=#ffffa4][b]{skill_data} HP[/b][/color]) with each stack of [color=#a6b74c][b][Nectar][/b][/color] consumed for 2 turns."
+	],
+	"skill.hl.name": "HIGHLIGHT",
+	"skill.hl.description": [
+		"Restores [color=#ffffa4][b]{skill_data} Max HP[/b][/color] + [color=#ffffa4][b]{skill_data} HP[/b][/color] to all allies, dispels 1 debuff and gains [color=#ffffa4][b]16.5% Max HP[/b][/color] as [color=#ffffa4][b]Max HP[/b][/color] (Up to [color=#ffffa4][b]{skill_data} HP[/b][/color]) for 2 turns.",
+		"They also restores [color=#ffffa4][b]{skill_data} Max HP[/b][/color] + [color=#ffffa4][b]{skill_data} HP[/b][/color] after action for 1 turn."
+	],
+	"skill.p1.name": "Blessing",
+	"skill.p1.description": [
+		"Increase damage of healed target by ([color=#ffffa4][b]{skill_data}[/b][/color] + [color=#ffffa4][b]{skill_data}[/b][/color] * [color=#ffffa4][b][i]Bless[/i][/b][/color] stacks, up to [color=#ffffa4][b]{skill_data}[/b][/color]) for 1 turn."
+	],
+	"skill.p2.name": "Benevolence",
+	"skill.p2.description": "At the start of battle, increase all allies' [color=#ffffa4][b]Max HP[/b][/color] based on [color=#ffffa4][b]{skill_data} Max HP[/b][/color] (Up to [color=#ffffa4][b]{skill_data} HP[/b][/color]).",
+	"awareness.a0.name": "Nursing Assessment",
+	"awareness.a0.description": [
+		"At the start of battle, gain 1 stack of [color=#a6b74c][b][Nectar][/b][/color]: There is a [color=#ffffa4][b]100%[/b][/color] fixed chance to gain 1 stack of [color=#a6b74c][b][Nectar][/b][/color] when any ally is below [color=#ffffa4][b]70% HP[/b][/color]",
+		"[color=#a6b74c][b][Nectar][/b][/color] caps at 2 stacks."
+	],
+	"awareness.a1.name": "Pain Management",
+	"awareness.a1.description": "Give all allies [color=#ffffa4][b]20% PEN[/b][/color] for 2 turns when overhealing.",
+	"awareness.a2.name": "Nursing Care Plan",
+	"awareness.a2.description": [
+		"[ref=s2][color=#fae8c2][b][u][Healing Blessing][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +3[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color].",
+		"[ref=hl][color=#fae8c2][b][u][Combat Skills][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +3[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color]."
+	],
+	"awareness.a3.name": "Nursing Diagnosis",
+	"awareness.a3.description": "[ref=s2][color=#fae8c2][b][u][Healing Blessing][/u][/b][/color][/ref] restores another ally and increase Healing Effect by [color=#ffffa4][b]20%[/b][/color] when the target is below [color=#ffffa4][b]50% HP[/b][/color].",
+	"awareness.a4.name": "Nursing Intervention",
+	"awareness.a4.description": [
+		"[ref=s1][color=#fae8c2][b][u][Lily Revelation][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +3[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color].",
+		"[ref=s3][color=#fae8c2][b][u][Gift of Spring][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +3[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color]."
+	],
+	"awareness.a5.name": "Postoperative Care",
+	"awareness.a5.description": "[ref=hl][color=#fae8c2][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Increase the duration of the [color=#ffffa4][b]Max HP[/b][/color] increase effect and the regeneration effect from [ref=hl][color=#fae8c2][b][u][HIGHLIGHT][/u][/b][/color][/ref] by 1 turn.",
+	"awareness.a6.name": "CPR",
+	"awareness.a6.description": "Immediately revive and restore [color=#ffffa4][b]40% Max HP[/b][/color] + [color=#ffffa4][b]1,200 HP[/b][/color] to an ally when they faint, once per battle."
 }

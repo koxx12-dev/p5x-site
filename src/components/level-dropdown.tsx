@@ -1,7 +1,7 @@
 import { Combobox } from '@kobalte/core/combobox';
 import { type JSX, mergeProps } from 'solid-js';
-import { cn } from '../utils';
 import { Dynamic } from 'solid-js/web';
+import { cn } from '../utils';
 
 type ColorScheme = 'default' | 'velvet';
 

@@ -1,7 +1,7 @@
 import { ToggleGroup } from '@kobalte/core/toggle-group';
-import { type Setter, For } from 'solid-js';
-import { RoleDisplay } from '../../role';
 import type { Role } from '@types';
+import { For, type Setter } from 'solid-js';
+import { RoleDisplay } from '../../role';
 
 export function RoleFilter(props: { setValue: Setter<Role[]>; value: Role[] }) {
 	const sectionRoles: Role[] = [

@@ -1,24 +1,24 @@
-import type {
-	BBobPlugins,
-	BBobCoreOptions,
-	TagNodeTree,
-	BBobCoreTagNodeTree,
-} from '@bbob/types';
+import core from '@bbob/core';
+import { render as htmlrender } from '@bbob/html';
 import {
-	isTagNode,
-	isStringNode,
-	isEOL,
-	type TagNode,
 	getUniqAttr,
+	isEOL,
+	isStringNode,
+	isTagNode,
+	type TagNode,
 } from '@bbob/plugin-helper';
+import type {
+	BBobCoreOptions,
+	BBobCoreTagNodeTree,
+	BBobPlugins,
+	TagNodeTree,
+} from '@bbob/types';
+import { Tooltip } from '@kobalte/core/tooltip';
+import { Link, useNavigate } from '@tanstack/solid-router';
 import { createMemo, type JSX, type JSXElement } from 'solid-js';
 import { Dynamic, Match, Show, Switch } from 'solid-js/web';
-import { render as htmlrender } from '@bbob/html';
-import core from '@bbob/core';
-import { Tooltip } from '@kobalte/core/tooltip';
-import { BBCodeRenderer } from '../components/bbcode-render';
-import { Link, useNavigate } from '@tanstack/solid-router';
 import { getThiefById } from 'src/collections/thief';
+import { BBCodeRenderer } from '../components/bbcode-render';
 
 const toAST = (
 	source: string,

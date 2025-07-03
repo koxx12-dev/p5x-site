@@ -1,52 +1,52 @@
 {
-    "$schema": "../../schema_i18n.json",
-    "code_name": "Fleuret",
-    "full_name": "Seiji Shiratori",
-    "skill.s1.name": "Howling Wind",
-    "skill.s1.description": "Deals [color=#7fe82a][b]{skill_data} ATK[/b][/color] as [color=#7fe82a][b]Wind DMG[/b][/color] to 1 enemy 4 times, with a [color=#7fe82a][b]{skill_data}[/b][/color] base chance to inflict [color=#7fe82a][b][i]Winded[/i][/b][/color] for 2 turns.",
-    "skill.s2.name": "Elegant Storm",
-    "skill.s2.description": [
-        "Deals [color=#7fe82a][b]{skill_data} ATK[/b][/color] as [color=#7fe82a][b]Wind DMG[/b][/color] to all enemies 3 times.",
-        "When attacking enemies there is a (Number of enemies * [color=#7fe82a][b]{skill_data}[/b][/color]) base chance to gain [color=#4f5bec][b][Resolve][/b][/color]"
-    ],
-    "skill.s3.name": "Shadowless Thrust",
-    "skill.s3.description": [
-        "Deals [color=#7fe82a][b]{skill_data} ATK[/b][/color] as [color=#7fe82a][b]Wind DMG[/b][/color] to 1 enemy 3 times.",
-        "When Fleuret has not less than 3 stacks of [color=#4f5bec][b][Resolve][/b][/color] deals 1 additional hit of damage and increases [color=#7fe82a][b]CRIT Rate[/b][/color] by [color=#7fe82a][b]20%[/b][/color]."
-    ],
-    "skill.hl.name": "HIGHLIGHT",
-    "skill.hl.description": "Deals [color=#7fe82a][b]{skill_data} ATK[/b][/color] as [color=#7fe82a][b]Wind DMG[/b][/color] to 1 enemy 3 times, when using this skill, if Fleuret has 3 or more stacks of [color=#4f5bec][b][Resolve][/b][/color], deals 1 additional hit of damage.",
-    "skill.p1.name": "Focus",
-    "skill.p1.description": "When using [ref=s3][color=#e7b77b][b][u][Shadowless Thrust][/u][/b][/color][/ref] to enemy inflicted with [color=#7fe82a][b][i]Winded[/i][/b][/color], there is a [color=#7fe82a][b]{skill_data}[/b][/color] fixed chance to deal 1 additional hit of damage.",
-    "skill.p2.name": "Repressed",
-    "skill.p2.description": "At the end of turn, there is a [color=#7fe82a][b]{skill_data}[/b][/color] fixed chance to gain 1 stack of [color=#4f5bec][b][Resolve][/b][/color].",
-    "awareness.a0.name": "Parry Defense",
-    "awareness.a0.description": [
-        "When dealing a hit of damage with a skill, there is a [color=#7fe82a][b]40%[/b][/color] fixed chance to gain 1 stack of [color=#4f5bec][b][Resolve][/b][/color], which increases [color=#7fe82a][b]ATK[/b][/color] by [color=#7fe82a][b]7%[/b][/color] and [color=#7fe82a][b]SPD[/b][/color] by [color=#7fe82a][b]4[/b][/color] for 2 turns, up to 3 stacks.",
-        "Each stack count down independently."
-    ],
-    "awareness.a1.name": "Taking the Steel",
-    "awareness.a1.description": [
-        "Increase the cap of [color=#4f5bec][b][Resolve][/b][/color] to 5 stacks.",
-        "Each stack of [color=#4f5bec][b][Resolve][/b][/color] increases own [color=#7fe82a][b]CRIT Rate[/b][/color] by [color=#7fe82a][b]4%[/b][/color]."
-    ],
-    "awareness.a2.name": "Sparring",
-    "awareness.a2.description": [
-        "[ref=s1][color=#e7b77b][b][u][Howling Wind][/u][/b][/color][/ref] [color=#7fe82a][b]Lv. +3[/b][/color], up to a maximum of [color=#7fe82a][b]Lv. 15[/b][/color].",
-        "[ref=s2][color=#e7b77b][b][u][Elegant Storm][/u][/b][/color][/ref] [color=#7fe82a][b]Lv. +3[/b][/color], up to a maximum of [color=#7fe82a][b]Lv. 15[/b][/color]."
-    ],
-    "awareness.a3.name": "Changing Steps",
-    "awareness.a3.description": "When attacked by enemies, there is a [color=#7fe82a][b]12%[/b][/color] fixed chance to dodge this attack.",
-    "awareness.a4.name": "Vulnerability Aimed",
-    "awareness.a4.description": [
-        "[ref=s3][color=#e7b77b][b][u][Shadowless Thrust][/u][/b][/color][/ref] [color=#7fe82a][b]Lv. +3[/b][/color], up to a maximum of [color=#7fe82a][b]Lv. 15[/b][/color].",
-        "[ref=hl][color=#e7b77b][b][u][Combat Skills][/u][/b][/color][/ref] [color=#7fe82a][b]Lv. +3[/b][/color], up to a maximum of [color=#7fe82a][b]Lv. 15[/b][/color]."
-    ],
-    "awareness.a5.name": "Hidden Offense",
-    "awareness.a5.description": "[ref=hl][color=#e7b77b][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: When Fleuret has 3 or more stacks of [color=#4f5bec][b][Resolve][/b][/color], deal 1 additional hit of damage and there is a [color=#7fe82a][b]100%[/b][/color] base chance to inflict [color=#7fe82a][b][i]Winded[/i][/b][/color].",
-    "awareness.a6.name": "Precise Attack",
-    "awareness.a6.description": [
-        "Increase the fixed chance to gain [color=#4f5bec][b][Resolve][/b][/color] by [color=#7fe82a][b]20%[/b][/color].",
-        "When [color=#4f5bec][b][Resolve][/b][/color] is at maxed stacks, [ref=s1][color=#e7b77b][b][u][Howling Wind][/u][/b][/color][/ref], [ref=s2][color=#e7b77b][b][u][Elegant Storm][/u][/b][/color][/ref] and [ref=s3][color=#e7b77b][b][u][Shadowless Thrust][/u][/b][/color][/ref] additionally deal 1 hit of damage."
-    ]
+	"$schema": "../../schema_i18n.json",
+	"code_name": "Fleuret",
+	"full_name": "Seiji Shiratori",
+	"skill.s1.name": "Howling Wind",
+	"skill.s1.description": "Deals [color=#7fe82a][b]{skill_data} ATK[/b][/color] as [color=#7fe82a][b]Wind DMG[/b][/color] to 1 enemy 4 times, with a [color=#7fe82a][b]{skill_data}[/b][/color] base chance to inflict [color=#7fe82a][b][i]Winded[/i][/b][/color] for 2 turns.",
+	"skill.s2.name": "Elegant Storm",
+	"skill.s2.description": [
+		"Deals [color=#7fe82a][b]{skill_data} ATK[/b][/color] as [color=#7fe82a][b]Wind DMG[/b][/color] to all enemies 3 times.",
+		"When attacking enemies there is a (Number of enemies * [color=#7fe82a][b]{skill_data}[/b][/color]) base chance to gain [color=#4f5bec][b][Resolve][/b][/color]"
+	],
+	"skill.s3.name": "Shadowless Thrust",
+	"skill.s3.description": [
+		"Deals [color=#7fe82a][b]{skill_data} ATK[/b][/color] as [color=#7fe82a][b]Wind DMG[/b][/color] to 1 enemy 3 times.",
+		"When Fleuret has not less than 3 stacks of [color=#4f5bec][b][Resolve][/b][/color] deals 1 additional hit of damage and increases [color=#7fe82a][b]CRIT Rate[/b][/color] by [color=#7fe82a][b]20%[/b][/color]."
+	],
+	"skill.hl.name": "HIGHLIGHT",
+	"skill.hl.description": "Deals [color=#7fe82a][b]{skill_data} ATK[/b][/color] as [color=#7fe82a][b]Wind DMG[/b][/color] to 1 enemy 3 times, when using this skill, if Fleuret has 3 or more stacks of [color=#4f5bec][b][Resolve][/b][/color], deals 1 additional hit of damage.",
+	"skill.p1.name": "Focus",
+	"skill.p1.description": "When using [ref=s3][color=#e7b77b][b][u][Shadowless Thrust][/u][/b][/color][/ref] to enemy inflicted with [color=#7fe82a][b][i]Winded[/i][/b][/color], there is a [color=#7fe82a][b]{skill_data}[/b][/color] fixed chance to deal 1 additional hit of damage.",
+	"skill.p2.name": "Repressed",
+	"skill.p2.description": "At the end of turn, there is a [color=#7fe82a][b]{skill_data}[/b][/color] fixed chance to gain 1 stack of [color=#4f5bec][b][Resolve][/b][/color].",
+	"awareness.a0.name": "Parry Defense",
+	"awareness.a0.description": [
+		"When dealing a hit of damage with a skill, there is a [color=#7fe82a][b]40%[/b][/color] fixed chance to gain 1 stack of [color=#4f5bec][b][Resolve][/b][/color], which increases [color=#7fe82a][b]ATK[/b][/color] by [color=#7fe82a][b]7%[/b][/color] and [color=#7fe82a][b]SPD[/b][/color] by [color=#7fe82a][b]4[/b][/color] for 2 turns, up to 3 stacks.",
+		"Each stack count down independently."
+	],
+	"awareness.a1.name": "Taking the Steel",
+	"awareness.a1.description": [
+		"Increase the cap of [color=#4f5bec][b][Resolve][/b][/color] to 5 stacks.",
+		"Each stack of [color=#4f5bec][b][Resolve][/b][/color] increases own [color=#7fe82a][b]CRIT Rate[/b][/color] by [color=#7fe82a][b]4%[/b][/color]."
+	],
+	"awareness.a2.name": "Sparring",
+	"awareness.a2.description": [
+		"[ref=s1][color=#e7b77b][b][u][Howling Wind][/u][/b][/color][/ref] [color=#7fe82a][b]Lv. +3[/b][/color], up to a maximum of [color=#7fe82a][b]Lv. 15[/b][/color].",
+		"[ref=s2][color=#e7b77b][b][u][Elegant Storm][/u][/b][/color][/ref] [color=#7fe82a][b]Lv. +3[/b][/color], up to a maximum of [color=#7fe82a][b]Lv. 15[/b][/color]."
+	],
+	"awareness.a3.name": "Changing Steps",
+	"awareness.a3.description": "When attacked by enemies, there is a [color=#7fe82a][b]12%[/b][/color] fixed chance to dodge this attack.",
+	"awareness.a4.name": "Vulnerability Aimed",
+	"awareness.a4.description": [
+		"[ref=s3][color=#e7b77b][b][u][Shadowless Thrust][/u][/b][/color][/ref] [color=#7fe82a][b]Lv. +3[/b][/color], up to a maximum of [color=#7fe82a][b]Lv. 15[/b][/color].",
+		"[ref=hl][color=#e7b77b][b][u][Combat Skills][/u][/b][/color][/ref] [color=#7fe82a][b]Lv. +3[/b][/color], up to a maximum of [color=#7fe82a][b]Lv. 15[/b][/color]."
+	],
+	"awareness.a5.name": "Hidden Offense",
+	"awareness.a5.description": "[ref=hl][color=#e7b77b][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: When Fleuret has 3 or more stacks of [color=#4f5bec][b][Resolve][/b][/color], deal 1 additional hit of damage and there is a [color=#7fe82a][b]100%[/b][/color] base chance to inflict [color=#7fe82a][b][i]Winded[/i][/b][/color].",
+	"awareness.a6.name": "Precise Attack",
+	"awareness.a6.description": [
+		"Increase the fixed chance to gain [color=#4f5bec][b][Resolve][/b][/color] by [color=#7fe82a][b]20%[/b][/color].",
+		"When [color=#4f5bec][b][Resolve][/b][/color] is at maxed stacks, [ref=s1][color=#e7b77b][b][u][Howling Wind][/u][/b][/color][/ref], [ref=s2][color=#e7b77b][b][u][Elegant Storm][/u][/b][/color][/ref] and [ref=s3][color=#e7b77b][b][u][Shadowless Thrust][/u][/b][/color][/ref] additionally deal 1 hit of damage."
+	]
 }

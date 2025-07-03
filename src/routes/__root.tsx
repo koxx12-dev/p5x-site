@@ -1,12 +1,11 @@
+import discord from '@assets/generic/icon/generic/discord.svg';
+import home from '@assets/generic/icon/generic/home.svg';
+import metaverseNav from '@assets/generic/icon/generic/metaverse.png?responsive';
+import { Menubar } from '@kobalte/core/menubar';
+import { ResponsiveImage } from '@responsive-image/solid';
 import { createRootRouteWithContext, Outlet } from '@tanstack/solid-router';
 import { TanStackRouterDevtools } from '@tanstack/solid-router-devtools';
-import { Menubar } from '@kobalte/core/menubar';
 import { For } from 'solid-js';
-import { ResponsiveImage } from '@responsive-image/solid';
-
-import home from '@assets/generic/icon/generic/home.svg';
-import discord from '@assets/generic/icon/generic/discord.svg';
-import metaverseNav from '@assets/generic/icon/generic/metaverse.png?responsive';
 import { cn } from 'src/utils';
 
 const nav = [
@@ -113,7 +112,7 @@ function NavMenu() {
 												{nav.name}
 											</span>
 											<span
-												class='-inset-1.5 -skew-7 absolute z-51 block bg-white opacity-0 mix-blend-difference transition-opacity duration-50 group-hover:opacity-100'
+												class="-inset-1.5 -skew-7 absolute z-51 block bg-white opacity-0 mix-blend-difference transition-opacity duration-50 group-hover:opacity-100"
 												aria-hidden="true"
 											/>
 										</div>

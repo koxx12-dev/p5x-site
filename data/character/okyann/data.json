@@ -1,14 +1,8 @@
 {
-  "$schema": "../schema.json",
-  "id": "okyann",
-  "code_name": "Okyann",
-  "full_name": "Kayo Tomiyama",
-  "quality": 4,
-  "role": "navi",
-  "element": "support",
-  "available_regions": [
-    "kr-tw",
-    "cn",
-    "glb-jp"
-  ]
+	"$schema": "../schema.json",
+	"id": "okyann",
+	"quality": 4,
+	"role": "navi",
+	"element": "support",
+	"available_regions": ["kr-tw", "cn", "glb-jp"]
 }

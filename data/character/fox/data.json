@@ -1,411 +1,345 @@
 {
-  "$schema": "../schema.json",
-  "id": "fox",
-  "code_name": "Fox",
-  "full_name": "Yusuke Kitagawa",
-  "quality": 5,
-  "role": "multi",
-  "element": "ice",
-  "available_regions": [
-    "kr-tw",
-    "cn"
-  ],
-  "skill": [
-    {
-      "id": "s1",
-      "element": "all_ice",
-      "name": "Chill Break",
-      "description": "Deals [color=#00adff][b]72.1% DEF[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to all enemies, with a [color=#00adff][b]100%[/b][/color] base chance to inflict the main target with [color=#00adff][b][i]Freeze[/i][/b][/color] for 2 turns."
-    },
-    {
-      "id": "s2",
-      "element": "all_ice",
-      "name": "Frost Slash",
-      "description": [
-        "Deals [color=#00adff][b]92.9% DEF[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to random enemies 5 times, prioritizing enemies that have not been attacked yet.",
-        "When Fox has Shield, additionally increases skill damage by [color=#00adff][b]30%[/b][/color].",
-        "Decreases skill damage by 60% when attacking the same enemy, up to a maximum of [color=#00adff][b]20%[/b][/color]."
-      ]
-    },
-    {
-      "id": "s3",
-      "element": "all_support",
-      "name": "Ginka-Zanshin",
-      "description": [
-        "[b]This skill has a 1 turn Cooldown.[/b]",
-        "Upgrades Fox's next [color=#c16d92][b][Dragon Dance][/b][/color] to [color=#7baedd][b][Dragon Roar][/b][/color].",
-        "Increase the chance to trigger Counter to [color=#00adff][b]100%[/b][/color], increase skill multiplier by [color=#00adff][b]58.6% DEF[/b][/color] and turn it into an AoE attack.",
-        "Automatically triggers [color=#7baedd][b][Dragon Roar][/b][/color] if Fox didn't trigger it for 1 turn.",
-        "Gains [color=#00adff][b]19.5% DEF[/b][/color] + [color=#00adff][b]555[/b][/color] as [color=#00adff][b]Shield[/b][/color] for 2 turns.",
-        "Turns Fox's weakness into neutral, gains immunity to Mental Ailments and Taunt all enemies for 2 turns. "
-      ]
-    },
-    {
-      "id": "hl",
-      "element": "all_ice",
-      "name": "HIGHLIGHT",
-      "description": "Deals [color=#00adff][b]178.1% DEF[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to all enemies, and increases the chance to trigger [color=#c16d92][b][Dragon Dance][/b][/color] by [color=#00adff][b]35%[/b][/color] for 3 turns."
-    },
-    {
-      "id": "p1",
-      "element": "passive",
-      "name": "Creation",
-      "description": "When gaining [color=#00adff][b]Shield[/b][/color], increases [color=#00adff][b]DMG Bonus[/b][/color] by [color=#00adff][b]7.5%[/b][/color] for 2 turns, up to 6 stacks."
-    },
-    {
-      "id": "p2",
-      "element": "passive",
-      "name": "Craving",
-      "description": "When using skills that give [color=#00adff][b]Shield[/b][/color], increases Fox's [color=#00adff][b]PEN[/b][/color] by [color=#00adff][b]20.0%[/b][/color] for 1 turn."
-    }
-  ],
-  "awareness": [
-    {
-      "id": "a0",
-      "tier": 0,
-      "name": "Dragon Dance",
-      "description": [
-        "When taking skill damage, there is a [color=#00adff][b]65%[/b][/color] fixed chance to trigger [color=#c16d92][b][Dragon Dance][/b][/color]: a Counter that deals [color=#00adff][b]66% DEF[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to the enemy as a Follow Up Attack.",
-        "Fox can upgrade this effect to [color=#7baedd][b][Dragon Roar][/b][/color] with skills."
-      ]
-    },
-    {
-      "id": "a1",
-      "tier": 1,
-      "name": "Streamline Engraving",
-      "description": "After using [ref=s3][color=#665d9d][b][u][Ginka-Zashin][/u][/b][/color][/ref] 2 times, additionally gain 1 [color=#7baedd][b][Dragon Roar][/b][/color], this Counter will deals [color=#00adff][b]70%[/b][/color] damage."
-    },
-    {
-      "id": "a2",
-      "tier": 2,
-      "name": "Palette Harmony",
-      "description": [
-        "[ref=s3][color=#665d9d][b][u][Ginka-Zashin][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color].",
-        "[ref=hl][color=#665d9d][b][u][Combat Skills][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color]."
-      ]
-    },
-    {
-      "id": "a3",
-      "tier": 3,
-      "name": "Ink Splash",
-      "description": "When Fox's [color=#00adff][b]HP[/b][/color] is not below [color=#00adff][b]35%[/b][/color], increase Follow Up [color=#00adff][b]DMG[/b][/color] by [color=#00adff][b]70%[/b][/color]."
-    },
-    {
-      "id": "a4",
-      "tier": 4,
-      "name": "Intersection of Light and Shadow",
-      "description": [
-        "[ref=s1][color=#665d9d][b][u][Chill Break][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color].",
-        "[ref=s2][color=#665d9d][b][u][Frost Slash][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color]."
-      ]
-    },
-    {
-      "id": "a5",
-      "tier": 5,
-      "name": "Superior Insights",
-      "description": "[ref=hl][color=#665d9d][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Increase Counter [color=#00adff][b]DMG[/b][/color] by [color=#00adff][b]30%[/b][/color] for 3 turns."
-    },
-    {
-      "id": "a6",
-      "tier": 6,
-      "name": "Vibrant Brushstrokes",
-      "description": [
-        "Evolves [color=#c16d92][b][Dragon Dance][/b][/color] and [color=#7baedd][b][Dragon Roar][/b][/color] into [color=#a02159][b][Crazed Dragon Dance][/b][/color] and [color=#2ecade][b][Crazed Dragon Roar][/b][/color].",
-        "Fox's Counter now deal 2 hits of damage, each hit dealing [color=#00adff][b]70%[/b][/color] of the original damage and gain [color=#00adff][b]30% PEN[/b][/color] when triggering Counter."
-      ]
-    }
-  ],
-  "mental_image": {
-    "basic": [
-      {
-        "type": "hp",
-        "value": "124"
-      },
-      {
-        "type": "def",
-        "value": "30"
-      },
-      {
-        "type": "atk",
-        "value": "21"
-      },
-      {
-        "type": "hp",
-        "value": "124"
-      },
-      {
-        "type": "def",
-        "value": "30"
-      },
-      {
-        "type": "atk",
-        "value": "21"
-      },
-      {
-        "type": "hp",
-        "value": "124"
-      },
-      {
-        "type": "def",
-        "value": "30"
-      },
-      {
-        "type": "atk",
-        "value": "21"
-      },
-      {
-        "type": "hp",
-        "value": "124"
-      },
-      {
-        "type": "def",
-        "value": "30"
-      },
-      {
-        "type": "atk",
-        "value": "21"
-      }
-    ],
-    "bells": [
-      {
-        "hp": "124"
-      },
-      {
-        "hp": "124",
-        "def": "30"
-      },
-      {
-        "hp": "124",
-        "def": "30",
-        "atk": "21"
-      },
-      {
-        "hp": "248",
-        "def": "30",
-        "atk": "21"
-      },
-      {
-        "hp": "248",
-        "def": "60",
-        "atk": "21"
-      },
-      {
-        "hp": "248",
-        "def": "60",
-        "atk": "42"
-      },
-      {
-        "hp": "372",
-        "def": "60",
-        "atk": "42"
-      },
-      {
-        "hp": "372",
-        "def": "90",
-        "atk": "42"
-      },
-      {
-        "hp": "372",
-        "def": "90",
-        "atk": "63"
-      },
-      {
-        "hp": "496",
-        "def": "90",
-        "atk": "63"
-      },
-      {
-        "hp": "496",
-        "def": "120",
-        "atk": "63"
-      },
-      {
-        "hp": "496",
-        "def": "120",
-        "atk": "84"
-      }
-    ],
-    "stat_buff_1": {
-      "type": "dmg_prec",
-      "values": [
-        "3.2%",
-        "6.4%",
-        "9.6%",
-        "12.8%",
-        "16.0%"
-      ]
-    },
-    "stat_buff_2": {
-      "type": "crit_c_prec",
-      "values": [
-        "2.4%",
-        "4.8%",
-        "7.2%",
-        "9.6%",
-        "12.0%"
-      ]
-    }
-  },
-  "stats": [
-    {
-      "1": {
-        "hp": "430",
-        "sp": "100",
-        "atk": "94",
-        "def": "108",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "102"
-      },
-      "10": {
-        "hp": "732",
-        "sp": "100",
-        "atk": "161",
-        "def": "184",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "102"
-      }
-    },
-    {
-      "10": {
-        "hp": "838",
-        "sp": "100",
-        "atk": "184",
-        "def": "222",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "102"
-      },
-      "20": {
-        "hp": "1173",
-        "sp": "100",
-        "atk": "258",
-        "def": "310",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "102"
-      }
-    },
-    {
-      "20": {
-        "hp": "1279",
-        "sp": "100",
-        "atk": "281",
-        "def": "356",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "102"
-      },
-      "30": {
-        "hp": "1614",
-        "sp": "100",
-        "atk": "355",
-        "def": "449",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "102"
-      }
-    },
-    {
-      "30": {
-        "hp": "1720",
-        "sp": "100",
-        "atk": "379",
-        "def": "501",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "102"
-      },
-      "40": {
-        "hp": "2055",
-        "sp": "100",
-        "atk": "452",
-        "def": "599",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "102"
-      }
-    },
-    {
-      "40": {
-        "hp": "2161",
-        "sp": "100",
-        "atk": "476",
-        "def": "659",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "102"
-      },
-      "50": {
-        "hp": "2496",
-        "sp": "100",
-        "atk": "550",
-        "def": "761",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "102"
-      }
-    },
-    {
-      "50": {
-        "hp": "2602",
-        "sp": "100",
-        "atk": "573",
-        "def": "829",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "102"
-      },
-      "60": {
-        "hp": "2937",
-        "sp": "100",
-        "atk": "647",
-        "def": "935",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "102"
-      }
-    },
-    {
-      "60": {
-        "hp": "3043",
-        "sp": "100",
-        "atk": "670",
-        "def": "1010",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "102"
-      },
-      "70": {
-        "hp": "3378",
-        "sp": "100",
-        "atk": "744",
-        "def": "1121",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "102"
-      }
-    },
-    {
-      "70": {
-        "hp": "3484",
-        "sp": "100",
-        "atk": "768",
-        "def": "1203",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "102"
-      },
-      "80": {
-        "hp": "3819",
-        "sp": "100",
-        "atk": "841",
-        "def": "1319",
-        "crit_c_prec": "5%",
-        "crit_dmg_prec": "150%",
-        "spd": "102"
-      }
-    }
-  ]
+	"$schema": "../schema.json",
+	"id": "fox",
+	"quality": 5,
+	"role": "multi",
+	"element": "ice",
+	"available_regions": ["kr-tw", "cn"],
+	"skill": [
+		{
+			"id": "s1",
+			"element": "all_ice"
+		},
+		{
+			"id": "s2",
+			"element": "all_ice"
+		},
+		{
+			"id": "s3",
+			"element": "all_support"
+		},
+		{
+			"id": "hl",
+			"element": "all_ice"
+		},
+		{
+			"id": "p1",
+			"element": "passive"
+		},
+		{
+			"id": "p2",
+			"element": "passive"
+		}
+	],
+	"awareness": [
+		{
+			"id": "a0",
+			"tier": 0
+		},
+		{
+			"id": "a1",
+			"tier": 1
+		},
+		{
+			"id": "a2",
+			"tier": 2
+		},
+		{
+			"id": "a3",
+			"tier": 3
+		},
+		{
+			"id": "a4",
+			"tier": 4
+		},
+		{
+			"id": "a5",
+			"tier": 5
+		},
+		{
+			"id": "a6",
+			"tier": 6
+		}
+	],
+	"mental_image": {
+		"basic": [
+			{
+				"type": "hp",
+				"value": "124"
+			},
+			{
+				"type": "def",
+				"value": "30"
+			},
+			{
+				"type": "atk",
+				"value": "21"
+			},
+			{
+				"type": "hp",
+				"value": "124"
+			},
+			{
+				"type": "def",
+				"value": "30"
+			},
+			{
+				"type": "atk",
+				"value": "21"
+			},
+			{
+				"type": "hp",
+				"value": "124"
+			},
+			{
+				"type": "def",
+				"value": "30"
+			},
+			{
+				"type": "atk",
+				"value": "21"
+			},
+			{
+				"type": "hp",
+				"value": "124"
+			},
+			{
+				"type": "def",
+				"value": "30"
+			},
+			{
+				"type": "atk",
+				"value": "21"
+			}
+		],
+		"bells": [
+			{
+				"hp": "124"
+			},
+			{
+				"hp": "124",
+				"def": "30"
+			},
+			{
+				"hp": "124",
+				"def": "30",
+				"atk": "21"
+			},
+			{
+				"hp": "248",
+				"def": "30",
+				"atk": "21"
+			},
+			{
+				"hp": "248",
+				"def": "60",
+				"atk": "21"
+			},
+			{
+				"hp": "248",
+				"def": "60",
+				"atk": "42"
+			},
+			{
+				"hp": "372",
+				"def": "60",
+				"atk": "42"
+			},
+			{
+				"hp": "372",
+				"def": "90",
+				"atk": "42"
+			},
+			{
+				"hp": "372",
+				"def": "90",
+				"atk": "63"
+			},
+			{
+				"hp": "496",
+				"def": "90",
+				"atk": "63"
+			},
+			{
+				"hp": "496",
+				"def": "120",
+				"atk": "63"
+			},
+			{
+				"hp": "496",
+				"def": "120",
+				"atk": "84"
+			}
+		],
+		"stat_buff_1": {
+			"type": "dmg_prec",
+			"values": ["3.2%", "6.4%", "9.6%", "12.8%", "16.0%"]
+		},
+		"stat_buff_2": {
+			"type": "crit_c_prec",
+			"values": ["2.4%", "4.8%", "7.2%", "9.6%", "12.0%"]
+		}
+	},
+	"stats": [
+		{
+			"1": {
+				"hp": "430",
+				"sp": "100",
+				"atk": "94",
+				"def": "108",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "102"
+			},
+			"10": {
+				"hp": "732",
+				"sp": "100",
+				"atk": "161",
+				"def": "184",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "102"
+			}
+		},
+		{
+			"10": {
+				"hp": "838",
+				"sp": "100",
+				"atk": "184",
+				"def": "222",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "102"
+			},
+			"20": {
+				"hp": "1173",
+				"sp": "100",
+				"atk": "258",
+				"def": "310",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "102"
+			}
+		},
+		{
+			"20": {
+				"hp": "1279",
+				"sp": "100",
+				"atk": "281",
+				"def": "356",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "102"
+			},
+			"30": {
+				"hp": "1614",
+				"sp": "100",
+				"atk": "355",
+				"def": "449",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "102"
+			}
+		},
+		{
+			"30": {
+				"hp": "1720",
+				"sp": "100",
+				"atk": "379",
+				"def": "501",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "102"
+			},
+			"40": {
+				"hp": "2055",
+				"sp": "100",
+				"atk": "452",
+				"def": "599",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "102"
+			}
+		},
+		{
+			"40": {
+				"hp": "2161",
+				"sp": "100",
+				"atk": "476",
+				"def": "659",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "102"
+			},
+			"50": {
+				"hp": "2496",
+				"sp": "100",
+				"atk": "550",
+				"def": "761",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "102"
+			}
+		},
+		{
+			"50": {
+				"hp": "2602",
+				"sp": "100",
+				"atk": "573",
+				"def": "829",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "102"
+			},
+			"60": {
+				"hp": "2937",
+				"sp": "100",
+				"atk": "647",
+				"def": "935",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "102"
+			}
+		},
+		{
+			"60": {
+				"hp": "3043",
+				"sp": "100",
+				"atk": "670",
+				"def": "1010",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "102"
+			},
+			"70": {
+				"hp": "3378",
+				"sp": "100",
+				"atk": "744",
+				"def": "1121",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "102"
+			}
+		},
+		{
+			"70": {
+				"hp": "3484",
+				"sp": "100",
+				"atk": "768",
+				"def": "1203",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "102"
+			},
+			"80": {
+				"hp": "3819",
+				"sp": "100",
+				"atk": "841",
+				"def": "1319",
+				"crit_c_prec": "5%",
+				"crit_dmg_prec": "150%",
+				"spd": "102"
+			}
+		}
+	]
 }

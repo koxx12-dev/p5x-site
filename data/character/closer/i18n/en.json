@@ -1,46 +1,46 @@
 {
-    "$schema": "../../schema_i18n.json",
-    "code_name": "Closer",
-    "full_name": "Motoha Arai",
-    "skill.s1.name": "Wrathful Thunder",
-    "skill.s1.description": [
-        "Deal [color=#fcff37][b]Electric damage[/b][/color] to random foes equal to [color=#fcff37][b]{skill_data}[/b][/color] of [color=#fcff37][b]Attack[/b][/color] (4 hits), and inflict [color=#fcff37][b][i]Shock[/i][/b][/color] on main target.",
-        "Prioritizes targeting different foes, and repeated hits on same foe deal [color=#fcff37][b]10%[/b][/color] decreased damage."
-    ],
-    "skill.s2.name": "Blitz Mine",
-    "skill.s2.description": [
-        "Deal [color=#fcff37][b]Electric damage[/b][/color] to 1 foe equal to [color=#fcff37][b]{skill_data}[/b][/color] of Attack[/b][/color].",
-        "Increase party's [color=#fcff37][b]Electric damage[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] for 2 turns."
-    ],
-    "skill.s3.name": "Electroshark",
-    "skill.s3.description": [
-        "Deal [color=#fcff37][b]Electric damage[/b][/color] to all foes equal to [color=#fcff37][b]{skill_data}[/b][/color] of [color=#fcff37][b]Attack[/b][/color].",
-        "If a foe is [color=#fcff37][b][i]Shocked[/i][/b][/color], activate a [color=#fcff37][b]Technical[/b][/color] and deal bonus [color=#fcff37][b]Electric damage[/b][/color] equal to [color=#fcff37][b]{skill_data}[/b][/color] of [color=#fcff37][b]Attack[/b][/color]."
-    ],
-    "skill.hl.name": "Highlight",
-    "skill.hl.description": "Deal [color=#fcff37][b]Electric damage[/b][/color] to all foes equal to [color=#fcff37][b]{skill_data}[/b][/color] of [color=#fcff37][b]Attack[/b][/color], inflict [color=#fcff37][b][i]Shock[/i][/b][/color] on the main target, and increase [color=#fcff37][b]Electric damage[/b][/color] taken for 2 turns.",
-    "skill.p1.name": "Extra Inning",
-    "skill.p1.description": "When foes are [color=#fcff37][b][i]Shocked[/i][/b][/color], [color=#fcff37][b]{skill_data}[/b][/color] chance to extend effect duration by 1 turn.",
-    "skill.p2.name": "Line Drive to Pitcher",
-    "skill.p2.description": "Increase [color=#fcff37][b]Electric damage[/b][/color] taken by main target of a skill by [color=#fcff37][b]{skill_data}[/b][/color] for 2 turns. Stacks up to 2 times.",
-    "awareness.a0.name": "Strike Zone",
-    "awareness.a0.description": [
-        "When Motoha deals [color=#fcff37][b]Electric damage[/b][/color], [color=#fcff37][b]15%[/b][/color] chance to inflict [color=#fcff37][b][i]Shock[/i][/b][/color] on the target.",
-        "Also, when dealing damage to [color=#fcff37][b][i]Shocked[/i][/b][/color] foes, increase [color=#fcff37][b]Attack[/b][/color] by [color=#fcff37][b]30%[/b][/color]."
-    ],
-    "awareness.a1.name": "Shocking Double Play",
-    "awareness.a1.description": [
-        "Increase hits of [ref=s1][color=#d03052][b][u]Wrathful Thunder[/u][/b][/color][/ref] by 1.",
-        "When dealing repeated hits on the same foe, decrease damage by [color=#fcff37][b]15%[/b][/color]."
-    ],
-    "awareness.a2.name": "Cheerful and Considerate",
-    "awareness.a2.description": "Increase the skill levels of [ref=s1][color=#d03052][b][u]Wrathful Thunder[/u][/b][/color][/ref] and [ref=s2][color=#d03052][b][u]Blitz Mine[/u][/b][/color][/ref] by 2.",
-    "awareness.a3.name": "Innings Change",
-    "awareness.a3.description": "Decrease [color=#fcff37][b]damage taken[/b][/color] from [color=#fcff37][b][i]Shocked[/i][/b][/color] foes by [color=#fcff37][b]20%[/b][/color].",
-    "awareness.a4.name": "Past Dreams",
-    "awareness.a4.description": "Increase the skill levels of [ref=s3][color=#d03052][b][u]Electroshark[/u][/b][/color][/ref] and [ref=hl][color=#d03052][b][u]Thief Tactics[/u][/b][/color][/ref] by 2.",
-    "awareness.a5.name": "Extra Run",
-    "awareness.a5.description": "[b][ref=hl][color=#d03052][b][u]Highlight[/u][/b][/color][/ref] Enhanced[/b]: Increase all foes' [color=#fcff37][b]Electric damage[/b][/color] taken by [color=#fcff37][b]20%[/b][/color] for 2 turns.",
-    "awareness.a6.name": "Key to Victory",
-    "awareness.a6.description": "Increase [color=#fcff37][b][i]Shocked[/i][/b][/color] foes' [color=#fcff37][b]Electric damage taken[/b][/color] by [color=#fcff37][b]20%[/b][/color], and increase [color=#fcff37][b]Electric critical damage taken[/b][/color] by [color=#fcff37][b]20%[/b][/color]."
+	"$schema": "../../schema_i18n.json",
+	"code_name": "Closer",
+	"full_name": "Motoha Arai",
+	"skill.s1.name": "Wrathful Thunder",
+	"skill.s1.description": [
+		"Deal [color=#fcff37][b]Electric damage[/b][/color] to random foes equal to [color=#fcff37][b]{skill_data}[/b][/color] of [color=#fcff37][b]Attack[/b][/color] (4 hits), and inflict [color=#fcff37][b][i]Shock[/i][/b][/color] on main target.",
+		"Prioritizes targeting different foes, and repeated hits on same foe deal [color=#fcff37][b]10%[/b][/color] decreased damage."
+	],
+	"skill.s2.name": "Blitz Mine",
+	"skill.s2.description": [
+		"Deal [color=#fcff37][b]Electric damage[/b][/color] to 1 foe equal to [color=#fcff37][b]{skill_data}[/b][/color] of Attack[/b][/color].",
+		"Increase party's [color=#fcff37][b]Electric damage[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] for 2 turns."
+	],
+	"skill.s3.name": "Electroshark",
+	"skill.s3.description": [
+		"Deal [color=#fcff37][b]Electric damage[/b][/color] to all foes equal to [color=#fcff37][b]{skill_data}[/b][/color] of [color=#fcff37][b]Attack[/b][/color].",
+		"If a foe is [color=#fcff37][b][i]Shocked[/i][/b][/color], activate a [color=#fcff37][b]Technical[/b][/color] and deal bonus [color=#fcff37][b]Electric damage[/b][/color] equal to [color=#fcff37][b]{skill_data}[/b][/color] of [color=#fcff37][b]Attack[/b][/color]."
+	],
+	"skill.hl.name": "Highlight",
+	"skill.hl.description": "Deal [color=#fcff37][b]Electric damage[/b][/color] to all foes equal to [color=#fcff37][b]{skill_data}[/b][/color] of [color=#fcff37][b]Attack[/b][/color], inflict [color=#fcff37][b][i]Shock[/i][/b][/color] on the main target, and increase [color=#fcff37][b]Electric damage[/b][/color] taken for 2 turns.",
+	"skill.p1.name": "Extra Inning",
+	"skill.p1.description": "When foes are [color=#fcff37][b][i]Shocked[/i][/b][/color], [color=#fcff37][b]{skill_data}[/b][/color] chance to extend effect duration by 1 turn.",
+	"skill.p2.name": "Line Drive to Pitcher",
+	"skill.p2.description": "Increase [color=#fcff37][b]Electric damage[/b][/color] taken by main target of a skill by [color=#fcff37][b]{skill_data}[/b][/color] for 2 turns. Stacks up to 2 times.",
+	"awareness.a0.name": "Strike Zone",
+	"awareness.a0.description": [
+		"When Motoha deals [color=#fcff37][b]Electric damage[/b][/color], [color=#fcff37][b]15%[/b][/color] chance to inflict [color=#fcff37][b][i]Shock[/i][/b][/color] on the target.",
+		"Also, when dealing damage to [color=#fcff37][b][i]Shocked[/i][/b][/color] foes, increase [color=#fcff37][b]Attack[/b][/color] by [color=#fcff37][b]30%[/b][/color]."
+	],
+	"awareness.a1.name": "Shocking Double Play",
+	"awareness.a1.description": [
+		"Increase hits of [ref=s1][color=#d03052][b][u]Wrathful Thunder[/u][/b][/color][/ref] by 1.",
+		"When dealing repeated hits on the same foe, decrease damage by [color=#fcff37][b]15%[/b][/color]."
+	],
+	"awareness.a2.name": "Cheerful and Considerate",
+	"awareness.a2.description": "Increase the skill levels of [ref=s1][color=#d03052][b][u]Wrathful Thunder[/u][/b][/color][/ref] and [ref=s2][color=#d03052][b][u]Blitz Mine[/u][/b][/color][/ref] by 2.",
+	"awareness.a3.name": "Innings Change",
+	"awareness.a3.description": "Decrease [color=#fcff37][b]damage taken[/b][/color] from [color=#fcff37][b][i]Shocked[/i][/b][/color] foes by [color=#fcff37][b]20%[/b][/color].",
+	"awareness.a4.name": "Past Dreams",
+	"awareness.a4.description": "Increase the skill levels of [ref=s3][color=#d03052][b][u]Electroshark[/u][/b][/color][/ref] and [ref=hl][color=#d03052][b][u]Thief Tactics[/u][/b][/color][/ref] by 2.",
+	"awareness.a5.name": "Extra Run",
+	"awareness.a5.description": "[b][ref=hl][color=#d03052][b][u]Highlight[/u][/b][/color][/ref] Enhanced[/b]: Increase all foes' [color=#fcff37][b]Electric damage[/b][/color] taken by [color=#fcff37][b]20%[/b][/color] for 2 turns.",
+	"awareness.a6.name": "Key to Victory",
+	"awareness.a6.description": "Increase [color=#fcff37][b][i]Shocked[/i][/b][/color] foes' [color=#fcff37][b]Electric damage taken[/b][/color] by [color=#fcff37][b]20%[/b][/color], and increase [color=#fcff37][b]Electric critical damage taken[/b][/color] by [color=#fcff37][b]20%[/b][/color]."
 }

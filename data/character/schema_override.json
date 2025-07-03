@@ -1,492 +1,463 @@
 {
-    "type": "object",
-    "properties": {
-        "available_regions": {
-            "anyOf": [
-                {
-                    "type": "array",
-                    "items": {
-                        "enum": [
-                            "cn",
-                            "glb-jp",
-                            "kr-tw",
-                            "sea"
-                        ]
-                    }
-                },
-                {
-                    "type": "null"
-                }
-            ]
-        },
-        "awareness": {
-            "anyOf": [
-                {
-                    "type": "array",
-                    "items": {
-                        "type": "object",
-                        "properties": {
-                            "id": {
-                                "type": "string"
-                            },
-                            "tier": {
-                                "type": "number",
-                                "maximum": 7,
-                                "minimum": 0
-                            },
-                            "description": {
-                                "anyOf": [
-                                    {
-                                        "type": "string"
-                                    },
-                                    {
-                                        "type": "array",
-                                        "items": {
-                                            "type": "string"
-                                        }
-                                    }
-                                ]
-                            },
-                            "name": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "id",
-                            "tier"
-                        ]
-                    }
-                },
-                {
-                    "type": "null"
-                }
-            ]
-        },
-        "code_name": {
-            "anyOf": [
-                {
-                    "type": "string"
-                },
-                {
-                    "type": "null"
-                }
-            ]
-        },
-        "element": {
-            "anyOf": [
-                {
-                    "const": "ailment"
-                },
-                {
-                    "const": "all_ailment"
-                },
-                {
-                    "const": "all_almighty"
-                },
-                {
-                    "const": "all_almighty_alt"
-                },
-                {
-                    "const": "all_bless"
-                },
-                {
-                    "const": "all_curse"
-                },
-                {
-                    "const": "all_elec"
-                },
-                {
-                    "const": "all_fire"
-                },
-                {
-                    "const": "all_gun"
-                },
-                {
-                    "const": "all_healing"
-                },
-                {
-                    "const": "all_ice"
-                },
-                {
-                    "const": "all_nuke"
-                },
-                {
-                    "const": "all_passive"
-                },
-                {
-                    "const": "all_physical"
-                },
-                {
-                    "const": "all_psy"
-                },
-                {
-                    "const": "all_support"
-                },
-                {
-                    "const": "all_wind"
-                },
-                {
-                    "const": "all_wind_all_ice"
-                },
-                {
-                    "const": "all_wind_ice"
-                },
-                {
-                    "const": "almighty"
-                },
-                {
-                    "const": "almighty_alt"
-                },
-                {
-                    "const": "bless"
-                },
-                {
-                    "const": "curse"
-                },
-                {
-                    "const": "elec"
-                },
-                {
-                    "const": "fire"
-                },
-                {
-                    "const": "gun"
-                },
-                {
-                    "const": "healing"
-                },
-                {
-                    "const": "ice"
-                },
-                {
-                    "const": "nuke"
-                },
-                {
-                    "const": "passive"
-                },
-                {
-                    "const": "physical"
-                },
-                {
-                    "const": "psy"
-                },
-                {
-                    "const": "support"
-                },
-                {
-                    "const": "wind"
-                },
-                {
-                    "const": "wind_all_ice"
-                },
-                {
-                    "const": "wind_ice"
-                },
-                {
-                    "type": "null"
-                }
-            ]
-        },
-        "extra": {
-            "anyOf": [
-                {
-                    "type": "null"
-                },
-                {
-                    "type": "object",
-                    "additionalProperties": {
-                        "anyOf": [
-                            {
-                                "type": "string"
-                            },
-                            {
-                                "type": "array",
-                                "items": {
-                                    "type": "string"
-                                }
-                            }
-                        ]
-                    }
-                }
-            ]
-        },
-        "full_name": {
-            "anyOf": [
-                {
-                    "type": "string"
-                },
-                {
-                    "type": "null"
-                }
-            ]
-        },
-        "mental_image": {
-            "anyOf": [
-                {
-                    "type": "object",
-                    "properties": {
-                        "basic": {
-                            "type": "array",
-                            "items": {
-                                "type": "object",
-                                "properties": {
-                                    "type": {
-                                        "enum": [
-                                            "atk",
-                                            "def",
-                                            "hp"
-                                        ]
-                                    },
-                                    "value": {
-                                        "type": "string"
-                                    }
-                                },
-                                "required": [
-                                    "type",
-                                    "value"
-                                ]
-                            }
-                        },
-                        "bells": {
-                            "type": "array",
-                            "items": {
-                                "type": "object",
-                                "properties": {
-                                    "atk": {
-                                        "type": "string"
-                                    },
-                                    "def": {
-                                        "type": "string"
-                                    },
-                                    "hp": {
-                                        "type": "string"
-                                    }
-                                }
-                            }
-                        },
-                        "stat_buff_1": {
-                            "type": "object",
-                            "properties": {
-                                "type": {
-                                    "enum": [
-                                        "atk_prec",
-                                        "crit_c_prec",
-                                        "crit_dmg_prec",
-                                        "def_prec",
-                                        "dmg_prec",
-                                        "dmg_res_prec",
-                                        "eff_hit_prec",
-                                        "eff_res_prec",
-                                        "heal_eff_prec",
-                                        "hp_prec",
-                                        "pen_prec",
-                                        "shd_eff_prec",
-                                        "sp_rec_prec",
-                                        "spd"
-                                    ]
-                                },
-                                "values": {
-                                    "type": "array",
-                                    "items": {
-                                        "type": "string"
-                                    }
-                                }
-                            },
-                            "required": [
-                                "type",
-                                "values"
-                            ]
-                        },
-                        "stat_buff_2": {
-                            "type": "object",
-                            "properties": {
-                                "type": {
-                                    "enum": [
-                                        "atk_prec",
-                                        "crit_c_prec",
-                                        "crit_dmg_prec",
-                                        "def_prec",
-                                        "dmg_prec",
-                                        "dmg_res_prec",
-                                        "eff_hit_prec",
-                                        "eff_res_prec",
-                                        "heal_eff_prec",
-                                        "hp_prec",
-                                        "pen_prec",
-                                        "shd_eff_prec",
-                                        "sp_rec_prec",
-                                        "spd"
-                                    ]
-                                },
-                                "values": {
-                                    "type": "array",
-                                    "items": {
-                                        "type": "string"
-                                    }
-                                }
-                            },
-                            "required": [
-                                "type",
-                                "values"
-                            ]
-                        }
-                    },
-                    "required": [
-                        "basic",
-                        "bells",
-                        "stat_buff_1",
-                        "stat_buff_2"
-                    ]
-                },
-                {
-                    "type": "null"
-                }
-            ]
-        },
-        "role": {
-            "anyOf": [
-                {
-                    "const": "buff"
-                },
-                {
-                    "const": "debuff"
-                },
-                {
-                    "const": "heal"
-                },
-                {
-                    "const": "multi"
-                },
-                {
-                    "const": "navi"
-                },
-                {
-                    "const": "single"
-                },
-                {
-                    "const": "tank"
-                },
-                {
-                    "type": "null"
-                }
-            ]
-        },
-        "skill": {
-            "anyOf": [
-                {
-                    "type": "array",
-                    "items": {
-                        "type": "object",
-                        "properties": {
-                            "element": {
-                                "enum": [
-                                    "ailment",
-                                    "all_ailment",
-                                    "all_almighty",
-                                    "all_almighty_alt",
-                                    "all_bless",
-                                    "all_curse",
-                                    "all_elec",
-                                    "all_fire",
-                                    "all_gun",
-                                    "all_healing",
-                                    "all_ice",
-                                    "all_nuke",
-                                    "all_passive",
-                                    "all_physical",
-                                    "all_psy",
-                                    "all_support",
-                                    "all_wind",
-                                    "all_wind_all_ice",
-                                    "all_wind_ice",
-                                    "almighty",
-                                    "almighty_alt",
-                                    "bless",
-                                    "curse",
-                                    "elec",
-                                    "fire",
-                                    "gun",
-                                    "healing",
-                                    "ice",
-                                    "nuke",
-                                    "passive",
-                                    "physical",
-                                    "psy",
-                                    "support",
-                                    "wind",
-                                    "wind_all_ice",
-                                    "wind_ice"
-                                ]
-                            },
-                            "id": {
-                                "type": "string"
-                            },
-                            "data": {
-                                "type": "array",
-                                "items": {
-                                    "type": "array",
-                                    "items": {
-                                        "anyOf": [
-                                            {
-                                                "type": "string"
-                                            },
-                                            {
-                                                "type": "array",
-                                                "items": {
-                                                    "type": "string"
-                                                }
-                                            }
-                                        ]
-                                    }
-                                }
-                            },
-                            "description": {
-                                "anyOf": [
-                                    {
-                                        "type": "string"
-                                    },
-                                    {
-                                        "type": "array",
-                                        "items": {
-                                            "type": "string"
-                                        }
-                                    }
-                                ]
-                            },
-                            "name": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "element",
-                            "id"
-                        ]
-                    }
-                },
-                {
-                    "type": "null"
-                }
-            ]
-        },
-        "stats": {
-            "anyOf": [
-                {
-                    "type": "null"
-                },
-                {
-                    "type": "array",
-                    "items": {
-                        "type": "object",
-                        "additionalProperties": {
-                            "type": "object",
-                            "additionalProperties": {
-                                "type": "string"
-                            }
-                        }
-                    }
-                }
-            ]
-        }
-    },
-    "$schema": "https://json-schema.org/draft/2020-12/schema"
+	"type": "object",
+	"properties": {
+		"available_regions": {
+			"anyOf": [
+				{
+					"type": "array",
+					"items": {
+						"enum": ["cn", "glb-jp", "kr-tw", "sea"]
+					}
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
+		"awareness": {
+			"anyOf": [
+				{
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"id": {
+								"type": "string"
+							},
+							"tier": {
+								"type": "number",
+								"maximum": 7,
+								"minimum": 0
+							},
+							"description": {
+								"anyOf": [
+									{
+										"type": "string"
+									},
+									{
+										"type": "array",
+										"items": {
+											"type": "string"
+										}
+									}
+								]
+							},
+							"name": {
+								"type": "string"
+							}
+						},
+						"required": ["id", "tier"]
+					}
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
+		"code_name": {
+			"anyOf": [
+				{
+					"type": "string"
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
+		"element": {
+			"anyOf": [
+				{
+					"const": "ailment"
+				},
+				{
+					"const": "all_ailment"
+				},
+				{
+					"const": "all_almighty"
+				},
+				{
+					"const": "all_almighty_alt"
+				},
+				{
+					"const": "all_bless"
+				},
+				{
+					"const": "all_curse"
+				},
+				{
+					"const": "all_elec"
+				},
+				{
+					"const": "all_fire"
+				},
+				{
+					"const": "all_gun"
+				},
+				{
+					"const": "all_healing"
+				},
+				{
+					"const": "all_ice"
+				},
+				{
+					"const": "all_nuke"
+				},
+				{
+					"const": "all_passive"
+				},
+				{
+					"const": "all_physical"
+				},
+				{
+					"const": "all_psy"
+				},
+				{
+					"const": "all_support"
+				},
+				{
+					"const": "all_wind"
+				},
+				{
+					"const": "all_wind_all_ice"
+				},
+				{
+					"const": "all_wind_ice"
+				},
+				{
+					"const": "almighty"
+				},
+				{
+					"const": "almighty_alt"
+				},
+				{
+					"const": "bless"
+				},
+				{
+					"const": "curse"
+				},
+				{
+					"const": "elec"
+				},
+				{
+					"const": "fire"
+				},
+				{
+					"const": "gun"
+				},
+				{
+					"const": "healing"
+				},
+				{
+					"const": "ice"
+				},
+				{
+					"const": "nuke"
+				},
+				{
+					"const": "passive"
+				},
+				{
+					"const": "physical"
+				},
+				{
+					"const": "psy"
+				},
+				{
+					"const": "support"
+				},
+				{
+					"const": "wind"
+				},
+				{
+					"const": "wind_all_ice"
+				},
+				{
+					"const": "wind_ice"
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
+		"extra": {
+			"anyOf": [
+				{
+					"type": "null"
+				},
+				{
+					"type": "object",
+					"additionalProperties": {
+						"anyOf": [
+							{
+								"type": "string"
+							},
+							{
+								"type": "array",
+								"items": {
+									"type": "string"
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		"full_name": {
+			"anyOf": [
+				{
+					"type": "string"
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
+		"mental_image": {
+			"anyOf": [
+				{
+					"type": "object",
+					"properties": {
+						"basic": {
+							"type": "array",
+							"items": {
+								"type": "object",
+								"properties": {
+									"type": {
+										"enum": ["atk", "def", "hp"]
+									},
+									"value": {
+										"type": "string"
+									}
+								},
+								"required": ["type", "value"]
+							}
+						},
+						"bells": {
+							"type": "array",
+							"items": {
+								"type": "object",
+								"properties": {
+									"atk": {
+										"type": "string"
+									},
+									"def": {
+										"type": "string"
+									},
+									"hp": {
+										"type": "string"
+									}
+								}
+							}
+						},
+						"stat_buff_1": {
+							"type": "object",
+							"properties": {
+								"type": {
+									"enum": [
+										"atk_prec",
+										"crit_c_prec",
+										"crit_dmg_prec",
+										"def_prec",
+										"dmg_prec",
+										"dmg_res_prec",
+										"eff_hit_prec",
+										"eff_res_prec",
+										"heal_eff_prec",
+										"hp_prec",
+										"pen_prec",
+										"shd_eff_prec",
+										"sp_rec_prec",
+										"spd"
+									]
+								},
+								"values": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								}
+							},
+							"required": ["type", "values"]
+						},
+						"stat_buff_2": {
+							"type": "object",
+							"properties": {
+								"type": {
+									"enum": [
+										"atk_prec",
+										"crit_c_prec",
+										"crit_dmg_prec",
+										"def_prec",
+										"dmg_prec",
+										"dmg_res_prec",
+										"eff_hit_prec",
+										"eff_res_prec",
+										"heal_eff_prec",
+										"hp_prec",
+										"pen_prec",
+										"shd_eff_prec",
+										"sp_rec_prec",
+										"spd"
+									]
+								},
+								"values": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								}
+							},
+							"required": ["type", "values"]
+						}
+					},
+					"required": ["basic", "bells", "stat_buff_1", "stat_buff_2"]
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
+		"role": {
+			"anyOf": [
+				{
+					"const": "buff"
+				},
+				{
+					"const": "debuff"
+				},
+				{
+					"const": "heal"
+				},
+				{
+					"const": "multi"
+				},
+				{
+					"const": "navi"
+				},
+				{
+					"const": "single"
+				},
+				{
+					"const": "tank"
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
+		"skill": {
+			"anyOf": [
+				{
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"element": {
+								"enum": [
+									"ailment",
+									"all_ailment",
+									"all_almighty",
+									"all_almighty_alt",
+									"all_bless",
+									"all_curse",
+									"all_elec",
+									"all_fire",
+									"all_gun",
+									"all_healing",
+									"all_ice",
+									"all_nuke",
+									"all_passive",
+									"all_physical",
+									"all_psy",
+									"all_support",
+									"all_wind",
+									"all_wind_all_ice",
+									"all_wind_ice",
+									"almighty",
+									"almighty_alt",
+									"bless",
+									"curse",
+									"elec",
+									"fire",
+									"gun",
+									"healing",
+									"ice",
+									"nuke",
+									"passive",
+									"physical",
+									"psy",
+									"support",
+									"wind",
+									"wind_all_ice",
+									"wind_ice"
+								]
+							},
+							"id": {
+								"type": "string"
+							},
+							"data": {
+								"type": "array",
+								"items": {
+									"type": "array",
+									"items": {
+										"anyOf": [
+											{
+												"type": "string"
+											},
+											{
+												"type": "array",
+												"items": {
+													"type": "string"
+												}
+											}
+										]
+									}
+								}
+							},
+							"description": {
+								"anyOf": [
+									{
+										"type": "string"
+									},
+									{
+										"type": "array",
+										"items": {
+											"type": "string"
+										}
+									}
+								]
+							},
+							"name": {
+								"type": "string"
+							}
+						},
+						"required": ["element", "id"]
+					}
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
+		"stats": {
+			"anyOf": [
+				{
+					"type": "null"
+				},
+				{
+					"type": "array",
+					"items": {
+						"type": "object",
+						"additionalProperties": {
+							"type": "object",
+							"additionalProperties": {
+								"type": "string"
+							}
+						}
+					}
+				}
+			]
+		}
+	},
+	"$schema": "https://json-schema.org/draft/2020-12/schema"
 }

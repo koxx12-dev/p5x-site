@@ -1,54 +1,54 @@
 {
-    "$schema": "../../schema_i18n.json",
-    "code_name": "BUI",
-    "full_name": "YUI",
-    "skill.s1.name": "Crackle Surprise Box",
-    "skill.s1.description": [
-        "Deals [color=#fcff37][b]{skill_data} ATK Elec DMG[/b][/color] to 1 enemy.",
-        "If the enemy is not inflicted with [color=#fcff37][i][b]Shock[/b][/i][/color], there is a [color=#fcff37][b]{skill_data}[/b][/color] base chance to inflict [color=#fcff37][i][b]Shock[/b][/i][/color] for 2 turns.",
-        "If the enemy is inflicted with [color=#fcff37][i][b]Shock[/b][/i][/color], increases DMG by [color=#fcff37][b]30%[/b][/color]."
-    ],
-    "skill.s2.name": "Exploding Brick",
-    "skill.s2.description": "Deals [color=#fcff37][b]{skill_data} ATK Elec DMG[/b][/color] to all enemies, increases [color=#fcff37][b]DMG[/b][/color] to the main target by [color=#fcff37][b]25%[/b][/color].",
-    "skill.s3.name": "Super Rare Reward",
-    "skill.s3.description": [
-        "Increases own [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] and selects 1 ally to be BUI's [color=#a3b8fc][b][Playmate][/b][/color].",
-        "Triggers a Follow Up after [color=#a3b8fc][b][Playmate][/b][/color] deal damage with a Persona skill, makes BUI's next 2 Follow Up deal [color=#fcff37][b]{skill_data} ATK[/b][/color] as [color=#fcff37][b]Elec DMG[/b][/color] for 2 turns.",
-        "Increases the chance to trigger [ref=a0][color=#c3e342][b][u][★Big Project! Start★][/u][/b][/color][/ref] by a fixed [color=#fcff37][b]10%[/b][/color] chance for 2 turns."
-    ],
-    "skill.hl.name": "HIGHLIGHT",
-    "skill.hl.description": [
-        "Increases own [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] increases [color=#fcff37][b]Follow Up DMG[/b][/color] based on [color=#fcff37][b]{skill_data} ATK[/b][/color] for 2 turns.",
-        "BUI will trigger Follow Up after any allies deal damage with skills for 1 turn."
-    ],
-    "skill.p1.name": "Agile",
-    "skill.p1.description": "BUI's Follow Up deal [color=#fcff37][b]{skill_data}[/b][/color] more [color=#fcff37][b]DMG[/b][/color] to enemies inflicted with [color=#fcff37][i][b]Shock[/b][/i][/color].",
-    "skill.p2.name": "Shining",
-    "skill.p2.description": "When [color=#a3b8fc][b][Playmate][/b][/color] is present, increase own and [color=#a3b8fc][b][Playmate][/b][/color]'s [color=#fcff37][b]CRIT Rate[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] and [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color].",
-    "awareness.a0.name": "★Big Project! Start★",
-    "awareness.a0.description": [
-        "After any allies deal damage with a Persona skill, BUI has a [color=#fcff37][b]45%[/b][/color] fixed chance to trigger Follow Up on the main target, dealing [color=#fcff37][b]80% ATK[/b][/color] as [color=#fcff37][b]Elec DMG[/b][/color].",
-        "Increase that enemies' next [color=#fcff37][b]Elec DMG[/b][/color] Taken by [color=#fcff37][b]15%[/b][/color] for 2 turns."
-    ],
-    "awareness.a1.name": "★Sowing Day★",
-    "awareness.a1.description": "Increase Follow Up [color=#fcff37][b]CRIT Rate[/b][/color] by [color=#fcff37][b]20%[/b][/color], increase Follow Up CRIT Rate by [color=#fcff37][b]10%[/b][/color] when attacking enemies with [color=#fcff37][i][b]Shock[/b][/i][/color].",
-    "awareness.a2.name": "★Fast Sprout Spell★",
-    "awareness.a2.description": [
-        "[ref=s3][color=#c3e342][b][u][Super Rare Reward][/u][/b][/color][/ref] [color=#fcff37][b]Lv. +3[/b][/color], up to a maximum of [color=#fcff37][b]Lv. 15[/b][/color].",
-        "[ref=hl][color=#c3e342][b][u][Combat Skills][/u][/b][/color][/ref] [color=#fcff37][b]Lv. +3[/b][/color], up to a maximum of [color=#fcff37][b]Lv. 15[/b][/color]."
-    ],
-    "awareness.a3.name": "★Rainbow Maker★",
-    "awareness.a3.description": "Increase own and [color=#a3b8fc][b][Playmate][/b][/color]'s [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]10%[/b][/color] after triggering Follow Up for 2 turns, up to 3 stacks.",
-    "awareness.a4.name": "★Declare War Against Insects★",
-    "awareness.a4.description": [
-        "[ref=s1][color=#c3e342][b][u][Crackle Surprise Box][/u][/b][/color][/ref] [color=#fcff37][b]Lv. +3[/b][/color], up to a maximum of [color=#fcff37][b]Lv. 15[/b][/color].",
-        "[ref=s2][color=#c3e342][b][u][Exploding Brick][/u][/b][/color][/ref] [color=#fcff37][b]Lv. +3[/b][/color], up to a maximum of [color=#fcff37][b]Lv. 15[/b][/color]."
-    ],
-    "awareness.a5.name": "★Tricky Hula★",
-    "awareness.a5.description": "[ref=hl][color=#c3e342][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Increase Follow Up [color=#fcff37][b]CRIT DMG[/b][/color] by [color=#fcff37][b]40%[/b][/color] for 2 turns.",
-    "awareness.a6.name": "★Joyful Bumper Crop★",
-    "awareness.a6.description": [
-        "When there is only 1 enemy, increase the skill multiplier of BUI's Follow Up to [color=#fcff37][b]110% ATK[/b][/color].",
-        "BUI's Follow Up now deal [color=#fcff37][b]25% splash DMG[/b][/color] to all other enemies."
-    ]
+	"$schema": "../../schema_i18n.json",
+	"code_name": "BUI",
+	"full_name": "YUI",
+	"skill.s1.name": "Crackle Surprise Box",
+	"skill.s1.description": [
+		"Deals [color=#fcff37][b]{skill_data} ATK Elec DMG[/b][/color] to 1 enemy.",
+		"If the enemy is not inflicted with [color=#fcff37][i][b]Shock[/b][/i][/color], there is a [color=#fcff37][b]{skill_data}[/b][/color] base chance to inflict [color=#fcff37][i][b]Shock[/b][/i][/color] for 2 turns.",
+		"If the enemy is inflicted with [color=#fcff37][i][b]Shock[/b][/i][/color], increases DMG by [color=#fcff37][b]30%[/b][/color]."
+	],
+	"skill.s2.name": "Exploding Brick",
+	"skill.s2.description": "Deals [color=#fcff37][b]{skill_data} ATK Elec DMG[/b][/color] to all enemies, increases [color=#fcff37][b]DMG[/b][/color] to the main target by [color=#fcff37][b]25%[/b][/color].",
+	"skill.s3.name": "Super Rare Reward",
+	"skill.s3.description": [
+		"Increases own [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] and selects 1 ally to be BUI's [color=#a3b8fc][b][Playmate][/b][/color].",
+		"Triggers a Follow Up after [color=#a3b8fc][b][Playmate][/b][/color] deal damage with a Persona skill, makes BUI's next 2 Follow Up deal [color=#fcff37][b]{skill_data} ATK[/b][/color] as [color=#fcff37][b]Elec DMG[/b][/color] for 2 turns.",
+		"Increases the chance to trigger [ref=a0][color=#c3e342][b][u][★Big Project! Start★][/u][/b][/color][/ref] by a fixed [color=#fcff37][b]10%[/b][/color] chance for 2 turns."
+	],
+	"skill.hl.name": "HIGHLIGHT",
+	"skill.hl.description": [
+		"Increases own [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] increases [color=#fcff37][b]Follow Up DMG[/b][/color] based on [color=#fcff37][b]{skill_data} ATK[/b][/color] for 2 turns.",
+		"BUI will trigger Follow Up after any allies deal damage with skills for 1 turn."
+	],
+	"skill.p1.name": "Agile",
+	"skill.p1.description": "BUI's Follow Up deal [color=#fcff37][b]{skill_data}[/b][/color] more [color=#fcff37][b]DMG[/b][/color] to enemies inflicted with [color=#fcff37][i][b]Shock[/b][/i][/color].",
+	"skill.p2.name": "Shining",
+	"skill.p2.description": "When [color=#a3b8fc][b][Playmate][/b][/color] is present, increase own and [color=#a3b8fc][b][Playmate][/b][/color]'s [color=#fcff37][b]CRIT Rate[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] and [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color].",
+	"awareness.a0.name": "★Big Project! Start★",
+	"awareness.a0.description": [
+		"After any allies deal damage with a Persona skill, BUI has a [color=#fcff37][b]45%[/b][/color] fixed chance to trigger Follow Up on the main target, dealing [color=#fcff37][b]80% ATK[/b][/color] as [color=#fcff37][b]Elec DMG[/b][/color].",
+		"Increase that enemies' next [color=#fcff37][b]Elec DMG[/b][/color] Taken by [color=#fcff37][b]15%[/b][/color] for 2 turns."
+	],
+	"awareness.a1.name": "★Sowing Day★",
+	"awareness.a1.description": "Increase Follow Up [color=#fcff37][b]CRIT Rate[/b][/color] by [color=#fcff37][b]20%[/b][/color], increase Follow Up CRIT Rate by [color=#fcff37][b]10%[/b][/color] when attacking enemies with [color=#fcff37][i][b]Shock[/b][/i][/color].",
+	"awareness.a2.name": "★Fast Sprout Spell★",
+	"awareness.a2.description": [
+		"[ref=s3][color=#c3e342][b][u][Super Rare Reward][/u][/b][/color][/ref] [color=#fcff37][b]Lv. +3[/b][/color], up to a maximum of [color=#fcff37][b]Lv. 15[/b][/color].",
+		"[ref=hl][color=#c3e342][b][u][Combat Skills][/u][/b][/color][/ref] [color=#fcff37][b]Lv. +3[/b][/color], up to a maximum of [color=#fcff37][b]Lv. 15[/b][/color]."
+	],
+	"awareness.a3.name": "★Rainbow Maker★",
+	"awareness.a3.description": "Increase own and [color=#a3b8fc][b][Playmate][/b][/color]'s [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]10%[/b][/color] after triggering Follow Up for 2 turns, up to 3 stacks.",
+	"awareness.a4.name": "★Declare War Against Insects★",
+	"awareness.a4.description": [
+		"[ref=s1][color=#c3e342][b][u][Crackle Surprise Box][/u][/b][/color][/ref] [color=#fcff37][b]Lv. +3[/b][/color], up to a maximum of [color=#fcff37][b]Lv. 15[/b][/color].",
+		"[ref=s2][color=#c3e342][b][u][Exploding Brick][/u][/b][/color][/ref] [color=#fcff37][b]Lv. +3[/b][/color], up to a maximum of [color=#fcff37][b]Lv. 15[/b][/color]."
+	],
+	"awareness.a5.name": "★Tricky Hula★",
+	"awareness.a5.description": "[ref=hl][color=#c3e342][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Increase Follow Up [color=#fcff37][b]CRIT DMG[/b][/color] by [color=#fcff37][b]40%[/b][/color] for 2 turns.",
+	"awareness.a6.name": "★Joyful Bumper Crop★",
+	"awareness.a6.description": [
+		"When there is only 1 enemy, increase the skill multiplier of BUI's Follow Up to [color=#fcff37][b]110% ATK[/b][/color].",
+		"BUI's Follow Up now deal [color=#fcff37][b]25% splash DMG[/b][/color] to all other enemies."
+	]
 }

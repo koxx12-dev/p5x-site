@@ -8,7 +8,7 @@ export const Route = createFileRoute('/character')({
 function RouteComponent() {
 	return (
 		<VerticalBox>
-				<Outlet />
+			<Outlet />
 		</VerticalBox>
 	);
 }

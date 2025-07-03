@@ -1,14 +1,8 @@
 {
-  "$schema": "../schema.json",
-  "id": "mont",
-  "code_name": "Mont",
-  "full_name": "Kotone Montagne",
-  "quality": 4,
-  "role": "single",
-  "element": "ice",
-  "available_regions": [
-    "kr-tw",
-    "cn",
-    "glb-jp"
-  ]
+	"$schema": "../schema.json",
+	"id": "mont",
+	"quality": 4,
+	"role": "single",
+	"element": "ice",
+	"available_regions": ["kr-tw", "cn", "glb-jp"]
 }

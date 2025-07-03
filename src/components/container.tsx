@@ -1,6 +1,6 @@
-import { mergeProps, type JSX } from 'solid-js';
+import { type JSX, mergeProps } from 'solid-js';
 import { cn } from '../utils';
-import { type BoxColorScheme, Box, type BoxIntent } from './box';
+import { Box, type BoxColorScheme, type BoxIntent } from './box';
 
 type Variant = 'default' | 'compact';
 

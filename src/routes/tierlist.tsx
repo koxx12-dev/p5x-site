@@ -1,11 +1,10 @@
+import gayTierlist from '@assets/gay_tierlist.png?responsive';
+import pullTierlist from '@assets/pull_tierlist.png?responsive';
+import { VerticalBox } from '@components/verticalbox';
+import { ResponsiveImage } from '@responsive-image/solid';
 import { createFileRoute } from '@tanstack/solid-router';
 import { type } from 'arktype';
 import { Match, Switch } from 'solid-js';
-import { ResponsiveImage } from '@responsive-image/solid';
-import { VerticalBox } from '@components/verticalbox';
-
-import pullTierlist from '@assets/pull_tierlist.png?responsive';
-import gayTierlist from '@assets/gay_tierlist.png?responsive';
 
 const queryParams = type({
 	pull: 'boolean?',

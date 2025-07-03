@@ -1,8 +1,8 @@
-import { Show, splitProps } from 'solid-js';
+import type { ImageData } from '@responsive-image/core';
+import { ResponsiveImage } from '@responsive-image/solid';
 import type { Element } from '@types';
 import type { ResponsiveImageProps } from 'node_modules/@responsive-image/solid/dist/responsive-image';
-import { ResponsiveImage } from '@responsive-image/solid';
-import type { ImageData } from '@responsive-image/core';
+import { Show, splitProps } from 'solid-js';
 
 type ElementProps = {
 	element: Element;

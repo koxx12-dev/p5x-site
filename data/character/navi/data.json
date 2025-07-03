@@ -1,13 +1,8 @@
 {
-  "$schema": "../schema.json",
-  "id": "navi",
-  "code_name": "Navi",
-  "full_name": "Futaba Sakura",
-  "quality": 5,
-  "role": "navi",
-  "element": "support",
-  "available_regions": [
-    "kr-tw",
-    "cn"
-  ]
+	"$schema": "../schema.json",
+	"id": "navi",
+	"quality": 5,
+	"role": "navi",
+	"element": "support",
+	"available_regions": ["kr-tw", "cn"]
 }

@@ -1,8 +1,8 @@
-import { createMemo, createSignal } from 'solid-js';
 import type { MentalImageBells } from '@types';
-import { MentalImageAsset } from '../../mental-image-asset';
+import { createMemo, createSignal } from 'solid-js';
 import { Container } from '../../container';
 import { LevelDropdown } from '../../level-dropdown';
+import { MentalImageAsset } from '../../mental-image-asset';
 
 export function CharacterMentalImageBells(props: {
 	bells: MentalImageBells[];

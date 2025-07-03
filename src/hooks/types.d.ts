@@ -1,3 +1,3 @@
-import type { Accessor } from "solid-js";
+import type { Accessor } from 'solid-js';
 
-type MaybeAccessor<T> = T | Accessor<T>;
+export type MaybeAccessor<T> = T | Accessor<T>;

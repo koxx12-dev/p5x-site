@@ -1,13 +1,8 @@
 {
-  "$schema": "../schema.json",
-  "id": "turbo",
-  "code_name": "Turbo",
-  "full_name": "Mayumi Hashimoto",
-  "quality": 5,
-  "role": "buff",
-  "element": "physical",
-  "available_regions": [
-    "kr-tw",
-    "cn"
-  ]
+	"$schema": "../schema.json",
+	"id": "turbo",
+	"quality": 5,
+	"role": "buff",
+	"element": "physical",
+	"available_regions": ["kr-tw", "cn"]
 }

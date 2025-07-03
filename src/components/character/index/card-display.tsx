@@ -1,8 +1,8 @@
 import { createAutoAnimate } from '@formkit/auto-animate/solid';
-import { createMemo, For } from 'solid-js';
-import { CharacterCard } from '../../character-card';
 import type { Element, Role } from '@types';
+import { createMemo, For } from 'solid-js';
 import { useThieves } from 'src/hooks/collections';
+import { CharacterCard } from '../../character-card';
 
 export function CardDisplay(props: {
 	elements: Element[];
@@ -14,8 +14,6 @@ export function CardDisplay(props: {
 
 	const filteredThiefIds = createMemo(() => {
 		const filtered = [];
-
-		let counter = 0;
 
 		for (const thief of thieves()) {
 			let thiefElement: Element | Element[] = thief.element;
@@ -44,15 +42,11 @@ export function CardDisplay(props: {
 			) {
 				filtered.push(thief);
 			}
-
-			counter++;
 		}
-
-		filtered.sort((a, b) => a.code_name.localeCompare(b.code_name));
-
-		const mapped = filtered.map((character) => character.id);
-
-		return [...mapped];
+		
+		return filtered
+			.sort((a, b) => a.code_name.localeCompare(b.code_name))
+			.map((character) => character.id);
 	});
 
 	const [parent, _] = createAutoAnimate();

@@ -1,52 +1,52 @@
 {
-    "$schema": "../../schema_i18n.json",
-    "code_name": "Key",
-    "full_name": "Kiyoshi Kurotani",
-    "skill.s1.name": "Inferno Blast",
-    "skill.s1.description": [
-        "Deals [color=#ff3b1d][b]{skill_data} Max HP[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to 1 enemy, with a [color=#ff3b1d][b]100%[/b][/color] base chance to inflict [color=#ff3b1d][b][i]Burn[/i][/b][/color].",
-        "If the target is inflicted with [color=#ff3b1d][b][i]Burn[/i][/b][/color], gains 1 additional stack of [color=#ad3b36][b][Martyr][/b][/color] and changes skill effects: Deals half damage to all enemies, with [color=#ff3b1d][b]100%[/b][/color] base chance to inflict [color=#ff3b1d][b][i]Burn[/i][/b][/color] to all enemies."
-    ],
-    "skill.s2.name": "Burning Heart",
-    "skill.s2.description": [
-        "Deals [color=#ff3b1d][b]{skill_data} Max HP[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to all enemies.",
-        "If there is any enemy inflicted with [color=#ff3b1d][b][i]Burn[/i][/b][/color], gains 2 stacks of [color=#ad3b36][b][Martyr][/b][/color] and inflicts any enemy with [color=#ff3b1d][b][i]Burn[/i][/b][/color] with [color=#d5a394][b][Sacred Flame][/b][/color], deals [color=#ff3b1d][b]Fire TECHNICAL[/b][/color].",
-        "[color=#d5a394][b][Sacred Flame][/b][/color]: At the start of the turn, take [color=#ff3b1d][b]{skill_data} Max HP[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] for 2 turns."
-    ],
-    "skill.s3.name": "Purifying Flame",
-    "skill.s3.description": "Deals [color=#ff3b1d][b]{skill_data} Max HP[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to 1 enemy, deals [color=#ff3b1d][b]Fire TECHNICAL[/b][/color], if the enemy is inflicted with [color=#d5a394][b][Sacred Flame][/b][/color], additionally triggers [color=#ff3b1d][b]TECHNICAL[/b][/color], increases skill damage by [color=#ff3b1d][b]30%[/b][/color].",
-    "skill.hl.name": "HIGHLIGHT",
-    "skill.hl.description": "Increases all enemies' [color=#ff3b1d][b]Fire DMG[/b][/color] Taken by [color=#ff3b1d][b]{skill_data}[/b][/color], then deals [color=#ff3b1d][b]{skill_data} Max HP[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to all enemies, with a [color=#ff3b1d][b]100%[/b][/color] base chance to inflict all enemies with [color=#ff3b1d][b][i]Burn[/i][/b][/color] for 2 turns.",
-    "skill.p1.name": "Gift",
-    "skill.p1.description": "For every 1 stack of [color=#ad3b36][b][Martyr][/b][/color], increase the [color=#ff3b1d][b]Fire DMG[/b][/color] Taken and Elemental Ailment [color=#ff3b1d][b]DMG[/b][/color] Taken for enemies with [color=#d5a394][b][Sacred Flame][/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color].",
-    "skill.p2.name": "Miracle",
-    "skill.p2.description": [
-        "Increase [color=#ff3b1d][b]Fire DMG[/b][/color] Dealt based on Key's [color=#ff3b1d][b]Max HP[/b][/color].",
-        "For every [color=#ff3b1d][b]300 Max HP[/b][/color] increase [color=#ff3b1d][b]1% Fire DMG[/b][/color], up to [color=#ff3b1d][b]{skill_data} Max HP[/b][/color]."
-    ],
-    "awareness.a0.name": "Will of Sacrifce",
-    "awareness.a0.description": [
-        "When using skills, gain 1 stack of [color=#ad3b36][b][Martyr][/b][/color].",
-        "[color=#ad3b36][b][Martyr][/b][/color]: Increase all allies' [color=#ff3b1d][b]Fire DMG[/b][/color] Dealt by [color=#ff3b1d][b]5%[/b][/color].",
-        "Each stack of [color=#ad3b36][b][Martyr][/b][/color] count down independently.",
-        "When using skills, Key consumes [color=#ff3b1d][b]4%[/b][/color] current [color=#ff3b1d][b]HP[/b][/color] for 2 turns (max 5 stacks)."
-    ],
-    "awareness.a1.name": "Stacking Fear",
-    "awareness.a1.description": "At the start of Key's turn, for every 1 stack of [color=#ad3b36][b][Martyr][/b][/color], there is a [color=#ff3b1d][b]12%[/b][/color] fixed chance to inflict 1 random enemy with [color=#ff3b1d][b][i]Burn[/i][/b][/color].",
-    "awareness.a2.name": "Repent, Sinner",
-    "awareness.a2.description": [
-        "[ref=s1][color=#e1ac4c][b][u][Inferno Blast][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +2[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color].",
-        "[ref=s2][color=#e1ac4c][b][u][Burning Heart][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +2[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color]."
-    ],
-    "awareness.a3.name": "Paranormal Event",
-    "awareness.a3.description": "At the start of Key's turn, increase own [color=#ff3b1d][b]DMG[/b][/color] Dealt by [color=#ff3b1d][b]8%[/b][/color] for every enemy inflicted with [color=#ff3b1d][b][i]Burn[/i][/b][/color] for 1 turn, up to 3 enemies.",
-    "awareness.a4.name": "Exorcism",
-    "awareness.a4.description": [
-        "[ref=s3][color=#e1ac4c][b][u][Purifying Flame][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +2[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color].",
-        "[ref=hl][color=#e1ac4c][b][u][Combat Skills][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +2[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color]."
-    ],
-    "awareness.a5.name": "Holy Story",
-    "awareness.a5.description": "[ref=hl][color=#e1ac4c][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Additionally increase the target's [color=#ff3b1d][b]Fire DMG[/b][/color] Taken by [color=#ff3b1d][b]30.8%[/b][/color].",
-    "awareness.a6.name": "Salvation",
-    "awareness.a6.description": "For every 10 stacks of [color=#ad3b36][b][Martyr][/b][/color] gained, increase all allies' Fire [color=#ff3b1d][b]DMG Dealt[/b][/color] by [color=#ff3b1d][b]30%[/b][/color] for 2 turns."
+	"$schema": "../../schema_i18n.json",
+	"code_name": "Key",
+	"full_name": "Kiyoshi Kurotani",
+	"skill.s1.name": "Inferno Blast",
+	"skill.s1.description": [
+		"Deals [color=#ff3b1d][b]{skill_data} Max HP[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to 1 enemy, with a [color=#ff3b1d][b]100%[/b][/color] base chance to inflict [color=#ff3b1d][b][i]Burn[/i][/b][/color].",
+		"If the target is inflicted with [color=#ff3b1d][b][i]Burn[/i][/b][/color], gains 1 additional stack of [color=#ad3b36][b][Martyr][/b][/color] and changes skill effects: Deals half damage to all enemies, with [color=#ff3b1d][b]100%[/b][/color] base chance to inflict [color=#ff3b1d][b][i]Burn[/i][/b][/color] to all enemies."
+	],
+	"skill.s2.name": "Burning Heart",
+	"skill.s2.description": [
+		"Deals [color=#ff3b1d][b]{skill_data} Max HP[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to all enemies.",
+		"If there is any enemy inflicted with [color=#ff3b1d][b][i]Burn[/i][/b][/color], gains 2 stacks of [color=#ad3b36][b][Martyr][/b][/color] and inflicts any enemy with [color=#ff3b1d][b][i]Burn[/i][/b][/color] with [color=#d5a394][b][Sacred Flame][/b][/color], deals [color=#ff3b1d][b]Fire TECHNICAL[/b][/color].",
+		"[color=#d5a394][b][Sacred Flame][/b][/color]: At the start of the turn, take [color=#ff3b1d][b]{skill_data} Max HP[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] for 2 turns."
+	],
+	"skill.s3.name": "Purifying Flame",
+	"skill.s3.description": "Deals [color=#ff3b1d][b]{skill_data} Max HP[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to 1 enemy, deals [color=#ff3b1d][b]Fire TECHNICAL[/b][/color], if the enemy is inflicted with [color=#d5a394][b][Sacred Flame][/b][/color], additionally triggers [color=#ff3b1d][b]TECHNICAL[/b][/color], increases skill damage by [color=#ff3b1d][b]30%[/b][/color].",
+	"skill.hl.name": "HIGHLIGHT",
+	"skill.hl.description": "Increases all enemies' [color=#ff3b1d][b]Fire DMG[/b][/color] Taken by [color=#ff3b1d][b]{skill_data}[/b][/color], then deals [color=#ff3b1d][b]{skill_data} Max HP[/b][/color] as [color=#ff3b1d][b]Fire DMG[/b][/color] to all enemies, with a [color=#ff3b1d][b]100%[/b][/color] base chance to inflict all enemies with [color=#ff3b1d][b][i]Burn[/i][/b][/color] for 2 turns.",
+	"skill.p1.name": "Gift",
+	"skill.p1.description": "For every 1 stack of [color=#ad3b36][b][Martyr][/b][/color], increase the [color=#ff3b1d][b]Fire DMG[/b][/color] Taken and Elemental Ailment [color=#ff3b1d][b]DMG[/b][/color] Taken for enemies with [color=#d5a394][b][Sacred Flame][/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color].",
+	"skill.p2.name": "Miracle",
+	"skill.p2.description": [
+		"Increase [color=#ff3b1d][b]Fire DMG[/b][/color] Dealt based on Key's [color=#ff3b1d][b]Max HP[/b][/color].",
+		"For every [color=#ff3b1d][b]300 Max HP[/b][/color] increase [color=#ff3b1d][b]1% Fire DMG[/b][/color], up to [color=#ff3b1d][b]{skill_data} Max HP[/b][/color]."
+	],
+	"awareness.a0.name": "Will of Sacrifce",
+	"awareness.a0.description": [
+		"When using skills, gain 1 stack of [color=#ad3b36][b][Martyr][/b][/color].",
+		"[color=#ad3b36][b][Martyr][/b][/color]: Increase all allies' [color=#ff3b1d][b]Fire DMG[/b][/color] Dealt by [color=#ff3b1d][b]5%[/b][/color].",
+		"Each stack of [color=#ad3b36][b][Martyr][/b][/color] count down independently.",
+		"When using skills, Key consumes [color=#ff3b1d][b]4%[/b][/color] current [color=#ff3b1d][b]HP[/b][/color] for 2 turns (max 5 stacks)."
+	],
+	"awareness.a1.name": "Stacking Fear",
+	"awareness.a1.description": "At the start of Key's turn, for every 1 stack of [color=#ad3b36][b][Martyr][/b][/color], there is a [color=#ff3b1d][b]12%[/b][/color] fixed chance to inflict 1 random enemy with [color=#ff3b1d][b][i]Burn[/i][/b][/color].",
+	"awareness.a2.name": "Repent, Sinner",
+	"awareness.a2.description": [
+		"[ref=s1][color=#e1ac4c][b][u][Inferno Blast][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +2[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color].",
+		"[ref=s2][color=#e1ac4c][b][u][Burning Heart][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +2[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color]."
+	],
+	"awareness.a3.name": "Paranormal Event",
+	"awareness.a3.description": "At the start of Key's turn, increase own [color=#ff3b1d][b]DMG[/b][/color] Dealt by [color=#ff3b1d][b]8%[/b][/color] for every enemy inflicted with [color=#ff3b1d][b][i]Burn[/i][/b][/color] for 1 turn, up to 3 enemies.",
+	"awareness.a4.name": "Exorcism",
+	"awareness.a4.description": [
+		"[ref=s3][color=#e1ac4c][b][u][Purifying Flame][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +2[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color].",
+		"[ref=hl][color=#e1ac4c][b][u][Combat Skills][/u][/b][/color][/ref] [color=#ff3b1d][b]Lv. +2[/b][/color], up to a maximum of [color=#ff3b1d][b]Lv. 15[/b][/color]."
+	],
+	"awareness.a5.name": "Holy Story",
+	"awareness.a5.description": "[ref=hl][color=#e1ac4c][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Additionally increase the target's [color=#ff3b1d][b]Fire DMG[/b][/color] Taken by [color=#ff3b1d][b]30.8%[/b][/color].",
+	"awareness.a6.name": "Salvation",
+	"awareness.a6.description": "For every 10 stacks of [color=#ad3b36][b][Martyr][/b][/color] gained, increase all allies' Fire [color=#ff3b1d][b]DMG Dealt[/b][/color] by [color=#ff3b1d][b]30%[/b][/color] for 2 turns."
 }

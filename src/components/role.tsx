@@ -1,8 +1,8 @@
+import type { ImageData } from '@responsive-image/core';
+import { ResponsiveImage } from '@responsive-image/solid';
 import type { Role } from '@types';
 import type { ResponsiveImageProps } from 'node_modules/@responsive-image/solid/dist/responsive-image';
 import { Show, splitProps } from 'solid-js';
-import { ResponsiveImage } from '@responsive-image/solid';
-import type { ImageData } from '@responsive-image/core';
 
 type RoleProps = {
 	characterRole: Role;

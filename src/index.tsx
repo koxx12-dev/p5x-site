@@ -1,9 +1,9 @@
-import { render } from 'solid-js/web';
 import {
-	RouterProvider,
 	createHashHistory,
 	createRouter,
+	RouterProvider,
 } from '@tanstack/solid-router';
+import { render } from 'solid-js/web';
 import { routeTree } from './routeTree.gen';
 import 'solid-devtools';
 

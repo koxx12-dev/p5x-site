@@ -1,13 +1,8 @@
 {
-  "$schema": "../schema.json",
-  "id": "noir",
-  "code_name": "Noir",
-  "full_name": "Haru Okumura",
-  "quality": 5,
-  "role": "multi",
-  "element": "psy",
-  "available_regions": [
-    "kr-tw",
-    "cn"
-  ]
+	"$schema": "../schema.json",
+	"id": "noir",
+	"quality": 5,
+	"role": "multi",
+	"element": "psy",
+	"available_regions": ["kr-tw", "cn"]
 }

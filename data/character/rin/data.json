@@ -1,14 +1,8 @@
 {
-  "$schema": "../schema.json",
-  "id": "rin",
-  "code_name": "Rin",
-  "full_name": "Yaoling Li",
-  "quality": 5,
-  "role": "debuff",
-  "element": "curse",
-  "available_regions": [
-    "kr-tw",
-    "cn",
-    "glb-jp"
-  ]
+	"$schema": "../schema.json",
+	"id": "rin",
+	"quality": 5,
+	"role": "debuff",
+	"element": "curse",
+	"available_regions": ["kr-tw", "cn", "glb-jp"]
 }

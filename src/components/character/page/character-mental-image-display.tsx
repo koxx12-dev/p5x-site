@@ -1,8 +1,8 @@
+import type { ThiefMentalImage } from '@types';
 import { For } from 'solid-js';
 import { CharacterMentalImageBasic } from './character-mental-image-basic';
-import { CharacterMentalImageBuff } from './character-mental-image-buff';
 import { CharacterMentalImageBells } from './character-mental-image-bells';
-import type { ThiefMentalImage } from '@types';
+import { CharacterMentalImageBuff } from './character-mental-image-buff';
 
 type CharacterMentalImageProps = {
 	mentalImage: ThiefMentalImage;

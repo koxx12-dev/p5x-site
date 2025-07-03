@@ -1,8 +1,8 @@
+import type { MentalImageBuff } from '@types';
 import { createMemo, createSignal } from 'solid-js';
-import { MentalImageAsset } from '../../mental-image-asset';
 import { Container } from '../../container';
 import { LevelDropdown } from '../../level-dropdown';
-import type { MentalImageBuff } from '@types';
+import { MentalImageAsset } from '../../mental-image-asset';
 
 const typeMap = {
 	atk_prec: 'ATK',

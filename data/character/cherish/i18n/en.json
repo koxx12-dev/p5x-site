@@ -1,60 +1,60 @@
 {
-    "$schema": "../../schema_i18n.json",
-    "code_name": "Cherish",
-    "full_name": "Masaki Ashiya",
-    "skill.s1.name": "Blessing of Compassion",
-    "skill.s1.description": [
-        "Deals [color=#00adff][b]{skill_data} DEF[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to the main target and [color=#00adff][b]{skill_data} DEF[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to all other targets, with a [color=#00adff][b]{skill_data}[/b][/color] base chance to inflict [color=#00adff][b][i]Freeze[/i][/b][/color] to the main target",
-        "Restores 2 [color=#fec882][b][Valour][/b][/color].",
-        "If Cherish is in [color=#efe183][b][Justice Oath][/b][/color], additionally increases the main target's DMG Taken by ([color=#00adff][b]1%[/b][/color] for every [color=#00adff][b]600 DEF[/b][/color] Cherish has), up to [color=#00adff][b]{skill_data}[/b][/color] for 2 turns",
-        "However, decreases [color=#fec882][b][Valour][/b][/color] recovery to 1."
-    ],
-    "skill.s2.name": "Honour Protection",
-    "skill.s2.description": [
-        "Gives 1 ally 1 stack of [color=#00adff][b]{skill_data} DEF[/b][/color] + [color=#00adff][b]650 Shield[/b][/color] as [color=#d6c9e0][b][Upright Mark][/b][/color], then increases their [color=#00adff][b]DEF[/b][/color] equal to [color=#00adff][b]20%[/b][/color] own [color=#00adff][b]DEF[/b][/color] (Up to {skill_data}) for 2 turns",
-        "When gaining this effect, increases that ally's chance of attacked by [color=#00adff][b]50%[/b][/color] if their HP is above [color=#00adff][b]60%[/b][/color]",
-        "At the start of Cherish's next turn, gives that ally 1 stack of [color=#d6c9e0][b][Upright Mark][/b][/color].",
-        "If Cherish is in [color=#efe183][b][Justice Oath][/b][/color], increases the Shield from [color=#d6c9e0][b][Upright Mark][/b][/color] by [color=#00adff][b]25%[/b][/color]."
-    ],
-    "skill.s3.name": "Prayer of Spirituality",
-    "skill.s3.description": "Gives all allies 1 stack of [color=#00adff][b]12% DEF[/b][/color] + [color=#00adff][b]120/240/360[/b][/color] (At level 1, 50, 70) [color=#00adff][b]Shield[/b][/color] as [color=#d6c9e0][b][Upright Mark][/b][/color] and 1 stack of [color=#00adff][b]{skill_data} DEF[/b][/color] + [color=#00adff][b]{skill_data} Shield[/b][/color] as [color=#5de5f7][b][Holy Protection][/b][/color], gives all allies 1 Down Gauge and increases their DMG Bonus by [color=#00adff][b]1%[/b][/color] (for every [color=#00adff][b]300 DEF[/b][/color] Cherish has, up to [color=#00adff][b]{skill_data}[/b][/color]) for 2 turns.",
-    "skill.hl.name": "HIGHLIGHT",
-    "skill.hl.description": "Immediately gives all allies 1 stack of [color=#00adff][b]{skill_data} DEF[/b][/color] + [color=#00adff][b]{skill_data} Shield[/b][/color] as [color=#5de5f7][b][Holy Protection][/b][/color], decreases all allies' DMG Taken by [color=#00adff][b]{skill_data}[/b][/color] for 2 turns.",
-    "skill.p1.name": "Sacrifice",
-    "skill.p1.description": "Allies Shielded by Cherish have their [color=#00adff][b]DEF[/b][/color] increased by [color=#00adff][b]{skill_data}[/b][/color].",
-    "skill.p2.name": "Humility",
-    "skill.p2.description": "Allies Shielded by Cherish has their [color=#00adff][b]Effect RES[/b][/color] increased by [color=#00adff][b]{skill_data}[/b][/color].",
-    "awareness.a0.name": "I Will Be Kind to the Strong",
-    "awareness.a0.description": [
-        "At the start of battle, gives all allies 1 stack of [color=#00adff][b]12% DEF[/b][/color] [color=#00adff][b]+120/240/360[/b][/color] (At level 1, 50, 70) [color=#00adff][b]Shield[/b][/color] as [color=#d6c9e0][b][Upright Mark][/b][/color].",
-        "Gains 1 [color=#fec882][b][Valour][/b][/color] when allies with [color=#d6c9e0][b][Upright Mark][/b][/color] are attacked (up to 2 [color=#fec882][b][Valour][/b][/color] can be gained from this per turn).",
-        "At the start of Cherish's turn, consume 4 [color=#fec882][b][Valour][/b][/color] if Cherish has 4 and gain [color=#efe183][b][Justice Oath][/b][/color], and give all allies [color=#d6c9e0][b][Upright Mark][/b][/color]."
-    ],
-    "awareness.a1.name": "I Will Be Brave Against the Strong",
-    "awareness.a1.description": [
-        "At the start of battle, gains 3 [color=#fec882][b][Valour][/b][/color], decreases the [color=#fec882][b][Valour][/b][/color] needed to gain [color=#efe183][b][Justice Oath][/b][/color] to 3.",
-        "Increases all allies' [color=#00adff][b]PEN[/b][/color] by [color=#00adff][b]15%[/b][/color]."
-    ],
-    "awareness.a2.name": "I Will Fight All Who Do Wrong",
-    "awareness.a2.description": [
-        "[ref=s1][color=#7874d0][b][u][Blessing of Compassion][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color].",
-        "[ref=s3][color=#7874d0][b][u][Prayer of Spirituality][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color]."
-    ],
-    "awareness.a3.name": "I Will Fight For Those Who Cannot Fight",
-    "awareness.a3.description": [
-        "Each stack of [color=#d6c9e0][b][Upright Mark][/b][/color] gives [color=#00adff][b]15%[/b][/color] more [color=#00adff][b]DEF[/b][/color] (Count up to 2 stacks)",
-        "When [color=#d6c9e0][b][Upright Mark][/b][/color] expires, restore [color=#00adff][b]20%[/b][/color] remaining [color=#00adff][b]Shield[/b][/color] as [color=#00adff][b]HP[/b][/color]."
-    ],
-    "awareness.a4.name": "I Will Help My Brother Knight",
-    "awareness.a4.description": [
-        "[ref=s2][color=#7874d0][b][u][Honour Protection][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color].",
-        "[ref=hl][color=#7874d0][b][u][Combat Skills][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color]."
-    ],
-    "awareness.a5.name": "I Will Be True to My Friends",
-    "awareness.a5.description": "[ref=hl][color=#7874d0][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Increases all allies' [color=#00adff][b]Shield Received[/b][/color] by [color=#00adff][b]30%[/b][/color] for 2 turns.",
-    "awareness.a6.name": "I Will Be Faithful in Love",
-    "awareness.a6.description": [
-        "When gaining [color=#efe183][b][Justice Oath][/b][/color], additionally gain [color=#a7a3f6][b][Justice Judgement][/b][/color] for 2 turns.",
-        "When [color=#a7a3f6][b][Justice Judgement][/b][/color] is active, increase all allies' [color=#00adff][b]CRIT Rate[/b][/color] by [color=#00adff][b]15%[/b][/color]."
-    ]
+	"$schema": "../../schema_i18n.json",
+	"code_name": "Cherish",
+	"full_name": "Masaki Ashiya",
+	"skill.s1.name": "Blessing of Compassion",
+	"skill.s1.description": [
+		"Deals [color=#00adff][b]{skill_data} DEF[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to the main target and [color=#00adff][b]{skill_data} DEF[/b][/color] as [color=#00adff][b]Ice DMG[/b][/color] to all other targets, with a [color=#00adff][b]{skill_data}[/b][/color] base chance to inflict [color=#00adff][b][i]Freeze[/i][/b][/color] to the main target",
+		"Restores 2 [color=#fec882][b][Valour][/b][/color].",
+		"If Cherish is in [color=#efe183][b][Justice Oath][/b][/color], additionally increases the main target's DMG Taken by ([color=#00adff][b]1%[/b][/color] for every [color=#00adff][b]600 DEF[/b][/color] Cherish has), up to [color=#00adff][b]{skill_data}[/b][/color] for 2 turns",
+		"However, decreases [color=#fec882][b][Valour][/b][/color] recovery to 1."
+	],
+	"skill.s2.name": "Honour Protection",
+	"skill.s2.description": [
+		"Gives 1 ally 1 stack of [color=#00adff][b]{skill_data} DEF[/b][/color] + [color=#00adff][b]650 Shield[/b][/color] as [color=#d6c9e0][b][Upright Mark][/b][/color], then increases their [color=#00adff][b]DEF[/b][/color] equal to [color=#00adff][b]20%[/b][/color] own [color=#00adff][b]DEF[/b][/color] (Up to {skill_data}) for 2 turns",
+		"When gaining this effect, increases that ally's chance of attacked by [color=#00adff][b]50%[/b][/color] if their HP is above [color=#00adff][b]60%[/b][/color]",
+		"At the start of Cherish's next turn, gives that ally 1 stack of [color=#d6c9e0][b][Upright Mark][/b][/color].",
+		"If Cherish is in [color=#efe183][b][Justice Oath][/b][/color], increases the Shield from [color=#d6c9e0][b][Upright Mark][/b][/color] by [color=#00adff][b]25%[/b][/color]."
+	],
+	"skill.s3.name": "Prayer of Spirituality",
+	"skill.s3.description": "Gives all allies 1 stack of [color=#00adff][b]12% DEF[/b][/color] + [color=#00adff][b]120/240/360[/b][/color] (At level 1, 50, 70) [color=#00adff][b]Shield[/b][/color] as [color=#d6c9e0][b][Upright Mark][/b][/color] and 1 stack of [color=#00adff][b]{skill_data} DEF[/b][/color] + [color=#00adff][b]{skill_data} Shield[/b][/color] as [color=#5de5f7][b][Holy Protection][/b][/color], gives all allies 1 Down Gauge and increases their DMG Bonus by [color=#00adff][b]1%[/b][/color] (for every [color=#00adff][b]300 DEF[/b][/color] Cherish has, up to [color=#00adff][b]{skill_data}[/b][/color]) for 2 turns.",
+	"skill.hl.name": "HIGHLIGHT",
+	"skill.hl.description": "Immediately gives all allies 1 stack of [color=#00adff][b]{skill_data} DEF[/b][/color] + [color=#00adff][b]{skill_data} Shield[/b][/color] as [color=#5de5f7][b][Holy Protection][/b][/color], decreases all allies' DMG Taken by [color=#00adff][b]{skill_data}[/b][/color] for 2 turns.",
+	"skill.p1.name": "Sacrifice",
+	"skill.p1.description": "Allies Shielded by Cherish have their [color=#00adff][b]DEF[/b][/color] increased by [color=#00adff][b]{skill_data}[/b][/color].",
+	"skill.p2.name": "Humility",
+	"skill.p2.description": "Allies Shielded by Cherish has their [color=#00adff][b]Effect RES[/b][/color] increased by [color=#00adff][b]{skill_data}[/b][/color].",
+	"awareness.a0.name": "I Will Be Kind to the Strong",
+	"awareness.a0.description": [
+		"At the start of battle, gives all allies 1 stack of [color=#00adff][b]12% DEF[/b][/color] [color=#00adff][b]+120/240/360[/b][/color] (At level 1, 50, 70) [color=#00adff][b]Shield[/b][/color] as [color=#d6c9e0][b][Upright Mark][/b][/color].",
+		"Gains 1 [color=#fec882][b][Valour][/b][/color] when allies with [color=#d6c9e0][b][Upright Mark][/b][/color] are attacked (up to 2 [color=#fec882][b][Valour][/b][/color] can be gained from this per turn).",
+		"At the start of Cherish's turn, consume 4 [color=#fec882][b][Valour][/b][/color] if Cherish has 4 and gain [color=#efe183][b][Justice Oath][/b][/color], and give all allies [color=#d6c9e0][b][Upright Mark][/b][/color]."
+	],
+	"awareness.a1.name": "I Will Be Brave Against the Strong",
+	"awareness.a1.description": [
+		"At the start of battle, gains 3 [color=#fec882][b][Valour][/b][/color], decreases the [color=#fec882][b][Valour][/b][/color] needed to gain [color=#efe183][b][Justice Oath][/b][/color] to 3.",
+		"Increases all allies' [color=#00adff][b]PEN[/b][/color] by [color=#00adff][b]15%[/b][/color]."
+	],
+	"awareness.a2.name": "I Will Fight All Who Do Wrong",
+	"awareness.a2.description": [
+		"[ref=s1][color=#7874d0][b][u][Blessing of Compassion][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color].",
+		"[ref=s3][color=#7874d0][b][u][Prayer of Spirituality][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color]."
+	],
+	"awareness.a3.name": "I Will Fight For Those Who Cannot Fight",
+	"awareness.a3.description": [
+		"Each stack of [color=#d6c9e0][b][Upright Mark][/b][/color] gives [color=#00adff][b]15%[/b][/color] more [color=#00adff][b]DEF[/b][/color] (Count up to 2 stacks)",
+		"When [color=#d6c9e0][b][Upright Mark][/b][/color] expires, restore [color=#00adff][b]20%[/b][/color] remaining [color=#00adff][b]Shield[/b][/color] as [color=#00adff][b]HP[/b][/color]."
+	],
+	"awareness.a4.name": "I Will Help My Brother Knight",
+	"awareness.a4.description": [
+		"[ref=s2][color=#7874d0][b][u][Honour Protection][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color].",
+		"[ref=hl][color=#7874d0][b][u][Combat Skills][/u][/b][/color][/ref] [color=#00adff][b]Lv. +3[/b][/color], up to a maximum of [color=#00adff][b]Lv. 15[/b][/color]."
+	],
+	"awareness.a5.name": "I Will Be True to My Friends",
+	"awareness.a5.description": "[ref=hl][color=#7874d0][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Increases all allies' [color=#00adff][b]Shield Received[/b][/color] by [color=#00adff][b]30%[/b][/color] for 2 turns.",
+	"awareness.a6.name": "I Will Be Faithful in Love",
+	"awareness.a6.description": [
+		"When gaining [color=#efe183][b][Justice Oath][/b][/color], additionally gain [color=#a7a3f6][b][Justice Judgement][/b][/color] for 2 turns.",
+		"When [color=#a7a3f6][b][Justice Judgement][/b][/color] is active, increase all allies' [color=#00adff][b]CRIT Rate[/b][/color] by [color=#00adff][b]15%[/b][/color]."
+	]
 }

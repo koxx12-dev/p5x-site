@@ -1,62 +1,62 @@
 {
-    "$schema": "../../schema_i18n.json",
-    "code_name": "Closer",
-    "full_name": "Motoha Arai",
-    "skill.s1.name": "Summer Cooling Magic",
-    "skill.s1.description": [
-        "Deals [color=#ffffa4][b]{skill_data} ATK Bless DMG[/b][/color] to all enemies.",
-        "If Closer is in [color=#a6cd51][b][Midsummer][/b][/color], consumes [color=#ffffa4][b]10% Max HP[/b][/color] to deal an additional hit of [color=#ffffa4][b]{skill_data} ATK Bless DMG[/b][/color] to all enemies."
-    ],
-    "skill.s2.name": "Leisure Holiday",
-    "skill.s2.description": [
-        "Deals [color=#ffffa4][b]{skill_data} ATK Bless DMG[/b][/color] to 1 enemy and restores [color=#ffffa4][b]20% Max HP[/b][/color].",
-        "If Closer is in [color=#a6cd51][b][Midsummer][/b][/color], deals an additional hit of [color=#ffffa4][b]{skill_data} ATK Bless DMG[/b][/color] to the target."
-    ],
-    "skill.s3.name": "Wave Chaser",
-    "skill.s3.description": [
-        "Immediately enters [color=#a6cd51][b][Midsummer][/b][/color] until the end of next turn.",
-        "Consumes [color=#ffffa4][b]15% Max HP[/b][/color] and deals [color=#ffffa4][b]{skill_data} ATK Bless DMG[/b][/color] to all enemies.",
-        "When Closer is in [color=#a6cd51][b][Midsummer][/b][/color], increases own [color=#ffffa4][b]CRIT Rate[/b][/color] by [color=#ffffa4][b]{skill_data}[/b][/color] and damage by [color=#ffffa4][b]{skill_data}[/b][/color].",
-        "[b]Cooldown: 5 Turns[/b]"
-    ],
-    "skill.hl.name": "HIGHLIGHT",
-    "skill.hl.description": [
-        "Deals [color=#ffffa4][b]{skill_data} ATK Bless DMG[/b][/color] to all enemies and restores [color=#ffffa4][b]20% Max HP[/b][/color].",
-        "Increase [color=#ffffa4][b]HIGHLIGHT DMG[/b][/color] by [color=#ffffa4][b]25%[/b][/color] if Closer's [color=#ffffa4][b]HP[/b][/color] are above [color=#ffffa4][b]50%[/b][/color]."
-    ],
-    "skill.p1.name": "Shaded",
-    "skill.p1.description": "Increase [color=#ffffa4][b]DMG[/b][/color] by [color=#ffffa4][b]{skill_data}[/b][/color] when overhealed for 2 turns.",
-    "skill.p2.name": "Heat Wave",
-    "skill.p2.description": "When [color=#ffffa4][b]Max HP[/b][/color] is over [color=#ffffa4][b]8000[/b][/color] in battle, for every [color=#ffffa4][b]100 Max HP[/b][/color] over the cap, increase [color=#ffffa4][b]ATK[/b][/color] by [color=#ffffa4][b]24[/b][/color], up to [color=#ffffa4][b]{skill_data}[/b][/color].",
-    "awareness.a0.name": "Sunshine and Blue Sea",
-    "awareness.a0.description": [
-        "When healed, decreases the cooldown of [ref=s3][color=#2d9de1][b][u][Wave Chaser][/u][/b][/color][/ref] by 1 turn if the healing amount exceeds [color=#ffffa4][b]15% Max HP[/b][/color], up to a minimum of 1 turn.",
-        "Closer will not faint when consuming [color=#ffffa4][b]HP[/b][/color] from skills."
-    ],
-    "awareness.a1.name": "Waves Kissing",
-    "awareness.a1.description": [
-        "[color=#a6cd51][b][Midsummer][/b][/color] additionally increases Closer's [color=#ffffa4][b]CRIT Rate[/b][/color] by [color=#ffffa4][b]10%[/b][/color] and [color=#ffffa4][b]CRIT DMG[/b][/color] by [color=#ffffa4][b]25%[/b][/color].",
-        "Permanently decreases the cooldown of [ref=s3][color=#2d9de1][b][u][Wave Chaser][/u][/b][/color][/ref] by 1 turn."
-    ],
-    "awareness.a2.name": "Scattered Golden Radiance",
-    "awareness.a2.description": [
-        "[ref=s2][color=#2d9de1][b][u][Leisure Holiday][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +3[/b][/color], up to a maximum of[color=#ffffa4][b] Lv. 15[/b][/color].",
-        "[ref=s3][color=#2d9de1][b][u][Wave Chaser][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +3[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color]."
-    ],
-    "awareness.a3.name": "Faraway Sailboat Sway",
-    "awareness.a3.description": "When healed, increases [color=#ffffa4][b]CRIT DMG[/b][/color] by [color=#ffffa4][b]20%[/b][/color] for 2 turns, up to 2 stacks.",
-    "awareness.a4.name": "Salty Fragrance of Sea Breeze",
-    "awareness.a4.description": [
-        "[ref=s1][color=#2d9de1][b][u][Summer Cooling Magic][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +3[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color].",
-        "[ref=hl][color=#2d9de1][b][u][Combat Skills][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +3[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color]."
-    ],
-    "awareness.a5.name": "Sunshine Smile",
-    "awareness.a5.description": "[ref=hl][color=#2d9de1][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Increases the [color=#ffffa4][b]DMG[/b][/color] of Closer's next [ref=s3][color=#2d9de1][b][u][Wave Chaser][/u][/b][/color][/ref] by [color=#ffffa4][b]80%[/b][/color].",
-    "awareness.a6.name": "Hand-Holding Summer Stroll",
-    "awareness.a6.description": [
-        "[color=#a6cd51][b][Midsummer][/b][/color] is upgraded to [color=#fec02b][b][True Summer][/b][/color].",
-        "When Closer is in [color=#fec02b][b][True Summer][/b][/color], [ref=s1][color=#2d9de1][b][u][Summer Cooling Magic][/u][/b][/color][/ref] now triggers the additional damage 3 times.",
-        "[ref=s2][color=#2d9de1][b][u][Leisure Holiday][/u][/b][/color][/ref] now restores an additional [color=#ffffa4][b]20% Max HP[/b][/color].",
-        "Increases the skill multiplier of [ref=s3][color=#2d9de1][b][u][Wave Chaser][/u][/b][/color][/ref] by [color=#ffffa4][b]50%[/b][/color]."
-    ]
+	"$schema": "../../schema_i18n.json",
+	"code_name": "Closer",
+	"full_name": "Motoha Arai",
+	"skill.s1.name": "Summer Cooling Magic",
+	"skill.s1.description": [
+		"Deals [color=#ffffa4][b]{skill_data} ATK Bless DMG[/b][/color] to all enemies.",
+		"If Closer is in [color=#a6cd51][b][Midsummer][/b][/color], consumes [color=#ffffa4][b]10% Max HP[/b][/color] to deal an additional hit of [color=#ffffa4][b]{skill_data} ATK Bless DMG[/b][/color] to all enemies."
+	],
+	"skill.s2.name": "Leisure Holiday",
+	"skill.s2.description": [
+		"Deals [color=#ffffa4][b]{skill_data} ATK Bless DMG[/b][/color] to 1 enemy and restores [color=#ffffa4][b]20% Max HP[/b][/color].",
+		"If Closer is in [color=#a6cd51][b][Midsummer][/b][/color], deals an additional hit of [color=#ffffa4][b]{skill_data} ATK Bless DMG[/b][/color] to the target."
+	],
+	"skill.s3.name": "Wave Chaser",
+	"skill.s3.description": [
+		"Immediately enters [color=#a6cd51][b][Midsummer][/b][/color] until the end of next turn.",
+		"Consumes [color=#ffffa4][b]15% Max HP[/b][/color] and deals [color=#ffffa4][b]{skill_data} ATK Bless DMG[/b][/color] to all enemies.",
+		"When Closer is in [color=#a6cd51][b][Midsummer][/b][/color], increases own [color=#ffffa4][b]CRIT Rate[/b][/color] by [color=#ffffa4][b]{skill_data}[/b][/color] and damage by [color=#ffffa4][b]{skill_data}[/b][/color].",
+		"[b]Cooldown: 5 Turns[/b]"
+	],
+	"skill.hl.name": "HIGHLIGHT",
+	"skill.hl.description": [
+		"Deals [color=#ffffa4][b]{skill_data} ATK Bless DMG[/b][/color] to all enemies and restores [color=#ffffa4][b]20% Max HP[/b][/color].",
+		"Increase [color=#ffffa4][b]HIGHLIGHT DMG[/b][/color] by [color=#ffffa4][b]25%[/b][/color] if Closer's [color=#ffffa4][b]HP[/b][/color] are above [color=#ffffa4][b]50%[/b][/color]."
+	],
+	"skill.p1.name": "Shaded",
+	"skill.p1.description": "Increase [color=#ffffa4][b]DMG[/b][/color] by [color=#ffffa4][b]{skill_data}[/b][/color] when overhealed for 2 turns.",
+	"skill.p2.name": "Heat Wave",
+	"skill.p2.description": "When [color=#ffffa4][b]Max HP[/b][/color] is over [color=#ffffa4][b]8000[/b][/color] in battle, for every [color=#ffffa4][b]100 Max HP[/b][/color] over the cap, increase [color=#ffffa4][b]ATK[/b][/color] by [color=#ffffa4][b]24[/b][/color], up to [color=#ffffa4][b]{skill_data}[/b][/color].",
+	"awareness.a0.name": "Sunshine and Blue Sea",
+	"awareness.a0.description": [
+		"When healed, decreases the cooldown of [ref=s3][color=#2d9de1][b][u][Wave Chaser][/u][/b][/color][/ref] by 1 turn if the healing amount exceeds [color=#ffffa4][b]15% Max HP[/b][/color], up to a minimum of 1 turn.",
+		"Closer will not faint when consuming [color=#ffffa4][b]HP[/b][/color] from skills."
+	],
+	"awareness.a1.name": "Waves Kissing",
+	"awareness.a1.description": [
+		"[color=#a6cd51][b][Midsummer][/b][/color] additionally increases Closer's [color=#ffffa4][b]CRIT Rate[/b][/color] by [color=#ffffa4][b]10%[/b][/color] and [color=#ffffa4][b]CRIT DMG[/b][/color] by [color=#ffffa4][b]25%[/b][/color].",
+		"Permanently decreases the cooldown of [ref=s3][color=#2d9de1][b][u][Wave Chaser][/u][/b][/color][/ref] by 1 turn."
+	],
+	"awareness.a2.name": "Scattered Golden Radiance",
+	"awareness.a2.description": [
+		"[ref=s2][color=#2d9de1][b][u][Leisure Holiday][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +3[/b][/color], up to a maximum of[color=#ffffa4][b] Lv. 15[/b][/color].",
+		"[ref=s3][color=#2d9de1][b][u][Wave Chaser][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +3[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color]."
+	],
+	"awareness.a3.name": "Faraway Sailboat Sway",
+	"awareness.a3.description": "When healed, increases [color=#ffffa4][b]CRIT DMG[/b][/color] by [color=#ffffa4][b]20%[/b][/color] for 2 turns, up to 2 stacks.",
+	"awareness.a4.name": "Salty Fragrance of Sea Breeze",
+	"awareness.a4.description": [
+		"[ref=s1][color=#2d9de1][b][u][Summer Cooling Magic][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +3[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color].",
+		"[ref=hl][color=#2d9de1][b][u][Combat Skills][/u][/b][/color][/ref] [color=#ffffa4][b]Lv. +3[/b][/color], up to a maximum of [color=#ffffa4][b]Lv. 15[/b][/color]."
+	],
+	"awareness.a5.name": "Sunshine Smile",
+	"awareness.a5.description": "[ref=hl][color=#2d9de1][b][u][HIGHLIGHT][/u][/b][/color][/ref] Effect Boost: Increases the [color=#ffffa4][b]DMG[/b][/color] of Closer's next [ref=s3][color=#2d9de1][b][u][Wave Chaser][/u][/b][/color][/ref] by [color=#ffffa4][b]80%[/b][/color].",
+	"awareness.a6.name": "Hand-Holding Summer Stroll",
+	"awareness.a6.description": [
+		"[color=#a6cd51][b][Midsummer][/b][/color] is upgraded to [color=#fec02b][b][True Summer][/b][/color].",
+		"When Closer is in [color=#fec02b][b][True Summer][/b][/color], [ref=s1][color=#2d9de1][b][u][Summer Cooling Magic][/u][/b][/color][/ref] now triggers the additional damage 3 times.",
+		"[ref=s2][color=#2d9de1][b][u][Leisure Holiday][/u][/b][/color][/ref] now restores an additional [color=#ffffa4][b]20% Max HP[/b][/color].",
+		"Increases the skill multiplier of [ref=s3][color=#2d9de1][b][u][Wave Chaser][/u][/b][/color][/ref] by [color=#ffffa4][b]50%[/b][/color]."
+	]
 }

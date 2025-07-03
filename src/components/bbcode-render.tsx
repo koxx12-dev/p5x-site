@@ -1,7 +1,7 @@
-import { createMemo, mergeProps, splitProps, type JSX } from 'solid-js';
-import presetHtml from '@bbob/preset-html5';
 import bbcodeHtml from '@bbob/html';
+import presetHtml from '@bbob/preset-html5';
 import type { BBobCoreOptions, BBobPlugins } from '@bbob/types';
+import { createMemo, type JSX, mergeProps, splitProps } from 'solid-js';
 import { Dynamic } from 'solid-js/web';
 import { renderBBCodeSolid } from '../bbcode/renderer';
 

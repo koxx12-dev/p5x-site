@@ -1,14 +1,8 @@
 {
-  "$schema": "../schema.json",
-  "id": "puppet",
-  "code_name": "Puppet",
-  "full_name": "Miyu Sahara",
-  "quality": 4,
-  "role": "navi",
-  "element": "support",
-  "available_regions": [
-    "kr-tw",
-    "cn",
-    "glb-jp"
-  ]
+	"$schema": "../schema.json",
+	"id": "puppet",
+	"quality": 4,
+	"role": "navi",
+	"element": "support",
+	"available_regions": ["kr-tw", "cn", "glb-jp"]
 }

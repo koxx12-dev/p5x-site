@@ -1,67 +1,64 @@
 {
-    "$schema": "../schema.json",
-    "id": "thief",
-    "quality": 5,
-    "role": "buff",
-    "element": "almighty",
-    "available_regions": [
-        "kr-tw",
-        "cn"
-    ],
-    "skill": [
-        {
-            "id": "s1",
-            "element": "support"
-        },
-        {
-            "id": "s2",
-            "element": "support"
-        },
-        {
-            "id": "s3",
-            "element": "support"
-        },
-        {
-            "id": "hl",
-            "element": "almighty"
-        },
-        {
-            "id": "p1",
-            "element": "passive"
-        },
-        {
-            "id": "p2",
-            "element": "passive"
-        }
-    ],
-    "awareness": [
-        {
-            "id": "a0",
-            "tier": 0
-        },
-        {
-            "id": "a1",
-            "tier": 1
-        },
-        {
-            "id": "a2",
-            "tier": 2
-        },
-        {
-            "id": "a3",
-            "tier": 3
-        },
-        {
-            "id": "a4",
-            "tier": 4
-        },
-        {
-            "id": "a5",
-            "tier": 5
-        },
-        {
-            "id": "a6",
-            "tier": 6
-        }
-    ]
+	"$schema": "../schema.json",
+	"id": "thief",
+	"quality": 5,
+	"role": "buff",
+	"element": "almighty",
+	"available_regions": ["kr-tw", "cn"],
+	"skill": [
+		{
+			"id": "s1",
+			"element": "support"
+		},
+		{
+			"id": "s2",
+			"element": "support"
+		},
+		{
+			"id": "s3",
+			"element": "support"
+		},
+		{
+			"id": "hl",
+			"element": "almighty"
+		},
+		{
+			"id": "p1",
+			"element": "passive"
+		},
+		{
+			"id": "p2",
+			"element": "passive"
+		}
+	],
+	"awareness": [
+		{
+			"id": "a0",
+			"tier": 0
+		},
+		{
+			"id": "a1",
+			"tier": 1
+		},
+		{
+			"id": "a2",
+			"tier": 2
+		},
+		{
+			"id": "a3",
+			"tier": 3
+		},
+		{
+			"id": "a4",
+			"tier": 4
+		},
+		{
+			"id": "a5",
+			"tier": 5
+		},
+		{
+			"id": "a6",
+			"tier": 6
+		}
+	]
 }

@@ -1,7 +1,7 @@
+import type { ThiefStats } from '@types';
+import { type } from 'arktype';
 import { createMemo, For, Show } from 'solid-js';
 import { Box } from '../../box';
-import { type } from 'arktype';
-import type { ThiefStats } from '@types';
 
 const characterStat = type.enumerated(
 	'hp',

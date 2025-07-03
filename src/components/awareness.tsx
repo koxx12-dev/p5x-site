@@ -1,8 +1,8 @@
 import type { ImageData } from '@responsive-image/core';
+import { ResponsiveImage } from '@responsive-image/solid';
 import type { Awareness } from '@types';
 import type { ResponsiveImageProps } from 'node_modules/@responsive-image/solid/dist/responsive-image';
 import { createMemo, Show, splitProps } from 'solid-js';
-import { ResponsiveImage } from '@responsive-image/solid';
 
 type AwarenessDisplayProps = {
 	tier: Awareness | number;

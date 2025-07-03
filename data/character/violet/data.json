@@ -1,13 +1,8 @@
 {
-  "$schema": "../schema.json",
-  "id": "violet",
-  "code_name": "Violet",
-  "full_name": "Kasumi Yoshizawa",
-  "quality": 5,
-  "role": "single",
-  "element": "bless",
-  "available_regions": [
-    "kr-tw",
-    "cn"
-  ]
+	"$schema": "../schema.json",
+	"id": "violet",
+	"quality": 5,
+	"role": "single",
+	"element": "bless",
+	"available_regions": ["kr-tw", "cn"]
 }

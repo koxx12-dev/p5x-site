@@ -1,6 +1,6 @@
+import type { RequiredThiefSkill } from '@types';
 import { For } from 'solid-js';
 import { CharacterSkillComponent } from './character-skill-component';
-import type { RequiredThiefSkill } from '@types';
 
 export function CharacterSkillDisplay(props: { skill: RequiredThiefSkill[] }) {
 	return (
