@@ -3,6 +3,5 @@
 	"id": "yuki",
 	"quality": 4,
 	"role": "tank",
-	"element": "bless",
-	"available_regions": ["kr-tw", "cn", "glb-jp"]
+	"element": "bless"
 }

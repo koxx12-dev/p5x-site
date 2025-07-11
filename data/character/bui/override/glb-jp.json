@@ -1,10 +1,5 @@
 {
-	"$schema": "../schema.json",
-	"id": "bui",
-	"quality": 5,
-	"role": "single",
-	"element": "elec",
-	"available_regions": ["kr-tw", "cn", "glb-jp"],
+	"$schema": "../../schema_override.json",
 	"skill": [
 		{
 			"id": "s1",
@@ -102,6 +97,7 @@
 		{
 			"id": "hl",
 			"element": "elec",
+			"description": "skill.hl.description.glb-jp",
 			"data": [
 				[
 					["22.4%", "23.1%", "23.8%", "24.5%", "25.2%", "25.9%"],
@@ -157,304 +153,31 @@
 		},
 		{
 			"id": "a2",
-			"tier": 2
+			"tier": 2,
+			"name": "awareness.a3.name",
+			"description": "awareness.a3.description"
 		},
 		{
 			"id": "a3",
-			"tier": 3
+			"tier": 3,
+			"name": "awareness.a2.name",
+			"description": "awareness.a2.description"
 		},
 		{
 			"id": "a4",
-			"tier": 4
+			"tier": 4,
+			"name": "awareness.a5.name",
+			"description": "awareness.a5.description"
 		},
 		{
 			"id": "a5",
-			"tier": 5
+			"tier": 5,
+			"name": "awareness.a4.name",
+			"description": "awareness.a4.description"
 		},
 		{
 			"id": "a6",
 			"tier": 6
-		}
-	],
-	"mental_image": {
-		"basic": [
-			{
-				"type": "hp",
-				"value": "114"
-			},
-			{
-				"type": "def",
-				"value": "21"
-			},
-			{
-				"type": "atk",
-				"value": "29"
-			},
-			{
-				"type": "hp",
-				"value": "114"
-			},
-			{
-				"type": "def",
-				"value": "21"
-			},
-			{
-				"type": "atk",
-				"value": "29"
-			},
-			{
-				"type": "hp",
-				"value": "114"
-			},
-			{
-				"type": "def",
-				"value": "21"
-			},
-			{
-				"type": "atk",
-				"value": "29"
-			},
-			{
-				"type": "hp",
-				"value": "114"
-			},
-			{
-				"type": "def",
-				"value": "21"
-			},
-			{
-				"type": "atk",
-				"value": "29"
-			}
-		],
-		"bells": [
-			{
-				"hp": "114"
-			},
-			{
-				"hp": "114",
-				"def": "21"
-			},
-			{
-				"hp": "114",
-				"def": "21",
-				"atk": "29"
-			},
-			{
-				"hp": "228",
-				"def": "21",
-				"atk": "29"
-			},
-			{
-				"hp": "228",
-				"def": "42",
-				"atk": "29"
-			},
-			{
-				"hp": "228",
-				"def": "42",
-				"atk": "58"
-			},
-			{
-				"hp": "342",
-				"def": "42",
-				"atk": "58"
-			},
-			{
-				"hp": "342",
-				"def": "63",
-				"atk": "58"
-			},
-			{
-				"hp": "342",
-				"def": "63",
-				"atk": "87"
-			},
-			{
-				"hp": "456",
-				"def": "63",
-				"atk": "87"
-			},
-			{
-				"hp": "456",
-				"def": "84",
-				"atk": "87"
-			},
-			{
-				"hp": "456",
-				"def": "84",
-				"atk": "116"
-			}
-		],
-		"stat_buff_1": {
-			"type": "atk_prec",
-			"values": ["4.0%", "8.0%", "12.0%", "16.0%", "20.0%"]
-		},
-		"stat_buff_2": {
-			"type": "crit_dmg_prec",
-			"values": ["4.8%", "9.6%", "14.4%", "19.2%", "24.0%"]
-		}
-	},
-	"stats": [
-		{
-			"1": {
-				"hp": "396",
-				"sp": "100",
-				"atk": "148",
-				"def": "65",
-				"crit_c_prec": "5%",
-				"crit_dmg_prec": "150%",
-				"spd": "103"
-			},
-			"10": {
-				"hp": "673",
-				"sp": "100",
-				"atk": "251",
-				"def": "111",
-				"crit_c_prec": "5%",
-				"crit_dmg_prec": "150%",
-				"spd": "103"
-			}
-		},
-		{
-			"10": {
-				"hp": "770",
-				"sp": "100",
-				"atk": "288",
-				"def": "127",
-				"crit_c_prec": "7.4%",
-				"crit_dmg_prec": "150%",
-				"spd": "103"
-			},
-			"20": {
-				"hp": "1078",
-				"sp": "100",
-				"atk": "403",
-				"def": "178",
-				"crit_c_prec": "7.4%",
-				"crit_dmg_prec": "150%",
-				"spd": "103"
-			}
-		},
-		{
-			"20": {
-				"hp": "1176",
-				"sp": "100",
-				"atk": "440",
-				"def": "194",
-				"crit_c_prec": "9.9%",
-				"crit_dmg_prec": "150%",
-				"spd": "103"
-			},
-			"30": {
-				"hp": "1484",
-				"sp": "100",
-				"atk": "555",
-				"def": "245",
-				"crit_c_prec": "9.9%",
-				"crit_dmg_prec": "150%",
-				"spd": "103"
-			}
-		},
-		{
-			"30": {
-				"hp": "1581",
-				"sp": "100",
-				"atk": "591",
-				"def": "262",
-				"crit_c_prec": "12.4%",
-				"crit_dmg_prec": "150%",
-				"spd": "103"
-			},
-			"40": {
-				"hp": "1889",
-				"sp": "100",
-				"atk": "707",
-				"def": "313",
-				"crit_c_prec": "12.4%",
-				"crit_dmg_prec": "150%",
-				"spd": "103"
-			}
-		},
-		{
-			"40": {
-				"hp": "1987",
-				"sp": "100",
-				"atk": "743",
-				"def": "329",
-				"crit_c_prec": "14.9%",
-				"crit_dmg_prec": "150%",
-				"spd": "103"
-			},
-			"50": {
-				"hp": "2295",
-				"sp": "100",
-				"atk": "858",
-				"def": "380",
-				"crit_c_prec": "14.9%",
-				"crit_dmg_prec": "150%",
-				"spd": "103"
-			}
-		},
-		{
-			"50": {
-				"hp": "2392",
-				"sp": "100",
-				"atk": "895",
-				"def": "396",
-				"crit_c_prec": "17.4%",
-				"crit_dmg_prec": "150%",
-				"spd": "103"
-			},
-			"60": {
-				"hp": "2700",
-				"sp": "100",
-				"atk": "1010",
-				"def": "447",
-				"crit_c_prec": "17.4%",
-				"crit_dmg_prec": "150%",
-				"spd": "103"
-			}
-		},
-		{
-			"60": {
-				"hp": "2798",
-				"sp": "100",
-				"atk": "1047",
-				"def": "463",
-				"crit_c_prec": "19.9%",
-				"crit_dmg_prec": "150%",
-				"spd": "103"
-			},
-			"70": {
-				"hp": "3106",
-				"sp": "100",
-				"atk": "1162",
-				"def": "514",
-				"crit_c_prec": "19.9%",
-				"crit_dmg_prec": "150%",
-				"spd": "103"
-			}
-		},
-		{
-			"70": {
-				"hp": "3203",
-				"sp": "100",
-				"atk": "1198",
-				"def": "530",
-				"crit_c_prec": "22.4%",
-				"crit_dmg_prec": "150%",
-				"spd": "103"
-			},
-			"80": {
-				"hp": "3511",
-				"sp": "100",
-				"atk": "1314",
-				"def": "581",
-				"crit_c_prec": "22.4%",
-				"crit_dmg_prec": "150%",
-				"spd": "103"
-			}
 		}
 	]
 }

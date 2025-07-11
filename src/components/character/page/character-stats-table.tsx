@@ -57,7 +57,7 @@ export function CharacterStatsTable(props: { stats: ThiefStats }) {
 					<thead>
 						<tr>
 							<th class="border-black not-last:border-r-[2px] px-2 text-center dark:border-red-600">
-								HDN
+								TAL
 							</th>
 							<th class="border-black not-last:border-r-[2px] px-2 text-center dark:border-red-600">
 								LVL

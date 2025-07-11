@@ -3,6 +3,5 @@
 	"id": "panther",
 	"quality": 5,
 	"role": "multi",
-	"element": "fire",
-	"available_regions": ["kr-tw", "cn", "glb-jp"]
+	"element": "fire"
 }

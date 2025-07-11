@@ -4,7 +4,7 @@ import type { Language, Region } from '@types';
 import { type Accessor, createMemo, createSignal, type Setter } from 'solid-js';
 import type { MaybeAccessor } from './types';
 
-export const REGIONS: Region[] = ['cn', 'kr-tw', 'glb-jp'] as const;
+export const REGIONS: Region[] = ['cn', 'kr-tw', 'glb-jp', 'sea'] as const;
 export const LANGUAGES: Language[] = ['en'] as const;
 
 export const READABLE_REGIONS: Record<Region, string> = {

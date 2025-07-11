@@ -3,6 +3,5 @@
 	"id": "mona",
 	"quality": 5,
 	"role": "heal",
-	"element": "wind",
-	"available_regions": ["kr-tw", "cn", "glb-jp"]
+	"element": "wind"
 }

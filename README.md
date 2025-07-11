@@ -18,8 +18,6 @@ run `pnpm install`
 # Development Server
 run `pnpm dev` and pray it doesn't crash
 
-due to an [`issue`](https://github.com/sdorra/content-collections/issues/602) with [`@content-collections`](https://github.com/sdorra/content-collections) you may need to restart the vite dev server or save [`content-collection.ts`](/content-collections.ts) to reload [`data`](/data/)
-
 # Future thingies
 A non-exhaustive list of thingies i may or may not add later
 - synergy/confidant/social link page

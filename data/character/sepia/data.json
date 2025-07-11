@@ -3,6 +3,5 @@
 	"id": "sepia",
 	"quality": 4,
 	"role": "single",
-	"element": "curse",
-	"available_regions": ["kr-tw", "cn", "glb-jp"]
+	"element": "curse"
 }

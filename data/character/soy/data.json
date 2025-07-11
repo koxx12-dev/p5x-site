@@ -3,6 +3,5 @@
 	"id": "soy",
 	"quality": 4,
 	"role": "tank",
-	"element": "ice",
-	"available_regions": ["kr-tw", "cn", "glb-jp"]
+	"element": "ice"
 }

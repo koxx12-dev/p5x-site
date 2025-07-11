@@ -6,7 +6,7 @@ import { Combobox } from '@kobalte/core/combobox';
 import { createFileRoute } from '@tanstack/solid-router';
 import { For } from 'solid-js/web';
 import { useAccessibilityBgBlur } from 'src/hooks/accessbility';
-import { READABLE_REGIONS, useRegion } from 'src/hooks/i18n';
+import { READABLE_REGIONS, REGIONS, useRegion } from 'src/hooks/i18n';
 
 export const Route = createFileRoute('/settings')({
 	component: RouteComponent,
@@ -66,7 +66,7 @@ function RouteComponent() {
 				<Box class="flex flex-row items-center p-2">
 					<p class="text-white">Select your region: </p>
 					<Combobox
-						options={['cn', 'kr-tw', 'glb-jp']}
+						options={REGIONS}
 						defaultValue={getRegion()}
 						value={getRegion()}
 						onChange={(v) => {

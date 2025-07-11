@@ -9,7 +9,7 @@
 	"skill.s3.name": "Healing Satellite",
 	"skill.s3.description": "Restore party's [color=#ff3b1d][b]HP[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] of [color=#ff3b1d][b]Lufel's Attack[/b][/color] + [color=#ff3b1d][b]{skill_data}[/b][/color]. Increase [color=#ff3b1d][b]healing effect[/b][/color] on the main target by [color=#ff3b1d][b]{skill_data}[/b][/color].",
 	"skill.hl.name": "Highlight",
-	"skill.hl.description": "Restore [color=#ff3b1d][b]HP[/b][/color] to party by [color=#ff3b1d][b]{skill_data}[/b][/color] of [color=#ff3b1d][b]Lufel's Attack[/b][/color] + [color=#ff3b1d][b]{skill_data}[/b][/color]. Increase party's [color=#ff3b1d][b]Attack[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] for 1 turn.",
+	"skill.hl.description": "Restore party's [color=#ff3b1d][b]HP[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] of [color=#ff3b1d][b]Lufel's Attack[/b][/color] + [color=#ff3b1d][b]{skill_data}[/b][/color]. Increase party's [color=#ff3b1d][b]Attack[/b][/color] by [color=#ff3b1d][b]{skill_data}[/b][/color] for 1 turn.",
 	"skill.p1.name": "Forest Sage",
 	"skill.p1.description": "After attacking with a skill, grant [color=#f35a5d][b]Starfire[/b][/color] to up to [color=#ff3b1d][b]{skill_data}[/b][/color] allies.",
 	"skill.p2.name": "Sparks of Support",

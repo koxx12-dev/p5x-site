@@ -4,7 +4,6 @@
 	"quality": 4,
 	"role": "single",
 	"element": "wind",
-	"available_regions": ["kr-tw", "cn", "glb-jp"],
 	"skill": [
 		{
 			"id": "s1",

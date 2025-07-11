@@ -3,6 +3,5 @@
 	"id": "riddle",
 	"quality": 5,
 	"role": "buff",
-	"element": "psy",
-	"available_regions": ["kr-tw", "cn", "glb-jp"]
+	"element": "psy"
 }

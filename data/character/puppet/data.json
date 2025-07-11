@@ -3,6 +3,5 @@
 	"id": "puppet",
 	"quality": 4,
 	"role": "navi",
-	"element": "support",
-	"available_regions": ["kr-tw", "cn", "glb-jp"]
+	"element": "support"
 }

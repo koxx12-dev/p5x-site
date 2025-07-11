@@ -3,6 +3,5 @@
 	"id": "rin",
 	"quality": 5,
 	"role": "debuff",
-	"element": "curse",
-	"available_regions": ["kr-tw", "cn", "glb-jp"]
+	"element": "curse"
 }
