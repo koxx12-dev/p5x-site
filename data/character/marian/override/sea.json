@@ -1,0 +1,7 @@
+{
+	"$schema": "../../schema_override.json",
+	"skill": null,
+	"awareness": null,
+	"mental_image": null,
+	"stats": null
+}
