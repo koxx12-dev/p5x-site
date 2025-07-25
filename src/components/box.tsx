@@ -6,58 +6,55 @@ export type BoxColorScheme = NonNullable<BoxVariantProps['scheme']>;
 export type BoxIntent = NonNullable<BoxVariantProps['intent']>;
 
 type BoxVariantProps = VariantProps<typeof boxVariants>;
-const boxVariants = cva(
-	['flex', 'gap-2', 'rounded-lg', 'border-2'],
-	{
-		variants: {
-			intent: {
-				primary: ['dark:bg-zinc-800/60'],
-				secondary: ['dark:bg-black/60'],
-			},
-			scheme: {
-				default: ['border-black', 'dark:border-red-600'],
-				velvet: ['border-black', 'dark:border-blue-600'],
-				tartarus: ['border-black', 'dark:border-green-600'],
-			},
+const boxVariants = cva(['flex', 'gap-2', 'rounded-lg', 'border-2'], {
+	variants: {
+		intent: {
+			primary: ['dark:bg-zinc-800/60'],
+			secondary: ['dark:bg-black/60'],
 		},
-		compoundVariants: [
-			{
-				intent: 'primary',
-				scheme: 'default',
-				class: ['bg-red-700'],
-			},
-			{
-				intent: 'secondary',
-				scheme: 'default',
-				class: ['bg-red-800'],
-			},
-			{
-				intent: 'primary',
-				scheme: 'velvet',
-				class: ['bg-blue-700'],
-			},
-			{
-				intent: 'secondary',
-				scheme: 'velvet',
-				class: ['bg-blue-800'],
-			},
-			{
-				intent: 'primary',
-				scheme: 'tartarus',
-				class: ['bg-green-700'],
-			},
-			{
-				intent: 'secondary',
-				scheme: 'tartarus',
-				class: ['bg-green-800'],
-			},
-		],
-		defaultVariants: {
-			intent: 'primary',
-			scheme: 'default',
+		scheme: {
+			default: ['border-black', 'dark:border-red-600'],
+			velvet: ['border-black', 'dark:border-blue-600'],
+			tartarus: ['border-black', 'dark:border-green-600'],
 		},
 	},
-);
+	compoundVariants: [
+		{
+			intent: 'primary',
+			scheme: 'default',
+			class: ['bg-red-700'],
+		},
+		{
+			intent: 'secondary',
+			scheme: 'default',
+			class: ['bg-red-800'],
+		},
+		{
+			intent: 'primary',
+			scheme: 'velvet',
+			class: ['bg-blue-700'],
+		},
+		{
+			intent: 'secondary',
+			scheme: 'velvet',
+			class: ['bg-blue-800'],
+		},
+		{
+			intent: 'primary',
+			scheme: 'tartarus',
+			class: ['bg-green-700'],
+		},
+		{
+			intent: 'secondary',
+			scheme: 'tartarus',
+			class: ['bg-green-800'],
+		},
+	],
+	defaultVariants: {
+		intent: 'primary',
+		scheme: 'default',
+	},
+});
 
 // cn(
 // 	'flex gap-2 rounded-lg border-2',

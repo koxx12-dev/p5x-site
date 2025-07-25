@@ -19,10 +19,6 @@
 	"skill.hl.name": "HIGHLIGHT",
 	"skill.hl.description": [
 		"Increases own [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] increases [color=#fcff37][b]Follow Up DMG[/b][/color] based on [color=#fcff37][b]{skill_data} ATK[/b][/color] for 2 turns.",
-		"BUI will trigger Follow Up after any allies deal damage with skills for 1 turn."
-	],
-	"skill.hl.description.glb-jp": [
-		"Increases own [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] increases [color=#fcff37][b]Follow Up DMG[/b][/color] based on [color=#fcff37][b]{skill_data} ATK[/b][/color] for 2 turns.",
 		"BUI will trigger Follow Up after any allies deal damage with skills for 2 turn."
 	],
 	"skill.p1.name": "Agile",

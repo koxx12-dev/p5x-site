@@ -43,7 +43,7 @@ export function CardDisplay(props: {
 				filtered.push(thief);
 			}
 		}
-		
+
 		return filtered
 			.sort((a, b) => a.code_name.localeCompare(b.code_name))
 			.map((character) => character.id);

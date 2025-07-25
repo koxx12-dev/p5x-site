@@ -1,0 +1,74 @@
+{
+	"$schema": "../../schema_i18n.json",
+	"code_name": "Marian",
+	"full_name": "Minami Miyashita",
+	"skill.s1.name": "Summer Gift Basket",
+	"skill.s1.description": [
+		"Deal Bless damage to all foes equal to [color=#ffffa4][b]{skill_data}[/b][/color] of Minami's [color=#ffffa4][b]Max HP[/b][/color].",
+		"Then inflict [color=#fc8a9a][b][Candied][/b][/color] on them for 3 turns.",
+		"[color=#fc8a9a][b][Candied][/b][/color]: When any ally attacks a Candied foe, increase [color=#ffffa4][b]ATK[/b][/color] by [color=#ffffa4][b]{skill_data}[/b][/color] (Increase [color=#ffffa4][b]ATK[/b][/color] by [color=#ffffa4][b]4%[/b][/color] more for every [color=#ffffa4][b]1200[/b][/color] of Minami's [color=#ffffa4][b]Max HP[/b][/color], up to [color=#ffffa4][b]{skill_data} Max HP[/b][/color])."
+	],
+	"skill.s2.name": "Midsummer Flower Field",
+	"skill.s2.description": [
+		"Increase party's [color=#ffffa4][b]DMG Bonus[/b][/color] by [color=#ffffa4][b]{skill_data}[/b][/color] for 3 turns (Increase [color=#ffffa4][b]DMG Bonus[/b][/color] by [color=#ffffa4][b]3.2%[/b][/color] more for every [color=#ffffa4][b]1200[/b][/color] of Minami's [color=#ffffa4][b]Max HP[/b][/color], up to [color=#ffffa4][b]{skill_data} Max HP[/b][/color]).",
+		"Grant party 1 [color=#ffffa4][b][i]Blessing[/i][/b][/color] stack, and cure 1 debuff."
+	],
+	"skill.s3.name": "Faraway Flower",
+	"skill.s3.description": [
+		"Increase 1 other ally's [color=#ffffa4][b]Crit Rate[/b][/color] by [color=#ffffa4][b]{skill_data}[/b][/color] and [color=#ffffa4][b]Crit DMG[/b][/color] by [color=#ffffa4][b]33.33%[/b][/color] of Minami's [color=#ffffa4][b]Crit DMG[/b][/color] that is over by [color=#ffffa4][b]100%[/b][/color], up to [color=#ffffa4][b]{skill_data} Crit DMG[/b][/color].",
+		"Lasts for 3 turns.\n",
+		"During this effect, when Minami uses an item on that ally, additionally increase their [color=#ffffa4][b]Crit DMG[/b][/color] by [color=#ffffa4][b]16.66%[/b][/color] of Minami's [color=#ffffa4][b]Crit DMG[/b][/color] that is over by [color=#ffffa4][b]100%[/b][/color], up to [color=#ffffa4][b]{skill_data} Crit DMG[/b][/color].",
+		"Lasts for 1 turn."
+	],
+	"skill.hl.name": "HIGHLIGHT",
+	"skill.hl.description": [
+		"Increase 1 other ally's [color=#ffffa4][b]DMG Bonus[/b][/color] by [color=#ffffa4][b]{skill_data}[/b][/color] and [color=#ffffa4][b]Crit DMG[/b][/color] by [color=#ffffa4][b]16.66%[/b][/color] of Minami's [color=#ffffa4][b]Crit DMG[/b][/color] that is over [color=#ffffa4][b]100%[/b][/color], up to [color=#ffffa4][b]{skill_data} Crit DMG[/b][/color].",
+		"Lasts for 2 turns.\n",
+		"When Minami uses the next item, increase [color=#ffffa4][b]Item Effect[/b][/color] by [color=#ffffa4][b]{skill_data}[/b][/color]."
+	],
+	"skill.p1.name": "Pray",
+	"skill.p1.description": [
+		"When using a Persona skill on allies, grant them 1 [color=#ffffa4][b][i]Blessing[/i][/b][/color] stack.",
+		"When Minami is on the field, increase allies' [color=#ffffa4][b]DMG Dealt[/b][/color] by [color=#ffffa4][b]{skill_data}[/b][/color] for each [color=#ffffa4][b][i]Blessing[/i][/b][/color] stack they have, up to [color=#ffffa4][b]{skill_data}[/b][/color]."
+	],
+	"skill.p2.name": "Care",
+	"skill.p2.description": [
+		"When Minami is on the field, increase allies' [color=#ffffa4][b]ATK[/b][/color] by [color=#ffffa4][b]{skill_data}[/b][/color].",
+		"Increase [color=#ffffa4][b]ATK[/b][/color] by [color=#ffffa4][b]{skill_data}[/b][/color] more for each Buff Item effect on allies."
+	],
+	"awareness.a0.name": "Stopping Time for You",
+	"awareness.a0.description": [
+		"Minami has 3 unlimited Exclusive Buff Items only she can use.",
+		"When using [ref=s3][color=#bc7958][b][u][Faraway Flower][/u][/b][/color][/ref], gain 1 [color=#e34657][b][Flower of Dream][/b][/color] stack.",
+		"Stacks up to 1 time.",
+		"At the start of Minami's turn, she can spend 1 [color=#e34657][b][Flower of Dream][/b][/color] to gain [color=#e9924b][b][Memory Prescription][/b][/color].",
+		"[color=#e9924b][b][Memory Prescription][/b][/color]: Can use item without spending an action, extend Buff Item effect by 1 turn, lose this effect after using 1 item."
+	],
+	"awareness.a1.name": "Past Memories",
+	"awareness.a1.description": [
+		"When using [ref=s3][color=#bc7958][b][u][Faraway Flower][/u][/b][/color][/ref], gain 1 [color=#e34657][b][Flower of Dream][/b][/color] more.",
+		"Increase the maximum number of [color=#e34657][b][Flower of Dream][/b][/color] stacks to 2.",
+		"Increase Minami's [color=#ffffa4][b]Item Effect[/b][/color] by [color=#ffffa4][b]20%[/b][/color]."
+	],
+	"awareness.a2.name": "Wind-Blown Flower",
+	"awareness.a2.description": [
+		"When using [ref=s1][color=#bc7958][b][u][Summer Gift Basket][/u][/b][/color][/ref], inflict targets with [color=#fadf98][b][Flower's Embrace][/b][/color]",
+		"[color=#fadf98][b][Flower's Embrace][/b][/color]: Decrease [color=#ffffa4][b]DEF[/b][/color] by [color=#ffffa4][b]25%[/b][/color] and increase [color=#ffffa4][b]Crit DMG Taken[/b][/color] by [color=#ffffa4][b]30%[/b][/color] for 3 turns."
+	],
+	"awareness.a3.name": "Blooming Under the Sun",
+	"awareness.a3.description": "Increase the skill levels of [ref=s1][color=#bc7958][b][u][Summer Gift Basket][/u][/b][/color][/ref] and [ref=s3][color=#bc7958][b][u][Faraway Flower][/u][/b][/color][/ref] by 3",
+	"awareness.a4.name": "The Person Now",
+	"awareness.a4.description": [
+		"Extend all buffs from [ref=hl][color=#bc7958][b][u][HIGHLIGHT][/u][/b][/color][/ref] by 3 turn.",
+		"When using the next item, increase [color=#ffffa4][b]Item Effect[/b][/color] by [color=#ffffa4][b]5%[/b][/color] more."
+	],
+	"awareness.a5.name": "As Gentle as Ever",
+	"awareness.a5.description": "Increase the skill levels of [ref=s2][color=#bc7958][b][u][Midsummer Flower Field][/u][/b][/color][/ref] and [ref=hl][color=#bc7958][b][u][HIGHLIGHT][/u][/b][/color][/ref] by 3.",
+	"awareness.a6.name": "Hiding Untold Secrets",
+	"awareness.a6.description": [
+		"Minami no longer spends items when using any items.",
+		"Extend all Buff Item effect by 1 turn.",
+		"When Minami has [color=#e9924b][b][Memory Prescription][/b][/color] and uses an item on allies, grant the main target [color=#6caee0][b][Revitalization Boost][/b][/color]",
+		"[color=#6caee0][b][Revitalization Boost][/b][/color]: Increase [color=#ffffa4][b]Total DMG[/b][/color] by [color=#ffffa4][b]15%[/b][/color] for 1 turns."
+	]
+}

@@ -106,7 +106,11 @@ function RouteComponent() {
 					</Combobox>
 				</Box>
 				<Box class="flex h-16 flex-row items-center p-2">
-					<Checkbox class="inline-flex items-center" checked={solidColor()} onChange={setSolidColor}>
+					<Checkbox
+						class="inline-flex items-center"
+						checked={solidColor()}
+						onChange={setSolidColor}
+					>
 						<Checkbox.Label class="text-white">
 							Enable background blur
 						</Checkbox.Label>
