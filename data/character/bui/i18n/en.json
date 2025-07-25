@@ -21,6 +21,10 @@
 		"Increases own [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] increases [color=#fcff37][b]Follow Up DMG[/b][/color] based on [color=#fcff37][b]{skill_data} ATK[/b][/color] for 2 turns.",
 		"BUI will trigger Follow Up after any allies deal damage with skills for 2 turn."
 	],
+	"skill.hl.description.kr-tw": [
+		"Increases own [color=#fcff37][b]ATK[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] increases [color=#fcff37][b]Follow Up DMG[/b][/color] based on [color=#fcff37][b]{skill_data} ATK[/b][/color] for 2 turns.",
+		"BUI will trigger Follow Up after any allies deal damage with skills for 1 turn."
+	],
 	"skill.p1.name": "Agile",
 	"skill.p1.description": "BUI's Follow Up deal [color=#fcff37][b]{skill_data}[/b][/color] more [color=#fcff37][b]DMG[/b][/color] to enemies inflicted with [color=#fcff37][i][b]Shock[/b][/i][/color].",
 	"skill.p2.name": "Shining",
