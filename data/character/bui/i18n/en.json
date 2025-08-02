@@ -24,10 +24,6 @@
 		"Increase [color=#fcff37][b]Attack[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] and [color=#fcff37][b]follow-up damage[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] of [color=#fcff37][b]Attack[/b][/color] for 2 turns.",
 		"Activate follow-up when allies deal damage to foes with skills for 2 turns."
 	],
-	"skill.hl.description.kr-tw": [
-		"Increase [color=#fcff37][b]Attack[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] and [color=#fcff37][b]follow-up damage[/b][/color] by [color=#fcff37][b]{skill_data}[/b][/color] of [color=#fcff37][b]Attack[/b][/color] for 2 turns.",
-		"Activate follow-up when allies deal damage to foes with skills for 1 turn."
-	],
 	"skill.p1.name": "Virtual Landowner",
 	"skill.p1.description": "Increase follow-up damage to [color=#fcff37][i][b]Shocked[/b][/i][/color] foes by [color=#fcff37][b]{skill_data}[/b][/color].",
 	"skill.p2.name": "Let's Go Together",

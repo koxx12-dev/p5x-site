@@ -153,6 +153,10 @@ function TextTooltip(props: {
 
 		const extra = character.extra[props.id];
 
+		if (!extra) {
+			return 'No extra information available.';
+		}
+
 		return typeof extra === 'string' ? extra : extra.join('\n');
 	});
 

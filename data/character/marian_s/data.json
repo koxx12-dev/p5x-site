@@ -4,7 +4,7 @@
 	"quality": 5,
 	"role": "buff",
 	"element": "bless",
-	"available_regions": ["cn"],
+	"available_regions": ["cn", "kr-tw"],
 	"skill": [
 		{
 			"id": "s1",
