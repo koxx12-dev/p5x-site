@@ -39,10 +39,6 @@
 		"When taking damage from a foe's skill, 65% chance to counterattack via [color=#c16d92][b]Resonance[/b][/color] effect and deal [color=#00adff][b]Ice damage[/b][/color] equal to [color=#00adff][b]88%[/b][/color] of [color=#00adff][b]Defense[/b][/color].",
 		"Change this effect to [color=#7baedd][b]Imagination[/b][/color] by using a skill."
 	],
-	"awareness.a0.description.kr-tw": [
-		"When taking damage from a foe's skill, 65% chance to counterattack via [color=#c16d92][b]Resonance[/b][/color] effect and deal [color=#00adff][b]Ice damage[/b][/color] equal to [color=#00adff][b]66%[/b][/color] of [color=#00adff][b]Defense[/b][/color].",
-		"Change this effect to [color=#7baedd][b]Imagination[/b][/color] by using a skill."
-	],
 	"awareness.a1.name": "Natural Talent",
 	"awareness.a1.description": [
 		"Every 2 times [ref=s3][color=#665d9d][b][u]Keen Eye[/u][/b][/color][/ref] is used, activate [color=#7baedd][b]Imagination[/b][/color] 1 time as a follow-up.",
@@ -60,11 +56,6 @@
 	"awareness.a6.description": [
 		"Change the effects of [color=#c16d92][b]Inspiration[/b][/color] and [color=#7baedd][b]Imagination[/b][/color] to [color=#a02159][b]Vision & Emotion[/b][/color] and [color=#2ecade][b]Creation[/b][/color].",
 		"Make their counterattacks 2 consecutive attacks, each dealing [color=#00adff][b]90%[/b][/color] of the original attack's damage.",
-		"Also increase counterattack [color=#00adff][b]pierce rate[/b][/color] by [color=#00adff][b]30%[/b][/color]."
-	],
-	"awareness.a6.description.kr-tw": [
-		"Change the effects of [color=#c16d92][b]Inspiration[/b][/color] and [color=#7baedd][b]Imagination[/b][/color] to [color=#a02159][b]Vision & Emotion[/b][/color] and [color=#2ecade][b]Creation[/b][/color].",
-		"Make their counterattacks 2 consecutive attacks, each dealing [color=#00adff][b]70%[/b][/color] of the original attack's damage.",
 		"Also increase counterattack [color=#00adff][b]pierce rate[/b][/color] by [color=#00adff][b]30%[/b][/color]."
 	]
 }
