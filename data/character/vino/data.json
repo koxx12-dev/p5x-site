@@ -4,5 +4,5 @@
 	"quality": 4,
 	"role": "debuff",
 	"element": "nuke",
-	"available_regions": ["kr-tw", "cn"]
+	"available_regions": ["kr-tw", "cn", "glb-jp"]
 }

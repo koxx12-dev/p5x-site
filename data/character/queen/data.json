@@ -4,5 +4,5 @@
 	"quality": 5,
 	"role": "single",
 	"element": "nuke",
-	"available_regions": ["kr-tw", "cn"]
+	"available_regions": ["kr-tw", "cn", "glb-jp"]
 }
